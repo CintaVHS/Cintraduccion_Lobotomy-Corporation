@@ -1,5 +1,5 @@
 # LOBOTOMY CORPORATION - TRADUCCIÓN AL CASTELLANO
-Este mod reemplaza el texto inglés de Lobotomy Corporation por una traducción al español castellano casera. La traducción está hecha en su mayoría por mí, con ayuda de múltiples amigos míos 
+Este mod reemplaza el texto inglés de Lobotomy Corporation por una traducción al español castellano casera. La traducción está hecha en su mayoría por mí, con ayuda de múltiples amigos míos.
 
 La razón principal de por qué decidí llevar a cabo esta traducción es porque, a mi parecer, la traducción oficial de Lobotomy Corporation deja mucho que desear. Así que, a lo largo de 1-2 años, he estado llevando a cabo este proyecto de traducción completa de todo el juego.
 
