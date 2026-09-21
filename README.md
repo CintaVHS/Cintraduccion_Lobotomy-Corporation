@@ -19,3 +19,8 @@ https://www.youtube.com/@Reverbox-Dub
 4º. ¡Disfruta de la traducción!
 
 # CRÉDITOS
+Director principal - CintaVHS
+
+Traductores ayudantes - WoazT, TROLLERINI, MrDacted-wright, PapasConLimon, Sora1316, Huguminero, Lucasopgr, UndeadParis
+
+Ayuda miscelánea - mogaku9
