@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <!--0%-->
+  <text id="angela1_1">¿Estás empezando a descubrir las cicatrices que han quedado marcadas en esta compañía?</text>
+  <text id="angela1_2">Hay una cosa que no te conté al principio, jefe.</text>
+  <text id="angela1_3">Los Sephirot tienen muchas ganas de conocerte; eres su modelo a seguir.</text>
+  <text id="angela1_4">Sin embargo, al mismo tiempo, desean verte atrapado y sumido en maldiciones y resentimiento.</text>
+  <text id="angela1_5">Por favor, sé precavido.</text>
+  <text id="angela1_6">Bueno, si no quieres hacerle mucho caso a esta conversación, adelante, no juzgaré.</text>
+  <text id="angela1_7">Lo que quiero decir es que puedes seguir viviendo tu rutina diaria. No es muy complicado reemplazar a un Sephirot.</text>
+  <text id="angela1_8">Pero, si decides seguir con esa rutina, perderás algo muy importante...</text>
+  <text id="angela1_9">La Semilla que romperá el ciclo.</text>
+  <!--10%-->
+  <text id="angela2_1">Nunca pensé que volvería a verlos como antes.</text>
+  <text id="angela2_2">Intenté avisarte de que era demasiado arriesgado, pero al final no se perdió nada de valor.</text>
+  <text id="angela2_3">He observado que se generó una gran cantidad de energía mientras se restauraba al Sephirah.</text>
+  <text id="angela2_4">Si deseas saber por qué ha ocurrido esto, algún día ellos te lo explicarán.</text>
+  <text id="angela2_5">Durante la restauración, los demás Sephirot fueron desactivados temporalmente.</text>
+  <text id="angela2_6">Aunque haya surgido un súbito aumento de energía, no era lo suficiente para mantenerlos a todos funcionales, así que les dejé descansar un poco.</text>
+  <!--30%-->
+  <text id="angela3_1">¿Deseas volver atrás en el tiempo para recuperar lo que has perdido?</text>
+  <text id="angela3_2">¿Después de todo lo que has conseguido?</text>
+  <text id="angela3_3">Incluso si retrocedes el tiempo...</text>
+  <text id="angela3_4">¿De verdad piensas que todos tus remordimientos se solucionarán si lo único que haces es huir de ellos?</text>
+  <!--50%-->
+  <text id="angela4_1">Quería escapar de mi dolor, pero comprendí que era imposible.</text>
+  <text id="angela4_2">No fue hasta hace poco que encontré la respuesta.</text>
+  <text id="angela4_3">Seré libre si y sólo si acepto que el dolor es algo que está integrado en mi persona.</text>
+  <text id="angela4_4">Si alguna vez sientes dolor, jefe, acéptalo y resiste.</text>
+  <text id="angela4_5">No tienes por qué cambiar las cosas si eso te resulta complicado.</text>
+  <text id="angela4_6">Ya sé que tu objetivo principal es seguir adelante como sea.</text>
+  <text id="angela4_7">Te sentías tan perdido y asustado del presente que lo único que podías hacer era caminar por la oscuridad.</text>
+  <text id="angela4_8">Al principio te admiraba.</text>
+  <text id="angela4_9">Pero ahora eres patético...</text>
+  <text id="angela4_10">¿Por cuánto tiempo crees que podrás aguantar así?</text>
+  <text id="angela4_11">¿Lograrás llegar a tu destino?</text>
+  <!--70%-->
+  <text id="angela5_1">Al ser la primera vez que presencio este punto tan avanzado de la historia, mi información no es del todo certera.</text>
+  <text id="angela5_2">A partir de aquí, todo es un misterio.</text>
+  <text id="angela5_3">Sé que no tengo el poder de decirte cómo acabará la situación, pero...</text>
+  <text id="angela5_4">Te aseguro que tu misión no es imposible.</text>
+  <text id="angela5_5">Hay una diferencia entre "imposible" y "cero de probabilidades".</text>
+  <text id="angela5_6">Las máquinas decimos cosas como "cero de probabilidades" tras estudiar todos los resultados posibles y ver que ninguno es el indicado.</text>
+  <text id="angela5_7">Es por eso que pienso que tu odisea no es imposible, sino que tiene cero de probabilidades de ser un éxito.</text>
+  <text id="angela5_8">No te preocupes, no me depecionaré si fallas. Sigo siendo una simple máquina.</text>
+  <text id="angela5_9">Incluso si se derrumba la torre de naipes, me encargaré de reconstruirla como si nada.</text>
+  <!--90%-->
+  <text id="angela6_1">...</text>
+  <text id="angela6_2">¿Quieres oír mi respuesta?</text>
+  <text id="angela6_3">Ya he llegado a una conclusión.</text>
+  <text id="angela6_4">Al principio era muy egoísta. Pensaba que nunca serías capaz de hacer algo útil sin mi como compañera.</text>
+  <text id="angela6_5">Pero parece ser que eres más independiente de lo que pensaba.</text>
+  <text id="angela6_6">A lo mejor mi asistencia no ha sido necesaria.</text>
+  <text id="angela6_7">Así que no me busques por respuestas.</text>
+  <text id="angela6_8">Después de todo, ya puedes ver la puerta.</text>
+  <text id="angela6_9">Y dime, ¿qué piensas que se esconde tras ella?</text>
+</localize>

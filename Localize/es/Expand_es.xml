@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="expend_default">¿Te gustaría expandir {0}?</text>
+  <text id="expend_malkuth">¡Buenos días, jefe! ¿Te gustaría expandir el Departamento de Control?</text>
+  <text id="expend_malkuth_first">¡Hola, jefe! ¡Cada día tendrás que expandir un departamento! ¿Listo para embarcarte en el mundo de Lobotomy Corporation y abrir el Departamento de Control?</text>
+  <text id="expend_yesod">Saludos, jefe. ¿Te gustaría expandir el Departamento de Información y continuar con tu trabajo?</text>
+  <text id="expend_yesod_first">Estoy al mando del Equipo de Información y su respectivo Departamento. Me introduciré adecuadamente más tarde. ¿Tienes pensado abrir mi Departamento antes de comenzar?</text>
+  <text id="expend_netzach">Oye, ¿seguro que quieres expandir mi Departamento?</text>
+  <text id="expend_netzach_first">Buenas, soy, eh... El que se encarga del Equipo de Seguridad. Luego hablamos si eso, pero primero abre mi Departamento, ¿quieres?</text>
+  <text id="expend_hod">¿Quieres expandir el Departamento de Entrenamiento? ¡Estoy segura de que será de gran ayuda, jefe!</text>
+  <text id="expend_hod_first">Hola jefe, ¡soy la Sephirah del Equipo de Entrenamiento! ¿Pensando en abrir mi Departamento?</text>
+  <text id="expend_tiphereth">¿Entonces vas a expandir el Departamento Central?</text>
+  <text id="expend_tiphereth_first">Buenos días, jefe. Estamos al mando del Departamento Central. ¿Vas a abrir nuestro Departamento?</text>
+  <text id="expend_geburah">¿Pensando en expandir el de Disciplina? Si es así, que sea rápido.</text>
+  <text id="expend_geburah_first">Soy la Sephirah del Departamento de Disciplina. ¿Vas a inaugurarlo hoy?</text>
+  <text id="expend_chesed">¿Pensando si expandir el de Bienestar y comenzar un nuevo día? Sin prisas. Tómate el tiempo que necesites~</text>
+  <text id="expend_chesed_first">Buenos días, querido jefe. El de Bienestar está en mis manos. ¿Vas a abrirlo hoy?</text>
+  <text id="expend_binah">Así que has decidido aumentar mis aposentos, ¿verdad?</text>
+  <text id="expend_binah_first">Un placer verte de nuevo. Como puedes ver, me otorgaron el puesto de Sephirah de Extracción. Nos reuniremos pronto.</text>
+  <text id="expend_chokhmah">Buenas de nuevo. ¿Deseas desenvolver el Departamento de Auditoría?</text>
+  <text id="expend_chokhmah_first">Buenos días. Aquí es donde se situará el Departamento de Auditoría en el caso que decidas abrirlo. Somos los encargados de apuntarlo todo.</text>
+</localize>

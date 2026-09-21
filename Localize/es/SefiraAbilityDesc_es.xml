@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <text id="continous_service_ability_panic_warning">Si no quedan empleados para un departamento, todos los trabajadores entrarán en pánico.</text>
+  <text id="department_ability">Función</text>
+  <text id="officer_alive_ability_title">Beneficios de trabajador</text>
+  <text id="continous_service_ability_title">Beneficio de estancia</text>
+  <text id="continous_service_ability_cur_title">Servicio a {0}: {1} días</text>
+  <text id="continous_service_ability_cur_title2">{1} días en el {0};</text>
+  <text id="continous_service_ability_cur_blank"></text>
+  <text id="officer_alive_ability_level_txt">Nivel de beneficio de trabajador: {0}</text>
+  <text id="officer_alive_ability_effect">Beneficio:</text>
+  <text id="officer_alive_ability_zero">Parar las funciones del departamento</text>
+
+  <text id="officer_alive_ability_desc_malkut">Aumenta la velocidad de todos los empleados.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_malkut">Aumenta la velocidad de movimiento de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_malkut">+{0} de vel. movimiento a todos los empleados</text>
+  <text id="continous_service_ability_cur_malkut">+{0} de vel. movimiento</text>
+  <text id="officer_alive_ability_desc_yesod">Aumenta la eficiencia de todos los empleados.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_yesod">Aumenta el Temperamento de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_yesod">+{0} de eficiencia a todos los empleados</text>
+  <text id="continous_service_ability_cur_yesod">+{0} de temperamento</text>
+  <text id="officer_alive_ability_desc_netzach">Aumenta la curación recibida mediante habitaciones.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="continous_service_ability_desc_netzach">Aumenta la Fuerza y Prudencia de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_netzach">+{0}% de curación</text>
+  <text id="continous_service_ability_cur_netzach">+{0} de Fuerza y Prudencia</text>
+  <text id="officer_alive_ability_desc_hod">Aumenta el crecimiento de todos los empleados.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="continous_service_ability_desc_hod">Aumenta el crecimiento de los empleados del equipo.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_hod">+{0}% de crecimiento a todos los empleados</text>
+  <text id="continous_service_ability_cur_hod">+{0}% de crecimiento</text>
+  <text id="officer_alive_ability_desc_tiphereth1">Auemnta el tiempo límite de los derrames Qliphoth.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_tiphereth1">Aumenta todas las virtudes de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_tiphereth1">+{0} segundos</text>
+  <text id="continous_service_ability_cur_tiphereth1">+{0} a todas las virtudes</text>
+  <text id="officer_alive_ability_desc_chesed">Aumenta la cantidad total de balas administrativas.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_chesed">Aumenta los multiplicadores de defensa del E.G.O de los empleados del equipo.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_chesed">+{0} balas administrativas</text>
+  <text id="continous_service_ability_cur_chesed">+{0}% de defensa E.G.O</text>
+  <text id="officer_alive_ability_desc_geburah">Aumenta la velocidad de ataque de todos los empleados.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_geburah">Aumenta la fuerza del E.G.O de los empleados del equipo.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_geburah">+{0} de vel. ataque</text>
+  <text id="continous_service_ability_cur_geburah">+{0}% de fuerza E.G.O</text>
+  <text id="officer_alive_ability_desc_binah">Reduce el coste de producir E.G.O.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="continous_service_ability_desc_binah">Aumenta la fuerza y resistencia del E.G.O de los empleados del equipo.&#13;&#10;(Nivel 1: +{0}% / Nivel 2: +{1}% / Nivel 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_binah">-{0}% de coste de producción E.G.O</text>
+  <text id="continous_service_ability_cur_binah">+{0}% de defensa y ataque E.G.O</text>
+  <text id="officer_alive_ability_desc_chokhmah">Aumenta todas las virtudes de todos los empleados.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="continous_service_ability_desc_chokhmah">Aumenta todas las virtudes de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_chokhmah">+{0} a todas las virtudes</text>
+  <text id="continous_service_ability_cur_chokhmah">+{0} a todas las virtudes</text>
+  <text id="officer_alive_ability_desc_kether"></text>
+  <text id="continous_service_ability_desc_kether">Aumenta todas las virtudes de los empleados del equipo.&#13;&#10;(Nivel 1: +{0} / Nivel 2: +{1} / Nivel 3: +{2})</text>
+  <text id="officer_alive_ability_cur_kether"></text>
+  <text id="continous_service_ability_cur_kether">+{0} a todas las virtudes</text>
+  <text id="continous_service_ability_ace">Capitán de {0}</text>
+</localize>

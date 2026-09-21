@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <text id="day12_angela_1">¿Qué opinas de los Sephirot?</text>
+  <text id="day12_angela_2">¿No crees que flaquean en algunos aspectos?</text>
+  <text id="day12_angela_3">Tienes la capacidad de ignorar cualquier cosa que digan.</text>
+  <text id="day12_angela_4">Sin embargo, sé amable, por favor.</text>
+  <text id="day12_angela_5">Es el sacrificio que debemos tomar para que puedan desarrollar sus departamentos.</text>
+  <text id="day12_angela_6">Nunca he tenido discusiones serias con ellos.</text>
+  <text id="day12_angela_7">Parece que les incomoda hablar conmigo. Probablemente sea por mi superioridad.</text>
+  <text id="day12_angela_8" anim="Glad1">Incluso si están envidiosos de mi superioridad, no hay nada que puedan hacer para cambiarlo.</text>
+  <text id="day12_angela_9">Después de todo, soy la IA más avanzada de esta compañía.</text>
+</localize>

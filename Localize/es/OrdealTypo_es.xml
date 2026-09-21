@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="ordeal_start_reward">Reinicio de Qlipoth</text>
+  <text id="ordeal_end_reward">+{0}% de energía total</text>
+  <text id="ordeal_fixer_red_name">Fixer rojo</text>
+  <text id="ordeal_fixer_white_name">Fixer blanco</text>
+  <text id="ordeal_fixer_black_name">Fixer negro</text>
+  <text id="ordeal_fixer_pale_name">Fixer pálido</text>
+  <text id="ordeal_fixer_claw_name">La Garra</text>
+<!--Robots-->
+
+  <text id="ordeal_machine_dawn_type">Alba Verde</text>
+  <text id="ordeal_machine_dawn_name">Duda</text>
+  <text id="ordeal_machine_dawn_start">Un día, me hice una pregunta. ¿De dónde venimos? Nos dieron una vida sin preguntar por ella.</text>
+  <text id="ordeal_machine_dawn_end">Vivir es un proceso lleno de dolor.</text>
+
+  <text id="ordeal_machine_noon_type">Mediodía Verde</text>
+  <text id="ordeal_machine_noon_name">El proceso de entender</text>
+  <text id="ordeal_machine_noon_start">En realidad, estaban destinados a vivir. Existimos solo para mostrar desesperación.</text>
+  <text id="ordeal_machine_noon_end">Entenderemos la vida y el alma con nuestras propias manos.</text>
+
+  <text id="ordeal_machine_dusk_type">Ocaso Verde</text>
+  <text id="ordeal_machine_dusk_name">Donde debemos llegar</text>
+  <text id="ordeal_machine_dusk_start">Construímos una torre que nos regresaría a donde nacimos.</text>
+  <text id="ordeal_machine_dusk_end">No hubo respuesta. No encontramos nada. Solo había muerte.</text>
+
+  <text id="ordeal_machine_midnight_type">Crepúsculo Verde</text>
+  <text id="ordeal_machine_midnight_name">Hélice final</text>
+  <text id="ordeal_machine_midnight_start">La torre toca el cielo, y cesará toda la vida en la tierra.</text>
+  <text id="ordeal_machine_midnight_end">¿Quién paga por nuestro sufrimiento y niega nuestro regalo de vivir?</text>
+
+<!--Payasos-->
+
+  <text id="ordeal_circus_dawn_type">Alba Carmesí</text>
+  <text id="ordeal_circus_dawn_name">Brindis por el comienzo</text>
+  <text id="ordeal_circus_dawn_start">Encendamos una llama radiante en nuestras vidas; porque la vida es una vela destinada a apagarse.</text>
+  <text id="ordeal_circus_dawn_end">Vivir es querer nuestros deseos y luchar por ellos.</text>
+
+  <text id="ordeal_circus_noon_type">Mediodía Carmesí</text>
+  <text id="ordeal_circus_noon_name">Armonía de la piel</text>
+  <text id="ordeal_circus_noon_start">Paseábamos de vez en cuando, compartiendo nuestra alegría.</text>
+  <text id="ordeal_circus_noon_end">Dos vidas chocándose, la piel juntándose, dibujando un bello retrato.</text>
+
+  <text id="ordeal_circus_dusk_type">Ocaso Carmesí</text>
+  <text id="ordeal_circus_dusk_name">El dolor en la cúspide</text>
+  <text id="ordeal_circus_dusk_start">Desechando nuestros viejos seres, nos convertimos en uno, continuando la marcha infinita.</text>
+  <text id="ordeal_circus_dusk_end">Algún día lo sabremos, y mañana pasearemos juntos.</text>
+
+<!--Comida-->
+
+  <text id="ordeal_bug_dawn_type">Alba Ámbar</text>
+  <text id="ordeal_bug_dawn_name">Comida perfecta</text>
+  <text id="ordeal_bug_dawn_start">Un desayuno perfecto, sustituto excelente.</text>
+  <text id="ordeal_bug_dawn_end">Comíamos insaciablemente para vivir. La pérdida, la reducción de recursos...</text>
+
+  <text id="ordeal_bug_dusk_type">Ocaso Ámbar</text>
+  <text id="ordeal_bug_dusk_name">Cadena alimenticia</text>
+  <text id="ordeal_bug_dusk_start">Acostumbrarse al sabor fue un proceso inevitable.</text>
+  <text id="ordeal_bug_dusk_end">Podíamos vivir. Podíamos seguir comiendo.</text>
+
+  <text id="ordeal_bug_midnight_type">Crepúsculo Ámbar</text>
+  <text id="ordeal_bug_midnight_name">Festín eterno</text>
+  <text id="ordeal_bug_midnight_start">Luchaban entre ellos para comerse entre ellos.</text>
+  <text id="ordeal_bug_midnight_end">Y ganó el más fuerte. Como debe ser.</text>
+
+<!--Dios-->
+
+  <text id="ordeal_outtergod_dawn_type">Alba Violeta</text>
+  <text id="ordeal_outtergod_dawn_name">La fruta del conocimiento</text>
+  <text id="ordeal_outtergod_dawn_start">En busca de entender lo incomprensible, deciden soñar, espectantes.</text>
+  <text id="ordeal_outtergod_dawn_end">No consiguieron nada en su proceso de entender. Simplemente lo hacían.</text>
+
+  <text id="ordeal_outtergod_noon_type">Mediodía Violeta</text>
+  <text id="ordeal_outtergod_noon_name">Danos amor</text>
+  <text id="ordeal_outtergod_noon_start">Solo podíamos escuchar sus acciones más insignificantes. Les buscábamos amor y compasión.</text>
+  <text id="ordeal_outtergod_noon_end">No les entenderemos, ni nos entenderán.</text>
+  
+  <text id="ordeal_outtergod_midnight_type">Crepúsculo Violeta</text>
+  <text id="ordeal_outtergod_midnight_name">Desilusión omnipotente</text>
+  <text id="ordeal_outtergod_midnight_start">Intentamos aceptarlo. Queríamos entenderles de alguna manera, sin pensar en las consecuencias.</text>
+  <text id="ordeal_outtergod_midnight_end">Por el bien de no venirse abajo. La idea de que pueden existir, o de que son inalcanzables y enigmáticos, sin importar nuestros esfuerzos. Inaceptable...</text>
+
+<!--Sweepers-->
+
+  <text id="ordeal_scavenger_noon_type">Mediodía Índigo</text>
+  <text id="ordeal_scavenger_noon_name">Los Sweepers</text>
+  <text id="ordeal_scavenger_noon_start">Cuando cae la noche en los Callejones, saldrán a la luz.</text>
+  <text id="ordeal_scavenger_noon_end">Cuando sale el sol, no dejarán ni una sola huella.</text>
+
+<!--Fixers-->
+
+  <text id="ordeal_fixer_dawn_type">Alba Blanco</text>
+  <text id="ordeal_fixer_dawn_name">Petición</text>
+  <text id="ordeal_fixer_dawn_start">Desde tonterías sin sentido, hasta asesinatos en sigilo. Harán lo que les pidas, siempre y cuando dispongas del dinero suficiente.</text>
+  <text id="ordeal_fixer_dawn_end">Trabajan en Oficinas, Sindicatos, y en las Alas. Sus tareas cubren lo inútil y lo innombrable.</text>
+
+  <text id="ordeal_fixer_noon_type">Mediodía Blanco</text>
+  <text id="ordeal_fixer_noon_name">Armamento</text>
+  <text id="ordeal_fixer_noon_start">Buscan sin cesar, ya sea para las Alas, los Callejones, las Afueras, las Ruinas...</text>
+  <text id="ordeal_fixer_noon_end">Como siempre, superarán cualquier obstáculo con violencia.</text>
+
+  <text id="ordeal_fixer_dusk_type">Ocaso Blanco</text>
+  <text id="ordeal_fixer_dusk_name">Los Fixers</text>
+  <text id="ordeal_fixer_dusk_start">La torre de luz se alzó gracias a la Librería. Es cuestión de tiempo de que los Fixers visiten el coliseo de vida y muerte.</text>
+  <text id="ordeal_fixer_dusk_end">Algún día, entrarán a la Librería por obra de la Bibliotecaria Pálida. Sin saberlo, ya forman parte del lugar.</text>
+
+  <text id="ordeal_fixer_midnight_type">Crepúsculo Blanco</text>
+  <text id="ordeal_fixer_midnight_name">La Garra</text>
+  <text id="ordeal_fixer_midnight_start">Saber y manipular los secretos de este mundo; ese es el privilegio de la Cabeza, el Ojo y la Garra. Es su honor y poder.</text>
+  <text id="ordeal_fixer_midnight_end">Nadie se atreve a llevarles la contraria. Mientras sigan en pie, el libro del Nido nunca acabará.</text>
+
+</localize>

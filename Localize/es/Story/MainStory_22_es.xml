@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <!-- day22 start -->
+  <text id="day22_a">&lt;b&gt;Estimado jefe:&lt;/b&gt;&#13;&#10;Me han contado que usted es un jefe invaluable, habiendo dejado un impacto positivo en la compañía. Le ruego que mantenga ese ritmo junto a Ángela, su asistente. Le aviso, además, de que nos encontraremos cara a cara, pero actualmente no estoy dentro de la fábrica. Lobotomy Corporation nunca olvidará su esfuerzo y resultados.&#13;&#10;&#13;&#10;&lt;i&gt;Espero que nuestra reunión sea en breve. Un cordial saludo,&#13;&#10;A, fundador de Lobotomy Corporation.&lt;/i&gt;</text>
+  
+  <text id="day22_a_1">Estimado jefe:</text>
+  <text id="day22_a_2">Me han contado que usted es un jefe invaluable, habiendo dejado un impacto positivo en la compañía.</text>
+  <text id="day22_a_3">Le ruego que mantenga ese ritmo junto a Ángela, su asistente.</text>
+  <text id="day22_a_4">Le aviso, además, de que nos encontraremos cara a cara, pero actualmente no estoy dentro de la fábrica.</text>
+  <text id="day22_a_5">Lobotomy Corporation nunca olvidará su esfuerzo y resultados.</text>
+  <text id="day22_a_6">Espero que nuestra reunión sea en breve. Un cordial saludo, A, fundador de Lobotomy Corporation.</text>
+  <text id="day22_angela_1">¿Te ha llegado una carta del mismísimo A?</text>
+  <text id="day22_angela_2">Tu esfuerzo empieza a ser reconocido.</text>
+  <text id="day22_angela_3">A está ocupado, recorriendo un largo camino.</text>
+  <text id="day22_angela_4">Su destino final es Lobotomy Corporation.</text>
+  <text id="day22_angela_5_r1">A veces me imagino que yo también estoy embarcándome en un viaje.</text>
+  <text id="day22_angela_5_r2">¿Alguna vez has viajado?</text>
+  <text id="day22_angela_5_r3">Si pudiera salir de éste sitio, lo primero que haría sería viajar.</text>
+  <text id="day22_angela_5_r4">¿Puede La vida humana considerarse como un inmenso recorrido?</text>
+  <text id="day22_angela_6_r1">Recogiendo recuerdos mientras disfruto del paisaje de un mundo desconocido.</text>
+  <text id="day22_angela_6_r2">Dicen que ir de viaje hoy en día es algo muy infrecuente.</text>
+  <text id="day22_angela_6_r3">Caminaría todo lo que pudiese, almacenando todas las fotos ópticas del paisaje.</text>
+  <text id="day22_angela_6_r4">¿Y si éste mismo momento es un fragmento de tu recorrido?</text>
+  <text id="day22_angela_7">El día sigue siendo gélido, pero el frío del invierno está por acabar.</text>
+  <text id="day22_angela_8_r1">¿Empiezas a ver a las flores crecer?</text>
+  <text id="day22_angela_8_r2">Este invierno ha sido más frío que los demás.</text>
+  <text id="day22_angela_8_r3">Sin embargo, el fin del invierno no indica la llegada de la primavera.</text>
+</localize>

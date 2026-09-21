@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <!-- Default -->
+  <text id="Tooltip@Default">Desconocido.</text>
+  <!-- Deploy UI -->
+  <text id="Tooltip_ManagementPart@UpFloor">Ver el piso de arriba.</text>
+  <text id="Tooltip_ManagementPart@DownFloor">Ver el piso de abajo.</text>
+  <text id="Tooltip_ManagementPart@Manual">Abrir el manual.</text>
+  <text id="Tooltip_ManagementPart@Ordeal">La invasión de nivel más alto que ocurrirá hoy.&#13;&#10;Las invasiones ocurrirán con el paso del día.</text>
+  <text id="Tooltip_ManagementPart@LOB">Puntos LOB actuales.&#13;&#10;Gasta LOB para mejorar empleados.</text>
+  <text id="Tooltip_ManagementPart@EGOList">Abre la lista de E.G.O.</text>
+  <text id="Tooltip_ManagementPart@Employment">Contrata a un empleado.&#13;&#10;Coste mínimo de 1 LOB.</text>
+  <text id="Tooltip_ManagementPart@Sefira_Function">Funciones del departamento.</text>
+  <text id="Tooltip_ManagementPart@Sefira_Description">Descripción del departamento.</text>
+  <text id="Tooltip_ManagementPart@Sefira_Research">Proyectos del departamento.</text>
+  <text id="Tooltip_ManagementPart@Creature_Encyclopedia">Enciclopedia de abnormalidades.&#13;&#10;Las abnormalidades no estudiadas aparecerán con un signo de interrogación (?).</text>
+  <text id="Tooltip_ManagementPart@Mission">Las misiones que se pueden completar hoy.&#13;&#10;Desbloquearás nuevos proyectos tras completarlas.</text>
+  <text id="Tooltip_ManagementPart@Sefira_Boss">Activar la supresión de núcelo Sephira.&#13;&#10;Púlsalo de nuevo para desactivarlo y poder asignar empleados al departamento.</text>
+  <!-- Agent Information UI -->
+  <text id="Tooltip_Agent@EquippedWeapon">Armamento E.G.O. equipado</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Level">Grado</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Type">Tipo de ataque</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Damage">Daño</text>
+  <text id="Tooltip_Agent@EquippedArmor">Armadura E.G.O. equipada</text>
+  <text id="Tooltip_Agent@EquippedArmor_Level">Grado</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_R">Defensa ROJA: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_W">Defensa BLANCA: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_B">Defensa NEGRA: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_P">Defensa PÁLIDA: {0}</text>
+  <text id="Tooltip_Agent@FortitudeLevel">Nivel de fuerza: {0};&#13;&#10;aumenta al trabajar con Instinto.</text>
+  <text id="Tooltip_Agent@PrudenceLevel">Nivel de prudencia: {0};&#13;&#10;aumenta al trabajar con Intuición.</text>
+  <text id="Tooltip_Agent@TemperanceLevel">Nivel de temperamento: {0};&#13;&#10;aumenta al trabajar con Afinidad.</text>
+  <text id="Tooltip_Agent@WorkProb">Aumenta la eficiencia en un {0}%.</text>
+  <text id="Tooltip_Agent@WorkSpeed">Aumenta la eficacia en un {0}%.</text>
+  <text id="Tooltip_Agent@JusticeLevel">Nivel de justicia: {0};&#13;&#10;aumenta al trabajar con Represión.</text>
+  <text id="Tooltip_Agent@MoveSpeed">Aumenta la vel. de movimiento en un {0}%.</text>
+  <text id="Tooltip_Agent@AttackSpeed">Aumenta la vel. de ataque en un %.</text>
+  <text id="Tooltip_Agent@Gift">Regalos E.G.O. del empleado.</text>
+  <text id="Tooltip_Agent@Reinforcement">Fortalecer al empleado.&#13;&#10;Se necesitan LOB para aceptar.</text>
+  <!-- Agent Employment & Reinforcement UI -->
+  <text id="Tooltip_Agent@Cancel_Employment">Cancelar reclutamiento.</text>
+  <text id="Tooltip_Agent@Cancel_Reinforcement">Cancelar entrenamiento.</text>
+  <text id="Tooltip_Agent@Confirm_Employment">Confirmar reclutamiento.</text>
+  <text id="Tooltip_Agent@Confirm_Reinforcement">Confirmar entrenamiento.</text>
+  <text id="Tooltip_Agent@LOB_Own">LOB actual.</text>
+  <text id="Tooltip_Agent@LOB_Employment">LOB necesario para contratar.</text>
+  <text id="Tooltip_Agent@LOB_Lack">LOB insuficiente.</text>
+  <text id="Tooltip_Agent@Upgrade_Value">Aumenta la virtud del empleado.&#13;&#10;Esto aumentará el coste de LOB.</text>
+  <text id="Tooltip_Agent@Downgrade_Value">Reduce la virtud del empleado.</text>
+  <text id="Tooltip_Agent@Change_Appearance">Configura la apariencia del empleado.&#13;&#10;Cuesta 1 LOB.</text>
+  <!-- E.G.O List UI -->
+  <text id="Tooltip_EGO@WeaponList">Ver la lista de armas E.G.O.</text>
+  <text id="Tooltip_EGO@ArmorList">Ver la lista de armaduras E.G.O.</text>
+  <text id="Tooltip_EGO@Upfloor_Agents">Ver la lista de empleados Superiores.</text>
+  <text id="Tooltip_EGO@Midfloor_Agents">Ver la lista de empleados Intermedios.</text>
+  <text id="Tooltip_EGO@Downfloor_Agents">Ver la lista de empleados Inferiores.</text>
+  <text id="Tooltip_EGO@ZAYIN">Ver E.G.O grado ZAYIN.</text>
+  <text id="Tooltip_EGO@TETH">Ver E.G.O grado TETH.</text>
+  <text id="Tooltip_EGO@HE">Ver E.G.O grado HE.</text>
+  <text id="Tooltip_EGO@WAW">Ver E.G.O grado WAW.</text>
+  <text id="Tooltip_EGO@ALEPH">Ver E.G.O grado ALEPH.</text>
+  <text id="Tooltip_EGO@EquippedWeapon">Arma E.G.O. actual</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Level">Grado</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Type">Tipo de daño</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Damage">Daño</text>
+  <text id="Tooltip_EGO@EquippedArmor">Armadura E.G.O. actual</text>
+  <text id="Tooltip_EGO@EquippedArmor_Level">Grado</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_R">Defensa ROJA</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_W">Defensa BLANCA</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_B">Defensa NEGRA</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_P">Defensa PÁLIDA</text>
+  <text id="Tooltip_EGO@EquippedGift">Regalos E.G.O. adquiridos</text>
+  <text id="Tooltip_EGO@EquippedGift_Desc">Ver la descripción del E.G.O.</text>
+  <!-- Management : Isolation Room -->
+  <text id="Tooltip_IsolateRoom@RiskLevel">Nivel de riesgo</text>
+  <text id="Tooltip_IsolateRoom@QliphothCounter">Contador Qliphoth</text>
+  <text id="Tooltip_IsolateRoom@ActivateInfo">Abrir la enciclopedia.</text>
+  <text id="Tooltip_IsolateRoom@UniquePE">Cajas PE únicas</text>
+  <text id="Tooltip_IsolateRoom@GeneratedPE">Cajas PE producidas durante el último trabajo</text>
+  <text id="Tooltip_IsolateRoom@CurGeneratedPE">Todas las cajas generadas durante el último trabajo</text>
+  <text id="Tooltip_IsolateRoom@ReduceProb">Eficiencia reducida en un {0}%</text>
+  <text id="Tooltip_IsolateRoom@Overload">[Sobrecarga Qliphoth]</text>
+  <text id="Tooltip_IsolateRoom@AllAgentsDead">[Todos los empleados del departamento han muerto]</text>
+  <!-- Management Part : Main Sefira Top UI -->
+  <text id="Tooltip_Sefira@RecoveroGauge">Medidor del Regenerador&#13;&#10;Cuando este medidor se llene, la vida y sanidad de los empleados posicionados en la habitación principal del departamento serán restaurados.</text>
+  <text id="Tooltip_Sefira@ReturnAgents">Llama a todos los empleados del departamento a la habitación principal del departamento.</text>
+  <!-- Management Part : GameStatusUI-->
+  <text id="Tooltip_GameStatus@GoalValue">Cuota diaria de Cajas PE</text>
+  <text id="Tooltip_GameStatus@QliphothGauge">Medidor de Derrame Qliphoth</text>
+  <text id="Tooltip_GameStatus@QliphothLevel">Nivel de Derrame Qliphoth</text>
+  <text id="Tooltip_GameStatus@QliphothRoom">La cantidad de celdas que serán afectadas por el siguiente Derrame Qliphoth</text>
+  <text id="Tooltip_GameStatus@QliphothOrdeal">Ocurrirá una Invasión en el siguiente Derrame Qliphoth.</text>
+  <text id="Tooltip_GameStatus@Pause">Pausar&#13;&#10;Tambíen puedes pulsar el espacio</text>
+  <text id="Tooltip_GameStatus@SpeedLv1">Velocidad normal</text>
+  <text id="Tooltip_GameStatus@SpeedLv2">x1.5 de velocidad&#13;&#10;Q: Decelerar / E: Acelerar</text>
+  <text id="Tooltip_GameStatus@SpeedLv3">x2 de velocidad&#13;&#10;Q: Decelerar / E: Acelerar</text>
+  <text id="Tooltip_GameStatus@MissionList">La lista de misiones que pueden ser completadas por el día</text>
+  <!-- Management Part : Worker Command Window : Manage Creature -->
+  <text id="Tooltip_WorkerCommand_Management@CreatureCode">Códiigo de clasificación</text>
+  <text id="Tooltip_WorkerCommand_Management@RiskLevel">Nivel de riesgo</text>
+  <text id="Tooltip_WorkerCommand_Management@MaximumBox">El número total de Cajas (tanto positivas como negativas) que podrán ser producidas.</text>
+  <text id="Tooltip_WorkerCommand_Management@CreatureFeeling">El resultado del trabajo modificará con la cantidad de Cajas PE producidas.</text>
+  <text id="Tooltip_WorkerCommand_Management@WorkDmgType">El tipo de daño que el empleado sufrirá cuando se produzca una Caja NE</text>
+  <text id="Tooltip_WorkerCommand_Management@WorkDmgValue">La cantidad de daño recibido al generar Cajas NE</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentCurrentHP">Vida actual</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentCurrentMental">Sanidad actual</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentFortitude">Fuerza nivel {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentPrudence">Prudencia nivel {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentTemperance">Temperamento nivel {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentJustice">Justicia nivel {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@OtherSefira">Mira la lista de empleados de otros departamentos.&#13;&#10;(También puedes usar la rueda del ratón en la lista de empleados.)</text>
+  <!-- Management Part : Worker Command Window : Suppress Creature -->
+  <text id="Tooltip_WorkerCommand_Suppression@CreatureCode">Código de clasificación</text>
+  <text id="Tooltip_WorkerCommand_Suppression@RiskLevel">Nivel de riesgo</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AttackType">Tipo de ataque de la abnormalidad</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseType">Defensas de la abnormalidad</text>
+  <text id="Tooltip_WorkerCommand_Suppression@R">ROJO</text>
+  <text id="Tooltip_WorkerCommand_Suppression@W">BLANCO</text>
+  <text id="Tooltip_WorkerCommand_Suppression@B">NEGRO</text>
+  <text id="Tooltip_WorkerCommand_Suppression@P">PÁLIDO</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AgentCurrentHP">Vida actual</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AgentCurrentMental">Sanidad actual</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseR">ROJO: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseW">BLANCO: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseB">NEGRO: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseP">PÁLIDO: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@OtherSefira">Mira la lista de empleados de otros departamentos.&#13;&#10;(También puedes usar la rueda del ratón en la lista de empleados.)</text>
+  <!-- Management Part : Bullet UI -->
+  <text id="Tooltip_Bullet@TotalCounts">El número total de Balas Administrativas.&#13;&#10;Se rellena cada vez que ocurre un Derrame Qliphoth.</text>
+  <text id="Tooltip_Bullet@RecoverHP">Balas de Curación</text>
+  <text id="Tooltip_Bullet@RecoveMental">Balas de Sanidad</text>
+  <text id="Tooltip_Bullet@ProtectRED">Balas de Escudo ROJO</text>
+  <text id="Tooltip_Bullet@ProtectWHITE">Balas de Escudo BLANCO</text>
+  <text id="Tooltip_Bullet@ProtectBLACK">Balas de Escudo NEGRO</text>
+  <text id="Tooltip_Bullet@ProtectPALE">Balas de Escudo PÁLIDO</text>
+  <text id="Tooltip_Bullet@Slow">Balas de Reducción de Movimiento</text>
+  <text id="Tooltip_Bullet@ExecuteAgent">Balas de Ejecucción</text>
+  <!-- Management Part : Rabbit UI -->
+  <text id="Tooltip_Rabbit@RabbitProtocol">Llamar al equipo Rabbit</text>
+  <!-- Creature Info -->
+  <text id="Tooltip_CreatureInfo@UniquePE">La cantidad de Cajas PE que ha generado esta abnormalidad.&#13;&#10;Este número incrementará dependiendo de cuántas Cajas PE son producidas al finalizar el trabajo.</text>
+  <text id="Tooltip_CreatureInfo@BasicInfo">Desbloquea la información básica de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@OpenManagement">Desbloquea las directrices de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@NeedPreviousManagement">Las directrices anteriores deberán ser desbloqueadas previamente.</text>
+  <text id="Tooltip_CreatureInfo@OpenInstinct">Desbloquea la afinidad por el trabajo de Instinto de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@OpenInsight">Desbloquea la afinidad por el trabajo de Intuición de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@OpenAttachment">Desbloquea la afinidad por el trabajo de Afinidad de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@OpenRepression">Desbloquea la afinidad por el trabajo de Represión de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@OpenEscape">Desbloquea la información de supresión de esta abnormalidad.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@GiftInfo">Los empleados tienen una posibilidad de conseguir el Regalo E.G.O. de esta abnormalidad tras terminar el trabajo.</text>
+  <text id="Tooltip_CreatureInfo@WeaponInfo">El Arma E.G.O. que puede ser producido de esta abnormalidad.</text>
+  <text id="Tooltip_CreatureInfo@MakeWeapon">Produce un Arma E.G.O.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Tooltip_CreatureInfo@SuitInfo">La Armadura E.G.O. que puede ser producida de esta abnormalidad.</text>
+  <text id="Tooltip_CreatureInfo@MakeSuit">Produce una Armadura E.G.O.&#13;&#10;Coste: {0} Cajas PE</text>
+  <text id="Option@Tooltip">Mostrar consejos</text>
+  <text id="Tooltip_Gift_Lock">&lt;Fijar Regalo E.G.O.&gt;&#13;&#10;(Solo disponible para empleados nivel 4 o más)&#13;&#10;Este Regalo E.G.O. no será reemplazado por ningún Regalo recibido posteriormente.</text>
+  <text id="Tooltip_Gift_Locked">&lt;Desfijar Regalo E.G.O.&gt;&#13;&#10;Este Regalo E.G.O. correrá el riesgo de ser reemplazado por otro Regalo recibido posteriormente.</text>
+  <text id="Tooltip_Gift_Display">&lt;Activar visibilidad del Regalo E.G.O.&gt;&#13;&#10;Este Regalo E.G.O. será visible.</text>
+  <text id="Tooltip_Gift_Disappear">&lt;Desactivar visibilidad del Regalo E.G.O.&gt;&#13;&#10;(Solo disponible para empleados nivel 4 o más)&#13;&#10;Este Regalo E.G.O. será invisible, pero sus efectos aún estarán activos.</text>
+</localize>

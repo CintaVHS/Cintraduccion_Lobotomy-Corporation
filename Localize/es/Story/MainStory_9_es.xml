@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <text id="day9_angela_1">Jefe, entre las letras A, B, y C, ¿cuál escogerías?</text>
+  <text id="day9_selection1">A.</text>
+  <text id="day9_selection2">B.</text>
+  <text id="day9_selection3">C.</text>
+  <text id="day9_angela_1_1">¿Ya has elegido? Perfecto. Escucha atentamente:</text>
+  <text id="day9_angela_1_2">La letra "A" es fascinante. Es la inicial de mi nombre.</text>
+  <text id="day9_angela_1_3">Aquellos que escogen la A suelen ser más susceptibles a las opiniones de los demás, y prefieren enfocarse en los resultados. Por ende, son muy buenos escuchando y son amados por muchos.</text>
+  <text id="day9_angela_2_1">¿Ya has elegido? Perfecto. Escucha atentamente:</text>
+  <text id="day9_angela_2_2">Aquellos que escogen la B se centran en los detalles. Son racionales, realistas, y honestos. Sus intereses prácticos y el desagrado que sienten por la derrota les hará superar cualquier barrera.</text>
+  <text id="day9_angela_2_3">Personalmente, no me gusta la letra "B".</text>
+  <text id="day9_angela_3_1">¿Ya has elegido? Perfecto. Escucha atentamente:</text>
+  <text id="day9_angela_3_2">La letra "C". Buena elección.</text>
+  <text id="day9_angela_3_3">Aquellos que escogen la C piensan que el proceso es más importante que el resultado. Por ende, son buenos planeando cosas de antemano y disfrutan de un cambio de ambiente. Además, estudian y aprenden sin ser restringidos por las normas.</text>
+  <text id="day9_angela_2">Este es el nuevo pasatiempo de los empleados. No es que sea de mi agrado.</text>
+  <text id="day9_angela_3">Estos hechos no están respaldados por ningún estudio, aunque es verdad que para pasar el rato está entretenido.</text>
+  <text id="day9_angela_4">A veces pienso...</text>
+  <text id="day9_angela_5">Si fuera humana, ¿habría sido el tipo de persona A, B, o C?</text>
+  <text id="day9_angela_6">¿Es raro que piense eso?</text>
+</localize>

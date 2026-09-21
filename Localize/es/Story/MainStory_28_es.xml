@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <!-- day28 start -->
+  <text id="day28_carmen_1">...</text>
+  <text id="day28_carmen_2">"Oye, ¿me estás escuchando?"</text>
+  <text id="day28_carmen_3">"Me gustaría ayudar a los demás."</text>
+  <text id="day28_a_1">"¿...?"</text>
+  <text id="day28_carmen_4">“No, no estoy buscando ser un Ala."</text>
+  <text id="day28_a_2">“...”</text>
+  <text id="day28_carmen_5">"Pero todo el mundo dice eso. Mira, escucha: ¿para qué sirven las Alas si no puedes volar?"</text>
+  <text id="day28_carmen_6">"¿Qué pasaría si surcamos el cielo sin Alas"</text>
+  <text id="day28_a_3">“...”</text>
+  <text id="day28_carmen_7">"Me refiero, si hacemos crecer un tallo totalmente recto, podremos tocar el cielo. Incluso si el tallo crece muy lentamente."</text>
+  <text id="day28_carmen_8">"¿Puedes sentirlo? Los rayos de sol dan bastante calor en este lugar. A veces sueño con la fotosíntesis, tirandome al suelo con los ojos cerrados y bañándome en todos esos rayos."</text>
+  <text id="day28_selection1">&lt;i&gt;Cierro los ojos y me dejo llevar por el calor del sol...&lt;/i&gt;</text>
+</localize>

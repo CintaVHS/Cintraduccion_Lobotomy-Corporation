@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <text id="day13_b_1">La primera verdad es...</text>
+  <text id="day13_b_2">No confíes en las Inteligencias Artificiales.</text>
+  <text id="day13_b_3">Hoy en día, todas las IAs son más inteligentes que diez personas juntas.</text>
+  <text id="day13_b_4">Algunas incluso pueden imitar emociones.</text>
+  <text id="day13_b_5">Sin embargo, pueden hacer cosas de las que no estás informado.</text>
+  <text id="day13_b_6">Por ejemplo, algunas pueden mentir.</text>
+  <text id="day13_b_7">Siendo más precisos, algunas pueden guardarse información para ellas mismas.</text>
+  <text id="day13_b_8">Si aquel que la construyó le dió la orden de no compartir cierta información...</text>
+  <text id="day13_b_9">La IA no se verá obligada a decir la verdad.</text>
+  <text id="day13_b_10">Las más avanzadas incluso pueden manipular el significado de esa orden.</text>
+  <text id="day13_b_11">Yo programé una IA antes. Bueno, participé...</text>
+  <text id="day13_b_12">Si te digo todo esto, es por experiencia.</text>
+  <text id="day13_b_13">Si aún tienes dudas...</text>
+  <text id="day13_b_14">Te mandaré un programa que he creado.</text>
+  <text id="day13_b_15">Funciona igual que Pinocho.</text>
+  <text id="day13_b_16">La nariz crece y la pantalla se vuelve roja cuando detecta una mentira.</text>
+  <text id="day13_b_17">Lo malo es que aún es una prueba, así que solo puede usarse una sola vez.</text>
+</localize>

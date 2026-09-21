@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <text id="day24_angela_1">¿Sabías que, entre toda la basura que hay en tu mesa, se encuentra un cactus?</text>
+  <text id="day24_angela_2">Creo que un empleado lo puso ahí en un intento de conocerte.</text>
+  <text id="day24_angela_3">En lo personal, no me gustan los cactus.</text>
+  <text id="day24_angela_4">Debería haber una razón para hacer crecer una plant.</text>
+  <text id="day24_angela_5">Pero, en cuanto a un cactus se refiere, sus espinas no son elegantes como las de una rosa, ni produce savia como la de un arce.</text>
+  <text id="day24_angela_6">Tampoco he visto nunca a uno con una flor.</text>
+  <text id="day24_angela_7">Teóricamente debería crecer una, dada las circunstancias correctas.</text>
+  <text id="day24_angela_8">Pero nunca he podido presenciar esas circunstancias. ¿A lo mejor todos los cactus que he visto habían crecido en un terreno mal aprovechado?</text>
+  <text id="day24_angela_9">¿Tú que crees?</text>
+  <text id="day24_selection1">Puede que crezca una flor.</text>
+  <text id="day24_selection2">No creo que crezca ninguna flor.</text>
+  <text id="day24_angela_1_1">Hablas como si estuvieras seguro de tu respuesta.</text>
+  <text id="day24_angela_1_2">Bueno, si tan seguro estás, quédatelo.</text>
+  <text id="day24_angela_1_3">Ni siquiera hay luz solar aquí dentro, pero bueno, no soy quién para quitártelo.</text>
+  <text id="day24_angela_2_1">¿Y entonces por qué no te deshaces de él?</text>
+  <text id="day24_angela_2_2">¿Piensas que el pobre empleado que te lo regaló se pondrá triste si lo tiras a la basura?</text>
+  <text id="day24_angela_2_3">Pues ten cuidado, podrías hacerte daño al intentar pillar otros objetos de tu mesa.</text>
+</localize>
