@@ -11,8 +11,11 @@ https://www.youtube.com/@Reverbox-Dub
 !!!ES NECESARIO TENER DESCARGADO EL MOD "BaseMod"!!!
 
 1º. En Steam, haz click derecho en Lobotomy Corporation, dirígete a "Administrar", "Ver archivos locales".
+
 2º. En la sección "Releases", descarga la versión más reciente de "Lobotomy.Corporation.-.CT.rar".
+
 3º. Dirígete a "LobotomyCorp_Data/ExternalData/xml", "Descomprimir aquí" el archivo descargado, e introduce todos los contenidos (carpetas "es", "Localize" & archivos "AgentName.xml", "ResearchDesc.xml") en la carpeta "Language") en la carpeta "Language", y reemplaza todos los archivos iguales.
+
 4º. ¡Disfruta de la traducción!
 
 # CRÉDITOS
