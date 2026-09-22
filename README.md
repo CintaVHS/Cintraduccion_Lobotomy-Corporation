@@ -3,6 +3,8 @@ Este mod reemplaza el texto inglés de Lobotomy Corporation por una traducción 
 
 La razón principal de por qué decidí llevar a cabo esta traducción es porque, a mi parecer, la traducción oficial de Lobotomy Corporation deja mucho que desear. Así que, a lo largo de 1-2 años, he estado llevando a cabo este proyecto de traducción completa de todo el juego.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b602b412-ce94-4fbb-a497-95a647bc812a" />
+
 Esta traducción forma parte del proyecto Reverbox, proyecto de traducción y doblaje del cual soy uno de los directores principales. Si la traducción es de vuestro agrado, aquí está nuestro canal principal:
 
 https://www.youtube.com/@Reverbox-Dub
