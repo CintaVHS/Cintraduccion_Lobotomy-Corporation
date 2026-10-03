@@ -20,6 +20,9 @@ https://www.youtube.com/@Reverbox-Dub
 
 4º. ¡Disfruta de la traducción!
 
+# ACLARACIONES
+- La traducción se encuentra bajo el ajuste de idioma "Español Latinoamérica".
+
 # CRÉDITOS
 Director principal - CintaVHS
 
