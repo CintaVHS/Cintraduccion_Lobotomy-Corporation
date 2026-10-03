@@ -1,0 +1,16 @@
+### Changelogs ###
+
+
+>>> v1.0.1
+Generales:
+- Añadido el archivo "changelogs.txt" al .rar.
+- Cambiado el nombre del archivo .rar.
+- Añadido la carpeta "es" al repositorio de GitHub.
+
+Traducción
+- Corregido una falta ortográfica en el capítulo nº3 de la historia principal.
+	· "Hm, supongo que saber lo que le pasó a otra personano es importante." -> "Hm, supongo que saber lo que le pasó a otra persona no es importante."
+
+
+>>> v1.0.0
+- Publicado
