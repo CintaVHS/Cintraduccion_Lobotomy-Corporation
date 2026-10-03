@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100032">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 está esperando por un contrato, como siempre. Ella espera el olor de la sangre fresca.},
+      {“Avísame si ves a ese bastardo peludo. El precio de mi trabajo será completamente gratis el día que llegue la ocasión de cortarle la puta cabeza a esa cosa.”},
+      {Parece que $0 es mucho más capaz de suprimir Abnormalidades que la mayoría de nuestros empleados}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 tiende a pasar todo el dia afilando su hacha si no ocurre nada importante.},
+      {$0 pidió un lugar para practicar su puntería, pero el personal lo rechazó rotundamente.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Cuando $0 entra en combate, podrás ver sus numerosas pequeñas heridas y grandes cicatrices entre el ondear de su capucha.},
+      {Muchos de nuestros empleados se cuestionan cómo $0 se hizo sus cicatrices; pocos y muy contados son lo bastante valientes para preguntar.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Todo terminará cuando ella finalmente se enfrente al lobo.},
+      {La lucha ha durado muchísimo tiempo. Su disgusto por el lobo se intensifica cada segundo.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">F-01-57</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/RedHood</portrait>
+      <name openLevel="1">
+        Mercenaria de Caperucita Roja
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>"Colgaré su cabeza en la pared. Solo entonces podré despertarme sin tener pesadillas."</openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {“Soy una profesional. Si haces una petición, quizá te ayude. Antes solía ser cara, pero aquí te haré un favor, con una condición. Entrégame a ese odioso y astuto bastardo si alguna vez lo ves. Colgaré su cabeza sobre mi cama. Solo entonces podré despertarme sin tener pesadillas..”}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {Una Abnormalidad imponente que adopta la forma de una guerrera con una llamativa capucha roja. Su capucha desgastada tiene iniciales bordadas, ilegibles debido al daño que ha sufrido. Se pueden ver numerosos remiendos en la capucha, lo que sugiere que ha sido muy usada.&#13;&#10;&#13;&#10;Según sus propias declaraciones, solía ser mercenaria antes de llegar a esta instalación, vagando sin residencia fija. No confía fácilmente en los demás, y siente una afición extrema por la batalla. Se siente inusualmente incómoda cuando partes de su cuerpo y cara son expuestas, o cuando se mira a un espejo. Se han observado otros numerosos síntomas de paranoia en su comportamiento.&#13;&#10;&#13;&#10;Tiene un fuerte deseo de resolver situaciones de emergencia cuando surgen. Ella lo llama una “petición” de algún tipo. Dado que este comportamiento ayuda consecuentemente a la gerencia, la compañía recomendó aprovecharlo según la situación.&#13;&#10;&#13;&#10;※ La siguiente información debe ser tenida en cuenta por empleados de todos los niveles.&#13;&#10;Sin embargo, cuando se encuentre con el “Gran Lobo Feroz”, la situación cambiará drásticamente. Experimentará varias transiciones psicológicas, incluyendo despersonalización repentina y trastorno explosivo intermitente. Este encuentro causará daños colaterales graves, por lo que se aconseja evitar cualquier caso en el que ambos puedan enfrentarse.}
+      ]
+    </desc>
+    <desc id="3" openLevel="3">
+      [
+      {“Entre nosotros, no hay victoria que ganar. Todo en lo que pienso es en como mataré a ese bastardo de una manera más cruel y dolorosa que la última vez. Por eso, no hay brindis que hacer. No hay pasteles deliciosamente horneados que comer, ni vino que beber. Me acostumbré a afilar el hacha en lugar de recoger flores cuando tenía 15 años.” }
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="1">$0 permite peticiones para suprimir a abnormalidades e invasiones. Sin embargo, tiene un precio.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando #0, que  trabajó con F-02-58, terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">El contador Qliphoth bajó cada vez que una abnormalidad se escapaba, excepto O-02-56.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando F-02-58 aulló cerca de la celda de $0, bajó el contador Qliphoth a 0.</specialTip>
+      <specialTip openLevel="2" key="5">$0 empezó a actuar violentamente tras encontrarse con F-02-58.</specialTip>
+      <specialTip openLevel="2" key="6">Cuando un empleado suprimió a F-02-58 sin dejar que $0 dé el golpe de gracia, $0 empezó a atacar a todos indiscriminadamente.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300108">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-97</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/PromiseAndFaith</portrait>
+      <name openLevel="1">
+        Antigua promesa
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        Los corazones traicionados se hundieron en el vacío, siendo olvidados en los pasillos eternos del tiempo.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una canica de marfil que está colgada del techo de su celda.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Conocemos una práctica ancestral; la cantidad innumerable de promesas realizadas, y la fe interminable que las forma.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Sin embargo, lo único que ofrecieron fue la decepción y la traición.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Los corazones traicionados se hundieron en el vacío, siendo olvidados en los pasillos eternos del tiempo.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Si, por el contrario, le das un intento teniendo un corazón austero sin deseos o expectativas, a lo mejor te llevas una sorpresa.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">$0 puede fortalecer el armamento E.G.O. Esto consumirá parte de la energía actual.</specialTip>
+      <specialTip openLevel="2" key="2">La arma fortalecida inflijirá más daño.</specialTip>
+      <specialTip openLevel="2" key="3">Hay una posibilidad de que la arma no sea recuperada tras intentar fortificarla.</specialTip>
+      <specialTip openLevel="2" key="4">La arma fortalecida perderá su efecto al siguiente día.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

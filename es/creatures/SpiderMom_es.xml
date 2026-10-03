@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100012">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 desea acumular toda la comida posible para el invierno. Sus crías están siempre hambrientas.},
+      {La celda es una telaraña gigante. Cuando un empleado pone un pie dentro, los ojos de la araña quedan fijados en su presa.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Cuando #0 se percata que los cables del techo parecen más largos de lo normal, uno de ellos comienza a moverse.},
+      {Cuando #0 recuerda que el suelo no debería estar negro, una larga sombra empieza a moverse.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Los numerosos ojos de $0 observan cada movimiento de #0},
+      {$0 problablemente tenga la capacidad de escuchar, sentir, oler, al igual que ver. Y sobre todo, degustar.},
+      {Las arañas tienen fuertes instintos maternales. Ellas defenderán a sus crías a cualquier coste.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Mientras trabaja, #0 nunca mira hacia el techo. Hacer contacto visual con eso arruinaría su día.}.
+      {De tanto en tanto, un par de arañitas pueden caerse desde el techo, pero todo estará bien mientras las ignores.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 se asegura de darse un par de palmaditas a sí mismo antes de marcharse, para asegurarse que ninguna arañita esté todavía agarrada a sus ropas.},
+      {#0 fue capaz de salir de la contención sin aplastar ninguna de las crías.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-02-43</codeNo>
+      <name openLevel="1">Araña en capullo</name>
+      <portrait openLevel="1">Sprites/Unit/creature/SpiderMom</portrait>
+      <riskLevel openLevel="1">TETH</riskLevel>
+      <openText>Obviamente, ni un solo empleado se ofreció para recuperar el capullo en el que se había convertido su compañero. </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad que toma la forma de una araña gigante, vigilando sus dominios en la penumbra. Es difícil ver a la abnormalidad a simple vista. Pequeñas crías se mueven alrededor del piso.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Nuestro orgulloso empleado, Peter, un día entró en la Celda de Contención. Cuando él apuntó la linterna hacia el piso, pequeñas arañitas se deslizarón lejos de la luz.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Cuando Peter aplastó a una de las arañitas por accidente, una araña gigante descendió desde el techo. Peter fue arrastrado hacia arriba en un instante. Los empleados atrapados en capullos colgando desde el techo de la Celda de Contención serán una comida saludable para las crías.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Obviamente, ni un solo empleado se ofreció para recuperar el capullo en el que se había convertido su compañero.}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {&lt;Extracto de una Enciclopedia Animal&gt;&#13;&#10;
+      ...Es normalmente obviado por muchos el hecho de que las víctimas atrapadas en los capullos de una araña no están en realidad muertas. De hecho, la presa está muriendo lentamente. Su muerte es pospuesta para que puedan permanecer en buen estado para su posterior consumo. El veneno de una araña contiene una toxina que permanentemente daña el corazón, eventualmente ocasionando la muerte. Insectos, atrapados en los oscuros capullos, no tienen elección más allá de esperar que las crías se los coman, sintiendo su corazón palpitar más lento con cada segundo. (Omitido)}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {&lt;Extracto de la carta del Líder del Departamento de Bienestar&gt;&#13;&#10;
+      Apreciamos vuestra sugerencia. No obstante, nuestra investigación indica que vuestras preocupaciones son poco probables de ser ciertas. Es más, está comprovado que la presencia de un capullo en la Celda de Contención incrementa la producción de energía. Por estas razones, no implementaremos un procedimiento de rescate para aquellos empleados que sean capturados por la Araña en Capullo puesto que está en contra nuestros intereses. No obstante, dispondremos de más recursos para investigar este espécimen como indicaste en tu opinión. Por favor tened en cuenta que irrumpir la atmósfera de nuestro espacio de trabajo con rumores sin confirmar está en contra de nuestro código de conducta, y podrían hasta ser sujetos de sanciones tales como el despido. En L. Corp. valuamos la seguridad y las voces de nuestros empleados.&#13;&#10;
+      - Líder del Departamento de Bienestar, Lobotomy Corporation.}
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {Hay un rumor sombrío esparciéndose entre los empleados. No está fuera de lo ordinario que uno o dos rumores se esparzan en una compañía como esta, pero es interesante que el número de supuestos testigos parece multiplicarse. El rumor dice lo siguiente:&#13;&#10;“Se pueden escuchar susurros de la Celda de Contención por la noche...”&#13;&#10;“Era la voz de Alex, quien desapareció un par de días antes...”&#13;&#10;“Dicen que estaba llorando de terror, pidiendo que fuese salvado desde la oscuridad...”}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="OneChick">Los empleados con Prudencia 1 aplastaron a las arañitas. Seguidamente, $0 lo envolvió en un capullo.</specialTip>
+      <specialTip openLevel="2" key="Clean">Al limpiar la celda con un trabajo de Intuición, #0 fue convertido en un capullo.</specialTip>
+      <specialTip openLevel="3" key="Cocoon">La cantidad de capullos en la celda aumentó la cantidad de Cajas PE producidas.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

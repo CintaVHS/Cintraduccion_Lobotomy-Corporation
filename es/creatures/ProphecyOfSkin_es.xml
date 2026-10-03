@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300103">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-90</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ProphecyOfSkin</portrait>
+      <name openLevel="1">
+        Profecía de la piel
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>
+        Sálvanos ahora y por siempre. La verdad nos iluminará.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un libro religioso antiguo que permanece estático en un atril fino. Sus páginas están escritas con pergaminos antiguos.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Sus creyentes oraban por la eterna santidad una vez que forraron el tomo con piel humana.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Aquellos que abren el libro serán revelados verdades inimaginables. Aquellos que han perfeccionado estas verdades serán nombrados por el profeta, cuya llamada deberá ser aceptada.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Sálvanos ahora y por siempre. La verdad nos iluminará.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Aquellos que leen el libro recibirán un aumento de Prudencia.</specialTip>
+      <specialTip openLevel="2" key="2">Se puede leer a $0 hasta alcanzar el límite de Prudencia.</specialTip>
+      <specialTip openLevel="2" key="3">Cuantas más veces un empleado lo lee, más daño BLANCO sufrirán.</specialTip>
+      <specialTip openLevel="2" key="4">Cualquier empleado que haya leído el libro morirá tras entrar en pánico.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

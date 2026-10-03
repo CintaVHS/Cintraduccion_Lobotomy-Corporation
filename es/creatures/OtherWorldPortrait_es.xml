@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300104">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-09-91</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/OtherWorldPortrait</portrait>
+      <name openLevel="1">
+        Retrato de otro mundo
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>
+        Este retrato captura un momento; captura lo que debemos perder.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Las personas cambian con el tiempo. A veces perdemos partes del cuerpo, a veces perdemos la cabeza, a veces nos consume la violencia, y a veces queremos desaparecer.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Este retrato captura un momento; captura lo que debemos perder. Aquellos de físico sano y fuerte que se ven reflejados en éste comenzarán, involuntariamente, a querer más y más. “Lo que daría por tener una vida como esa... Lo que daría por tener la sonrisa de ese retrato...”}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Uno se sentirá raro. Uno será inmune ante cualquier tipo de ataque que recuba. Otros, sin embargo, se verán forzados a sufrir ese daño.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Poco a poco, el retrato resultaba ser más y más feo, hasta que uno deje de verlo, y simplemente disfrute de su suerte.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Pero ningún milagro es permanente. Cuando no quede nadie para soportar el dolor, será el turno del afortunado; aquel que antes se creía ser la persona con más suerte del planeta sufrirá, sin saberlo, el mismo final que todos los demás desafortunados. Entonces, y solo entonces, el retrato volverá a estar en blanco.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">El primer empleado en usar esta abnormalidad será dibujado en el retrato.</specialTip>
+      <specialTip openLevel="2" key="2">Todo el daño que reciba el dibujado será traspasado a otro empleado (excepto si el daño es mayor que la vida máxima del dibujado). El otro empleado recibirá daño adicional.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el empleado muera por traspaso de daño, otro empleado será designado el receptor. Si no quedan empleados, el dibujado muere.</specialTip>
+      <specialTip openLevel="2" key="4">Si se dibuja a otra persona, el anterior dibujado muere instantáneamente.</specialTip>
+      <specialTip openLevel="2" key="5">Si el dibujado es asesinado por medios diferentes a daño normal, el retrato quedará en blanco.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

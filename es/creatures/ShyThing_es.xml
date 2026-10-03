@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100052">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {En esta instalación no existe la luz del sol, y aun así, $0 seca con delicadeza su propia piel.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {La Ciudad animó a $0 a seguir sonriendo, pero, al ser demasiado tímido para mostrarse tal cual era, decidió..}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">O-01-92</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ShyThing</portrait>
+      <name openLevel="1">
+        Timidez de hoy
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>¡Qué día tan bonito! ¿Aún sigues siendo tímido?</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {¡Qué día tan bonito! ¿Aún sigues siendo tímido?}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Un día soleado, mientras tendía la ropa con total sinceridad en el patio, la tristeza cayó de golpe.&#13;&#10;&#13;&#10;“En nuestra ciudad, los sacrificios por las corporaciones deben ser altamente elogiados. Honor a su muerte. No hay razón para que llores. De hecho, deberías sentirte agradecido.”&#13;&#10;“¿Qué es esa cara? Ese tipo de expresión no es recomendable en nuestra ciudad.”&#13;&#10;“Dios mío, ¿Por qué pones esa cara? Estás deprimiendo a los demás. Sé más considerado, no vives solo en este mundo.”&#13;&#10;“Se te da muy mal expresar tus emociones. Debes de ser bastante tímido.”&#13;&#10;“Oye, intenta parecer más contento. Así quienes viven en las Afueras nos envidiarán más.”&#13;&#10;“¡Sonríe más! No es tan difícil.”&#13;&#10;“Na próxima vez, intenta expresarte con mayor claridad. Expresarse bien es muy importante en esta sociedad.”&#13;&#10;&#13;&#10;Un día soleado, igual que aquel en el que tendía la ropa con sinceridad, decidió secar su propia piel.}
+    ]
+  </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Todos quedaron finalmente satisfechos cuando mostró una sonrisa radiante. Si alguien le preguntaba qué le ocurría, respondía: “Solo soy tímido, eso es todo. Solo tímido...”}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Si alguien intenta mirar el rostro que se oculta tras la piel, el resultado no será agradable. El espacio que hay tras esa piel es el único refugio personal que le queda. Respetarlo es el último gesto de generosidad que la Ciudad todavía puede permitirse.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">La cara de la abnormalidad cambia periódicamente, excepto cuando un empleado trabaja con él.</specialTip>
+      <specialTip openLevel="1" key="2">Las caras, de felicidad a enfado, han sido designadas caras 1, 2, 3, 4 y 5.</specialTip>
+      <specialTip openLevel="1" key="3">No ocurre nada con la cara 3. La cara 2 tuvo un mejor resultado y curó la sanidad del empleado.</specialTip>
+      <specialTip openLevel="1" key="4">La cara 4 recibió un aumento del 50% de daño, y el resultado empeoró.</specialTip>
+      <specialTip openLevel="1" key="5">La cara 5 recibió un aumento del 100% de daño, y el resultado empeoró drásticamente.</specialTip>
+      <specialTip openLevel="1" key="6">La cara 1 recibió una disminución del 50% de daño, y el resultado mejoró drásticamente. Además, curó la vida y sanidad del empleado.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>

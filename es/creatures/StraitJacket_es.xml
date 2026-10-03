@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100018">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 se queda quieto como una estatua en el rincón de la Unidad de Contención.},
+      {A veces, $0 murmura algo mientras tiembla.},
+      {Puede que $0 grite de vez en cuando, pero como está atado, probablemente no hay ninguna necesidad de preocuparse.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 nota la desesperación en el aire.},
+      {#0 huele el insufrible olor de la desesperación.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {¿Por qué este lugar siempre está tan oscuro y frío?},
+      {En la oscuridad, el cerebro de $0 se pudrió poco a poco.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Abandonado incluso por la muerte, $0 deberá quedarse encerrado aquí hasta el fin de los tiempos.},
+      {Ya no era furia, sino algo más profundo y retorcido, un aborrecimiento maníaco lo que le encontró.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-54</codeNo>
+      <name openLevel="1">Asesino abandonado</name>
+      <portrait openLevel="1">Sprites/Unit/creature/StraitJacket</portrait>
+      <riskLevel openLevel="2">TETH</riskLevel>
+      <openText>"Lo que sí que da pena es la gente como tú muriendo por mi culpa."</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad cuyo cerebro está repleto de furia, gritos y chillidos maliciosos.&#13;&#10;&#13;&#10;Hay una herida en su frente que parece no sanar nunca. Odia todo y a todas las personas. Lleva una chaqueta de fuerza, pero es igual de libre que cualquier otro hombre. Ninguna cantidad de cadenas y ataduras es suficiente para prevenir que cometa actos de violencia.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Siempre ha tenido que llevar una chaqueta de fuerza. Algunos dicen que era un prisionero en el corredor de la muerte de una prisión federal. Los investigadores nunca bajaban la guardia cerca de él. Sentían que la chaqueta de fuerza no podía contenerlo.&#13;&#10;&#13;&#10;Los investigadores querían estudiar el cerebro de un asesino para demostrar que la maldad innata existía. Era difícil determinar que persona era peor: Un hombre que asesinaba inocentes sin ningún remordimiento, o los investigadores que querían abrir su cerebro para saciar su curiosidad.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Un amplio rango de medicinas y químicos fueron inyectados en él. Algunos fueron usados por el bien del futuro de la humanidad, mientras que otros eran para nuevas técnicas médicas. Todos tenían el potencial de cambiar el mundo.&#13;&#10;&#13;&#10;Los investigadores estaban cada vez más y más emocionados. A pesar de que no lo expresaban abiertamente, era casi palpable. Decían que habían encontrado una cura, pero nunca dijeron lo que se había curado.&#13;&#10;&#13;&#10;El prisionero hablaba cada vez menos. Su agresividad fue suprimida, pero al mismo tiempo, se perdió a sí mismo. Después de una revisión a fondo, se le permitió quitarse la chaqueta de fuerza.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {      “Se siente como si mi cabeza se estuviera convirtiendo en metal. A veves oigo crujidos metálicos en mi cabeza...”&#13;&#10;&#13;&#10;Con el paso de los días, comenzó a autoflagelarse. Golpeaba su cabeza contra la pared o superficies duras constantemente. Insistía en comprobar si su cabeza realmente se estaba convirtiendo en metal.&#13;&#10;&#13;&#10;Un día eventualmente decidieron dejarlo solo con la esperanza de que pararía una vez se hiriera. Sin embargo, incluso cuando su cara estaba repleta de sangre, no paraba hasta que su herida fuera tan profunda que se empezaba a ver el color blanco de su cráneo. Tuvo que ponerse la chaqueta de fuerza otra vez, pero ya no era temido o monitoreado como antes.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Un investigador ha muerto. Habría sido difícil identifcarlo sin su tarjeta de identificación ya que su cabeza había sido aplastada violentamente. La seguridad laxa significaba que la puerta muchas veces quedaba sin cerrar o inatendida. El prisionero que todos creían que estaba confinado se estaba moviendo de rodillas.&#13;&#10;
+      “Mi cabeza...convirtiéndose en metal...pliegues en mi cerebro, siendo aplanados...”&#13;&#10;&#13;&#10;No paraba de repetir palabras extrañas, y la última operación fue puesta en marcha rápidamente. Se detuvo el tratamiento, y fue diseccionado para que su cerebro se pudiera usar en investigaciones. ¿Cómo lo sé? Lo sedé yo mismo. No paró de murmurar cosas sin sentido hasta el final.&#13;&#10;
+      “Termina, comienza, termina, comienza, final”}
+      ]
+    </desc>
+    <specialTipSize size="1">
+      <specialTip openLevel="1" key="badEscape">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

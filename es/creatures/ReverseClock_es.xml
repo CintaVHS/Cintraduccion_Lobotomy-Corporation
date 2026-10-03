@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300110">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-09-104</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ReverseClock</portrait>
+      <name openLevel="1">
+        Reloj al revés
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>
+        "...¿Seguro que has tocado fondo? ¿Seguro que ya no hay absolutamente nada más que hacer?"
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Abnormalidad creada según el concepto de un Contribuyente de Tumblbug 정현교 (Jeong Hyeon-kyo).&lt;/i&gt;&#13;&#10;Un reloj antiguo creado por una compañía desconocida. Sus tubos cilíndricos tienen una estética vintage. Quien fuera que fuese el creador dejó de hacer relojes hace un tiempo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {“…¿Seguro que has tocado fondo? ¿Seguro que ya no tienes nada que hacer? ¿Alguna vez has pensado: 'Jopetas, debería haber hecho eso en vez de esto'?&#13;&#10;La humanidad ha conquistado las enfermedades y la naturaleza. Ahora, hemos conquistado el tiempo.”}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {"Pues sí, podemos recuperar el tiempo perdido.&#13;&#10;Dale cuerda, cierra los ojos, y cuenta hasta diez.&#13;&#10;Cuando los abras, volverás al tiempo que deseabas estar.”}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {+ Por favor, leed el manual con atención. Nunca sabes qué alto es el alto voltaje que suelta la máquina cuando se usa mal. No nos hacemos responsables de cualquier accidente que ocurran debido al error humano. Este reloj requiere mucha energía para funcionar. Por favor, hay que entender que toma mucha energía para funcionar.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Cada trabajo terminado enciende una bombilla.</specialTip>
+      <specialTip openLevel="2" key="2">No ocurrió nada cuando los empleados de nivel menor de 3 trabajaron con él.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando todas las bombillas estaban encendidas, $0 puede ser activado una vez por día.</specialTip>
+      <specialTip openLevel="2" key="4">&lt;PRECAUCIÓN&gt; Los empleados de nivel menor de 5 no deberán interactuar con $0 si todas las bombillas están encendidad.</specialTip>
+      <specialTip openLevel="2" key="5">Cuando un empleado de nivel 5 interactúa con $0 con todas las bombillas encendidas, $0 traerá a toda la compañía excepto el usuario al momento más tranquilo del día.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

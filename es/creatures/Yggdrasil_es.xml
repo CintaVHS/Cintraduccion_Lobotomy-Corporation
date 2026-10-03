@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100062">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 puede sentir el delicado aroma de la hierba envolviendo el aire.},
+      {#0 siente una brisa suave, que difícilmente podría originarse dentro de una Unidad de Contención.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El sonido de las hojas crujiendo es increíblemente tranquilo.},
+      {Un aroma floral persiste en la nariz de #0’s nose.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {La mayoría de los empleados aquí están descontentos; incluso la más mínima bendición les provoca una enorme felicidad.}
+      ]
+    </narration>
+    <narration action="mid3">
+     [
+     {Una bendición más radiante que cualquier cosa se acerca al empleado #0.}
+     ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Cuando la flor de la bendición finalmente florezca de $0, entonces…}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-04-108</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/Yggdrasil</portrait>
+      <name openLevel="1">
+        Árbol del mundo
+      </name>
+      <name openLevel="3">
+        Árbol parásito
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>"Relájate, ¿No quieres una bendición?"</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Esta anomalía se creó con las ideas proporcionadas por el patrocinador de Tumblbug llooll530.&lt;/i&gt;&#13;&#10;&#13;&#10;Una Abnormalidad que toma la forma de un árbol con abundantes hojas.&#13;&#10;Las hojas, de un verde intenso y frondoso, crean un ambiente reconfortante. Una brisa suave arrastra un aroma floral y refrescante. }
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Los empleados que tuvieron contacto con la Anomalía afirmaron que les proporcionó un gran alivio psicológico.&#13;&#10;Estas afirmaciones se consideraron verídicas, ya que los empleados mostraron un aumento visible en la eficiencia laboral, junto con una notable disminución en la corrupción mental. }
+      ]
+
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Un extracto del diario de un empleado&gt;&#13;&#10;
+      Al principio, creía que era solo mi imaginación debido a la falta de sueño. Pero mientras mi cuerpo y mi mente se cansaban más y más, la voz que me llamaba se escuchaba más clara.
+      ‘Puedo ayudarte con tu problema.’
+      Sí, es verdad. Puedes ayudarme.
+      ¿Cuál era mi problema?
+      Puedo sentir un olor a flores…}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {      Importaron un árbol.
+      Ese árbol, quieto en medio de la Unidad de Contención, fue algo hermoso de contemplar. Podía sentir el olor a flores revolotear por mi cara incluso cuando no había ni brisa ni viento.
+      Oler ese aroma aunque sea solo por un momento hace que mi fijación por el árbol crezca ciegamente. Era muy intuitivo desde pequeño, as que podía sentir que su fijación artificial era peligrosa.
+      Incluso desde entonces, hice todo lo que pude para evitar el contacto con ese árbol, poniendo todo tipo de excusas cada vez que me asignaban trabajar con él.
+      Bueno, si lo dices así… solo esta vez, ¿Vale? Oye, ¿Es que te ha hecho algo ese árbol?”
+      Las bromas de mi compañero se me quedan grabadas en los oídos. ¿Que si me ha hecho algo? Sí, sí que lo ha hecho, y me asusta.
+      Unos días después, el mismo compañero ahora se ha convertido en un trabajador acérrimo, y tiene una sonrisa constante en su cara. Siempre supe que él era una persona optimista, pero no pude evitar sentirme inquieto porque su expresión parecía extrañamente tranquila.
+      “¿De verdad parezco contento últimamente?
+      Ya, bueno, eso es porque el árbol me está ayudando.”
+      Él respondió con alegría. Por mis años de experiencia, puedo decir con certeza que muy poca gente sonríe tan sinceramente al trabajar en esta compañía. Eso significa que cuando alguien sigue sonriendo en el trabajo, es un signo de que algo va mal. Mis sospechas me llevaron a reportar este comportamiento a mi superior.
+      Mi respuesta llegó más pronto de lo que pensaba. Decía que tenía que observar la Anomalía por mí mismo y presentar un informe de observación porque han habido varios comportamientos anormales relacionados con este árbol que fueron identificados en otros empleados, no solo en el tipo que reporté.
+      Esa orden me obligó a enfrentar a este árbol que he estado evitando lo mejor que he podido. Sabía que esta vez no podía dejárselo a otra persona.
+      Ya no era el árbol estéril y desnudo que vi en el día en el que lo importaron. En su lugar, vi una Unidad de Contención llena de hierba que parecía estar extendiéndose alrededor del árbol. Lo cual erea peculiar, ya que no hay manera de que crezca tierra en una Unidad de Contención. Estas instalaciones son completamente inorgánicas.
+      ‘Hola, ¿También has venido para recibir mi bendición?’
+      En el momento en el que sentí que algo iba mal, una voz hizo eco en mi cabeza…}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;i&gt;(Fue difícil descifrar el contenido del diario desde este punto, ya que la escritura se vuelve muy distorsionada)&lt;/i&gt;&#13;&#10;
+      No sé cómo escribí el informe de observación, solo estoy seguro de que escribí lo que sentía por el árbol: Esta planta tan hermosa lleva felicidad a cada empleado que visita su Unidad de Contención; pronto contribuirá en gran medida a la búsqueda de prosperidad y progreso de la humanidad.
+      ¿Pero como puede ser una Abnormalidad tan buena influencia para la humanidad?
+      ‘Solo quiero ayudarte.’
+      Una voz sin una sola pizca de mala intención hizo eco en mi cabeza de nuevo. Sí, tienes razón. Solo me estás ayudando.
+      ‘Y si te parece bien, ¿Puedes traer a todos tus amigos que lo están pasando mal aquí? Creo que puedo ayudarles.’
+      Sí, seguro que este árbol deja sus mentes en paz. Hablando de, esa novata parecía estar bastante deprimida últimamente.
+      “Oye, conozco un sitio que te hará sentir mejor. Sígueme si quieres.”
+      Me siguió sin ninguna sospecha. No fue difícil llevarla a la Unidad de Contención del árbol.
+      La ofrecí al árbol. Ella podría mejorar; ella mejorará.
+      ‘Has traído a tu amiga. Eres un buen chico. Déjame recompensarte con algo.’
+      Sentí que algo brotaba de mi cuerpo. No podía mover las extremidades. No, no es malo, estoy renaciendo con el árbol...
+      El árbol ha entrado dentro de mí, me ha fascinado. Nos profileramos y nos volvemos completos.
+      Ah, ahora lo puedo sentir por completo.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">Un capullo creció en las hojas de $0 tras terminar un trabajo. El empleado fue bendecido por $0 y mejoró su velocidad de trabajo y sanidad.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando se realizó un trabajo de represión, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando se escapó otra abnormalidad, bajó el contador Qliphoth con una baja posibilidad.</specialTip>
+      <specialTip openLevel="1" key="4">Al completar 5 trabajos con otras abnormalidades mientras no se trabajaba con $0, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="5">Cuiando el contador Qliphoth llegó a 0, $0 llamó a varios empleados para bendecirlos.</specialTip>
+      <specialTip openLevel="1" key="6">Cuando el árbol disponía de 5 capullos, cambió su apariencia, y los bendecidos entraron en pánico. Tras un tiempo, creció un tallo de ellos y los transformó en semillas.</specialTip>
+      <specialTip openLevel="1" key="7">Las semillas expulsan una toxina mortífera y deberán ser exterminadas cuanto ántes.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Semilla</name>
+    <codeId>D-04-108-1</codeId>
+  </child>
+</creature>

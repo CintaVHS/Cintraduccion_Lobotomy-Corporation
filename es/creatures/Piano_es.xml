@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100065">
+    <narration action="move"></narration>
+    <narration action="start">
+      [
+      {Podemos sentir la pasión y el fuego que brotan desde lo más profundo de $0.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Incluso sin partitura que les guíe, $0 permite que cualquiera dé la mejor interpretación de su vida.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {La sonata interpretada por quien está poseído por la luna es tan sobrecogedoramente hipnótica que rompe las barreras entre las personas.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {La música libera a todos por igual, sin prejuicio.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-01-105</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/Piano</portrait>
+      <name openLevel="1">
+        Il Pianto della Luna
+      </name>
+      <riskLevel openLevel="0">
+        WAW
+      </riskLevel>
+      <openText>"Cuenta la leyenda de que la luna hechiza al hombre, pero en realidad, es el hombre el que aúlla a la luna."</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Esta Abnormalidad fue creada a partir de las ideas aportadas por el patrocinador de Tumblbug 에레 (Ere).&lt;/i&gt;&#13;&#10;&#13;&#10;Una anciana permanece sentada junto a su piano. Suele tener los ojos cerrados. No habla: responde con leves asentimientos; y, en raras ocasiones, deja escapar una tenue sonrisa.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {&lt;Extracto de un artículo de periódico&gt;&#13;&#10;
+      La pianista más célebre del mundo, (Redactado), siempre alcanzaba sus interpretaciones más sublimes al tocar aquella sonata, su pieza predilecta. Muchos alababan su maestría. Algunos eran incapaces siquiera de permanecer sentados durante el tercer movimiento, por la energía desbordante y la demencia que estallaba de su ejecución.
+      
+      En su residencia ahora vacía —la misma desde la que partió rumbo a la luna— descansan el piano con el que creció y las cabezas reducidas que nos permiten asomarnos a su mente.}
+      ]
+
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Fragmento de la sesión de terapia del Empleado (Redactado)&gt;&#13;&#10;
+      “Quiero decir, no vimos nada destacable cuando fuimos a contenerla. Solo estaba esa señora sentada allí, como si llevara un buen rato esperándonos
+      ¿Y qué pasó cuando uno de nosotros se acercó?
+      Pues ese tío no sabía ni lo más básico sobre arte o música, pero, antes de darnos cuenta, ya estaba tocando el primer movimiento de la sonata.
+      Y la mujer sonrió.
+      …Siendo sincero, creo que jamás volveré a escuchar una actuación al piano tan hermosa como esa.
+      Nunca volvimos a ver a ese tío.
+      Por eso necesitáis mi testimonio, ¿verdad?
+      Porque yo fui el que tocó el tercer movimiento.”
+      (Omitido)}
+    ]
+  </desc>
+    <desc id="4" openLevel="3">
+      [
+      {“No sé cómo ni por qué te obliga a tocar. Tus manos simplemente se mueven, y te invade… una euforia extraña. Todo alrededor se desvanece. Solo quedáis tú y el piano. Cuando terminé, agotado, me di cuenta de que aquello que mis pies habían estado presionando no eran pedales, sino cabezas cercenadas.”}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {“…La luna representa la psique humana.&#13;&#10;A menudo dicen que es hermosa.&#13;&#10;Pero cuando pasa suficiente tiempo, cuando la observas y descubres el verdadero rostro que esconde...&#13;&#10;Comprendes que estabas enamorado de algo roto y astillado.&#13;&#10;Al final, todos acabamos siendo como la luna. Porque no soportamos lo que somos.”}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Los empleados pueden tocar el piano. Sin embargo, al terminar una sesión, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">La música aumentó la Justicia y Temperamento de todos los empleados, pero el músico sufrió la mitad de su vida máxima como daño al terminar.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="4">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="5">El contador Qliphoth bajó a 0 cuando un empleado tocó el piano por tercera vez.</specialTip>
+      <specialTip openLevel="1" key="6">$0 volvió voluntariamente a su celda tras acabar el tercer movimiento.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <!--본체와 같아야 함-->
+    <name>Il Pianto della Luna</name>
+    <codeId>D-01-105</codeId>
+  </child>
+
+</creature>

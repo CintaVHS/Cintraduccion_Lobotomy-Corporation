@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100009">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 está aterrorizado de entrar a la celda.},
+      {Dependiendo de la situacion, puede que $0 tenga un efecto positivo en los empleados.},
+      {Puede que lo mejor sea mandar a alguien honesto a trabajar con $0.},
+      {$0 puede ver a traves de ti.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 espera el pecado capital.},
+      {Los pecados de #0 pronto llegarán a $0.},
+      {$0 chasquea sus dientes a menudo, pero no hay de qué preocuparse.},
+      {$0 levita con movimientos lentos.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Aunque $0 no tenga ojos, es consciente de la presencia de #0.},
+      {$0 es tu castigador.},
+      {#0 nota la solemnidad de $0, y lo venera.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 terminó su tarea, pero esto no tiene efecto en $0.},
+      {Mientras #0 trabaja, $0 no reacciona.},
+      {#0 no pudo sacar una respuesta de $0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Estar dispuesto a aguantar el dolor solo es una parte del tormento.},
+      {Solo aquellos que se engañan a sí mismos pueden vivir felices. Ojos que no ven, corazón que no siente.},
+      {¿Acaso no es posible perdonar un pecado, si las intenciones de éste fueron puras?}
+      ]
+    </narration>
+    <narration action="special_ability1">
+      [
+      {#0 confiesa de no haber ido a trabajar a $0.},
+      {#0 confiesa de mentirle a sus padres a $0.},
+      {#0 confiesa de estar celoso de un amigo a $0.},
+      {#0 confiesa sobre "El Accidente de Aquel Julio" a $0.}
+      ]
+    </narration>
+    <narration action="special_ability2">
+      [
+      {Y los castigos caerán sobre nosotros.}
+      ]
+    </narration>
+    <narration action="special_ability3">
+      [
+      {El peor castigo que le otorgará a #0 será la eterna culpabilidad.}
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {#0 deja de pensar. La ansiedad y la agonía recorre todo su cuerpo, sin poder escapar.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-03-03</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/OneBadManyGood</portrait>
+      <name openLevel="1">
+        Un Pecado y Cientos de Buenas Acciones
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        Se alimenta del "mal" que se escurre entre conversaciones.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Abnormalidad silenciosa que comprende el conflicto del bien y el mal.&#13;&#10;Sus cavidades vacías miran fijamente a todo aquel que lo percibe.}
+      ]
+    </desc>
+    <desc id="2" openLevel="0">
+      [
+      {Es una calavera gigante y crucificada, llevando puesta una corona de espinas.&#10;Levita a unos 2 metros del suelo.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {Aunque su apariencia sea bizarra, no ha ocurrido ningún accidente con ningún empleado que haya trabajado con esta abnormalidad.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Se alimenta del "mal" que se escurre entre conversaciones. El empleado que trabaje con él tendrá que arrodillarse ante él (aunque mantenerse de pie también parece funcionar) y soltar su "mal" mediante confesiones. Su método de alimentacion es desconocido.}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {&lt;Fragmento de Experimentos&gt;&#13;&#10;Hemos categorizado los pecados de las personas en tres niveles.
+      Nivel 1: Una mentira pequeña o un acto de leve rebeldía que se puede contar como anécdota.
+      Nivel 2: Pecados más serios que solo se comparten con amigos muy cercanos.
+      Nivel 3: Pecados tan graves que son imposibles de mencionar.&#13;&#10;
+      Empleado &lt;REDACTADO&gt; fue asignado a confesar un pecado nivel 1.
+      La energía extraída de la abnormalidad incrementó en un 12%.&#13;&#10;
+      Empleado &lt;REDACTADO&gt; fue asignado a confesar un pecado nivel 2.
+      La energía extraída de la abnormalidad incrementó en un 15%.&#13;&#10;
+      Empleado &lt;REDACTADO&gt; fue asignado a confesar un pecado nivel 3.
+      1 minuto y 48 segundos después de enviar al empleado, un fuerte rayo de luz salió de la celda. Dicha luz fue tan brillante que se podía apreciar desde fuera de la celda. Inmediatamente después, se fue la luz en toda la compañía durante 2 horas. El empleado &lt;REDACTADO&gt; perdió 6 años de su memoria. Se prohibió el uso de todo el contenido relacionado con el experimento, y se prohibieron los futuros experimentos con esta abnormalidad. Sin embargo, el incidente nos forzó a ver la videocámara de la celda.}
+    ]
+  </desc> --&gt;
+
+    <desc id="6" openLevel="3">
+      [
+      {Empleado &lt;REDACTADO&gt;:&#13;&#10;
+      "Todo esto ocurrió en &lt;REDACTADO&gt; sobre las 4 de la tarde. Había un ferrocarril como a 20 minutos de mi casa. Algunos de mis mejores amigos y yo tuvimos la idea de disfrazarnos como animales del bosque, y uno de ellos se disfrazó de ciervo. Era un disfraz de mierda, con suerte se considera disfraz. Era simplemente un par de antenas de cartón y un traje negro con manchas de ciervo. (Omitido) no tengo ni idea cómo nuestro querido ciervo se metió en lo profundo del bosque. Nos dimos cuenta de que estaba perdido una hora después. Nos pusimos a buscarle y al final lo encontramos metido en unos arbustos. Gritamos su nombre, y no sé si fue por alivio o yo que sé que empezó a correr hacia nosotros. Y entonces escuchamos &lt;b&gt;¡Pum, Pum, Pum!&lt;/b&gt; Cuando ya por fin me di cuenta de lo que pasó, estaban mis zapatos manchados de sangre. Después de eso, ninguno de nosotros volvió a disfrazarse de animal nunca más. Fin. Oye, ¿estás seguro de que esto funcionará?"}
+      ]
+    </desc><desc id="7" openLevel="3">
+      [
+      {&lt;Entrada de Investigación, Apartado #4_435&gt;&#13;&#10;
+      Sus ojos están ausentes, aunque es una calavera. Pero no creo que esté ciego. Siento su "mirada" clavada en mi ser, y siento como si me escuchase. Aunque debo admitir que confesarme con él me sube los ánimos.}
+    ]
+  </desc><desc id="8" openLevel="4">
+    [
+    {Después del incidente, empezamos una investigación en el barrio del empleado para tener más detalles. Nos contaron que un niño llamado Justin fue disparado en un disfraz de ciervo durante la temporada de caza, y murió. A diferencia de la confesión, Justin sufría acoso a diario. Algunos testigos afirman escuchar a niños gritar "¡Justin, corre!" justo antes del disparo. Después de la tragedia, los niños se mudaron de pueblo, y se prohibió la temporada de caza en el lugar.}
+    ]
+  </desc><desc id="9" openLevel="4">
+      [
+      {&lt;Fragmento de Investigación de Abnormalidad, Apartado X-392&gt;&#13;&#10;
+      Siendo honestos, no podemos esperar que todos nuestros empleados sean totalmente francos a lo que le confiesan a la calavera. Perfectamente 1 entre 10 empleados dirá algo que no es del todo cierto. Es ligeramente diferente a una mentira. Podrías decir que es una decisión que el subconsciente hace para sentirse justificados, aunque saben que tienen que decir la verdad. Cuando esto ocurre, la confesión deja de ser una confesión. ¡Y ahora déjate de excusas y ten puntualidad en tu trabajo!}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="confessionIs">$0 restaurará la sanidad del empleado cuando consigue un buen trabajo. #0, que recibió dicha restauración, comentó que fue "refrescante".</specialTip>
+      <specialTip openLevel="2" key="confessionIsGood">Después de conseguir la máxima cantidad de Cajas PE con $0, restauró la sanidad de todos los empleados del departamento.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

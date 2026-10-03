@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100063">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 hace que los que le miren sientan afecto sin darse cuenta.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Compuesta completamente por lodo rosa, $0 esta deslizandose al rededor de su celda de contencion.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Si #0 siente que quieren ignorar algunos de los controles sanitarios y de seguridad, todo resultara en un infierno pegajoso.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Sin que nadie lo sepa, la armada de $0 crece cada día.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-03-109</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/SlimeGirl</portrait>
+      <name openLevel="1">
+        Amor fundido
+      </name>
+      <riskLevel openLevel="3">
+        ALEPH
+      </riskLevel>
+      <openText>...y queridos empleados, espero que todos os pongáis vuestras máscaras antes de entrar.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Esta abnormalidad fue creada con las ideas que Tumblbug Backer mul proporcionó.&lt;/i&gt;&#13;&#10;&#13;&#10;Un lodo derretido con una semblanza a los humanos cuando se inspecciona de cerca. Su celda de contencion esta cubierta de secreciones mucosas.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Hoy, me gustaria hablar del más reciente incidente que todo del que todo el mundo ha oido hablar.&#13;&#10;Exacto, ese terrible incidente cuando una armada de lodo tomo control de nuestras instalaciones por (Redactado) minutos.&#13;&#10;Hubieron unos cuantos contenedores dejados en el laboratorio de (Redactado) cuyos no fueron procesados correctamente durante el experimento relacionado (Redactado).&#13;&#10;Si tu sabes sobre el experimento de (Redactado), ya sabes que esos contenedores son meramente sobras inutilizables que solo demuestran que el experimento ha fallado. Nuestros investigadores sintieron que no había necesidad de desecharlas.&#13;&#10;Era obvio que ese novato del equipo de investigacion no tenía ni idea de que había dentro de los contenedores. La empleada Marie encontro los contenedores de lodo rosa y sintió que eso podía ser una amenaza. Se asumio que ella se excuso minuciosamente y lo guardo en estado (Redactado).&#13;&#10;Si mi suposicion es correcta, el derretido objeto en esos contenedpres fuera la (Redactado) de (Redactado). Me asegure de eso cuando leí el pasaje que se describia con la apariencía de un adolescente.}
+      ]
+
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {No se si fue afortunado para nosotros o no, pero sus memorias, incluyendo aquellas de los experimentos, completamente desaparecidas; apenas podía decir una palabra o dos. Tambien es mentalmente inestable. Tambien se puso extremadamente nervioso cuando Marie no estaba cerca.&#13;&#10;Un hermano. Marie tenía un hermano al que perdio durante su infancia. Todo empezo cuando ella sintió un apego hacía el aspecto infantil del lodo rosa que le seguía al todos lados.&#13;&#10;Marie mostro un nievel unprecedente en su corrupcion mental. En efecto, era extremadamente inusual. Claro, era cierto que la abnormalidad de alguna forma le estaba afectando en una forma positiva, pero al final del dia eran beneficios.&#13;&#10;Sus colegas le notaron comportamientos un tanto extraños; intentaron preguntarle sobre ellos, era la mejor cosa que hacer. Fueron educados sobre la implicacion potencial de la pendiente de niveles de corrupcion mental, y entendieron que una persona desapareciendo cada descanso era una señal peligrosa. Sin embargo, Marie No dijo ni una sola palabra y acabo en la sala de psicologia hasta que decidio sincerarse.&#13;&#10;De mientras, esta criatura pegajosa que lo había olvidado todo instintivamente recordo una cosa: Debe salir de las instalaciones no importa que.&#13;&#10;Esta abnormalidad que una vez se sintio extremadamente nerviosa cuando Marie no llegaba a tiempo. Pensaba que estaba en peligro; fue entonces en ese momento que decidio escapar CON ella.&#13;&#10;Una relacion extraña formada entre esos dos. Se preocupaban el uno por el otro desde el fondo de sus corazones.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Confinada en la sala de psicologia, Marie eventualmente renuncio a su derecho de guardar silencio y comenzó a revelar lo que ella había dicho, como ella se quedo el contenido dentro del contenedor, y como fue capaz de formar una relacion con eso. Sin embargo, no pudo terminar sus palabras. En un abrir y cerrar de ojos se había derretido momentos despues señales de una anomalia se hicieron ver en su piel. Sí, ella se derritio literalmente, derretida completamente. Y ahí no acababa la cosa. El lodo que una vez fue Marie hace unos segundos empezó a moverse. Y no era una tarea facil para una criatura fluida pasar por debajo de la sala de psicología.&#13;&#10;Tenía alguna mota de relacion humana? No. Más bien como un pollito recien nacido que sigue ciegamente a su madre, simplemte se movía directo hacía la abnormalidad.&#13;&#10;Y no solo fue Marie quien se convirtio en ese lodo. Todo empleado que haya hecho contacto con ella en cierto modo empezaron a derretirse también. Aquellos que la cuestionaron, los que compartieron comida con ella, los que trabajaron junto a ella…&#13;&#10;Pronto, toda esta armada de lodo empezo a atacar a otros empleados. Todo por la madre lodo, la abnormalidad que ellos aman. Sí, por amor y solo por amor, ellos mataron.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {...y mis queridos empleados, espero que no se hayan olvidado de las mascaras de gas que distribuimos antes de entrar verdad? Espero que nadie lo tachase de aburrido o sobreproteccion.&#13;&#10;Debo informaros a todos que algunos ya estais infectados por el lodo que os he informado antes. A algunos de vosotros no os hemos dado mascaras de gas, y no penseis que lo hemos hecho porque no nos quedan. Aunque, para ser honestos, era solo para distinguir a los que estan infectados y los que no. Seguramente te sientas bien ahora mismo pero despues de que pase una hora tu carne y huesos se comenzaran a derretirse, y vuestra mente se desintegrara en una negra nada. entonces intentaras causar estragos en las instalaciones. Probablemente, como tu primera accion en esta nueva forma, saltaras hacía los empleados sentados al lado tuyo. Todo ese desastre por el lodo que tanto adoras.&#13;&#10;Sí, lo se. Es increible. Te sientes vivito y coleando ahora mismo, como diantres te irias a derretir ahora mismo? Y aún así lo harás. No es tu culpa por supuesto. Alguien de vosotros hizo contacto con la abnormalidad lodosa, y tu fuiste uno de los desafortunados que casualmente estaba al lado suyo. No tiene sentido determinar el paciente cero ahora. Dudo que tengan alguna idea de como de catastroficos van a ser el resultado de sus acciones. Lo hicieron por affeccion, despues de todo.&#13;&#10;Finalmente, aquellos que no estan infectados y usan mascaras, porfavor prestad extra atencion a vuestra higiene y reportad inmediatamente cuando veais un empleado actuar fuera de lo normal. Si les intentas ayudar simplemente te infectarias tambien. Ahora, en vuestros escritorios, habra una 9mm, todas perfectamente cargadas.&#13;&#10;Lo que deberias hacer esta claro. No abriremos las puertas hasta que os hayais hecho cargo de la situacion… Si pensais que esto es demasiado cruel, dejadme recordaros que esto &lt;i&gt;es&lt;/i&gt; Vuestro trabajo.&#13;&#10;Espero veros otra vez una vez todo haya pasado.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue malo o normal, bajó el contador Qliphoth</specialTip>
+      <specialTip openLevel="1" key="2">$0 le dió un trozo de lodo al primer empleado que haya trabajado con cualquier método excepto represión. El trozo de lodo restauraba la sanidad del empleado y aumentó su efifiencia. Sin embargo, se desconocen los cambios de efecto del lodo según el estado de $0.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando el empleado con el trozo de lodo terminó su trabajo de represión, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="4">El lodo puede infectar a aquellos que se cruzan con el portador original, sufriendo síntomas como lodo en sus mejillas. Los infectados de esta manera pueden infectar a otros empleados de la misma manera. Tras un tiempo, los infectados se transformaron en ████████.</specialTip>
+      <specialTip openLevel="1" key="5">El contador Qliphoth bajó cuando el número de infectados ocupó más del 50% del departamento mientras que el trozo de lodo seguía en el empleado original.</specialTip>
+      <specialTip openLevel="1" key="6">El contador Qliphoth bajó a 0 cuando el usuario del trozo del lodo murió.</specialTip>
+      <specialTip openLevel="1" key="7">La infección se puede controlar haciendo trabajos de intuición. Si el empleado con el trozo de lodo trabaja con intuición y genera 24 cajas-PE o más, la infección se pausará durante 30 segundos. Sin embargo, si no consigue generar 24 o más, todos los infectados se transformarán en ████████.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <codeId>D-03-109-1</codeId>
+  </child>
+</creature>

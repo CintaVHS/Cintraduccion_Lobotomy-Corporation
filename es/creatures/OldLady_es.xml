@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100021">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {Un silencio sofocante acecha la celda de $0.},
+      {La habitación, silenciosa e inmóvil, se ve interrumpida por el horrible crujido de la mecedora.},
+      {La mecedora de $0, que se encuentra sobre un suelo podrido, cruje.},
+      {Las paredes de la celda están quebradas debido a que no soportan escuchar las historias que cuenta $0.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Las historias de $0 llevan consigo una maldición antigua.},
+      {El alma de $0 se desvaneció en la soledad hace mucho tiempo.},
+      {Antes, sus historias fascinaban a las personas, pero ahora están embrujadas.},
+      {Sus historias son venenosas. Se infiltran en todos aquellos que se paran a escucharlas, transportándolos a un mundo insoportable.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 es sorda y casi ciega, pero aún es capaz de notar la presencia de #0.},
+      {$0 no necesita mirar a #0. #0 clavará su vista en $0 en cuanto comience a contar sus relatos.},
+      {Es inútil conversar. $0 solo quiere una audiencia... #0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 ha terminado su trabajo. Se escabuye rápidamente de la celda.},
+      {#0 sale de la celda tras terminar su trabajo con $0. La soledad que su ausencia dejó será reemplazada por las historias de $0.},
+      {Antes de que la historia interminable de $0 pudiera empezar, #0 logró terminar su trabajo con brío, escapando con total seguridad.}
+      ]
+    </narration>
+    <narration action="special_ability_1">
+      [
+      {$0 comienza a conversar con #0.}
+      ]
+    </narration>
+    <narration action="special_ability_2">
+      [
+      {"Oh, querido... ¿Te gustaría escuchar una historia?"}
+      ]
+    </narration>
+    <narration action="special_ability_3">
+      [
+      {"Junto a una pila de madera..."}
+      ]
+    </narration>
+    <narration action="special_ability_4">
+      [
+      {"Allí encontrarás a tu padre..."}
+      ]
+    </narration>
+    <narration action="special_ability_6">
+      [
+      {"Lo decapitaste y te bebiste su sangre...""}
+      ]
+    </narration>
+    <narration action="special_ability_7">
+      [
+      {"Lo mataste un viernes, y lo enterraste un domingo."}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-01-12</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/OldLady</portrait>
+      <name openLevel="1">
+        Abuelita
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <specialName openLevel="2">
+        Historietas mortales
+      </specialName>
+      <openText>Tenía tanto de qué hablar, pero al final su único espectador fue la soledad.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+     [
+     {Una abnormalidad con forma de anciana. Siempre hablará con cualquier persona que entre en su celda.}
+     ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {De lo que habla, sin embargo, cambia con cada visita, pero siempre comienza con "Oh, querido... ¿Te gustaría escuchar una historia?". Esta historia puede ser una nana, un poema, una canción infantil, un cuento popular, o algo aún no registrado.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {Conoce todos los cuentos jamás escritos, y no parará de contarlos hasta que el espectador sale de su celda.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {&lt;Fragmento de Registro de Auditoría&gt;&#13;&#10;
+      "Posiblemente sea la abnormalidad más solitaria de todas. Está llena de soledad, y contar historias es su manera de opacar esa soledad. Ya sabes lo que dicen, toda historia necesita su lector. Cuando alguien entra a su habitación, intentará expulsar esa soledad. Está claro que escucharla es sumamente peligroso. Se conoce todas las historias, tanto las reales como las que no deberían existir. Nuestras mentes no son capaces de comprender tales historias. Te come el cerebro en un instante."}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="Godoku">Cuando un empleado trabajó con otra abnormalidad, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="Attached">Cuando el contador Qliphoth llegó a 0, se formaron nubes negras en la celda de $0, denominadas "Soledad".</specialTip>
+      <specialTip openLevel="1" key="NoAttached">Cuando un empleado entró a trabajar con $0 mientras que la celda estaba repleta de Soledad, toda la Soledad se pegó a la cabeza de #0.</specialTip>
+      <specialTip openLevel="1" key="NoAttached2">#0 sufrió daño BLANCO continuamente hasta que desapareció toda la Soledad. Mientras estaban pegadas a su cabeza, #0 era incapaz de moverse o actuar.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

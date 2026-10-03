@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300105">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-94</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/YouMusHappy</portrait>
+      <name openLevel="1">
+        Debes ser feliz
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        Todos los que fueron operados por la máquina salieron felices y contentos.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una máquina misteriosa, usada para experimentos.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Esta máquina fue diseñada para remover el cráneo y los nervios de forma indolora.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Muchos de los que fueron operados afirmaban sentirse "mejor que nunca".}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Dada la pregunta "¿Te gusta vivir en la Ciudad?", los que respondieron "Sí." se consideraban curados; los que respondieron "No." fueron prohibidos de darse de alta.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Cuanto más tiempo se use la máquina, mejor persona será el usuario. Al mismo tiempo, cuanto más tiempo se use, con más facilidad cambiará la respuesta.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Al usar la máquina, el empleado experimentará un aumento en todas sus estadísticas.</specialTip>
+      <specialTip openLevel="2" key="2">El incremento será mayor cuanto más tiempo pase uno en la máquina.</specialTip>
+      <specialTip openLevel="2" key="3">Si la máquina deja de usarse en "NO", todas las estadísticas bajarán tanto como hubieran subido.</specialTip>
+      <specialTip openLevel="2" key="4">Las estadísticas alteradas volverán a la normalidad al día siguiente. Sin embargo, aquellos que hayan recibido más de 200 puntos en sus estadísticas desaparecerán al siguiente día.</specialTip>
+      <specialTip openLevel="2" key="5">&lt;PRECAUCIÓN&gt; Si la máquina es usada 5 veces o más en un día, los empleados que la usen explotarán.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

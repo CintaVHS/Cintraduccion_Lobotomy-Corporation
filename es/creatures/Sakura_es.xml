@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100059">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {La celda de $0 brilla, como si hubiese una luz incandescente.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Cuando todo acabe, los pétalos caerán como si de gritos se tratase.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Cuando la belleza llega al límite, el ritual del fin dará comienzo.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Todos aquellos que lo miran en este lugar tan sombrío descubren la verdadera tranquilidad.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-04-100</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Sakura</portrait>
+      <name openLevel="1">
+        Cementerio de cerezos
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Cuanta más sangre tenga, más bonito es.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un árbol que reside en el centro de su Celda de Contención. No parece mostrar metabolismo, puesto a que no se le da nutrientes y aún así no marchita.&#13;&#10;Algunos empleados aprovechan para descansar junto al árbol.&#13;&#10;Otros incluso han entrado a la celda solo para descansar.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Pansy: Oye Javier, ¿has visto a la nueva abnormalidad? Creo que eres tú el que se encarga de ella.&#13;&#10;Javier: Sí, la he visto. Solo es un árbol con muchas ramas y capullos. No creo que florezcan estando aquí, encerrados.&#13;&#10;Pansy: ¿Has escrito algún documento?&#13;&#10;Javier: Qué va. Ahora que lo dices, debería ponerme a ello.&#13;&#10;Pansy: Okey, ten cuidado.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Pansy: Ey, ¿cómo te va? Hace tiempo que no te veo.&#13;&#10;Javier: ¡Ey, escucha esto! ¿Te acuerdas de esa abno de la que hablamos la última vez? No parece ser hostil, ¿pero sabes lo mejor? ¡Está floreciendo! Parecía que estábamos en primavera. Increíble.&#13;&#10;Pansy: ¿Seguro que es algo bueno? Cuando hay cambios, hay problemas. Ya sabes cómo son las cosas por aquí.&#13;&#10;Javier: No te rayes, son solo unas cuantas flores. ¡Gracias por preocuparte por mí!}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Pansy: Bonjour, Javier. ¿Cómo te va?&#13;&#10;Javier: Dios santo, no paran de florecer. A este paso van a rellenar la celda entera. Deberías echarle un vistazo. Es hermoso. Nunca me cansaré de verlo.&#13;&#10;Pansy: Me encantaría, tío, pero no puedo. Estoy hasta arriba de trabajo.&#13;&#10;Javier: ¿En serio? Vaya, qué mal... Te juro que es un espectáculo maravilloso.&#13;&#10;Pansy: Hmm… Oye, ¿te encuentras bien? Últimamente has estado cometiendo varios fallos... Te veo muy distraído.&#13;&#10;Javier: No te rayes, no es nada. Debería ir yéndome. Ah, he estado haciendo un boceto del árbol. Tú serás la primera persona que lo vea cuando lo termine.}
+      ]
+  </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;Grabación de Audio de la Sesión de Asesoramiento&gt;&#13;&#10;
+      ...Sí, últimamente me encuentro mejor. Me veo más capaz de trabajar con las abnormalidades. Visitar la celda de $0 me trae felicidad, sí. Y no te creas que yo era de los típicos que decían que la flora era una droga de la felicidad...&#13;&#10;
+      Pero ahora pienso que tiene sentido. Es una pena que no pueda apreciar los cerezos junto a Javier. Sí que alcancé ver su boceto del árbol.&#13;&#10;
+      El boceto no le hace justicia al árbol real. Era maravilloso, más que cualquier otra cosa que haya visto jamás. A Javier le habría encantado ver cómo ha quedado el árbol después de su desaparición. Si alguna abnormalidad os parece sospechosa, por favor, investigadla.&#13;&#10;
+      ...Sí, estoy bien. Lo he superado.&#13;&#10;
+      Todas las flores cayeron cuando lo ví aquel día.&#13;&#10;
+      Pero, segundos después, volvieron a aparecer capullos.&#13;&#10;
+      ¿...Podría vigilar a la abnormalidad a diario a partir de ahora?&#13;&#10;
+      No por nada en específico, no. Solo me gustaría ver a los capullos florecer.&#13;&#10;
+      Sí, gracias.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {&lt;Aviso&gt;&#13;&#10;
+      Hemos recibido quejas de un gran aumento de empleados que desean ver la celda de $0.&#13;&#10;
+      Este evento se debe mayoritariamente por la ausencia de flora en la compañía.&#13;&#10;
+      Sin embargo, no vemos necesario imponer una regla para contrarrestarlo. Estudios afirman que mirar a $0 reduce la contaminación mental de los empleados.&#13;&#10;
+      La razón por qué no es necesaria. Podrá ser que "la flora es una droga para la felicidad".&#13;&#10;
+      Lo único que queda claro es que $0 atrae a los empleados, y no saben lo que se esconde bajo sus raíces.&#13;&#10;
+      ¿Os habéis dado cuenta de que los cerezos son de un color exóticamente carmesí, y de que su belleza es proporcional a su color?&#13;&#10;
+      Cuanta más sangre tiene, más bello es. Aquellos empleados que no saben de su naturaleza se ven atraídos por su color.&#13;&#10;
+      Mantened esto en secreto por el momento. Así funciona la compañía.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue bueno, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando un empleado entró en pánico mientras trabajaba, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando el contador Qliphoth llegó a 0, unos empleados aleatorios fueron atraídos a la celda de $0.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando un empleado atraído entro a la celda, fue arrastrado al árbol.</specialTip>
+      <specialTip openLevel="2" key="5">Al intentar conversar repetidamente con un empleado atraído, volvió a la normalidad. Cuando no quedaban empleados atraídos, el contador Qliphoth subió al máximo.</specialTip>
+      <specialTip openLevel="3" key="6">Tras arrastrar a un empleado, cuando otro empleado trabajó con $0, el contador Qliphoth subió al máximo. Además, la vida y sanidad de todos los empleados fueron restauradas.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

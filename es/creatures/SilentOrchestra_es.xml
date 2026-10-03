@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100019">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {El director de $0 esta esperando la llegada de los musicos.},
+      {El director de $0 normalmente se mantiene callado. La celda tambien esta callada. },
+      {Un director es un mago que que da vida; un chamán que evoca espiritus.},
+      {Desde el destrozo y la ruina, el más hermoso espectaculo comienza.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 ensaña la melodía del apocalipsis. },
+      {Sin duda $0 es la mejor orquesta en la compañia.},
+      {la actuacion sensacional de $0 hipnotizará a todos.}
+      ]
+    </narration>
+    <narration action="mid2"> 
+      [
+      {Los músicos viven por el aplauso de la audiencia al final.},
+      {La vida de un músico empieza y acaba con el aplauso de la audiencia.},
+      {Una ovación de pie es el mejor regalo honorable que la audiencia puede otorgar al director.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0, quien pronto podría convertirse en parte de la audiencia $0, casi ha acabdo el trabajo.},
+      {#0 maneja la tarea con $0 sin problema alguno.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <!--level은 관찰 최대 레벨-->
+    <collection>
+      <codeNo openLevel="0">T-01-31</codeNo>
+      <name openLevel="1">La orquesta silenciosa</name>
+      <portrait openLevel="1">Sprites/Unit/creature/silentOrchestra</portrait>
+      <riskLevel openLevel="2">ALEPH</riskLevel>
+      <openText>Entre ruinas y destrozos, la actuación más bella da comienzo.</openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Una abnormalidad que ama el arte y intenta que toda la compañia escuche su música.&#13;&#10;&#13;&#10;&lt;Fragmento de una enciclopedia&gt;&#13;&#10;
+      El director no solo corrije errores músiclaes, tambien es responable de crear la mejor orquesta y tomar ordenes de la música. La habilidad de un director se puede determinar en tan solo 5 minutos en el podio. El momento que el director abre la partitura, los músicos leen los ojos del director, acciones, y aura para ver si la persona es la elegida para guiarlos. Sin la comprension y la harmonia entre ellos, el significado macroscopico contenido en la partitura no puede ser expresado. por tanto, una influencia excepcional, liderazgo, y elocuencia son cualidades esenciales para un director... (Omitido)}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {&lt;Primer movimiento: Calmado y Lento&gt;
+      El director empieza a dirigir el apocalipsis.}
+      ]
+    </desc>
+    <desc id="3" openLevel="3">
+      [
+      {&lt;Movimientos del Segundo al Cuarto: Alegres y Rapidos&gt;
+      Empleados empiezan a olvidar todo y muestran una adoración ardiente hacía la sinfonia. La emoción pronto se convierte en una locura interna, guiandolos a atacar a cualquiera cerca suyo driving. La orquesta da impetus a la música, llevando a todo el departamento a la perdición. Cuando todos los músicos se han reunido, la música que nadie puede escuchar pero todo el mundo puede oye empieza.}
+      ]
+    </desc>
+    <desc id="4" openLevel="4">
+      [
+      {&lt;Finale&gt;
+      &lt;b&gt;“La música perforara todo tu ser.”&lt;/b&gt;}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="mood1">Cuando el trabajo fue bueno, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="mood2">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="escape">La música de $0 consiste de 4 movimientos. El daño BLANCO recibido aumenta con el movimiento, y el área de la música aumentará.</specialTip>
+      <specialTip openLevel="2" key="movement">La debilidad de $0 cambió para cada movimiento. Para el primero, pálido. Segundo, negro. Tercero, blanco. Cuarto, rojo. Durante el final, $0 era inmune a todos los ataques.</specialTip>
+    </specialTipSize>
+  </observe>
+  <etc>
+    <param key="movement1" index="1">
+      1º movimiento, Adagio e Tranquillo: Calmado y Lento.
+    </param>
+    <param key="movement2" index="2">
+      2º Movimiento, Sostenuto: Velocidad contenida.
+    </param>
+    <param key="movement3" index="3">
+      3º Movimiento, Accelerando e Crescendo: Gradualmente rapido, creciendo.
+    </param>
+    <param key="movement4" index="4">
+      4º Movimiento, Stringendo: Decisivo.
+    </param>
+    <param key="movement5" index="5">
+      Finale con fuoco, ma non troppo: Apasionado como el fuego, pero refinado.
+    </param>
+  </etc>
+</creature>

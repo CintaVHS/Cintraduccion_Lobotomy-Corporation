@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100050">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Nuestra aventura aún no ha terminado. Decidimos seguir el camino de ladrillos amarillos para hacer que nuestros sueños se hagan realidad.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Milagrosamente, el tratamiento hizo que todos se quedaran callados, incluso aquellos que se habían negado a callarse durante cualquier otro tipo de terapia.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 comenzó a cazar cerebros inteligentes en vez de ahuyentar pájaros.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-01-87</codeNo>
+      <name openLevel="1">Espantapájaros casi-sabio</name>
+      <portrait openLevel="1">Sprites/Unit/creature/Scarecrow</portrait>
+      <riskLevel openLevel="2">HE</riskLevel>
+      <openText>La ciudad se mantuvo un lugar maravilloso, donde sus caminos esmeralda brillaban más que nunca.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad que toma la forma de un espantapájaros de paja. La paja está manchada de sangre.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La cabeza está vacía como si alguien la hubiera arrancado a la fuerza. Se muestra agresiva con ciertos empleados, tratando de llevarse sus cerebros. Dichos empleados son aquellos que consiguieron la nota "Excelente" en la prueba de inteligencia.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Cada ciudad debía tener sus propias tecnologías únicas; esa era la clave para revitalizar la ciudad. Había un gran número de las mismas, pero entre ellas, una ciudad consiguió avances en el reemplazo de partes del cuerpo. Era posible reparar o mejorar partes que estaban rotas, tenían un funcionamiento defectuoso o simplemente eran poco atractivas. Todos los ciudadanos tenían derecho a someterse al tratamiento. Sin embargo, empezaron a circular rumores. Cuando una persona rica que buscaba mejorar su vista se se acercaba a un mendigo con pulmones rotos al que le costaba respirar, se transplantaban los ojos del mendigo a la persona adinerada. Después el cadáver del mendigo en algún lugar cerca de las afueras, aún con aquellos pulmones en estado de putrefacción. }
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {El representante de la ciudad trató de tranquilizar a la población, asegurando que los rumores eran disparates. Para poner fin a los rumores, anunció que se seleccionaría a un número de personas enfermas de las afueras y les arreglarían las partes del cuerpo que quisieran. De los pocos afortunados que fueron elegidos, uno volvió varios días después. Tenía una larga cicatriz muy visible en su cabeza. La gente le preguntó acerca de cómo se sentía y respondió que su cabeza se sentía más ligera. Era un hombre lleno de melcancolía que solía llorar mucho por lo que todo el mundo pensó que la cirugía había sido un éxito.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Sin embargo, cuando se le preguntó acerca de dónde estaban aquellos que habían ido con él, se limitó a sonreír sin pronunciar una sola palabra. Después de ello, no parecía tener sentimientos, ni siquiera en el funeral de sus padres. Todo lo que hizo después del tratamiento fue mirar por la ventana y hablar consigo mismo. Eventulmente, se ahorcó usando el pomo de la puerta de su casa. Algunos pensaron que fue el tratamiento lo que causó sus problemas pero a los días había sido completamente olvidado. La ciudad continuó siendo un hermoso lugar en el que los caminos de esmeraldas seguían brillando con el mismo resplandor de siempre. }
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando un empleado con Prudencia 3 o más terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth</specialTip>
+      <specialTip openLevel="2" key="3">Cuando $0 mató a un empleado, succionó su cerebro y recuperó vida.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100106">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 es taaaan esponjoso y suave. Es tan adorable que podría curarte la depresión.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Muchos de nuestros empleados tienen al menos 55 fotos diferentes de $0 desde varios ángulos guardadas en sus móviles.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Si no te gusta $0, con eso basta para degradarte en el acto.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Quiero decir, a veces encontramos unos huesos raros, como de un esqueleto humano, cerca de $0… ¡pero es tan mono! Así que, sinceramente, ¿a quién le importa?}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-02-107 </codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/Ppodae</portrait>
+      <name openLevel="1">
+       Ppodae
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Tío... tu "angelito" está comiéndose el dedo de nuestro amigo.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {<i>Esta Abnormalidad fue creada con ideas aportadas por el mecenas de Tumblbug 이은희 (Lee Eun-hee).</i>&#13;&#10;&#13;&#10;Un perrito ultra esponjoso y adorable con un pelaje blanco como la nieve fresca.&#13;&#10;Esta Abnormalidad es tan adorable que con solo echarle un vistazo te hace sentir mejor.&#13;&#10;Tiene los ojos de un ángel y es lo más puro del mundo.&#13;&#10;(Se han omitido más descripciones por brevedad. El resto del texto básicamente repite lo adorable que es de diferentes formas.)}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Esta pequeña Abnormalidad no podría ser malvada jamás. Lo único que te puede pasar es que te duela el corazón de tanto verla por lo adorable que es. De hecho, los empleados que entran en su celda tienden a perder el control y deben ser retirados a la fuerza por otros.&#13;&#10;
+      + A veces intentan sacarla de su celda, pero otros empleados suelen evitarlo.
+      + Cuando demasiados quieren trabajar con ella, se hace un sorteo para decidir quién tiene el privilegio.
+      + Los empleados muestran síntomas de regresión mental, como hablar con vocecita aguda, pero parece algo temporal.
+      + Muchos la llaman “El Perrito Más Bueno del Mundo, Ppodae”, aunque su nombre oficial es simplemente “Ppodae”. Que no haya confusión.
+      ++++ Todos los empleados que entren deben subir un vídeo o foto de esta Abnormalidad. (Es extremadamente, super, ultra importante. Que nadie se lo salte.)}
+    ]
+  </desc>
+    <desc id="3" openLevel="1">
+      [
+      {En una empresa de este tamaño siempre circulan algunos rumores…&#13;&#10;“Dicen que puedes oír cómo se rompen huesos si caminas por los pasillos por la noche…”&#13;&#10;“Si sigues el sonido, te encuentras con un Yeti devorando a un empleado…”&#13;&#10;“Pero… no tenemos ninguna Abnormalidad que se parezca a un Yeti…”}
+    ]
+  </desc>
+    <desc id="4" openLevel="2">
+      [
+      {<Extracto de una grabación de audio>&#13;&#10;
+      John: Deberías sentirte afortunado, tío. Te ha tocado trabajar con el Perrito Más Bueno del Mundo, Ppodae.
+      Jacob: Eh… Me está golpeando con las patitas. ¿Eso cuenta como un ataque?
+      John: Solo quiere que le des de comer. ¿No sabes que está de moda llevar comida para perros encima?
+      Jacob: Pues… no me gustan mucho los animales… (John murmura, molesto.)
+      Por cierto, este perrito está bastante musculoso. ¿Los perros son así normalmente? ¿Juega mucho a atrapar cosas?
+      John: Antes jugábamos a lanzarle la pelota solo para verle correr. Aunque… por alguna razón dejamos de hacerlo…
+      Jacob: Oye, ¿viste su cara cuando le di de comer? Era super espeluznante, te lo juro…
+      John: Solo te lo estás imaginando, colega. Siempre ha sido nuestro angelito. ¿Siiiii? ¿Quién es el niño más lindo?
+      Jacob: ¿Tiene este bicho algún poder para manipular mentalmente a la gente?
+      John: No sé de qué hablas, Jacob. ¿Quién es el widdle cutiepie? ¿Sí? ¿Sí?}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {      John: ¿Esperaste por mí, Ppodae bonito?
+      Jacob: Eh, está comiendo algo. ¿No éramos los primeros en entrar hoy?
+      John: Mi pequeñín tenía hambre, pobrecito. Mira qué mono mastica eso~
+      Jacob: ¡¿Pero qué demonios está masticando…?! ¡Mierda, lo sabía! ¡Ese es… ese es el dedo de James! ¡Desapareció en el último turno! ¡Mira la uña! ¡Tenía un corazón pintado! ¡Te lo dije, tío! ¡Este bicho no es de fiar!
+      John: No… no puedo creerlo… quién…
+      Jacob: ¡Esta Abnormalidad es la asesina! ¡Te lo advertí mil veces! Aquí nada adorable es inofensivo. Por fin lo entiendes—
+      John: ¡¿¡QUIÉN NO LE DIÓ DE COMER A TIEMPO!?!?
+      Jacob: ………
+      John: ¡El pobrecito pasó hambre toda la noche! Es… es desgarrador…
+      Jacob: Bueno eh… creo que deberíamos suprimirlo, ¿no?
+      John: ¿Cómo puedes sugerir algo tan cruel para un perrito tan lindo como este? Solo mírale a los ojos… ¿cómo va a hacer algo malo? ¿Siiiii?
+      (La Abnormalidad no reacciona. Solo se oye cómo roe un hueso.)
+      Jacob: Tío… tu “angelito” se está comiendo el dedo de nuestro compañero.
+      John: ¿Eres nuevo o qué? ¿No sabes que aquí todo lo adorable se perdona?
+      Jacob: Nunca he oído eso, y no creo que sea verdad. Tenemos que sedarlo. Y si tú no lo haces, lo haré yo.&#13;&#10;
+      (Se escucha el disparo de un tranquilizante.)&#13;&#10;
+      John: ¡¡¡NOOOOOOO!!!
+      (La Abnormalidad comienza a gimotear.)
+      (La grabación se corta entre gritos.)&#13;&#10;&#13;&#10;...Con base en esta grabación, solicito la degradación inmediata de Jacob por dispararle algo así a Ppodae.&#13;&#10;Un abusador de animales como él no debería trabajar aquí.&#13;&#10;Nuestro Perrito Más Bueno del Mundo ha quedado traumatizado. ¡Traumatizado! Ahora solo quiere comer 5 kg de su snack favorito.&#13;&#10;Para ayudarlo a superar el trauma, sugiero encargarle un nuevo snack:&#13;&#10;“Salmón premium rico en vitamina B”.&#13;&#10;Quedo a la espera de su respuesta.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {Respuesta:&#13;&#10;
+      Tus solicitudes han sido aceptadas.
+      
+      P.D.: En tu próximo mensaje, por favor, adjunta 5 fotos diferentes del Perrito Más Bueno del Mundo, Ppodae.&#13;&#10;
+      Gracias de antemano.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">$0 adora el trabajo de instinto. Cualquier trabajo que no sea instinto bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">$0 volvió voluntariamente a su celda tras atacar a un empleado y llevarse su ████.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100014">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 enuncia que vino a estas instalaciones por si propia voluntad.},
+      {$0 libra a los angustiados de sus agonías, otorga libertad a aquellos quienes están encerrados dentro de ellos mismos, y cuida a los que están rotos.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 una vez visitó una villa que estaba sufriendo por una enfermedad desconocida.},
+      {Fue en el alba cuando este misterioso doctor, quien se mantuvo a sí mismo sin nombre, apareció.},
+      {Cuando todos habían abandonado la esperanza, el hombre enmascarado quien se llamó a sí mismo un doctor llegó.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 está perfectamente cómodo con ir a la Unidad de Contención de $0.},
+      {#0 se alivia cuando visita la Unidad de Contención de $0},
+      {#0 desearía que todas las Abnormalidades fuesen tan serenas y calmadas como $0.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 tiene una gentil, silenciosa voz, y le gusta tratar a aquellos quienes están heridos},
+      {$0 desea simplemente meditar en soledad o cuidar a los demás.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 habla: “Estoy aquí para curar la enfermedad. Cuando el día se acerque, búscame. Estaré más que dispuesto a ayudarte.”},
+      {$0 enuncia: “No hay nada detrás de mi máscara; la carne está sujeta al paso del tiempo, mas el alma es eterna.”},
+      {$0 declara: “Salvaré tu vida de la destrucción y te levantaré desde el fin del mundo. Pon tu confianza en mí.”}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-01-45</codeNo>
+      <name openLevel="1">Doctor de la peste</name>
+      <portrait openLevel="1">Sprites/Unit/creature/PlagueDoctor</portrait>
+      <riskLevel openLevel="3">ZAYIN</riskLevel>
+      <openText>“Te curaré, librándote de toda enfermedad y dolencia que poseas.”</openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Viste un fedora negro y una máscara en forma de pico. Tiene grandes alas negras en vez de brazos o piernas. Tiene la capacidad de comunicarse con los humanos, aunque prefiere hablar poco. Vino a estas instalación por sí mismo, enunciando que el mundo ha contraido una espantosa enfermedad que sólo él puede curar. No hemos podido encontrar nada de esa “enfermedad” a la que se refiere.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Parece que le gusta cuidar a los empleados cuando están heridos o enfermos. Enseña satisfacción al ayudar, y parece bastante simpático y benevolente. Incluso después de una semana de observación, no hemos encontrado signos de agresión, violencia o intentos de escapar. Solamente contribuciones a la asunción de que esta Abnormalidad es eminentemente “gentil” (12 de nuestros empleado emplearon esta palabra para describir a esta criatura) y buena para nosotros.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {El empleado Alex, quien tenía una seria cicatriz en su frente tras haber suprimido a una Abnormalidad, caminó a la sala de esta Abnormalidad con el tratamiento de su cicatriz aún incompleta. La Abnormalidad, que normalmente no es elocuente, comenzó a hablar tan pronto como vio la cicatriz.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Grabación_1 de la Observación&gt;&#13;&#10;
+      La Abnormalidad preguntó:
+      “¿Por qué no has tratado esa herida?”&#13;&#10;
+      Alex respondió:
+      “No tenía tiempo, así que usé un poco de primeros auxilios.”&#13;&#10;
+      Entonces el Doctor de la Plaga respondió:
+      “Te curaré, librándote de toda enfermedad y dolencia que posees.”
+      Alex salió de la sala con su cicatriz completamente curada.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="3" key="2">Cuando el trabajo fue bueno, bajó el contador Qliphoth. $0 bendeció a aquel que trabajó con él.</specialTip>
+      <specialTip openLevel="3" key="3">Cuando se activó la segunda trompeta, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="3" key="4">Cuando el contador llegó a 0, $0 llamó a un empleado al azar y fueron bendecidos.</specialTip>
+      <specialTip openLevel="3" key="5">Aquellos bendecidos renacerán bendecidos.</specialTip>
+    </specialTipSize>
+  </observe>
+  <etc>
+    <param key="first" index="1">
+      "Y yo también te digo, que tú eres #1, y sobre esta roca edificaré mi iglesia; y las puertas del Hades no prevalecerán contra ella."
+    </param>
+    <param key="second" index="2">
+      "Dinos, ¿cuándo serán estas cosas, y qué señal habrá de tu venida, y del fin del siglo?"
+    </param>
+    <param key="third" index="3">
+      "Señor, ¿quieres que mandemos que descienda fuego del cielo, y los consuma?"
+    </param>
+    <param key="fourth" index="4">
+      "A #3 y #4, a quienes apellidó Boanerges, esto es, Hijos del trueno." 
+    </param>
+    <param key="fifth" index="5">
+      "#5 le dijo: Señor, muéstranos el Padre, y nos basta."
+    </param>
+    <param key="sixth" index="6">
+      "Pasando el Señor de allí, vio a un hombre, #6, que estaba sentado al banco de los tributos públicos, y le dijo: Sígueme. Y se levantó y le siguió."
+    </param>
+    <param key="seventh" index="7">
+      "Pero había un hombre llamado #7, que antes ejercía la magia en aquella ciudad, y había engañado a la gente, haciéndose pasar por algún grande."
+    </param>
+    <param key="eighth" index="8">
+      "Dijo entonces #8, a sus condiscípulos: Vamos también nosotros, para que muramos con él."
+    </param>
+    <param key="ninth" index="9">
+      "Respondió #9 y le dijo: Rabí, tú eres el Hijo de Dios; tú eres el Rey de Israel."
+    </param>
+    <param key="tenth" index="10">
+      "Le dijo #10: Señor, ¿cómo es que te manifestarás a nosotros, y no al mundo?" 
+    </param>
+    <param key="eleventh" index="11">
+      "De aquí en adelante nadie me cause molestias; porque yo traigo en mi cuerpo las marcas del Señor."
+    </param>
+    <param key="twelveth" index="12">
+      "¿No os he escogido yo a vosotros los doce, y uno de vosotros es diablo?"
+    </param>
+  </etc>
+</creature>

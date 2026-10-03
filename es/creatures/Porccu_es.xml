@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100057">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Cuando el juego de confianza con $0 llegue a su máximo, acariciará suavemente tu cabeza con las espinas de su cola.},
+      {Dicen que el placer que proporciona excede lo que un humano puede soportar, pero no hay nadie que pueda explicar cómo se siente realmente.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 tiene un collar que recuerda a un grillete alrededor del cuello. Nadie sabe quién lo ató.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Algunos empleados que estaban adictos al placer de $0’s intentaron arrancar sus cuernos, pero fallaron.}
+      ]
+    </narration>
+  </info>
+  <observe level="5">
+    <collection>
+      <codeNo openLevel="0">O-02-98</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Porccu</portrait>
+      <name openLevel="1">
+        Pórcubus
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>Es la hora de estallar. Hasta luego.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;Es hora de que la cabeza estalle&gt;&#13;&#10;&#13;&#10;Para ser sincero, la vida en este sitio no es muy buena. La empresa dice que ofrece pasatiempos saludables, pero no mucha gente participa en esa idea. Cada uno busca su propia salida: la violencia, apostar, la gula... Pensé que tenía fuerza en el autocontrol y la disciplina en comparación a otros. Sí que me ayudó a vivir una vida más tranquila. Quizás esa es la razón por la que fui asignado a la Unidad de Contención de Pórccubus.&#13;&#10;&#13;&#10;Sí, Pórccubus. Where the lowest of the low employees visit.&#13;&#10;&#13;&#10;He escuchado un poco sobre lo que hacen otros empleados en esa Unidad de Contención. Lo llaman el "juego de confianza".&#13;&#10;&#13;&#10;Un juego de confianza, que forma más elegante de llamarlo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {(Omitido)&#13;&#10;&#13;&#10;Según otros empleados, no sería demasiado difícil llegar a tener intimidad con él. Y cuando me lleve bien con él, podría adquirir todo ello con facilidad.&#13;&#10;&#13;&#10;Dicen que cuando llegue el momento, Pórccubus se inclinará para que pueda alcanzar fácilmente las espinas. No tardé mucho en llegar al punto donde pude acariciarlo.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {(Omitido)&#13;&#10;&#13;&#10;Cuando toqué sus espinas por primera vez, se sintió bastante afilado. Sentí como si una aguja gigante penetrara mi piel. Aunque no hubo sangrado y el dolor desapareció después de un momento. Entonces ahí estaba, la felicidad más intensa que podrías experimentar nunca.&#13;&#10;&#13;&#10;Haría que tus rodillan temblaran. Cuando recuperé mi consciencia, estaba babeando.&#13;&#10;&#13;&#10;Me asustó, así que no volví por un tiempo. Entonces, la situación empeora. Tendrás síntomas de abstinencia, como arcadas o sudoración. Diferentes empleados muestran diferentes síntomas. Un empleado incluso se arrancó todos los dientes porque sentía que tenía insectos arrastrándose por todo su cuerpo.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {¿Cómo se sintió? Nisiquiera puedo encontrar palabras para describirlo. ¿Recuerdas la mayor felicidad que has sentido en toda tu vida? Esta sensación sería mil veces mejor.&#13;&#10;&#13;&#10;¿Dices que soy el último empleado a cargo de Pórccubus? Es entendible, ya que el cerebro anhela una estimulación más intensa. Al principio, lo único que tuve que hacer fue pincharme levemente con una de las espinas. Ahora tengo que frotar todo mi cuerpo contra él para conseguir el mismo efecto.&#13;&#10;&#13;&#10;Siento que toda la sangre en mi cuerpo subirá a mi cabeza, finalmente estallándola. De todos modos, ya me he imaginado mi cabeza estallando miles de veces.}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {Me tengo que ir, es casi hora de trabajar. En realidad, estoy lleno de sudor ahora mismo, ¿Te has dado cuenta?&#13;&#10;&#13;&#10;Ah, y Pórcubbus no muestra ningún tipo de agresión, a diferencia de tu especulación. No nos ha comido o arrancado nuestras cabezas o algo así. Todos los cuerpos estaban sonriendo... ¿Felizmente? Eso es todo. Solo hace que la gente sonría "hasta la muerte".&#13;&#10;&#13;&#10;No es culpa de nadie. Pasamos por un infierno todos los días. Solo estamos teniendo una pequeña probadita del cielo.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {¿Sabes qué? Lo siento por ti. Nunca has sentido estas sensaciones y nunca las sentirás. pero tienes que entrevistar a un empleado al límite como yo mientras pretendes ser decente.&#13;&#10;&#13;&#10;Ahora es hora de que mi cabeza estalle. Buen día.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue bueno, subió el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando un empleado con Temperamento 3 o menos otbuvo un buen trabajo, murió.</specialTip>
+      <specialTip openLevel="1" key="4">Los empleados con Temperamento 3 o menos recibirán cantidades masivas de daño BLANCO al ser atacados.</specialTip>
+      <specialTip openLevel="1" key="5">$0 no fue afectado por ningún ataque fuera de su alcance.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

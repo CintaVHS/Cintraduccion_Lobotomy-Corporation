@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100006">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Puede parecer una picadora de carne normal, pero porfavor tenga cuidado. Quizas no todas las abnormalidades tengan una razon para existir, pero todas tienen derecho a persistir.},
+      {La fuerza de succion es extremadamente poderosa.},
+      {La música que emite se dice que es terriblemente hermosa.},
+      {La sangre de uno debe hacer unas maravillosas cuerdas, la carne de uno debe hacer grandes harmonias.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 no se pondra en funcionamiento si no hay nadie cerca.},
+      {Antes de que #0 entrara, no hubo ni un solo movimiento de $0. },
+      {Previamente a que #0 entrara en la celda, $0 no era más que una maquina apagada.},
+      {Si $0 tuviese un boton de apagado, #0 quizas estuviese más tranquilo.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 trabaja con $0 tan cuidadoso como puede as.},
+      {#0 siempre debe de ser cuidadoso trabajando con, porque $0 podría activarse en cualquier momento.},
+      {$0 no da ninguna forma de respuesta o reaccion hacía #0, como si estuviese digiriendo trocitos de carne internamente. }
+      {#0 intenta hacer el trabajo rapido con $0 mientras este inmovil.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Es bastante simple darse cuenta cuando $0 se activa; solo abre su tapa y observa cuanta carne ha digerido.},
+      {#0 no tiene el coraje de abrir la tapa de $0 para ver sus entrañas mecanicas y ver cuando se activara.},
+      {El rumor que tiene cualquier empleado que ha abierto la tapa de $0 ha pedido la baja por enfermedad.},
+      {Ciertamente, los interiores de $0 son sofisticados, pero ningun empleado se atreve a verlo con sus propios ojos.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Hoy es el dia de suerte de #0, $0 no se ha activado.},
+      {#0 esta relativamente agradecido de que $0 esta inactiva, sin embargo, da las mejores condolencias a cualquier empleado que tenga que trabajar con esta más tarde.},
+      {$0 ha decidido tomarse el dia libre.},
+      {$0 no responde todavía esta acabando sus sobras.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {La unidad de contencion se llena con la harmonia imprecedente que gotea de $0.},
+      {Para dar a luz a la mejor obra maestra, sacrificios deben de ser hechos $0 es el perfecto ejemplo de esta frase.},
+      {Todo lo que queda de #0 son trocitos de carne y hueso, y su unica composicion que nunca será escuchada otra vez.}
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {#0 ha sido poseido por el timbre de $0. No van a responder a ninguna orden.},
+      {#0 ha caido por el encanto de $0 y su transmundana cancion. su mente esta completamente paralizada.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-05-30</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/SingingMachine</portrait>
+      <name openLevel="1">
+        Máquina cantarina
+      </name>
+      <riskLevel openLevel="2">
+        HE
+      </riskLevel>
+      <openText>"Pero nada se compara a la música que hace cuando se come a un humano."</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Toma la forma de una maquina cubica.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {A primera vista, solo parece una simple picadora industrial. Sin embargo la existencia de esta teniendo una "voluntad" coincide con los criterios para clasificarla una abnormalidad.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Cuando un empleado se acerca o la toca, empezara a sufrir deliirios y querra tirarse a si mismo al cuerpo mecanico de la abnormalidad. Después, el ventilador de la maquina se apagara rapidamente, y el sonido de la abnormalidad operando podrá ser escuchado desde dentro, esto tomara 5 minutos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Después de unos experimentos, hemos concluido que la abnormalidad desea ganar "Música" de esta interaccion.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;i&gt;No hay ningun estudio detallado sobre la "música" de esta abnormalidad, sin embargo, hay una hipotesis que dice que tiene una caracteristica especial que atrae a los humanos en correlacion a su comportamiento especifico o recuerdos de comfort si un psicologico si uno de nuestros empleados se ha determinado adicto a su música  If one of our employees has been determined to be addicted to the music, they will need to be treated quickly to prevent any collateral damage.&lt;/i&gt;}
+    ]
+  </desc>
+    <desc id="6" openLevel="1">
+      [
+      {&lt;Extracto de un registro de Psicologia&gt;&#13;&#10;
+      Solo quise escribir el reporte de observacion y largarme, pero él estaba actuando muy raro.}
+      ]
+    </desc>
+    <desc id="7" openLevel="2">
+      [
+      {      Le avise muchas veces de que no se acercase, pero &lt;Redactado&gt; Di un paso cerca. El me dijo que escucharia una fantasia, y entoces abrio la tapa y salto dentro. la tapa se cerró con un fuerte ruido que vino interior de la abnormalidad. no había forma de saber que estaba pasando, pero estaba demasiado aterrorizado. (Omitidod)}
+      ]
+    </desc>
+    <desc id="8" openLevel="3">
+      [
+      {      En la oscuridad, me di cuenta que esa cosa estaba tocando un instrumento. Aplastando y cortando el cuerpo de &lt;Redactado&gt;, estaba creando un ritmo. Mientras contemplaba mi horrible realización, la tapa se abrió de nuevo. Cachitos y trozitos de &lt;Redacted&gt; estaban ahí. Tan pequeños que podrias dudar que le pasó al resto. (Omitido)}
+      ]
+    </desc>
+    <desc id="9" openLevel="4">
+      [
+      {&lt;CUIDADO, DEBE LEER: Sintomas de la adiccion a la musica de  ‘Maquina Cantarina’&gt;&#13;&#10;
+      &lt;i&gt;1. Intentos de llevar a otros empleados a la celda de ‘Maquina Cantarina’ por fuerza bruta.
+      2. Pupilas dilatadas.
+      3. Concentracion gravemente disminuida y habilidades cognitivas.
+      4. Rehuso a escuchar cualquier otra forma de música.&lt;/i&gt;&#13;&#10;&#13;&#10;Porfavor anoté cualquier sintoma adicional que haya encontrado en un empleado que parezca adicto. }
+      ]
+    </desc>
+    <desc id="10" openLevel="4">
+      [
+      {&lt;Extracto de un incidenteExcerpt from Incident Logs&gt;&#13;&#10;
+      Fecha: XX/XX/XXXX
+      El empleado M1840 desapareció en la compañia. dos dias despues, en el XX, parte del cuerpo fue descubierto dentro de la ‘Maquina Cantarina’. El analisis de genoma reveló que el cuerpo pertenecia al empleado desaparecido. EL empleado era uno recien contratado que solo había trabajado para la compañia 3 meses, y no tenía ni un solo registro de haber trabajado con la abnormalidad. El culpable fue descubierto y resulto ser el empleado &lt;Redactado&gt;, quien estaba a cargo de la ‘Maquina Cantarina’. &lt;Redactado&gt; Confeso despues de una investigacion extensa.&#13;&#10;
+      “Se que es una locura, pero tengo que escuchar esa cancion de nuevo. Se quedo atascada en mi cabeza por meses. He llevado a cabo todo tipo de experimentos. Cuando la maquina se tragaba un gato, la reproduce por un minuto, un perro grande, dos minutos y treinta segundos. Pero nada se comparaba a la música que reproduce cuando se traga un humano. ...Quizas suene ridiculo, pero me siento satisfecho, habiendola escuchado una vez más.”}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Un empleado con Fuerza 4 o más se lanzó al interior de $0 tras terminar su trabajo.</specialTip>
+      <specialTip openLevel="2" key="2">Un empleado con Temperamento 2 o menos se lanzó al interior de $0 tras terminar su trabajo.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="3" key="4">Cuando el contador llegó a 0, el siguiente empleado en trabajar con $0 se lanzó a su interior y la activó.</specialTip>
+      <specialTip openLevel="3" key="5">Cuando $0 estaba operativa, un empleado cercano escuchó una melodía proveniente de algún lugar, denomidado "Adicto".</specialTip>
+      <specialTip openLevel="4" key="6">#1 perdió la conciencia tras ser atacado por #0. #0 arrastró a #1 a la celda $0, y lo lanzó a su interior para crear música.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

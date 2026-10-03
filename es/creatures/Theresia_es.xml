@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300003">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-09</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Theresia</portrait>
+      <name openLevel="1">
+        Theresia
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>
+        "¿Te acuerdas de esta melodía? El profesor solía ponernos esta canción para que nos durmiéramos. Feliz cumpleaños."
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una caja de música con una escultura de una bailarina.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Cuando se le da cuerda, comienza a sonar una melodía triste. Nadie sabe quién la compuso, o de dónde proviene, pero no parece ser reciente, dada la calidad.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Hay algunas frases marcadas en su superficie: “¿Te acuerdas de esta melodía? El profesor solía ponernos esta canción para que nos durmiéramos. Feliz cumpleaños.”}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Escuchar esta música hará sentir un cálido bienestar, eliminando la fatiga y el cansancio. Sin embargo, escucharla por largos periodos de tiempo hará perder el juicio a cualquiera que la escuche.}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">Aquellos que escuchen a $0 recuperarán su sanidad, incluídos aquellos que se encuentren en el departamento de $0.</specialTip>
+      <specialTip openLevel="2" key="2">Al pasar 20~30 segundos, la sanidad del que esté dando cuerda a $0 empezará a bajar descontroladamente.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

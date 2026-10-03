@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300109">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-07-103</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Yang</portrait>
+      <name openLevel="1">
+        Yang
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Pero el mundo es mucho más que claridad y calidez.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {La mitad de un par que se buscan entre ellos.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Reduce el daño mental que el portador debe presenciar. Debido a esto, se le denomina "Pendiente de un ángel."}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Aquellos que se acercaron requerían de su energía, diciendo que les "limpiaba y daba calor". Sin embargo, temían al pendiente negro. "Ojalá todas las abnormalidades fueran igual de buenas que ésta" decían. Aunque el pendiente no lo entendía. Nunca quiso ayudar a los demas, era simplemente su función.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Pero el mundo es mucho más que claridad y calidez.&#13;&#10;Si existe el cielo, existirá el infierno; si existe la oscuridad, existirá la luz; si existe la vida, existirá la muerte; si existe la esperanza, existirá la desesperación.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {La carpa oscura nada hacia la felicidad. La carpa blanca nada hacia el apocalipsis.&#13;&#10;¿Qué ocurrirá cuando se crucen sus caminos?}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">El portador de $0 recibe una resistencia hacia el daño BLANO. Sin embargo, si O-05-102 no está presente, no se manifestaron beneficios.</specialTip>
+      <specialTip openLevel="2" key="2">$0 restauró periódicamente la sanidad de su portador.</specialTip>
+      <specialTip openLevel="2" key="3">&lt;PRECAUCIÓN&gt; Asegúrate de no ordenar al portador a trabajar con 0-05-102.</specialTip>
+      <specialTip openLevel="2" key="4">&lt;PRECAUCIÓN&gt; Cuando O-05-102 se escapó, $0 escapó también de forma inmediata.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100047">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 sueña con correr afuera de las instalaciones con total libertad.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Como todo el mundo quería, $0 puede vivir aquí para siempre.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-02-71</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Shark</portrait>
+      <name openLevel="1">
+        Corriente de ensueño
+      </name>
+      <riskLevel openLevel="2">
+        WAW
+      </riskLevel>
+      <openText>Dile al niño que los caramelos de hoy son sabor a uvas. Son sus preferidos.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {“Solo... Solo sigue enseñándole el libro. Oh, y tiene que ser una página con fotos, ya que probablemente no puede leer.&#13;&#10;Cuando el experimento parezca prolongarse, trata de llamar su atención, como imitando sonidos.&#13;&#10;No tengo que explicar cada detalle, ¿Verdad?}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Sí, Lo sé. Es desafortunado. penoso y triste. Sí que siento emociones humanas, muchas gracias.&#13;&#10;Sin embargo, él sobrevivió gracias a este lugar. Espero que continúe viviendo, en cualquier forma o manera. Si estas pensando lo mismo, sería mejor si dejaras de sentirte culpable ahora mismo.&#13;&#10;....&#13;&#10;Dile al niño que los caramelos de hoy son sabor a uvas. Son sus preferidos.”}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Extraído de una enciclopedia&gt;&#13;&#10;
+      Al contrario de la creencia popular, la mayoría de tiburones son pequeños en tamaño. Solo hay unas pocas especies que causan daño a los humanos. Después de que todo está dicho y hecho, el mayor atractivo de los tiburones son sus fuertes mandíbulas y dientes. La mandíbula de un tiburón puede aplicar una cantidad intensa de fuerza, alrededor de 20 veces la de un humano adulto. Además, su visión y sentido del olfato están extremadamente bien desarrollados, permitiéndoles localizar a sus víctimas fácilmente. Por esto los tiburones pudieron reinar como el mayor depredador del océano hasta hoy. }
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Los padres abandonaron al niño hace mucho tiempo.&#13;&#10;Dijeron que la infección mataría al niño antes de que 2 años pasaran. Los investigadores fueron los nuevos padres del niño.Aprendió a arrullar y a caminar. Aunque no podía hablar adecuadamente, al niño le gustaba el océano. en vez de visitar el océano, al niño le dieron caramelos que le dejaron ver el océano.&#13;&#10;Pasaron muchas noches y días coloridos.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {El niño,el cual que se creía que moriría en 2 años, consiguió vivir un largo tiempo. Como siempre, le gustaban los caramelos dulces, los siguió, y amó el sitio como su casa. Aunque la única cosa que el niño podía hacer era correr dentro de un laboratorio estrecho en vez de en un campo de césped bajo el sol, sus pason eran temblorosos pero llenos de entusiasmo. Emocionado por qué tipo de caramelos comería mañana.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando #0 entró en pánico, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando un empleado con Temperamento 1 terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Los charcos de líquido que surgieron en toda la fábrica tras escaparse $0 inmobilizaron a los empleados e inflijeron una gran cantidad de daño ROJO con el tiempo. Sin embargo, la sanidad de los empleados fue curada con el tiempo.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

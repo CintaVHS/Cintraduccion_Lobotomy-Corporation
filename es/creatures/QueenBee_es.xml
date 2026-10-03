@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100026">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Para las abejas, una colmena dañada es algo intolerable.},
+      {Dicen que los zánganos de una colmena pasan toda su vida alimentando a la reina.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {La máxima prioridad para las abejas es la seguridad de la colmena.},
+     {Si alguien le hiciera daño a $0, incluso por accidente, podría ocurrir algo que jamás se podría arreglar.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Si a #0 le diera dolor abdominal y una sensación de hormigueo en el cuello, lo único que podría hacer sería mirar al gran cielo azul por última vez.},
+      {#0 hace un esfuerzo consciente por respirar lo menos posible el aire de la Unidad de Contención.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 desea cada vez más y más y más y más zánganos; ellos traerán prosperidad a su reino.},
+      {$0 se completará gracias al trabajo de sus zánganos... Así comenzará su reino.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <!--level은 관찰 최대 레벨-->
+    <collection>
+      <codeNo openLevel="0">T-04-50</codeNo>
+      <name openLevel="1">Reina abeja</name>
+      <portrait openLevel="1">Sprites/Unit/creature/QueenBee</portrait>
+      <riskLevel openLevel="1">WAW</riskLevel>
+      <openText>Si te duele la barriga y te pica el cuello, lo mejor que puedes hacer es mirar al cielo una última vez.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Su forma parece ser una mezcla entre una colmena gigantesca y una abeja. Un corte transversal del interior muestra una superficie rojiza oscura con partículas por por todas partes, muy parecida a carne cruda. El segmento que parece su cara está muy deformado. Tiene alas, pero ya no sirven para volar. El único ojo que queda relativamente intacto muestra movimiento pupilar, como si vigilara la llegada de intrusos. (La Anomalía permanece siempre inmóvil, así que se asume que no se mueve.)}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Cuando se cumplen ciertas condiciones, suelta esporas. Generará billones de esporas en un radio de 20 metros. La existencia de seres vivos cerca de ella parece ser uno de los requisitos clave.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {Cuando lo hizo, no hubo ningún cambio inmediato en los empleados que inhalaron las esporas, y en los exámenes posteriores no se detectaron señales anómalas.}
+      ] 
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Pasado otro tiempo, el empleado sufrió un dolor intenso en el lóbulo occipital y en el abdomen. Después, tras un rato, su cabeza se separó de su cuerpo, y de ese cuerpo separado salió una Abeja Obrera.}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {Se ha confirmado que las esporas llevan huevos de zángano que eclosionan dentro de un huésped vivo. Según los resultados de una autopsia realizada a un empleado muerto por la Anomalía, creemos que la larva se alimenta de cualquier parte del cuerpo, ya sea sangre, órganos o grasa. En esta etapa, se mueve libremente por el cuerpo. Cuando crece demasiado para moverse, crea un capullo cerca de los intestinos. En esta fase, el huésped siente un hambre extrema y come mucho más de lo normal. El capullo se desplaza hacia arriba a medida que crece, dañando finalmente las arterias de la garganta y el cricotiroideo con sus mandíbulas al separar la cabeza del huésped del cuerpo. Después, la larva emerge del cuerpo, agravando aún más la herida del huésped.}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {&lt;Extracto del Registro de Asesoramiento&gt;&#13;&#10;
+      &lt;Redactado&gt; llevaba un tiempo contándome que le picaba el cuello. También se quejaba de malas digestiones; una vez lo vi tomarse un montón de digestivos. ¿Quién iba a pensar que acabaría siendo algo tan grave? Nunca imaginé que yo sería el que presenciara ese momento tan horrible.&#13;&#10;
+      (Omitido)&#13;&#10;
+      &lt;Redactado&gt; y yo estábamos charlando tranquilamente cuando, de repente, dejó de hablar. Seguía rascándose el cuello, que se estaba poniendo cada vez más rojo, y empecé a preocuparme. Entonces, su cuello empezó a girarse en un ángulo raro. Ahí mismo me di cuenta de lo grave que era la situación. Era imposible que estuviera moviendo el cuello así por su cuenta. Era como si alguien le estuviera torciendo el cuello a la fuerza...}
+      ]
+  </desc>
+    <desc id="7" openLevel="3">
+      [
+      {      Y entonces, escuché un zip, como el sonido que hace el papel al romperse, un sonido de algo desgarrándose. Su cabeza se cayó al suelo. Escuché un golpe seco.}
+      ]
+    </desc>
+    <desc id="8" openLevel="4">
+      [
+      {      Entonces, como si eso no hubiera sido suficiente, algo empezó a salir de su cuello. Era como una mariposa saliendo de un capullo, desgarrando su cuerpo sin cabeza; las alas, el torso amarillo, los dientes que mordían su cuerpo... es algo que nunca quiero volver a ver, un ser al que odiaría llamar vivo...}
+      ]
+    </desc>
+    <desc id="9" openLevel="4">
+      [
+      {      (Omitido) De alguna forma parecía darse cuenta de que yo estaba ahí. Pero daba la impresión de que no tenía razón para atacar en ese momento. Cogió su cráneo y salió volando, como un zángano cargando miel.}
+      ]
+    </desc>
+    <desc id="10" openLevel="4">
+      [
+      {      ...Todavía puedo escuchar el sonido de su mandíbula traqueteando y sus alas batiendo.}
+      ]
+    </desc>
+    <desc id="11" openLevel="3">
+      [
+      {&lt;Worker Bee&gt;&#13;&#10;
+      Su apariencia es claramente diferente a la de la Abeja Reina, aparte del color. Puede volar, pero solo puede mantenerse suspendida a 1 metro del suelo. No tiene antenas ni ojos. Un apéndice largo que parece un intestino arrastra por el suelo detrás de su parte trasera.&#13;&#10;
+      Las Abejas Obreras solo muestran dos tipos de comportamiento: llevar nutrientes a la Reina y reproducirse. Cuando se encuentran con un empleado, usan sus mandíbulas para aplastar su cabeza y luego le inyectan una pupa en el cuerpo.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="badMood">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="badMood2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="2" key="beeComing">Cuando el contador Qliphoth llegó a 0, $0 soltó esporas en todo el departamento.</specialTip>
+      <specialTip openLevel="1" key="spore">Las esporas se pegaron a los empleados durante un tiempo. Aquellos con esporas sufrían daño ROJO constante, eran lentos, y no podían ser curados.</specialTip>
+      <specialTip openLevel="3" key="beeing">Cuando la vida de un empleados con esporas llegó a 0, apareció una abeja gigante. Los ataques de la abeja eran capaces de transformar a más empleados en abejas.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Abeja obrera</name>
+    <codeId>T-04-50-1</codeId>
+  </child>
+</creature>

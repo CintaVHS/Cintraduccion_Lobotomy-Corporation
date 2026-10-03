@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100055">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {Muchos empleados están muriendo bajo la cognición de $0.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Cuanto más tiempo #0 se queda, peor se vuelve la situación.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-03-88</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Wraith</portrait>
+      <name openLevel="1">
+        Refracción dimensional
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>El único consejo que puede ser dado es de mantener cautela y atención a tus alrededores.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Era un fenómeno extraño. Un fenómeno en y por sí mismo. No había nada dentro de la unidad que pudiera ser detectado a simple vista.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Tal y como aquellos dijeron hace tiempo, solo porque algo no pueda verse no significa que no exista. La longitud cuadrada de la Celda de Contención era de XXX metros, y este es el rango cognitivo de la abnormalidad. El único consejo que puede ser dado es de mantener cautela y atención a tus alrededores. Respirar se volverá imposible en el rango de la abnormalidad. El área se convertirá en cámara de vacío. Estríctamente hablando, la Abnormalidad en sí misma es aquel fenómeno de vacío.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      &lt;Grabación de la Muerte del Empleado Chomsky&gt;&#13;&#10;
+      No había ninguna forma de confirmar si la abnormalidad había abandonado su celda o no. De pronto, Chomsky se detuvo en mitad del pasillo y se quedó ahí sin hacer nada. El corredor estaba siendo concurrido por muchas personas en ese momento, y por supuesto muchas de estas personas expresarons su descontento al tener parte del pasillo bloqueado.&#13;&#10;
+      Entonces, de pronto, el cuerpo de Chomsky se elevó más de 3 metros en el aire. Sus brazos y piernas estaban imposiblemente estirados, como si estuviera siendo crucificado. Si sus pies hubieran estado tocando el suelo, podría haber parecido como si estuviera realizando una elegante interpretación o haciendo ballet. Todos en el pasillo se detuvieron para mirarlo. Entonces Chomsky comenzó a gritar. Gritó como un hombre desquiciado que había visto algo horrible. Nadie sabía lo que hacer. Algunos de nuestros empleados trataron de tirar de sus piernas. Él no se movía. Después de eso, Chomsky dejó de gritar. Un corto silencio lo siguió, y Chomsky abrió su boca, intentando tartamudear algo. Dos de los empleados que estaban intentando bajarlo comenzaron a gritar. Sangre borboteó de su cuerpo. Sus brazos y piernas separados, dejando su cuerpo cercenado en mitad del aire. El caos inundó el pasillo y todo el mundo comenzó a correr.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {El cómo reconocer a esta abnormalidad es un tema que debe ser tratado más adelante. Ahora mismo, estamos desarrollando tecnología ultravioleta que podría ser capaz de detectar a la abnormalidad empleando los ojos de una gamba, pero el rendimiento hasta ahora ha sido de todo menos satisfactorio. Por ahora, un buen método es hacer que los empleados que entren en su Celda de Contención se lleven un vaso lleno hasta la mitad de agua. Tendrán que dejar el vaso en el suelo mientras trabajan. Si la copa comienza a temblar, amenazando con dejar caer el agua, el empleado debe dejar de trabajar y marcharse de la celda inmediatamente.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando el trabajo duró más de 40 segundos en completar, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Los empleados y la compañía son incapaces de detectar a $0 al escaparse. El jefe deberá dirigir a los empleados manualmente para suprimirlo.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>
+

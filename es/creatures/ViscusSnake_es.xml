@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100046">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 parece crear una esfera húmeda y pulcra. No es equívoco que fuera a pensar que el cerebro de #0 es un nido.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Si la piel de #0 toma un tono verdoso, será demasiado tarde.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-02-74</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ViscusSnake</portrait>
+      <name openLevel="1">
+        Nido desnudo
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Puede entrar a tu cuerpo por cualquier orificio.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {+ Si encuentras a un empleado cuya cara pasa a ser de un color verde oscuro, avisa al Sephirah del departamento inmediatamente. Se ruega comprobar antes de avisar de que no son síntomas de dolor estomacal. Cuando se les informa a los enfermos de ir al sector médico, los que sufrían de dolor de estómago aceptarán sin problemas, pero un empleado infectado intentará hacerse pasar por un empleado completamente sano. Durante dicha situación, se sugiere hacer creer al empleado de que no ocurre nada fuera de lo común. La infección se acelera si el portador se pone nervioso. Si la piel sufre cambios, implica que un mínimo del 30% del cerebro del portador ya ha sido consumido. Cualquier conversación pasados este punto es un intento de la abnormalidad para intentar copiar al portador.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La abnormalidad vive en el cuerpo del huésped, el cual no será capaz de sentir ninguna sensación física. Se podrá intentar apuñalar al empleado, finjiendo que fue sin querer, pero no es recomendado hacerlo. Tal y como fue mencionado anteriormente, 30% del cerebro del empleado habrá sido transformado en la abnormalidad, prohibiendo cualquier tipo de comunicación.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {! Puede entrar a tu cuerpo por cualquier orificio.&#13;&#10;! Esto no significa que taparlos impida su entrada.}
+    ]
+  </desc>
+    <desc id="4" openLevel="3">
+      [
+      {!! No lo impedirá, pero te hará sentir mejor.&#13;&#10;!!! El objetivo final del ‘Nido Desnudo’ es el lóbulo frontal.&#13;&#10;!!! Te convertirás en el nido de la serpiente, atanco a todo lo que se mueva.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {!!!! Por favor, comprende que nos veremos obligados a ejecutar al infectado cuanto antes, para posteriormente quemar el cuerpo, prohibiendo la creación de otro nido más.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Los empleados que tengan poca vida tienen más posibilidades de sufrir la habilidad especial de $0. Especialmente, sufrir mucho daño trabajando con $0 aumenta la posibilidad. Sin embargo, la posibilidad es nula si el trabajo es bueno.</specialTip>
+      <specialTip openLevel="2" key="2">Algunos empleados que sufran de este efecto tendrán los siguientes síntomas:&#13;&#10;1. Piel verde y erupciones.&#13;&#10;2. Lentitud al caminar.&#13;&#10;Se recomienda exterminar a cualquier empleado que muestre estos síntomas.</specialTip>
+      <specialTip openLevel="2" key="3">#0, infectado con síntomas, se transformó en algo parecido a $0 pasado un tiempo.</specialTip>
+      <specialTip openLevel="2" key="4">&lt;ADVERTENCIA&gt; Cualquier empleado que haya tenido contacto con el empleado transformado estará infectado.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

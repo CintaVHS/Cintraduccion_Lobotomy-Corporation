@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100064">
+    <narration action="move"></narration>
+    <narration action="start">
+      [
+      {$0 le cuenta a  #0 todo sobre el amor.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {La meta de $0 es hacer que toda persona de buen corazón esté segura.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 siente esperanza de ver el color amigable de $0}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-01-106</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/PinkCorps</portrait>
+      <name openLevel="1">
+        Ejército de rosa
+      </name>
+      <name openLevel="3">
+        Ejército de negro
+      </name>
+      <riskLevel openLevel="0">
+        ZAYIN
+      </riskLevel>
+      <riskLevel openLevel="3">
+        ALEPH
+      </riskLevel>
+      <openText>El color del corazón es rosa, y vistiendo ese mismo color, podremos mezclarnos con la mente de los demás.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Esta Abnormalidad fué creada con las ideas propuestas por Tumblbug Backer 문정호 (Moon Jeong-ho).&lt;/i&gt;&#13;&#10;&#13;&#10;Esta Abnormalidad toma la forma de criaturas humanoides en equipamiento rosa. Su capacidad intelectual es lo suficientemente alta para conversar verbalmente con seres humanos. Como mínimo, parece amigable durante observación y trabajo. Se identifica a si mismo como una fuerza especial de (Redactado) y usa el pronombre "Nosotros" cuando se refiere a si mismo. Ha mostrado continuas intenciones positivas por ayudar a la humanidad.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {&lt;Grabación de Audio del Primer Contacto con la Abnormalidad.&gt;&#13;&#10;
+      (Omitido)
+      Serena: Bueno, me siento amenazada porque estés armado. Ese traje rosa brillante también es turbio. No casa con un lugar como este.
+      - ¿Cuál es tu opinion en la naturaleza de los humanos, Señorita Serena?
+      Serena: ... Creo que depende de la experiencia de la persona. ¿Por qué preguntas?
+      - Es un tema debatible, pero esto es lo que creo que debemos hacer. Si una persona es buena desde el inicio, protegemos su buen corazón. Si una persona es mala desde el principio, haremos un buen corazón a partir de él y protegeremos ese corazón.
+      Serena: ¿Como harás eso?
+      - Podemos ver el color de los corazones de la humanidad. El color del corazón humano es rosa, y vistiendo ese mismo color, podemos mezclarnos con la mente de los demás. Nosotros con gusto nos ensuciaremos por el bien de los que tienen un buen corazón.
+      Serena: Espera, ¿Vosotros os ensuciaréis en vez de las personas? ¿Es eso algo posible?
+      - Claro que lo es.
+      Serena: lo siento, pero yo simplemente no confío en tí o en lo que tú digas. Es bastante sospechoso que simplemente puedas "ver" el color del corazón de alguien.
+      - Si algo sucede, solo llámanos, señorita.&#13;&#10;(Fin de la grabación.)&#13;&#10;&#13;&#10;Seguidamente a lo mencionado en la grabación, la voluntad de la Abnormalidad por ayudar a otros es sólida.&#13;&#10;Aún tenemos que reunir información detallada de esta Abnormalidad. Quizá realmente pedirle ayuda puede ayudarnos en aprender más. Sin embargo, como cualquier otra Abnormalidad, no deberíamos confiar ciegamente en ella. Planeo tener un equipo de supresión listo para cuando quiera pedir su ayuda.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Ha pasado mucho desde la última vez. Para resumir, esta Abnormalidad es lo mejor que hemos tenido aquí. Hace unos cuantos meses, tomé la oportunidad de pedirle ayuda a esta Abnormalidad, desde entonces no he parado de hacerlo. Me ha ayudado (Redactado) veces hasta ahora. Mi eficiencia en el trabajo se ha vuelto mucho mejor también. A este punto, solo ver algo rosa me hace sentir mejor. Esas criaturas me refuerzan de una forma que incluso los mejores líderes no pueden igualar. Esta Abnormalidad mejorará mucho la calidad de vida de nuestros empleados.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Extracto de una Grabación de Audio&gt;&#13;&#10;
+      Serena: ¿Puedes hacerlo otra vez hoy, verdad?
+      - Sí, el corazón humano es rosa, y vestimos el mismo color. Haremos que los malos pensamientos se disipen.
+      Serena: ¿Lo oyes? Si, aún esta en la mejor condicion. Pondremos esta Abnormalidad a buen uso en nuestra siguiente supresión. Son mucho mejores que soldados humanos. Quiza deberíamos considerarlos como nuestro equipo de supresión especial. Como nota, parece que se han vuelto ligeramente más oscuros en color, pero no creo que sea algo de qué preocuparse.
+      - El corazón humano... Es... Debemos... Limpiar...
+      - Incluso... La mota más pequeña... De maldad... Debe... Ser purgada...
+      Serena: Parece ser un poco menos... Energetico de lo usual. Estará bien, creo.&#13;&#10;(Fin de la grabación)}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;Reporte Urgente relacionado al Incidente con el Ejército de rosa&gt;&#13;&#10;Hemos presentado este reporte urgente debido al cambio drástico eb el Ejército de rosa.&#13;&#10;Aún estamos intentando comprender qué ha pasado exactamente. Un total de (Redactado) empleados han fallecido. El siguiente audio es una grabación de lo que presume ser la primera víctima, la empleada Serena.&#13;&#10;&#13;&#10;(Grabación de audio)
+      Serena: Una Abnormalidad se ha vuelto a escapar en la sección (Redactado). Me gustaría pedirles su ayuda de nuevo.
+      - Sí... Nosotros, el Ejército de negro... Nos mezclamos con el corazón humano... Y disipamos los pensamientos positivos...
+      Serena: ... Espera, ¿Qué? Esa no es tu línea..
+      - El corazón humano... Es negro... Debemos... Limpiar...
+      Serena: ¿De qué estás hablando? Me estás asustando, tío.
+      - Te protegeremos con nuestro amor negro.
+      Serena: Para, llamaré al equipo de supresión... Si te mueves un centímetro te lo juro que...
+      - Saludos, señorita.&#13;&#10;(La grabacion termina abruptamente después del sonido de una gran explosión.)}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">$0 puede proteger a un empleado. El contador Qliphoth bajó tras la petición.</specialTip>
+      <specialTip openLevel="1" key="2">$0 aumenta la defensa de su usuario y cura a los empleados cercanos. Sin embargo, si el usuario es de nivel 3 o menos, perderán el control tras ser protegido.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando se realizó un trabajo de represión, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="4">Al morir 5 personas en toda la compañía, bajó el contador Qliphoth. Las muertes causadas por balas de ejecución no fueron registradas.</specialTip>
+      <specialTip openLevel="1" key="5">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="6">Al suprimir una abnormalidad, subió el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="7">Cuando un empleado de nivel 3 o menos vió a $0 mientras se escapaba, perdió el control y comenzó a atacar a sus compañeros. Ocurrió lo mismo cuando un empleado perdió toda su sanidad debido a un ataque de $0.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Ejército de negro</name>
+    <codeId>D-01-106-1</codeId>
+  </child>
+</creature>

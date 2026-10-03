@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300007">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-09-81</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ResetMirror</portrait>
+      <name openLevel="1">
+        Espejo reconfigurativo
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        "Pues sí, pero su felicidad solo es temporal."
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Asume la forma de un espejo, pero no refleja ninguna imagen.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Solo refleja a personas. Cuando uno se mira, el sujeto cambia. Hay varias teorías, como un enlace a un mundo paralelo o poderes mágicos, pero no pueden ser comprobadas.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Aquellos que se miren en el espejo se verán como de costumbre, pero, en realidad, son totalmente diferentes.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Mirarse al espejo repetidas veces lentamente irá devorando la humanidad de uno hasta que se transformen en lo que antes era su cuerpo.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {"Tú, acaba de pasar Brian cerca mía y ni me ha saludado. ¿Le ocurre algo?"&#13;&#10;"Ah, se miró en el espejo."&#13;&#10;"Sabes, siempre estaba quejándose de ser biológicamente débil. Parece que por fin ha cambiado su visión sobre él."&#13;&#10;"Pues sí, pero su felicidad solo es temporal."}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">Aquellos que miren a $0 tendrán sus estadísticas reordenadas aleatoriamente.</specialTip>
+      <specialTip openLevel="2" key="2">Si uno mira a $0 más de una vez por día, sus estadísticas disminuirán con cada uso.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

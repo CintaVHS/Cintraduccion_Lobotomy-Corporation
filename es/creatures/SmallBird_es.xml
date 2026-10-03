@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100020">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {Los empleados colocaron un posadero en la Unidad de Contención de $0 porque parecía estar aburrido.},
+      {Cuando se sienta en el posadero, $0 siente como si estuviera en el bosque en el que solía vivir.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {La mayoría del tiempo $0 actúa como un pájaro normal, volando por aquí y por allá en su Unidad de Contención.},
+      {$0 nunca pía ni gorjea. Sin embargo, su estómago a veces se estremece.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Pocos empleados saben sobre los dientes escondidos de $0.},
+      {No muchos conocen la abominable masa de $0, capaz de abrirse en varias secciones.}
+      ]
+    </narration>
+  </info>
+  <observe level="2">
+    <collection>
+      <codeNo openLevel="0">O-02-56</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/SmallBird</portrait>
+      <name openLevel="1">
+        Pájaro pequeñó
+      </name>
+      <name openLevel="2">
+        Pájaro verdugo
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <specialName openLevel="2">
+        Castigo
+      </specialName>
+      <openText>Los humanos siempre han cometido pecados. "¿Por qué lo hacen, sabiendo que está mal?"</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un pajarito pequeño pero lleno de aplomo, encargado de castigar a los malvados, culpables e irreverentes. Algunos empleados dicen que resulta adorable cuando agita con valentía sus diminutas alas.}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {Los humanos siempre han cometido pecados. "¿Por qué lo hacen, sabiendo que está mal?" Se preguntó el pequeño pajarito.&#13;&#10;&#13;&#10;“Debe ser porque no hay nadie que castigue a la gente por sus malas acciones. Si alguien toma ese rol, entonces ningún acto inmoral volvería a ocurrir jamás en este mundo!”&#13;&#10;&#13;&#10;Con esto en mente, el pajarito dejó el bosque en el que vivía, y nunca volvió.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="NoWorking">Cuando un empleado trabajó con otra abnormalidad, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="2" key="PanicOut">Cuando #0 entró en pánico, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="comebackhome">$0 voluntariamente regresó a su celda cuando un empleado en pánico se calmó, o tras pasar un tiempo.</specialTip>
+      <specialTip openLevel="2" key="NoAccept">#0 fue ordenado a suprimir a $0. Al atacarle, la parte central de $0 se abrió y &lt;REDACTADO&gt;. #0 murió al instante.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>
+

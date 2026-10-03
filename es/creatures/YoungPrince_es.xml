@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100040">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 puede sentir pequeñas esporas salir de $0.},
+      {#0 se siente un poco confuso debido a $0.},
+      {$0 parece repulsivo, y aun así hipnotizante.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El zorro dijo: “Lo esencial es invisible a los ojos.”}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 ha venido desde lejos, desde un sitio que no conocemos.},
+      {Quizás $0 no es lo que vemos con nuestros ojos.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Los finales de los muchos empleados que fueron domesticados por $0 siempre eran trágicos.},
+      {Todos los empleados que se convirtieron en monstruos por las esporas de $0 deambulan cerca de su Unidad de Contención},
+      {Muchos de los empleados que trabajaron con $0 se negaron a comer setas por un tiempo.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {A diferencia de muchas de las abnormalidades que hemos contenido, solo un empleado fue responsable de darle nombre a $0.},
+      {#0 recuerda la pieza de una estrella.}
+      ]
+    </narration>
+    <narration action="special_ability_1"> 
+      [
+      {Decenas de frutos de esporas comienzan a crecer en el cuerpo de #0; no se pueden parar… La mente de #0 anhela desesperadamente un consenso con $0.},
+      {Con la estrella de $0 en su cuerpo, #0 empieza a perder la mente lentamente, incapaz de controlarse.}
+      ]
+    </narration>
+    <narration action="special_ability_2">
+      [
+      {El precio de anhelar algo más grande que nosotros mismos fue, en sí, grande.},
+      {#0 escucha la voz de un amigo llamarle mientras pierde la conciencia.}
+      ]
+    </narration>
+    <narration action="special_ability_3"> 
+      [
+      {#0 escucha la voz de un amigo llamarle mientras pierde la conciencia.},
+      {#0, quien veía estrellas en sus sueños, siente cómo su anhelo por $0 se profundiza constantemente.},
+      {#0 no pudo quedarse en el mundo de $0. El final trágico de #0, ahora exiliad@, empieza.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-04-66</codeNo>
+      <name openLevel="1">Seta gigante</name>
+      <name openLevel="4">El Principito</name>
+      <portrait openLevel="1">Sprites/Unit/creature/YoungPrince</portrait>
+      <riskLevel openLevel="2">WAW</riskLevel>
+      <openText>
+       Incluso si es una maldición, la querré tanto como una bendición.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Entre los empleados, se le conocía originalmente como ‘Trozo de seta gigante.’ Sí que parece ser una seta gigante, Y también guarda cierto parecido con el moho; en general, su apariencia se asemeja mucho a la de un hongo. Libera esporas al aire de forma continua, visibles a simple vista.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {A la mayoría de nuestros empleados no les gusta mucho esta Abnormalidad. Pocos tienen la mente lo suficientemente abierta como para preferir trabajar con una especie de hongo gigante que ocupa la mitad de una Unidad de Contención y lanza esporas desconocidas; tienen decenas de otras preocupaciones, incluyendo otras Abnormalidades con las que trabajar.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+     [
+     {Como solo unos pocos de nuestros empleados se ofrecieron voluntariamente a trabajar con él, solo pudimos registrar información básica. Originalmente utilizábamos un sistema de turnos para designar con qué abnormalidades debían trabajar nuestros empleados. Pero después del “Indicidente de la chica mágica” unos años atrás, empezamos a darle consideración a la opinión de nuestros empleados al asignar trabajos.}
+     ]
+    </desc>
+    <desc id="4" openLevel="1">
+      [
+      {La Abnormalidad produce esporas microscópicas y móviles que se dispersan por el aire. Estas proliferan principalmente invadiendo a otros organismos a través de sus sistemas respiratorios. Es difícil detectar los síntomas iniciales de esta invasión, ya que las únicas sensaciones son una leve disnea y una garganta seca y arenosa. Por lo tanto, es obligatorio usar mascarilla al trabajar con esta Abnormalidad.}
+      ]
+    </desc>
+    <desc id="5" openLevel="1">
+       [
+       {Cuando un empleado inhala suficientes esporas,extraños quistes comenzarán a crecer en su cuerpo y sus tejidos serán erosionados. Finalmente, se convertirá en una criatura dismórfica cuya forma original será apenas reconocible. En este estado mostrará hostilidad, por lo que debe ser eliminado en el acto. }
+       ]
+     </desc>
+    <desc id="6" openLevel="2">
+       [
+       {&lt;Extracto del registro de asesoramiento - Empleado John&gt;&#13;&#10;
+       Había un tío que era muy callado. Era ese tío que nos miraba de reojo como si fuera un zorro, como si estuviera esperando que le habláramos. Una cosa peculiar sobre él es que se ofrecía voluntario para trabajar con el trozo de seta, una abnormalidad que todos detestaban visitar. También era inquietante que pasaba mucho tiempo en su Unidad de Contención.&#13;&#10;
+       ¿Quién sabe qué clase de mostruosidad puede haber crecido en su cuerpo? Cuando decidimos llamar a la abnormalidad el "Trozo Gigante de Seta" entre nosotros, ese tipo habló por primera vez. Dijo que él es el que más lo ha visto. Dijo muchas tonterías, como que no merece ser llamado trozo de seta. Todos se rieron de él.&#13;&#10;
+       Decidimos que finalmente se volvió loco cuando empezó a decir que se volvió amigo de esa puta cosa. Quiero decir, es una cosa lo suficientemente común por aquí, muchas cosas pasan. Que una persona se vuelva loca no es para tanto. Tratamos de decirle sutilmente que fuera al psiquiátrico, pero él simplemente nos miró condescendientemente como si supiera algo que nosotros no sabíamos.&#13;&#10;
+       Y unos días después, estiró la pata, como todos sabemos. ¿¿He dicho que fui yo quien lo reconoció en el cadáver de esa criatura hecha de esporas y moho? La marca de nacimiento en su frente. Si no hubieramos encontrado esa marca de nacimiento en ese montón de esporas, nunca habríamos sabido que era él. De hecho, nadie sabía que tenía esa marca excepto yo. Porque, bueno... porque nadie en el departamento era amigo suyo.&#13;&#10;
+       Después de convertirse en ese monstruo, se dedicó a deambular cerca de la Unidad de Contención de la seta. Intentamos atraerlo a algún lugar menos concurrido porque estaba atacando todo lo que veía. Pero no se movió mas de diez metros de la seta hasta que murió. &#13;&#10;
+       Por esto decidimos cambiarle el nombre a la Abnormalidad. Razones complejas, como pena por el tío que se hizo amigo de una seta, y el recuerdo de su trágica muerte.&#13;&#10;
+       Para serte sincero, necesitaba un amigo. Por eso se dejó infectar, volviéndose loco con alucinaciones, sin saber que se estaba convirtiendo en un monstruo. La seta simplemente domesticó al pobre desgraciado para reproducirse; atrapó a Alex, cuyo nombre no sabía nadie...}
+       ]
+     </desc>
+    <desc id="7" openLevel="3">
+      [
+      {&lt;Notas del empleado Alex&gt;&#13;&#10;
+      La mente humana es demasiado frágil para visualizar algo en su forma más pura. ¿Sabías que los camarones mantis pueden ver cientos de colores que los humanos no pueden? Ese simple dato ya sirve para mostrar que es perjudicial creer y juzgar todo basándonos solo en lo que vemos.&#13;&#10;
+      La verdad es que no tengo muchos amigos. No me malinterpretes. No es que no quiera tenerlos, es que elijo no tenerlos; no es que no pueda. Es porque no nos entendemos. Cada persona se ve a sí misma como una entidad totalmente aislada, y por eso es imposible comprender del todo a los demás. Pero irónicamente, un instinto inherente a la psicología de masas ha sobrevivido a lo largo de nuestra evolución.&#13;&#10;
+      Jugamos una y otra vez a un juego de riesgo, caminando sobre una cuerda floja,  intentando entendernos sin pisar nuestro territorio. De hecho, yo ya había dejado ese juego absurdo hace tiempo. Me ofrecí voluntario para observar a la seta gigante por una razón parecida. Nadie quería acercarse a esa Abnormalidad. Seguro que era por razones tontas, como que les parecía repugnante a la vista. Que su aspecto fuera un poco alienígena no iba a pararme a mí. De hecho, hasta me sentí un poco superior cuando todos se sorprendieron al saber que iba a trabajar con él.&#13;&#10;
+      (Omitido) La Anomalía no mostraba actividad notable. Grabé y observé el silencio con paciencia. Un día, después de que esparciera polvos de colores hipnotizantes, experimenté un cambio especial. Pude percibir la “hiperrealidad” un plano más allá de la realidad. Era una mano que él me tendía. La cogí y fui recompensado con la invitación a ese lugar tan especial. Era algo que solo yo podía lograr. él me habló telepáticamente.&#13;&#10;
+      Me dio la bienvenida porque yo era el único capaz de comprender Su esencia. Había imaginado y anhelado el momento de poder hablar a través de la mente. Ser entendido por completo; esa sensación de unidad. Fue tan emocionante que apenas pude ocultar mi alegría.&#13;&#10;
+      (Omitido) Quería acercarme más a él. Quería ser parte de él. Siempre pensaba en él. Quería pertenecerle y entender su mundo. Como un capullo a punto de abrirse, mi mente se fue dejando dominar. Estaba siendo domesticado, poco a poco...}
+      ]
+    </desc>
+    <desc id="8" openLevel="4">
+      [
+      {&lt;Extracto de una grabación de audio&gt;&#13;&#10;
+      Esto es parte del material grabado por una cámara de vigilancia en la Unidad de Contención. Como las esporas de la Anomalía tapaban por completo la imagen, solo se pudo extraer el audio. Por el contenido de la conversación grabada, se consideró seguro asumir que las esporas contienen agentes alucinógenos. Porque, incluso tras un análisis exhaustivo del audio, no se detectó ninguna voz más que la del empleado. El empleado, infectado por las esporas, sufrió un estado de frenesí severo antes de ser abatido en el acto por otro empleado.&#13;&#10;
+      -	No, no tengo amigos. Como dije antes, no me gustan esas relaciones contradictorias. Pero, al menos, creo que tú podrías ser mi amigo. El lenguaje humano es demasiado simple para describir esta relación, pero creo que podríamos llamarla “amistad”.&#13;&#10;
+      -	… Sí, soy tu único y verdadero amigo.&#13;&#10;
+      -	Te aceptaré. Mi vida cambió desde que te conocí. Había pasado toda mi vida deprimido, sin un propósito, sin hablar con nadie, solo trabajando todo el día. Pero tú me redimiste, a alguien que se había abandonado a sí mismo. Así como yo pude percibir tu verdadera esencia, tú viste la mía. Es una experiencia realmente arrebatadora. Quiero entenderte; quiero ser como tú y quererte. Nací humano, viví una vida aburrida y quizá habría seguido así si no hubiera sido por ti. Me alegra tanto haberte conocido.&#13;&#10;
+      -	Por favor, recuérdame; recuerda a esta flor sin nombre que ha florecido solo para ti.&#13;&#10;
+      - Incluso si esto se convierte en una maldición, la querré tanto como una bendición. Pensaré en ti hasta que mi mente se derrumbe y se deshaga. Cerraré los ojos pensando solo en mi único amigo venido de un universo lejano… (Después, se escucha un leve sonido de aire escapándose de la Abnormalidad antes de que todo quede en silencio)}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">El contador Qliphoth bajó tras trabjar 3 veces con trabajos diferentes a intuición.</specialTip>
+      <specialTip openLevel="1" key="2">Aquellos que trabajaron con $0 podrían estar infectados con esporas. Trabajar con otras abnormalidades eliminará la infección.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="4">#0, que trabajó constantemente con $0, sufrió daño constante en la celda. Tras un tiempo, una materia similar a $0 se generó en su cuerpo, y #0 se transformó.</specialTip>
+      <specialTip openLevel="3" key="5">Cuando el contador Qliphoth llegó a 0, $0 atrajo a un empleado a su celda. Ocurrió el mismo evento mencionado anteriormente.</specialTip>
+      <specialTip openLevel="4" key="6">Al suprimir a los empleados infectados, presta atención a las esporas que expulsan al morir. Aquellos con esporas recibirán daño BLANCO e intentarán entrar a la celda de $0.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <codeId>O-04-66-1</codeId>
+  </child>
+</creature>

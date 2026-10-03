@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100028">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {La máquina expendedora abruma a #0 con su brillante iluminación de neón.},
+      {Se puede escuchar música animada, emitida desde dentro de la máquina expendedora..}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Las gambas están buenísimas las cocines como las cocines. Hervidas, fritas, ¡Como sea!},
+      {Si nunca has probado las gambas, sinceramente te estás perdiendo la vida.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Circula un rumor de que algunas personas han sido secuestradas y llevadas a un barco pesquero tras beber de una lata abierta de refresco sabor uva.},
+      {También se dice que podrías acabar perdiendo alguno de tus órganos después de beber una lata abierta de refresco de uva.},
+      {Si alguien te ofrece una lata de refresco de uva que ya está abierta, definitivamente no deberías beberla.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-05-52</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/WellCheers</portrait>
+      <name openLevel="1">
+        Buenprovecho
+      </name>
+      <name openLevel="2">
+        Lata abierta de Buenprovecho
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>Escuchas gaviotas en la distancia.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;Registros de Empleados (Fuente Desconocida)&gt;&#13;&#10;
+      Ey alguna vez habéis ido a una de esas quedadas raras de Lobotomy??
+      La verdad es que me ha costado bastante volver a sacar el tema…
+      Veréis, en esta empresa hay mil clubes donde se juntan los empleados. Yo una vez fui a uno de ping-pong o algo así, pero no había ni una sola chica así que me piré bastante rápido lol. Total, que un día vi un anuncio en el tablón interno sobre una quedada bastante sospechosa. Me dio curiosidad, llamé al organizador y se presentó como &lt;Redactado&gt; de Seguridad. Le pregunté directamente si había chicas en el grupo y me dijo que sí, que un montón. Ahí ya me interesé de verdad y me apunté sin pensarlo. Llegó el día, fui, me dieron una pegatina con mi nombre como a todos. No recuerdo exactamente cuánta gente había, pero creo que vi a tres de Formación y a dos de Información. Como media hora después, el organizador apareció con una bandeja llena de latas de Buenprovecho y nos dio una a cada uno… En retrospectiva, tendría que haberme dado cuenta de que algo iba mal porque la lata ya estaba abierta, pero soy débil ante los refrescos y me la bebí de golpe nada más dármela lmaooo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {      Después de eso, el líder nos dijo que ya era hora de movernos, que había alquilado una furgoneta para todos. Todos pensamos que era un tío increíble por eso. Yo me subí a la furgo con dos empleados del Montón y otro del mismo departamento que yo. El líder dijo que el viaje duraría como una hora, que podíamos echarnos una siesta si queríamos, así que eso hicimos. Lo raro es que me dormí rapidísimo, muy rápido. En plan, cerré los ojos me quedé frito. Tengo imsomnio pero por lo que sea me dormí muy rápido... Ese fue mi grave error. Total, estaba durmiendo a pierna suelta cuando empiezo a oír gaviotas. Y yo en plan, Wtf??? Gaviotas??????? Al principio pensé que era el tono del móvil de alguien, pero luego escuché olas rompiendo. Y ahí ya dije: “nah, esto es demasiado real para ser una alarma,” Abrí los ojos y resulta que estaba…
+      …tirado en una cubierta. Estaba en un maldito barco, lmfao. UN BARCO DE VERDAD, UNO REAL. Supe que estaba jodidísimo en cuanto vi gambas saltando por ahí. Me recorrió un escalofrío horrible. Quise creer que estaba soñando, pero ver cómo se movían esas gambas tan realistas me devolvió a la realidad de golpe. Encima estaba rodeado de gente que parecía la tripulación. Todos mazados, con cara de que si decía algo fuera de lugar me volvían a dormir… pero a base de puños. Un fallo y acababa de comida para tiburones.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {      Éramos unas 10 personas en la tripulación, incluyendo al capitán, contramaestre, cocinero, etcétera. Se reían cuando estaba en babia. El que aparentaba ser el capitán vino y me preguntó por mi altura y peso. Le pregunté cuándo volvíamos al puerto. Me dijo que en cosa de un mes pero que no debería escapar o huir porque ya han tratado muchas veces "con gente como yo". Ni idea a qué se refería pero me daba mucho miedo preguntar. Entonces los demás me llamaron para almorzar. Habían fideos instantáneos, gambas, cangrejos, mejillones, estaba a rebosar de comida. Me dijeron que parase de actuar como si fuese a saltar al mar y comerme sus fideos. Dije que no, pero se empezaron a reír diciendo que no habían píldoras de melatonina o cosas por el estilo y me dieron un puñado. Un hombre debe vivir su vida, así que me las zampé. Sabían a gloria. Al terminar de comer me dijeron que me iban a enseñar a cómo ajustar una cuerda. Para aquel entonces ya estaba molido, así que les dije "lo que digáis...". Lo único que podía ver eran islotes que ni de coña eran aptos para la vida humana. Durante un mes, aprendí a recoger trampas para peces, llenar cajas de cebo, reparar redes de pesca, conicar fideos, hacer café, y un montón de cosas más. Le metí tanto empeño que llegué a un punto donde aprendí a cocinar shashimi de caballa y sopa de pescado para el resto de la tripulación. A todos les gustaba. Me decían de abrir un restaurante. Más adelante, nos cruzamos con un par de tifones. Lo cierto es que me empezaban a caer bien. Eran mi familia, al fin y al cabo. A ese punto ver ballenas era el día a día. Dos semanas después, el capitán me dijo que lo estaba haciendo bien y me preguntó si me interesaba unirme oficialmente a la trpiulación. Habría dicho que no si no fuese porque Lobotomy Corporation ya me habría despedido tras un mes y medio sin ir a trabajar, esta oportunidad realmente merecía la pena. Es la primera vez que alguien me dió un cumplido. ¿Que dónde estoy ahora? Pues ahora estoy viviendo mi mejor vida. Abrir una merecidísima lata de cerveza después de trabajar arduamente, rodeado de sudor y mar salada, esa es la verdadera felicidad. Ahora estoy en el puerto pero pronto nos iremos a cazar más gambas. Nunca se sabe lo que te depara el futuro, tío. A veces me pongo a pensar: ¿qué habrá sido de las otras personas en la reunión de aquel día? Digo, no es que me guste husmear en sus vidas, pero es solo por curiosidad. Quiero pensar que están viviendo una vida tan feliz como la mía.&#13;&#10;
+      Ah, es hora de partir. Nos vemos gente.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="specialCan">Al trabajar con $0, una lata de refresco saldrá de la máquina expendedora. La lata dispensada depende del trabajo usado.</specialTip>
+      <specialTip openLevel="2" key="healthCan">&lt;Experimento W-1&gt; Sale una lata roja. El empleado afirma tener un sabor dulce y un aroma único, y le "recuperó las fuerzas".</specialTip>
+      <specialTip openLevel="2" key="metalCan">&lt;Experimento W-2&gt; Sale una lata azul. Contiene un líquido sin olor, con alta concentración de carbono. Resulta eficaz a la hora de restaurar la sanidad mental.</specialTip>
+      <specialTip openLevel="3" key="wellCheersCan">&lt;Experimento W-3; W-4&gt; Sale una lata morada. Sabe, huele, y es igual a los demás refrescos con sabor a uva. Resulta eficaz a la hora de restaurar la sanidad mental y la vida del que la consume.</specialTip>
+      <specialTip openLevel="4" key="goToSea">&lt;PRECAUCIÓN&gt; Cuando el trabajo es malo, no está permitido beber ninguna lata dispensada.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>
+
+

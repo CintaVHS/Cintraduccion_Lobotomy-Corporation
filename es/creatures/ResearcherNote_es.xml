@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300002">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-78</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ResearcherNote</portrait>
+      <name openLevel="1">
+        Apuntes de un loco
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>El último capítulo contiene una sola palabra: "Reencarnación".
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Los apuntes están llenos de garabatos y mala ortografía.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Pertenecían a un científico que se volvió loco trabajando. Solo se han descifrado parte de los apuntes, pero parece que se tratan de los varios experimentos que se hicieron en este lugar.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Empiezan con culpabilidad y confesiones de experimentos poco éticos, y rápidamente desciende a la locura, con frases mal escritas y con poca relación entre las demás sobre los últimos de sus experimentos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+
+      [
+      {El último capítulo contiene una sola palabra: "Reencarnación".}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {La inteligencia de uno aumenta con solo mantener los apuntes en la mano. Sin embargo, si se devuelven los papeles sin conseguir el deseo del conocimiento, el portador explota de incompetencia.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">El portador de $0 recibirá un gran incremento en su Temperamento.</specialTip>
+      <specialTip openLevel="2" key="2">Si el portador devuelve a $0 en menos de 30 segundos, su piel empezará a sudar y, posteriormente, su cuerpo explotará.</specialTip>
+      <specialTip openLevel="3" key="3">Si el portador devuelve a $0 sin antes haber trabajado, el usuario explotará.</specialTip>
+      <specialTip openLevel="4" key="4">Si el portador recive una cantidad específica de daño, el portador explotará y la explosión causará daño ROJO masivo a cualquiera que se encuentre cerca.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

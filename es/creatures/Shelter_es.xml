@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300006">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-82</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Shelter</portrait>
+      <name openLevel="1">
+        Búnquer del 27 de marzo
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>
+        Es literalmente "el lugar más seguro del planeta."
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Refugio nuclear que protege por completo a su interior de cualquier tipo de influencia exterior, incluido la luz.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {El búnquer aún mantiene el recuerdo de aquel día.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {La compañía P deseaba con construir el lugar más seguro del planeta. Es por eso que el refugio dispone de varios objetos no perecederos, permitiendo a los usuarios del interior sobrevivir por grandes cantidades de tiempo.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Gracias a este refugio, los refugiados se protegieron de los inacabables gritos y asesinatos.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Sin embargo, aunque sea un perfecto escudo en el interior, altera la realidad del exterior para que sea aún más insoportable. Es literalmente "el lugar más seguro del planeta."}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cualquiera que entre a $0 será inmune a todo tipo de daño (excepto al causado por O-09-91). Además, la salud y sanidad del usuario se recuperarán periódicamente.</specialTip>
+      <specialTip openLevel="2" key="2">Si alguien entra al búnquer mientras es perseguido por un ser agresivo, el usuario no podrá ser detectado.</specialTip>
+      <specialTip openLevel="3" key="3">Si alguien se mantiene en el interior de $0 por más de 30 segundos, el contador Qliphoth de una abnormalidad aleatoria automáticamente bajará a 0. Esta acción se repetirá hasta que el sujeto salga de $0.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

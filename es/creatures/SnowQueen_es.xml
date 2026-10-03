@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100102">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {La Unidad de Contención de $0’s está siendo azotada con una ventisca helada.},
+      {La unidad de Contención de $0’s reluce con hielo y escarcha.},
+      {A Kai se le habría otorgado el mundo si hubiera fracasado al terminar la escultura de la “eternidad” con astillas de hielo.}
+      ]
+    </narration>
+    <narrationa action="mid1">
+      [
+      {El palacio de $0’s es frío y solitario. #0 quiere irse de aquí lo más pronto que pueda.},
+      {El camino al palacio de $0’s está helado y es largo. #0 desea calidez.}
+      ]
+    </narrationa>
+    <narration action="special_ability_1">
+      [
+      {Gerda era más valiente y más fuerte que cualquier otro, peleará por Kai, que está atrapado en el Palacio Helado.}
+      ]
+    </narration>
+    <narration action="win">
+      [
+      {La primavera llegó con rosas florecientes. Gerda y Kai se cogieron de la mano y caminaron a casa.}
+      ]
+    </narration>
+    <narration action="lose">
+      [
+      {Gerda y Kai no pudieron derrotar a $0. Se convirtieron en fragmentos de hielo en sus manos y nuncá saldrán del Palacio Helado.}
+      ]
+    </narration>
+    <narration action="anotherWork">
+      [
+      {Mientras Kai siga atrapado en el Palacio Helado, Gerda tendrá que enfrentarse tarde o temprano al inevitable duelo con $0.}
+      ]
+    </narration>
+  </info>
+  <!-- Maximum observation level. -->
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-01-37</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/SnowQueen</portrait>
+      <name openLevel="1">
+        Reina de las nieves
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>"La nieve se derrite... Puede que ya sea primavera, o que se esté derrumbando el palacio."</openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Una reina live sola en el gélido bosque invernal. }
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {Como en toda historia, Kai era un niño de corazón bondadoso. Cuando los fragmentos de un espejo hecho por un hada malvada se dispersaron por los corazones de todos, Kai empezó a ver cosas que no quería ni necesitaba ver. Se fue del pequeño pueblo en el que creció.&#13;&#10;&#13;&#10;En una ventisca implacable, Kai conoció a la Reina de las Nieves. Empezó a sentir curiosidad por el mundo más allá de lo que conocía. Sentía que todo lo que sabía no era más que una pequeñez.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {El Palacio del Hielo al que llegó estaba muy frío, Pero la Reina de las Nieves congeló su corazón, y ya no pudo sentir más el frío. No había felicidad en ese lugar, solo la larga noche de invierno.&#13;&#10;&#13;&#10;Gerda fue lo suficientemente fuerte como para que el espejo no la atravesara, y lo suficientemente valiente para embarcarse en un viaje para rescatar a Kai. Así que empezó su camino al Palacio del Hielo.&#13;&#10;&#13;&#10;El viaje fue agonizante. Gerda estaba herida y dolida, a veces lloraba.&#13;&#10;&#13;&#10;Pero, eventualmente, Gerda conoció a Kai.&#13;&#10;&#13;&#10;La primavera llegó con rosa florecientes. La calidez derritió el palacio de la Reina de las Nieves, y el trozo de espejo en el corazón de Kai se evaporó sin dejar rastro.&#13;&#10;&#13;&#10;Entonces, la Reina de las Nieves, abandonada y completamente sola... (Omitido)}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;i&gt;Recuerdo el día en el que la pusimos en el crioataúd con nuestras propias manos. Llegó a un punto en el que su risa de esfumó. Pasó de reír a llorar, y eventualmente la encontraron en una bañera llena de rojo con sus muñecas cortadas.&#13;&#10;No creíamos en la muerte. La reconstruiré a partir de las “máquinas” que he detestado toda mi vida, pero que se han convertido en la única respuesta. Ella habría sentido asco de mí por esto, muriendo en aquella bañera. Sin embargo, ya habíamos avanzado demasiado por el camino lleno de remordimiento y arrepentimiento como para sentir culpa alguna.&#13;&#10;……&#13;&#10;Un día, "eso" me habló.&#13;&#10;“Te recuerdo. Eras una persona de buen corazón.”&#13;&#10;El momento en el que le escuché, Me invadió la necesidad de destruir lo que creé con mis propias manos.&lt;/i&gt;}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="3" key="kissProb1">Cuando el trabajo fue normal, el empleado fue besado con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="3" key="kissProb2">Cuando el trabajo fue malo, el empleado fue besado con una alta posibilidad.</specialTip>
+      <specialTip openLevel="2" key="2kiss">El empleado que recibió el segundo beso olvidó todo lo ocurrido en la celda y se mantuvo atrapado allí.</specialTip>
+      <specialTip openLevel="3" key="3kiss">Para evitar el tercer beso letal, y para salvar al empleado atrapado, deberá llevarse a cabo un duelo.</specialTip>
+      <specialTip openLevel="3" key="4kiss">Aquellos con una gran Fuerza serán capaces de salvar al empleado.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>
