@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <step index="1">
+    <node idx="0">
+      <text></text>
+      <!--just for timer-->
+    </node>
+    <node idx="1">
+      <text>Hola, jefe. Bienvenido a Lobotomy Corporation. A partir de hoy, usted es responsable de gestionar las abnormalidades que tenemos y de asegurar que cumplamos la cuota diaria de energía.</text>
+      <!-- 화살표, 하이라이트도 여기에 추가 -->
+    </node>
+    <node idx="2">
+      <text>Puede mover la cámara con las teclas WASD de su teclado. También puede mantener pulsado el botón secundario del ratón (clic derecho) y arrastrar el ratón.</text>
+    </node>
+    <node idx="3">
+      <text>Puede acercar y alejar la pantalla con las teclas F y G de su teclado. También se puede usar la rueda del ratón.</text>
+    </node>
+    <node idx="4">
+      <text>Probemos una maniobra sencilla. Cuando pase el ratón sobre un empleado, se mostrará información sobre él en la esquina superior derecha. Por favor, intente seleccionar un empleado pulsando el botón primario del ratón (clic izquierdo).</text>
+    </node>
+    <node idx="5">
+      <text>Bien hecho. La información que se muestra en el panel de la derecha está relacionada con el empleado seleccionado. Parte de esta información es vital, como sus estadísticas y su Equipo E.G.O. Por favor, consulte la sección del Manual del Jefe titulada "Los Agentes" para obtener más detalles sobre el significado de esta información.</text>
+    </node>
+    <node idx="6">
+      <text>La barra en la parte superior izquierda de la pantalla muestra la cantidad de energía que necesita recolectar para finalizar el día. La esquina superior derecha enumera las misiones que puede intentar completar hoy.</text>
+    </node>
+    <node idx="7">
+      <text>Nuestra compañía produce energía cuando una abnormalidad libera un producto llamado Encefalina Positiva (PE, una caja verde). Una abnormalidad genera Cajas PE mientras se trabaja con ella. Por favor, haga clic en la Unidad de Contención que contiene una Anomalía con el botón primario del ratón (clic izquierdo).</text>
+    </node>
+    <node idx="8">
+      <text>Ya que aún no ha desbloqueado ninguna información sobre esta abnormalidad, no tiene forma de saber cómo responderá a los cuatro diferentes Tipos de Trabajo. Para aprender esta información, un empleado tendrá que realizar un trabajo con ella. Por ahora, por favor seleccione el primer Tipo de Trabajo disponible, Trabajo de Instinto.</text>
+    </node>
+    <node idx="9">
+      <text>El Trabajo de Instinto satisface las necesidades y deseos fisiológicos de una abnormalidad. Cuando un empleado realiza Trabajo de Instinto, su Fortaleza aumentará al final del día, elevando sus Puntos de Salud (PS). Ahora, por favor, haga clic en el empleado.</text>
+    </node>
+    <node idx="10">
+      <text>Cada trabajo que puede solicitar a sus Agentes que realicen con una abnormalidad tendrá un resultado diferente. La Tasa de Éxito para cada Tipo de Trabajo también variará entre abnormalidad.</text>
+    </node>
+    <node idx="11">
+      <text>Si su empleado no está preparado mentalmente, las abnormalidads pueden parecerles más aterradoras o perturbadoras. Por ello, pueden recibir Daño por Miedo al encontrarse con abnormalidades, lo que reducirá sus Puntos de Cordura (PC). Los empleados de un Grado inferior recibirán más Daño por Miedo de los encuentros con abnormalidades de Niveles de Riesgo más altos.</text>
+    </node>
+    <node idx="12">
+      <text>Las abnormalidades liberan Encefalina cuando los Agentes trabajan con ellas, y la recolectamos en lo que llamamos Cajas E. Dependiendo de cómo se desempeñe el empleado durante el Proceso de Trabajo, la abnormalidad responderá de forma Positiva o Negativa. Cuando reacciona positivamente, liberará Encefalina Positiva, que produce una Caja PE verde.</text>
+    </node>
+    <node idx="13">
+      <text>Sin embargo, si la abnormalidad reacciona negativamente, liberará Encefalina Negativa en su lugar y dañará al empleado. Tenga en cuenta que cuando los PS o PC de un empleado descienden por completo, el Proceso de Trabajo será finalizado de manera forzosa.</text>
+    </node>
+    <node idx="14">
+      <text>El estado de ánimo de una abnormalidad podría cambiar dependiendo del resultado del trabajo realizado con ella. Este resultado se puede predecir basándose en la cantidad de Cajas PE que obtuvimos durante el Proceso de Trabajo. Una Anomalía generalmente tiene tres estados de respuesta: Bueno, Neutral y Malo. Dependiendo del resultado, puede usar una habilidad especial o intentar escapar.</text>
+    </node>
+    <node idx="15">
+      <text>Cuando el proceso de trabajo se completa, se recolectan las Cajas PE. Además de las Cajas PE que cuentan para la cuota diaria de energía, cada abnormalidad también produce un conjunto de Cajas PE exclusivas para ellas. Estas Cajas PE se almacenan y se muestran en el contador de Cajas PE Únicas de la Anomalía. Estas se pueden usar para desbloquear más información de una Anomalía, o para extraer Equipo E.G.O.</text>
+    </node>
+    <node idx="16">
+      <text>Una vez que se ha completado el trabajo con una Anomalía, no puede enviar a otro empleado a trabajar con ella durante un corto período de tiempo. Hasta que pueda trabajar con ella de nuevo, puede enviar a sus Agentes a trabajar con otras Anomalías, o dejar que se curen en la Sala Principal.</text>
+    </node>
+    <node idx="17">
+      <text>Siempre que la Barra del Regenerador del Departamento se llene por completo, los empleados en la Sala Principal serán curados. Esto restaurará tanto su Salud (PS) como su Cordura (PC).</text>
+    </node>
+    <node idx="18">
+      <text>Intentemos ordenar a un empleado que trabaje con un nuevo método. Primero, haga clic en el empleado con el botón primario del ratón (clic izquierdo).</text>
+    </node>
+    <node idx="19">
+      <text>Ahora usamos el botón secundario del ratón (clic derecho) para seleccionar la Unidad de Contención. Tenga en cuenta que puede deseleccionar accidentalmente al empleado durante este proceso.</text>
+    </node>
+    <node idx="20">
+      <text>Todavía no sabemos mucho sobre esta Anomalía, así que por favor ordene al empleado que realice Trabajo de Intuición con ella.</text>
+    </node>
+    <node idx="21">
+      <text>El Trabajo de Intuición es un trabajo para mejorar las condiciones de vida, asegurando que las Unidades de Contención estén en condiciones óptimas. Cuando un empleado realiza Trabajo de Intuición, su Prudencia aumentará al final del día, elevando sus Puntos de Cordura (PC).</text>
+    </node>
+    <node idx="22">
+      <text></text>
+    </node>
+    <node idx="23">
+      <text>Parece que ha recolectado una cantidad suficiente de Cajas PE de esta Anomalía. Es hora de aprender sobre la Observación. Por favor, presione la placa de identificación que se muestra en la parte superior de la Unidad de Contención. Por el momento, muestra el número de sujeto en lugar del nombre. Después de desbloquear la Información Básica de la Anomalía, se mostrará el nombre en su lugar.</text>
+    </node>
+    <node idx="24">
+      <text>Esto muestra la información actual que tenemos sobre la Anomalía. Como puede ver, todavía tenemos muy poco conocimiento sobre ella, ya que la mayor parte está bloqueada.</text>
+    </node>
+    <node idx="25">
+      <text>Tendrá que gastar algunas de las Cajas PE únicas que recolectamos de la Anomalía para obtener información específica. Por favor, intente desbloquear la Información Básica sobre la Anomalía ahora.</text>
+    </node>
+    <node idx="26">
+      <text>Aquí se muestran detalles y consejos sobre la gestión de la Anomalía. Si hay algo que a la Anomalía no le gusta, puede resultar en una disminución de su Contador Qliphoth y causar problemas con el resto de nuestra producción de energía; asegúrese de desbloquear y leer a fondo las Enciclopedias de la Anomalía. Ahora, intente desbloquear esta información.</text>
+    </node>
+    <node idx="27">
+      <text>Aquí se muestra cómo reacciona la Anomalía a los diferentes Tipos de Trabajo. Cuanto mayor sea la preferencia por un determinado Tipo de Trabajo, más exitoso será el Proceso de Trabajo. El número de la izquierda indica el Nivel de Virtud que un empleado necesita para realizar ese nivel de trabajo. Por favor, desbloquee toda esta información ahora.</text>
+    </node>
+    <node idx="28">
+      <text>Continuando, esta área muestra el Contador Qliphoth máximo de la Anomalía. También le informará si una Anomalía es capaz de escapar, así como sus resistencias al daño cuando lo hace; saber a qué es débil una Anomalía será crucial para manejar cualquier situación de escape. Intente desbloquear esta información ahora.</text>
+    </node>
+    <node idx="29">
+      <text>Ahora ha maximizado el Nivel de Observación de esta Anomalía. Cuando desbloquea completamente una sección de la Enciclopedia, el Nivel de Observación de la Anomalía aumentará. Esto proporcionará beneficios adicionales al trabajar con la Anomalía, como una mayor Velocidad de Trabajo o Tasa de Éxito.</text>
+    </node>
+    <node idx="30">
+      <text>Una vez que el Nivel de Observación alcanza un cierto punto, la extracción y producción de Equipo E.G.O de la Anomalía estará disponible a costa de sus Cajas PE únicas. Las Armas E.G.O son herramientas poderosas que pueden ayudar con la supresión de las Anomalías. Por favor, extraiga una ahora. </text>
+    </node>
+    <node idx="31">
+      <text>Los Trajes E.G.O ofrecen mayor resistencia a ciertos tipos de daño. A la inversa, algunas formas de daño pueden causar mayores heridas dependiendo del Traje E.G.O que se esté utilizando. Por favor, extraiga uno ahora.</text>
+    </node>
+    <node idx="32">
+      <text>Bien hecho, jefe. Aquí puede ver qué Regalo E.G.O puede presentar la Anomalía a un empleado. Si esta información está desbloqueada, cada vez que un empleado finaliza el Proceso de Trabajo con la Anomalía, tendrá la posibilidad de recibir el Regalo E.G.O que se muestra aquí. Tenga en cuenta que las posibilidades de que esto ocurra tienden a ser bastante escasas.</text>
+    </node>
+    <node idx="33">
+      <text>Por último, echemos un vistazo a los registros de observación de la Anomalía. Por favor, haga clic en el texto: Historia de la Anomalía.</text>
+    </node>
+    <node idx="34">
+      <text>En esta sección de la Enciclopedia, puede leer los registros de observación de la Anomalía. Se agregarán nuevas líneas a medida que aumente su Nivel de Observación. Ahora bien, parece que hemos revisado todo. Por favor, salga de la ventana haciendo clic en "Cerrar".</text>
+    </node>
+    <node idx="35">
+      <text>Ahora que ha desbloqueado la Información Básica, parte de ella se muestra en la parte superior de la Unidad de Contención. Además, como hemos desbloqueado la lista de sus trabajos favoritos, ahora sabemos que la Anomalía prefiere el Trabajo de Apego. Intentemos ordenar a un empleado que realice Trabajo de Apego con ella. Por favor, haga clic en la Unidad de Contención de la Anomalía.</text>
+    </node>
+    <node idx="36">
+      <text>Partes adicionales de la Información Básica también se muestran en esta ventana, lo que puede ser útil para un nuevo jefe. ¿Por qué no intenta ordenar a un empleado que realice Trabajo de Apego?</text>
+    </node>
+    <node idx="37">
+      <text>Como ha aprendido las preferencias para el Trabajo de Apego, se muestran la Tasa de Éxito que tendrá el empleado y la cantidad de tiempo necesaria para realizar el trabajo. También puede ver los diversos detalles del empleado pasando el ratón sobre ellos. Esto le permitirá tomar decisiones conscientes al dar órdenes. Por favor, seleccione un empleado para hacer el trabajo.</text>
+    </node>
+    <node idx="38">
+      <text>Hay una última cosa sobre la que debo advertirle. Cada vez que un empleado entra en una Unidad de Contención para trabajar con una Anomalía, el Indicador de Derrame Qliphoth se llenará una marca.</text>
+    </node>
+    <node idx="39">
+      <text>Cuando el indicador se llena por completo, ocurrirá un Derrame Qliphoth en toda la instalación. El número en la parte derecha del indicador indica la cantidad de Unidades de Contención que se verán afectadas. Las Unidades de Contención afectadas recibirán una Alarma de Derrame y tendrán una alerta a su alrededor.</text>
+    </node>
+    <node idx="40">
+      <text>Cuando ocurre un Derrame Qliphoth, la Unidad de Contención tendrá un temporizador que se muestra junto con la alarma en la parte superior. Este temporizador bajará  lentamente hasta que llegue a cero; sin embargo, si ya se estaba trabajando con la Anomalía en el momento del Derrame Qliphoth, el temporizador se pausará hasta que finalice el Proceso de Trabajo.</text>
+    </node>
+    <node idx="41">
+      <text>La Fusión se puede resolver realizando trabajos con las Anomalías cuyas Unidades de Contención estén afectadas. Si el Derrame no se desactiva dentro del límite de tiempo, se perderá una porción de la energía que hemos recolectado, y el Contador Qliphoth de la Unidad de Contención bajará inmediatamente a 0; por favor, intente evitar que esto suceda. Puede encontrar información más detallada sobre esto en la sección "Penalizaciones por Conteo de Trabajo" del Manual del Jefe.</text>
+    </node>
+    <node idx="42">
+      <text>Cada vez que ocurre un Derrame Qliphoth en la instalación, el Nivel de Derrame aumenta. Cuanto mayor sea el Nivel de Derrame, más Unidades de Contención se someterán a el Derrame Qliphoth. También existe la posibilidad de que se manifiesten Pruebas en lugar de que pase un Derrame. Si desea saber qué son las Pruebas, consulte el Manual del Jefe y lea el artículo relevante.</text>
+    </node>
+    <node idx="43">
+      <text>Creo que hemos cubierto casi todo lo que necesita saber para comenzar a gestionar Anomalías. Si tiene algún deseo de leer más sobre el tema, lo cual le recomendaría encarecidamente, búsquelo en el Manual. El Manual se puede consultar en cualquier momento durante la Gestión pulsando la tecla F1. Ahora bien, ¿finalizamos la jornada laboral? Todo lo que necesita hacer es presionar el botón en la parte superior.</text>
+    </node>
+    <node idx="44">
+      <text>Después de completar la jornada laboral, cualquier empleado que haya realizado un trabajo verá aumentados sus valores de estado de acuerdo con los Tipos de Trabajo que realizó. Después de que estos valores superen un cierto punto, su Nivel de Virtud correspondiente aumentará. El nivel del empleado también puede aumentar si sus Virtudes son lo suficientemente altas. Aquellos que logren esto serán ascendidos y se mostrarán en la lista a continuación.</text>
+    </node>
+    <node idx="45">
+      <text>También recibirá LOB como recompensa por su arduo trabajo de acuerdo con su ranking de gestión. Puede asegurar una clasificación alta manteniendo a más de sus Agentes vivos al final del día. Cuanto más alta sea su ranking, más LOB recibirá. Sin embargo, si hay alguna Anomalía suelta cuando elige completar la jornada laboral, perderá parte del LOB que de otra manera habría ganado.</text>
+    </node>
+    <node idx="46">
+      <text>Aquí puede ver qué misiones logró completar con éxito a lo largo del día. Cada vez que complete una misión, podrá realizar investigaciones en el Departamento del que provino al comienzo del día siguiente.</text>
+    </node>
+    <node idx="47">
+      <text>Una vez finalizada la gestión, puede optar por avanzar al día siguiente o reintentar el día actual. Los Agentes muertos y el Equipo E.G.O perdido se recuperarán si decide reintentar. Sin embargo, también perderá cualquier Observación de Anomalías, Cajas PE, Equipo E.G.O extraído y ascensos ganados si comienza el día de nuevo.</text>
+    </node>
+    <node idx="48">
+      <text>Finalmente, haga clic en el botón para saltar al día siguiente. Desde allí le daré instrucciones sobre el Despliegue.</text>
+    </node>
+    <node idx="49">
+      <text></text>
+    </node>
+  </step>
+  <step index="2">
+    <node idx="0">
+      <!-- for timer -->
+    </node>
+    <node idx="1">
+      <text>Cuando una misión se completa con éxito, podrá realizar un proyecto de investigación. Las propuestas para los diversos proyectos de investigación de un Departamento se muestran al comienzo de cada día durante el Despliegue. Para seleccionar un proyecto de investigación, haga clic y arrástrelo a la ranura abierta en la parte inferior derecha, luego haga clic en 'Proceder' para confirmar su elección. Por favor, intente hacerlo con esta propuesta de ejemplo. </text>
+    </node>
+    <node idx="2">
+      <text></text>
+    </node>
+    <node idx="3">
+      <text>¿Recuerda cómo fue recompensado con LOB por su habilidad durante la gestión? Aquí puede ver la cantidad total de LOB que ha acumulado. Para esta parte de mi instrucción, le mostraré cómo gastar algo de su LOB para contratar nuevos Agentes y cómo desplegarlos.</text>
+    </node>
+    <node idx="4">
+      <text>Comencemos contratando algunos nuevos Agentes. Intente presionar el botón "Contratar".</text>
+    </node>
+    <node idx="5">
+      <text>Aquí puede ver la información y la apariencia de su futuro nuevo empleado. Puede ajustar sus Virtudes haciendo clic en las flechas al lado de cada una. Si, por ejemplo, deseara contratar un empleado con más PS, podría aumentar su Fortaleza. Intentemos eso ahora mismo.</text>
+    </node>
+    <node idx="6">
+      <text>A medida que aumenta los niveles de Virtud de un empleado antes de contratarlo, la cantidad de LOB requerida también aumentará. Cuanto más altos sean los valores, más LOB costarán. Es posible que deba considerar detenidamente cuánto LOB está dispuesto a gastar en un solo empleado, así como cuánto tendrá después, antes de finalizar su decisión.</text>
+    </node>
+    <node idx="7">
+      <text>Una vez que haya terminado de ajustar a su nuevo empleado a como lo desea, puede presionar el botón "Contratar" nuevamente para finalizar el procedimiento. Por favor, hágalo ahora.</text>
+    </node>
+    <node idx="8">
+      <text>El empleado que estaba personalizando acaba de ser contratado. ¿Qué tal si echamos un vistazo a su información de nuevo? Por favor, haga clic en el empleado.</text>
+    </node>
+    <node idx="9">
+      <text>Al igual que vimos su información durante la gestión, la información sobre sus Agentes se mostrará aquí de la misma manera. Si cree que su empleado podría necesitar un fortalecimiento en una de sus Virtudes, puede hacerlo fortificándolos. Por favor, haga clic en el botón Fortalecer Empleado.</text>
+    </node>
+    <node idx="10">
+      <text>Exactamente como ajustamos las Virtudes durante la contratación, puede ajustarlas aquí presionando las flechas al lado de cada una. Recuerde que, como se indicó anteriormente, costará LOB adicional hacerlo. Intente aumentar la Prudencia en 1 nivel.</text>
+    </node>
+    <node idx="11">
+      <text>Ahora, para finalizar la fortificación, por favor presione confirmar.</text>
+    </node>
+    <node idx="12">
+      <text>Parece que su nuevo empleado está listo para ser desplegado; hagámoslo haciendo clic y arrastrando al empleado con el botón primario del ratón (clic derecho) hasta el Equipo de Control.</text>
+    </node>
+    <node idx="13">
+      <text>Bien hecho, ahora a darles algo de equipo. Si recuerda, ayer extrajimos algo de Equipo E.G.O de la Anomalía; podemos dárselo a nuestros empleados. Para verlo, por favor presione el botón Lista E.G.O.</text>
+    </node>
+    <node idx="14">
+      <text>Actualmente se muestra la lista de Armas E.G.O disponibles y su información. Ahora, haga clic en uno de sus Agentes en la lista de la derecha para seleccionarlo.</text>
+    </node>
+    <node idx="15">
+      <text>Ahora, asigne un Arma E.G.O a su empleado seleccionado haciendo clic en una de las ranuras vacías.</text>
+    </node>
+    <node idx="16">
+      <text>Continuando, echemos un vistazo a la lista de Trajes E.G.O disponibles. Por favor, haga clic en la pestaña Traje E.G.O.</text>
+    </node>
+    <node idx="17">
+      <text>Al igual que antes, puede asignar un Traje E.G.O a uno de sus Agentes haciendo clic en una ranura vacía.</text>
+    </node>
+    <node idx="18">
+      <text>Por favor, tómese un momento para probar a equipar a otros empleados con Armas E.G.O y Trajes E.G.O.</text>
+    </node>
+    <node idx="19">
+      <text>Excelente trabajo. Deberíamos volver a la pantalla de Despliegue. Por favor, salga de la lista.</text>
+    </node>
+    <node idx="20">
+      <text>Parece que hay una misión esperándole para hoy. No es necesario completar todas las misiones que tiene de inmediato, pero se recomienda manejarlas pronto para que pueda realizar investigaciones al día siguiente.</text>
+    </node>
+    <node idx="21">
+      <text>Una última cosa: si tiene alguna pregunta adicional relacionada con el proceso de gestión o el despliegue, siempre puede revisar el manual haciendo clic en este botón en la parte superior. El manual también se puede abrir en cualquier momento presionando la tecla F1.</text>
+    </node>
+    <node idx="22">
+      <text>A continuación, le explicaré brevemente cómo lidiar con situaciones de emergencia que puedan surgir mientras gestiona las Anomalías. Cuando esté listo, por favor comience el siguiente día de gestión.</text>
+    </node>
+  </step>
+  <step index="3">
+    <node idx="0">
+      <!-- for timer -->
+    </node>
+    <node idx="1">
+      <text>Permítame explicarle cómo debe lidiar un jefe con situaciones de emergencia. El número que se muestra aquí es el Contador Qliphoth. Disminuirá si incumple las Directrices de Gestión mostradas en la Enciclopedia de la Anomalía o no logra evitar un Derrame Qliphoth a tiempo.</text>
+    </node>
+    <node idx="2">
+      <text>Así que ahora debe preguntarse qué sucede cuando el Contador Qliphoth llega a cero, ¿no?, ¿Lo averiguamos? Por favor, seleccione la Unidad de Contención y ordene a un empleado que realice Trabajo de Represión.</text>
+    </node>
+    <node idx="3">
+      <text></text>
+    </node>
+    <node idx="4">
+      <text></text>
+    </node>
+    <node idx="5">
+      <text></text>
+    </node>
+    <node idx="6">
+      <text>Cuando el Contador Qliphoth de una Anomalía llega a 0, escapará o usará una habilidad especial. Tales cosas pueden llevar a situaciones bastante inconvenientes. Esta abnormalidad en particular escapa; nuestros Agentes no pueden trabajar con ella mientras está escapando, por lo que necesitamos Suprimirla. Por favor, haga clic en la Anomalía escapada.</text>
+    </node>
+    <node idx="7">
+      <text>Las Anomalías pueden infligir cuatro Tipos de Daño diferentes. ROJO: que disminuye la Salud (PS), BLANCO: que disminuye la Cordura (PC), NEGRO: que disminuye tanto PS como PC, y PÁLIDO: que disminuye la Salud (PS) en un porcentaje basado en el PS máximo del objetivo. Los Agentes equipados con E.G.O también pueden utilizar uno de estos cuatro Tipos de Daño.</text>
+    </node>
+    <node idx="8">
+      <text>Además, las Anomalías tienen un conjunto de defensas para estos Tipos de Daño. Algunas formas de ataque pueden ser débiles, mientras que otras podrían ser fatales. Puede Suprimir una abnormalidad de manera más efectiva cuando sus Agentes atacan usando los Tipos de Daño contra los que una Anomalía es débil.</text>
+    </node>
+    <node idx="9">
+      <text>Esta abnormalidad inflige daño ROJO y es débil al daño BLANCO. Qué conveniente que nuestros Agentes estén todos equipados con Trajes E.G.O que resisten ROJO, y Armas E.G.O que infligen daño BLANCO.</text>
+    </node>
+    <node idx="10">
+      <text>Otra cosa: si un empleado está usando un Arma E.G.O cuyo Grado es superior al Nivel de Riesgo de la abnormalidad (ej. TETH &gt; ZAYIN), infligirán más daño a la Anomalía y también recibirán menos daño. En nuestra situación actual, el Grado del E.G.O y el Nivel de Riesgo de la Anomalía son los mismos (TETH = TETH), por lo que esto no aplica. </text>
+    </node>
+    <node idx="11">
+      <text>Cuando la Interfaz de Usuario de Supresión está en pantalla, puede tomar nota de con qué E.G.O ha sido equipado cada empleado antes de enviarlos al combate. Pasar el ratón sobre un empleado también le permitirá verificar sus defensas. Ahora, por favor, haga clic en un empleado para comenzar a Suprimir nuestra Anomalía escapada.</text>
+    </node>
+    <node idx="12">
+      <text></text>
+    </node>
+    <node idx="13">
+      <text>Enfrentarse cara a cara con una Anomalía, especialmente cuando está suelta, puede ser bastante impactante y aterrador para sus empleados. Al igual que cuando un empleado entra en una Unidad de Contención, pueden recibir Daño por Miedo. Si el Nivel de Riesgo de la Anomalía es alto mientras que el nivel del empleado es bajo, causará una tensión más fuerte en su mente y reducirá una porción más grande de sus PC.</text>
+    </node>
+    <node idx="14">
+      <text>Parece que esta Anomalía es demasiado fuerte para que un solo empleado la suprima. Ah, este es un buen momento para recordarle que si un empleado muere, el E.G.O que se le asignó también se perderá. Ahora, ordenemos al resto de los empleados que ayuden a Suprimir esta Anomalía. Por favor, seleccione a los otros dos Agentes haciendo clic y arrastrando sobre ellos con el botón primario del ratón (LMB).</text>
+    </node>
+    <node idx="15">
+      <text>A continuación, haga clic en la Anomalía con el botón secundario del ratón (clic derecho) para ordenarles inmediatamente que la Supriman. Tenga en cuenta que puede deseleccionar accidentalmente al empleado durante este proceso. Es mucho más seguro, y también más fácil, dar sus órdenes cuando Pausa. Puede Pausar el flujo del tiempo presionando el icono en la parte inferior izquierda, o presionando la Barra Espaciadora de su teclado.</text>
+    </node>
+    <node idx="16">
+      <text></text>
+    </node>
+    <node idx="17">
+      <text>Ha hecho bien en manejar esta situación. Movamos a nuestros empleados de vuelta a la Sala Principal de su Departamento. Por favor, selecciónelos a todos haciendo clic y arrastrando con el botón primario del ratón (clic izquierdo).</text>
+    </node>
+    <node idx="18">
+      <text>Con ellos seleccionados, use el botón secundario del ratón (clic derecho) para hacer clic en la Sala Principal. Es importante tener en cuenta que también puede usar lo que ha aprendido aquí para hacer que esperen en modo de espera en otras ubicaciones, como pasillos y otros Departamentos.</text>
+    </node>
+    <node idx="19">
+      <text></text>
+    </node>
+    <node idx="20">
+      <text></text>
+    </node>
+    <node idx="21">
+      <text>Cuando la Cordura (PC) de un empleado cae a 0, entrará en pánico. Un empleado en pánico mostrará diferentes comportamientos dependiendo de su Virtud más alta. Si desea obtener más información sobre esto, consulte la sección "Pánico del Empleado" en el Manual del Jefe. Ahora, haga clic en el empleado que está actualmente en pánico con el botón primario del ratón (clic izquierdo).</text>
+    </node>
+    <node idx="22">
+      <text>Los Agentes pueden recuperarse de su pánico cuando su PC se restaura completamente al 100%. El PC se puede restaurar con Armas E.G.O BLANCAS o NEGRAS. Convenientemente, todos nuestros Agentes actuales están equipados con E.G.O que infligen daño BLANCO. Por favor, seleccione todos los Agentes disponibles y ordéneles que supriman al empleado en pánico.</text>
+    </node>
+    <node idx="23">
+      <text></text>
+    </node>
+    <node idx="24">
+      <text>Eso fue excelente. Verdaderamente bien hecho. Si alguna vez se encuentra en una situación que desearía rehacer, como retroceder el tiempo para evitar la muerte de un empleado, puede hacerlo presionando ESC y haciendo clic en el botón Retroceder al Repositorio de Memoria o haciendo clic en Reintentar. Cuando elige Repositorio de Memoria, volverá al Día Impreso más reciente. Reintentar, por otro lado, reiniciará en el Despliegue del día actual.</text>
+    </node>
+    <node idx="25">
+      <text>Por último, llamemos a todos nuestros Agentes de vuelta a la Sala Principal de su Departamento. Por supuesto, puede hacer esto seleccionándolos a todos y moviéndolos manualmente con el botón secundario del ratón, sin embargo, hay una manera aún más fácil. Al lado del Indicador del Regenerador de cada Departamento hay un botón de Llamada. Puede usar este botón para convocar a todos sus Agentes de vuelta a la Sala Principal de su Departamento de Origen respectivo. Por favor, intente hacerlo.</text>
+    </node>
+    <node idx="26">
+      <text></text>
+    </node>
+    <node idx="27">
+      <text>Esto concluye nuestra Capacitación y Educación Básica para Gerentes. Si le surge alguna pregunta o inquietud mientras está en el trabajo, siempre puede consultar el Manual presionando F1 o abriéndolo desde el Menú ESC. Por último, aparecerán mensajes de ayuda si pasa el ratón sobre las diversas interfaces y espera un momento. Le deseo buena suerte y salud duradera en Lobotomy Corporation, gerente.</text>
+    </node>
+  </step>
+
+</root>
+
+
+
