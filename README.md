@@ -23,6 +23,6 @@ https://www.youtube.com/@Reverbox-Dub
 # CRÉDITOS
 Director principal - CintaVHS
 
-Traductores ayudantes - WoazT, TROLLERINI, MrDacted-wright, PapasConLimon, Sora1316, Huguminero, Lucasopgr, UndeadParis
+Traductores ayudantes - WoazT, TROLLERINI, MrDacted-wright, PapasConLimon, SoraVA, Huguminero, Roxas, UndeadParis
 
 Ayuda miscelánea - mogaku9
