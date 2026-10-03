@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300004">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-79</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/MeatIdol</portrait>
+      <name openLevel="1">
+        Ídolo en carne
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>
+        Y la plegaria terminará con el sufrimiento del creyente.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una mezcla de carne y chatarra.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Se dice que es un artefacto religioso, encontrado en un Distrito. En el pasado, las preguntas que tenían las personas eran respondidas mediante la religión. Cuando un empleado le ofrece un rezo, la carne se mueve como si de un gesto de gratitud se tratara.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {El creyente sufrirá múltiples desventuras a modo de ritual. Mientras tanto, todas las personas que se encuentren cerca del rezo perderán los dolores y las penas, como si fueran redimidos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Y la plegaria terminará con el sufrimiento del creyente.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Los efectos de $0 se manifiestan mediante un rezo. Aquel que rece sufrirá varios tipos de daño constantemente.</specialTip>
+      <specialTip openLevel="2" key="2">&lt;1º experimento&gt; Rezo de menos de 20 segundos. El empleado murió.</specialTip>
+      <specialTip openLevel="3" key="3">&lt;2º experimento&gt; Rezo de 21-45 segundos. En este tiempo, todos los empleados (excepto el que está rezando) recuperaron vida.</specialTip>
+      <specialTip openLevel="4" key="4">&lt;3º experimento&gt; Rezo de 46-90 segundos. En este tiempo, todos los empleados (excepto el que está rezando) recuperaron vida y sanidad.</specialTip>
+      <specialTip openLevel="5" key="5">&lt;4º experimento&gt; Rezo de más de 90 segundos. El empleado murió, y todos los contadores Qliphoth de todas las abnormalidades bajaron a 0 instantáneamente.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

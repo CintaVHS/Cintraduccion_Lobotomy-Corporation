@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100103">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 no recuerda nada positivo, como las chispas del amor o la felicidad de hacer una buena acción. Solo reaciona a cosas moribundas.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Hace mucho, el corazón de $0 fue perforado por la bala mágica, que siempre da en el blanco.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Como ocurre con todos los pactos hechos con el Diablo, la petición de $0 no acabará pacíficamente.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">F-01-69 </codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/Freischutz</portrait>
+      <name openLevel="1">
+       Der Freischütz
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>"Tal y como dices, esta bala puede penetrar a quien sea."</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {El diablo finalmente deseó la desesperación.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Porque la desesperación desgasta la mente y agota la voluntad de seguir adelante. Cuando alguien siente que ya no queda nada por lo que luchar, su alma cae al Infierno, el dominio del Diablo. Por eso al Diablo le resulta más entretenido ver a la gente caer en la desesperación que simplemente matarla. A esto lo describimos como “venderle el alma al Diablo."}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Cuando un tirador recibió un arma del Diablo, este le propuso un contrato infantil: la última bala debía atravesar la cabeza de su ser amado. Al oír aquello, el tirador buscó y disparó a todas las personas que amaba. Luego le dijo al Diablo: "Esta bala mágica realmente puede alcanzar a cualquiera, tal como dijiste."&#13;&#10;&#13;&#10;Con la última bala perdida para siempre, el cazador viajó por numerosos mundos. A veces ayudaba a los necesitados o luchaba contra el mal, pero todo lo hacía por impulso, no por bondad ni por ideales. En un mundo, lo llamaban cazador justo; en otro, pistolero manchado de sangre.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Un día, el tirador se dio cuenta de que el Diablo ya no lo seguía. Se preguntó por qué, entonces se dio cuenta de que su alma ya se había caído al infierno desde el principio. El contrato ya se había cumplido, asi que el Diablo se fue.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {El tirador, ahora convertido en un demonio, sigue apretando el gatillo para recolectar las almas de los demás. Tal como dijo el Diablo, las balas perforarán cualquier cosa que desees. Por siempre. }
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">$0 permite recibir peticiones. El coste de estas peticiones es el 10% de nuestra energía actual.</specialTip>
+      <specialTip openLevel="1" key="2">Las balas de $0 atraviesan a todo y a todos. Además, la séptima bala que $0 dispare será dispara al azar.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando un empleado con Justicia 3 o menos terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="4">Cuando el trabajo fue normal, bajó el contador con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="5">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="1" key="6">Cuando el contador Qliphoth llegó a 0, $0 disparó una bala en un lugar aleatorio.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

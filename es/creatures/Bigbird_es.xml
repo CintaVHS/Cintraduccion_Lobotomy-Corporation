@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100008">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Las características más notables de $0 son sus numerosos ojos que cubren todo su cuerpo, y la brillante lámpara que porta.},
+      {De hecho, no sabemos la razón detrás del por qué $0 estaba matando gente.},
+      {La incapacidad de $0 de poder volar como la mayoría de aves es un gran beneficio. Si pudiera, la mitad de nuestros empleados estarían decapitados en este momento.},
+      {Una idea apareció en la mente de $0: "Si mato a las criaturas primero, ¡entonces nadie moriría a manos de la bestia!" Fue así que el bosque encontró paz.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El fantasmagórico sonido de ojos flotantes y una parpadeante, ardiente lámpara llena la Unidad de Contención.},
+      {Los ojos y la lámpara de $0 iluminan la oscura estancia cual estrellas.},
+      {Muchos de los ojos de $0 se dirigen directamente hacia #0.},
+      {Mirando hacia $0, #0 se estremece nerviosamente.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Detrás de #0, se puede escuchar el sonido retumbante de una peluda ave negra.},
+      {Se pueden escuchar los esporádicos chillidos de un pájaro.},
+      {$0 llora detrás de #0, haciendo parecer como si estuviera nervioso.},
+      {$0 circula y ronda alrededor de #0, llorando.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 gira su cabeza para evitar contacto visual, encontrándose así con una lámpara ardiente.},
+      {Una fulgurante lámpara es sostenida en frente de #0, quien se giró para evitar mirar a $0.},
+      {#0 observa a $0 sosteniendo su iluminante lámpara.},
+      {Fue una buena decisión por parte de #0 no mirar hacia $0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Los ojos de $0 se están tornando carmesí.},
+      {$0 se acerca a #0 mientras hace sonidos amenazantes.},
+      {$0 está ruidosamente afilando sus dientes.},
+      {$0 está caminando hacia #0.}
+      ]
+    </narration>
+    <narration action="death">
+      [
+      {La cabeza de #0 rueda sobre el suelo de la Unidad de Contención.},
+      {La cabeza de #0 fue fácilmente arrancada.},
+      {$0 utilizó su pico para arrancar la cabeza de #0 como si estuviese arrancando las malas hierbas de un jardín.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">O-02-40</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/BigBird</portrait>
+      <name openLevel="1">
+        Pájaro jurado
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Un mes después, hemos llegado a esta conclusión: No había tal 'bestia' en el bosque.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un largo pájaro de muchos ojos que patrulla el bosque oscuro con una lámpara siempre brillante. Al contrario que otros pájaros, carece de alas y en cambio tiene largos brazos con los que puede agarrar cosas.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {...(Omitido) miraría intensamente hacia cualquiera que hubiese encontrado, joven o viejo, y arrancaría sus cabezas de un mordisco.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {Hay un cuento que habla de una bestia que vive en la más profunda y oscura parte del bosque, la cual ilumina a las criaturas, atrayéndolas a lo más profundo para no ser vistas otra vez.&#13;&#10;&#13;&#10;Para proteger a todas las criaturas de la bestia, el gran pájaro quemó todas sus plumas para hacer una mecha, y después hizo una lámpara que ardería eternamente.&#13;&#10;&#13;&#10;Con esta lámpara eternamente iluminada, el pájaro anduvo por el bosque, avisando a las criaturas de no perderse muy profundo entre los árboles.&#13;&#10;&#13;&#10;Gracias a sus esfuerzos, pocas criaturas fueron víctimas de la bestia del bosque. Sin embargo, el ave aún se preocupaba por las criaturas que todavía eran asesinadas por la bestia.&#13;&#10;&#13;&#10;Una idea iluminó la mente del gran pájaro: "Si mato a todas las criaturas primero, ¡entonces nadie moriría a manos de la bestia!"&#13;&#10;&#13;&#10;Desde entonces, solo rumores de una bestia que te arrancaría la cabeza de un mordisco se transmitieron alrededor del bosque.&#13;&#10;&#13;&#10;Se dice que la bestia cuidadosamente examina y mira hacia sus víctimas para ver si son la bestia que atrae a las indefensas criaturas a lo más profundo del bosque.&#13;&#10;
+      Esto es un cuento proveniente del pueblo localizado en &lt;Localización Redactada&gt;. Esta historia nos fue contada por el habitante más longevo del pueblo, &lt;Redactado&gt;. Aunque hay una suposición generalizada de que la historia fue hecha para prevenir a los niños de entrar al bosque, es incierto el autor original de ésta.}
+      ]
+    </desc>
+    <desc id="4" openLevel="1">
+      [
+      {“No podemos hacer nada mientras que la Abnormalidad tiene sus ojos abiertos. Mira intensamente, y sigue mirándonos…(Omitido). Es por esto que tenemons que hacer que se duerma primero. Solo podemos empezar el trabajo cuando todas las docenas de ojos hayan entrado en un profundo sueño.”}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {Y resulta que la historia no era inventada.&#13;&#10;
+      “Fuimos capaces encontrar una larga ave en el bosque. Justo después de eso, intentamos buscar 'la bestia que ilumina a las personas.' Hemos rebuscado en cada rincón del bosque. Investigado toda criatura en detalle. Un mes después, hemos llegado a esta conclusión: No había tal 'bestia' en el bosque. Excepto por ese pájaro.”}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {“Esta Abnormalidad es ignorante por completo de la percepción común de la muerte. Las Abnormalidades que residen en esta corporación pueden ser puestas en dos categorias. La primera categoría son aquellos quienes entienden perfectamente el concepto y el significado de muerte, y atacarán a nuestros empleados con la intención de matar. La segunda son para aquellos quienes comprenden el concepto de la muerte, pero atacan sin ninguna mala intención. Esta Abnormalidad que estamos conteniendo aquí no pertenece a ninguna de las dos categorías. Para esta ave, la muerte es salvación en sí misma. Si ha arrancado la cabeza de una niña pequeña perdida en el bosque, para este, no hubo equivocación, malicia, u homicidio. Piensa que solo ha salvado a la niña de la bestia.”}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">Al morir 5 personas, bajó el contador Qliphoth. Las muertes causadas por balas de ejecución no fueron registradas.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el trabajo fue bueno, subió el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="4">El contador Qliphoth bajó a 0 cuando la segunda trompeta fue activada.</specialTip>
+      <specialTip openLevel="3" key="5">Tras escaparse, hubo un apagón en el departamento donde residía $0. Aquellos que se encontraban en ese departamento podían ser engatusados por $0.</specialTip>
+      <specialTip openLevel="2" key="6">Los empleados engatusados reciben menos daño. Sin embargo, tras un tiempo, los engatusados se dirigieron a $0 y fueron asesinados.</specialTip>
+      <specialTip openLevel="2" key="7">Los empleados engatusados dejaron de estarlo cuando se alejaron del departamento donde surgió el apagón.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

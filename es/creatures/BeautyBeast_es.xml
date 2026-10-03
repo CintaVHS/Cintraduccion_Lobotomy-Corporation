@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100013">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 busca a alguien que pueda erradicar la maldición.},
+      {A $0 le gusta tan poco su apariencia grotestca que, con frecuencia, intenta suicidarse.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Pero la maldición continúa eternamente, sin interrupción.},
+      {La maldición ha existido desde siglos, infligiendo agonía hacia sus pobres víctimas.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Nacer nos abre las puertas a la felicidad que nos trae la muerte.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {La boca de #0 se llena de ojos, y de sus cuencas crecen cuernos decorados con flores. #0, ahora Bestia, busca a alguien para erradicar su maldición.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-02-44</codeNo>
+      <name openLevel="1">Bella y Bestia</name>
+      <portrait openLevel="2">Sprites/Unit/creature/BeautyBeast</portrait>
+      <riskLevel openLevel="1">TETH</riskLevel>
+      <openText>Pero la maldición continúa eternamente, sin interrupción.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una abnormalidad que se desprecia continuamente, soltando gritos desgarradores a diario. No quiere más que romper el ciclo de la maldición, pero no existe ningún método para hacerlo.&#13;&#10;
+      Bella era una mujer honrada de radiantes ojos verdes. Pero un día, Bella se entera de un puesto de trabajo en la mansión del conde, prometiendo una paga muy generosa.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {El conde tenía una apariencia monstruosa. Cuenta la leyenda que todo aquel que entra en su mansión, no se le vuelve a ver.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {"Debe de ser obra de aquel monstruo."&#13;&#10;
+      Con ese pensamiento en mente, Bella se trajo un cuchillo muy afilado consigo.}
+      ]    
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Bella fue contratada. Sin embargo, al contrario de la leyenda, no había ningún monstruo cerca, aunque a veces, por la noche, escuchaba voces. Dicha voz era muy amable y la compensaba por todos sus esfuerzos de manera elegante.}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {Un día, trabajando, Bella pensó en algo egoísta.&#13;&#10;
+      "Si el conde muriese, ¡toda la herencia sería para mí!"}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {Entonces, fue a la habitación del conde: la habitación que nunca debería entrar. Bella vio la verdadera forma del conde. Era espantoso. Cientos de ojos, cuatro piernas, una forma ni animal ni humana...}
+      ]
+    </desc>
+    <desc id="7" openLevel="3">
+      [
+      {Bella pensó: "Tal monstruo sería mejor si no existiese."&#13;&#10;
+      Y apuñaló a la Bestia con su cuchillo.}
+      ]
+    </desc>
+    <desc id="8" openLevel="4">
+      [
+      {La bestia, para su sorpresa, soltó una carcajada antes de morir.}
+      ]
+    </desc>
+    <desc id="9" openLevel="4">
+      [
+      {Antes de que Bella pudiese preguntar por qué, la mujer comenzó a cambiar. Le aparecieron cientos de ojos y pelo por todo su cuerpo. Y antes de que se diera cuenta, Bella se convirtió en la Bestia.}
+      ]
+    </desc>
+    <desc id="10" openLevel="4">
+      [
+      {Ahora la mansión le pertenece a ella.}
+      ]
+    </desc>
+    <desc id="11" openLevel="4">
+      [
+      {...Cuenta la leyenda que todo aquel que entra en su mansión, no se le vuelve a ver.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="hit">Al trabajar con represión, $0 produjo mucha energía. Sin embargo, la salud de $0 empeoró.</specialTip>
+      <specialTip openLevel="2" key="noHit">Cualquier trabajo, excepto represión, mejoró la salud de $0.</specialTip>
+      <specialTip openLevel="3" key="doubledHit">Al trabajar con represión estando en mal estado, $0 cayó al suelo. Después de un tiempo, #0, que estaba trabajando con represión con $0 en ese instante, empezó a experimentar síntomas indescifrables. Entonces, $0 resucitó.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

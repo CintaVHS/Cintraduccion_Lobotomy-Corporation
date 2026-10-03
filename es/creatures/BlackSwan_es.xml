@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100045">
+    <narration action="move">
+      #0 se dirige a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Los hermanos de $0 solo parpadean; es como si fuera lo único que pueden hacer dentro de la Unidad de Contención.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Cuando sus hermanos muestran cualquier signo de dolor, $0 se acerca a ellos, arrastrando su cuerpo exhausto.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-02-70</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/BlackSwan</portrait>
+      <name openLevel="1">
+        Sueño de un cisne negro
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>¿Qué ocurre cuando el cisne negro despierta de un sueño en el que era un cisne blanco?</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Elijah tenía una familia numerosa a la que mantener.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Sus padres, que vivían en la pobreza, siempre decían: “Aunque no tengamos nada que dejaros en herencia, os damos nuestro mayor tesoro: la honestidad y la constancia. Puede que ahora no os sirvan de mucho, pero algún día os harán felices.”}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Un día, una densa niebla cubrió la ciudad.&#13;&#10;Al principio, se pensó que era un fenómeno natural, pero pasaron los días y no desaparecía.&#13;&#10;&#13;&#10;Algunas personas decían sentirse mareadas o con náuseas, pero la mayoría no le dio importancia. La gente seguía trabajando, llevando su rutina como si nada.&#13;&#10;Por supuesto, Elijah era una de esas personas que no podía permitirse parar. Era la única de su familia con un empleo estable, y la pobreza heredada los había dejado endeudados hasta el cuello. Elijah tenía varios hermanos, pero sus ánimos estaban rotos tras numerosos fracasos.&#13;&#10;Estaba agotada, siempre lo estaba, pero pensaba que si trabajaba un poco más, las cosas mejorarían. Tal y como decían sus padres, como en los cuentos.&#13;&#10;Como aquel pájaro que, al final, desplegó sus alas blancas y se convirtió en la envidia de todos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Algunas personas abandonaron la ciudad para huir de la niebla.&#13;&#10;&#13;&#10;Decían que la ciudad estaba condenada. Elijah no les hizo caso.&#13;&#10;&#13;&#10;A veces se sentía mareada. Sentía como si su cuerpo entero se llenara de ampollas.&#13;&#10;&#13;&#10;Solo un poco más, pensaba; si aguantaba un poco más, acabaría la ropa de ortigas, y si se la lanzaba a sus hermanos —aquellos a los que una vez quiso tanto—, quizás podrían recuperar los días felices que compartieron en familia.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Un día, al volver del trabajo, se chocó con un peatón que corría a toda velocidad. Aunque iba a la carrera, tras el golpe no pudo levantarse, así que Elijah le tendió la mano y le preguntó si estaba bien.&#13;&#10;&#13;&#10;Él le apartó la mano de un manotazo y se incorporó por sí solo. Dio unos pasos tambaleantes y volvió a caer. Parecía estar huyendo de algo, como si temiese que Elijah pudiera hacerle daño.&#13;&#10;&#13;&#10;Ella intentó preguntarle qué le pasaba. Pero fue él quien abrió la boca primero. Solo ese gesto, abrir la boca, parecía requerir un esfuerzo inmenso, así que ella esperó pacientemente.&#13;&#10;&#13;&#10;Pero no abrió la boca para hablar: empezó a vomitar una mezcla de sangre y fluidos oscuros.&#13;&#10;&#13;&#10;Primero brotó de su boca, luego salió a borbotones por la nariz, los oídos y los ojos. Si no hubiera empezado a expulsarlo por todos los orificios del cuerpo, quizás Elijah habría intentado ayudarle.&#13;&#10;&#13;&#10;Creyó escuchar un grito a lo lejos. Dejó al hombre vomitando atrás y comenzó a andar lentamente.&#13;&#10;&#13;&#10;¿Qué ocurre cuando el cisne negro despierta de un sueño en el que era un cisne blanco?&#13;&#10;&#13;&#10;Había mucha gente entre la niebla. Algunos gritaban, otros reían. Algunos blandían garrotes, otros se acurrucaban en el suelo; sus cuerpos llenos de heridas.&#13;&#10;El suelo estaba cubierto de restos oscuros, húmedos y pestilentes, salpicados de huellas.&#13;&#10;&#13;&#10;Empezó a buscar a sus hermanos. A su familia, que debía llevar la ropa de ortigas para romper la maldición. Aquellos con quienes compartió sueños felices.&#13;&#10;&#13;&#10;Y entonces los vio, a lo lejos. Sus queridos hermanos.&#13;&#10;&#13;&#10;Elijah cayó de rodillas y finalmente empezó a vomitar la misma sustancia que expulsaban los demás.&#13;&#10;El lago se ondula suavemente. Como si varios cisnes acaban de alzar el vuelo.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Cuando el resultado fue malo, el contador Qliphoth bajó, y la apariencia de F-02-70-4 cambió.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el resultado fue normal, el contador Qliphoth bajó, y la apariencia de F-02-70-5 cambió.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando murieron 5 empleados en la compañía, el contador Qliphoth bajó, y la apariencia de F-02-70-1 cambió. Las muertes por ejecución no fueron registradas.</specialTip>
+      <specialTip openLevel="1" key="4">Cuando 5 personas entraron en estado de pánico, el contador Qliphoth bajó, y la apariencia de F-02-70-2 cambió.</specialTip>
+      <specialTip openLevel="1" key="5">Cuando escaparon 3 abnormalidades, el contador Qliphoth bajó, y la apariencia de F-02-70-3 cambió.</specialTip>
+      <specialTip openLevel="1" key="6">&lt;ALERTA&gt; La reducción forzada del contador Qliphoth también altera a $0.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Cisne negro</name>
+    <codeId>F-02-70-7</codeId>
+  </child>
+</creature>

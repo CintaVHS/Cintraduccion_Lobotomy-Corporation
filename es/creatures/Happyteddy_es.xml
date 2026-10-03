@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100002">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 se parece al osito de peluche que todos tenían cuando eran pequeños.},
+      {$0 siempre quiso abrazar niños.},
+      {$0 ama los abrazos. Sus recuerdos empezaron con un cálido abrazo.},
+      {Un oso de peluche nace de la felicidad, así que necesita estar feliz en todo momento.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 parece estar perdido en sus pensamientos, contemplando con tristeza el relleno que asoma y se derrama por sus costuras.},
+      {La cinta sucia alrededor del cuello de $0’s se agita suavemente, a pesar de que no hay viento que la mueva. El nombre que alguna vez estuvo escrito en ese lazo ya está borrado, irreconocible con el paso del tiempo.},
+      {$0 no se mueve ni un centímetro, como si estuviera mirando hacia la nada. De hecho, está mirando una foto de una niña.},
+      {El ojo de plástico de $0 cuelga en silencio de un hilo en el lado izquierdo de su cara.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Mientras #0 está ocupad@ trabajando, $0 continúa mirando fijamente el marco de la foto.},
+      {Incluso si hay alboroto, $0 no aparta la vista de la imagen.},
+      {Parece que la fotografía frente a él es lo único que le importa a $0.},
+      {#0 no logró desviar la atención de $0 de la foto.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Mientras trabaja, #0 se acerca a $0 y vuelve a apretar su lazo deshilachado.},
+      {#0 se toma un momento para quitar el polvo del marco que $0 contempla con tanto cariño.},
+      {Cuando #0 comienza a remendar los desgarros y rasgaduras de su cuerpo de peluche, $0 no reacciona.},
+      {#0 arregla un poco a $0, pero aún así, no muestra emoción ninguna.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 recuerda la fiesta de cumpleaños de esa increíble niña de siete años. La esperó para sorprenderla dentro de una caja grande y colorida.},
+      {$0 recuerda pasar unas vacaciones maravillosamente divertidas con la joven. Le pusieron de nombre “Bearly”.},
+      {$0 recuerda las incontables noches en las que protegía a aquella niña del miedo a la oscuridad, mientras ella se acurrucaba entre sus brazos.},
+      {$0 recuerda con cariño a la niña, ahora ya crecida. Bajo su tocador, su cuerpo se cubre lentamente de bolas de naftalina.}
+      ]
+    </narration>
+    <narration action="special_ability">
+      [
+      {$0 extiende sus brazos, arrastrando a #0 a su amplio abrazo. #0 comienza a ahogarse y a agitarse, tratando de liberarse.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {Los huesos de #0 empiezan a crugir y a agrietarse en los brazos de $0. Su pelaje viejo huele a añoranza.},
+      {$0 no suelta los brazos, impidiendo que #0 se marche. Los movimientos de #0 se vuelven lentos… hasta detenerse por completo. $0 no quiere soltar su abrazo. }    
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {#0 se hunde en una profunda depresión. La vida ya no tiene sentido. En el gran esquema del universo, #0 no es más que una mota de polvo llevada por el viento.}   
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-04-06</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Teddy</portrait>
+      <name openLevel="1">
+        Un osito de peluche
+      </name>
+      <name openLevel="2">
+        Osito feliz
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>Sus recuerdos comienzan con un abrazo.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una anomalía que se asemeja a un oso de peluche grande y andrajoso. Le falta algo de pelo y solo tiene un ojo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La vieja cinta alrededor de su cuello insinúa que quizás alguna vez recibió mucho cariño de su anterior dueña. Hay un nombre escrito en la cinta, pero está tan desgastada que resulta imposible de leer. Parece saber que ha sido abandonado, y su expresión es profundamente triste. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Extracto del registro de asesoramiento&gt;&#13;&#10;
+      ""Estaba haciendo la ronda nocturna. No sentí la necesidad de prestar atención a Osito Feliz ya que en su mayoría era inofensivo. Solo eché un vistazo a la Unidad de Contención para comprobar que todo estuviera bien. Osito estaba abrazando a alguien con fuerza. Pensé que era (Redactado), el empleado que estaba a cargo de Osito hace tiempo, trabajando hasta tarde. Pero algo iba mal. Entré en la unidad y llamé a (Redactado), pero no respondió. Inmediatamente presioné el botón de emergencia para pedir refuerzos. Resultó que (Redactado) llevaba 8 horas en coma. Estuvo en los brazos de Teddy todo ese tiempo."}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Una carta antigua, sellada como "Rechazada"&gt;&#13;&#10;
+      ¿Recuerdas lo que decía el manual del empleado?
+      "NO desarrolles sentimientos personales hacia las Anomalías."
+      Al principio no entendía lo que eso quería decir.
+      ¿Tiene siquiera sentido sentir algo por esos monstruos?
+      Está bien. Son monstruos. Entre tú y yo, podemos llamarlos así.
+      ‘Osito Feliz’ fue la segunda Anomalía de la que te hiciste cargo.
+      Supongo que pensaste que no todas las Anomalías eran monstruosas después de verlo.
+      La figura de un viejo oso de peluche abandonado debió traerte recuerdos del pasado.
+      A Teddy parecía gustarle que lo abrazaras.
+      Sí, de hecho generaba más energía cuando tú estabas cerca.
+      Y pronto, te asignaron como su responsable.
+      Probablemente sentiste cierta responsabilidad hacia él, ¿verdad?
+      Empecé a preocuparme cuando noté que visitabas la unidad de Teddy cada vez más seguido.
+      Era como si estuvieras haciendo voluntariado en un orfanato.
+      …
+      &lt;i&gt;Parece que Teddy te veía como su nuevo dueño.
+      Quizá te habría alegrado oírlo.
+      Pero, verás, Teddy nunca quiso volver a separarse de su dueño.
+      Seguro que siempre prometías volver.
+      Pero él no podía entenderlo.
+      Escuché que sobreviviste de milagro.
+      Y que tardaron una hora en separarte del abrazo de Teddy.
+      Aunque otros te olviden,
+      yo siempre te recordaré.
+      Que ocurra un milagro.}
+    ]
+  </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="manyDead">#0 fue asfixiado tras trabajar con $0 varias veces seguidas.</specialTip>
+      <specialTip openLevel="2" key="manyDead2">#0 fue asfixiado incluso tras trabajar con $0 dos veces seguidas habiendo transcurrido 5 horas. Es de suma importancia ir alternando los empleados que trabajarán con $0.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

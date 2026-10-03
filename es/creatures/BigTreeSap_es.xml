@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300005">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-80</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/BigTreeSap</portrait>
+      <name openLevel="1">
+        Savia de arboleda
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>
+        "El árbol, simplemente, cosechaba lo que había sembrado."
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Es la savia de un árbol gigante y desconocido que decidió crecer al borde del mundo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Según el equipo de exploración, había un gran número de formas de vida alrededor suya, de color verde oscuro. Esto ocurre porque la savia los saciaba y curaba.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Sin embargo, algunos de nuestros empleados, al tomarla, se derritieron, dejando un montículo de masa verde.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Otros experimentos afirman que la probabilidad de derretirse aumenta rápidamente cuanta más veces se consuma.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {"Muchos empezaron a especular sobre cómo un árbol de tal tamaño pudo sobrevivir en las Afueras. Las formas de vida que consumían su savia se convirtieron en sus nutrientes tarde o temprano. El árbol, simplemente, cosechaba lo que había sembrado."}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="healthgood">$0 restaura instantáneamente la salud física de aquellos que lo consumen. Además, recibieron curaciones por un tiempo.</specialTip>
+      <specialTip openLevel="2" key="boomDead">Algunos empleados que lo consumieron sufrieron de un efecto secundario. Dicho efecto secundario hace explotar al usuario tras 20~30 segundos después de la consumición; la habitación en la que se encontraba sufrió daño BLANCO.</specialTip>
+      <specialTip openLevel="2" key="boomGood">Científicos afirman que hay una relación directa entre la cantidad de consumiciones de $0 y la probabilidad de explosión.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300102">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-86</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/HellTrian</portrait>
+      <name openLevel="1">
+        Tren del infierno
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>
+        Cuando llegue el momento, el tren hará sonar su potente bocina.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {El trabajador silencioso del quiosco vende entradas a un tren sin destino. Hay luces  en lugar de relojes que dicten su salida.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La primera y segunda luz se iluminan; tu mente se vacía.&#13;&#10;La tercera luz se ilumina; tu mente se vacia y tus heridas desaparecen.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {La cuarta luz se ilumina; todos los empleados de la compañía se sienten como nuevos tras escuchar su bocina en la distancia.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Cuando llegue la hora, el tren marchará a toda velocidad y hará sonar su potente bocina. Está confirmado que atravesará el túnel infinito, arrollando a todos los empleados que no se hayan apartado de las vías.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Cada 30 segundos, se iluminará una luz en la taquilla, con un máximo de 4. Si un empleado recibe un ticket, se apagarán todas las luces.</specialTip>
+      <specialTip openLevel="2" key="2">Al recibir un ticket con 1 luz encendida, el empleado recuperará un poco de vida y sanidad.</specialTip>
+      <specialTip openLevel="2" key="3">Al recibir un ticket con 2 luces encendidas, el empleado recuperará bastante vida y sanidad.</specialTip>
+      <specialTip openLevel="2" key="4">Al recibir un ticket con 3 luces encendidas, todos los empleados en el departamento recuperarán vida y sanidad.</specialTip>
+      <specialTip openLevel="2" key="5">Al recibir un ticket con 4 luces encendidas, todos los empleados recuperarán vida y sanidad.</specialTip>
+      <specialTip openLevel="2" key="6">Si una 5º luz intenta ser iluminada, el tren pasará por la compañía, inflijiendo daño NEGRO a todos los empleados que se encuentren en su camino. Entonces, todas las luces se apagarán.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

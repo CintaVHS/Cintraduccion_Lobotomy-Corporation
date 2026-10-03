@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300107">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-09-96</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/JusticeReceiver</portrait>
+      <name openLevel="1">
+        Reconfiguración de personalidad
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Eventualmente, la inteligencia pierde importancia cuando no recuerdan cómo existir.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un dispositivo electrónico con un símbolo desconocido dibujado.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Reconfigura a todo el mundo para que sean justos, sin importar lo malvado, cruel o arrogante que sean.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Sin embargo, sus usuarios serán demasiado dependientes del dispositivo, y perderán la capacidad de pensar por si mismos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Eventualmente, la inteligencia pierde importancia cuando no recuerdan cómo existir.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">La Justicia del usuario aumentará drásticamente al equipar a $0. Sin embargo, la Prudencia disminuirá.</specialTip>
+      <specialTip openLevel="2" key="2">Al ser ordenado a devolver a $0 durante los primeros 30 segundos de equiparlo, el usuario entrará en pánico y morirá pasado un tiempo.</specialTip>
+      <specialTip openLevel="2" key="3">Si la sanidad del usuario llega a 0, el usuario muere instantáneamente.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

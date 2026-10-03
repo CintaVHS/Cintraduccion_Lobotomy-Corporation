@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100029">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Aquel que nació desnudo, morirá desnudo.},
+      {$0 recuerda el incendio.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Puede que hayamos creado a un humano sin corazón.},
+      {Los capullos marchitos florecen violentamente.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 quiere hibernar en una cama de flores.},
+      {#0 está impresionado por la lavanda que se difunde en la celda.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Una vez ya florecido y marchitado, $0 entiende el concepto de resurección; da igual a dónde vaya, siempre dejará huellas, y entonces nos reuniremos con $0.},
+      {Un olor placentero envuelve a #0 mientras duerme, rodeado de flores.},
+      {Una flor puede crecer en cualquier corazón.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-04-53</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Alriune</portrait>
+      <name openLevel="1">
+        Alriune
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Y con ansias de reducirse a cenizas, volverá a la tierra con todos los deseos de vivir.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una abnormalidad que conoce el nacimiento de la primavera y las hojas de otoño.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Tiene una textura suave, parecida a la cerámica. Hay un vacío en donde deberían estar sus ojos. Sin embargo, cualquier fisura y apertura está envuelta en diversas plantas.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;i&gt;Alriune, amado; una muñeca con esperanzas de ser un humano algún día. La gente lo amaba, y sus pupilas estaban llenas de felicidad.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;i&gt;Alriune, abandonado; unos cuervos, obsesionados con el brillo de sus ojos, se los robaron. Su vida se desvanecía lentamente desde entonces.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;i&gt;Alriune, cegado; un humano con esperanzas de ser una muñeca algún día. Y con ansias de reducirse a cenizas, volverá a la tierra con todos los deseos de vivir.&lt;/i&gt;}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="PanicDeath">Cuando el trabajo fue bueno, bajó el contrador Qliphoth con una alta probabilidad.</specialTip>
+      <specialTip openLevel="1" key="PanicDeath2">Cuando el trabajo fue malo, bajó el contrador Qliphoth con una alta probabilidad.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

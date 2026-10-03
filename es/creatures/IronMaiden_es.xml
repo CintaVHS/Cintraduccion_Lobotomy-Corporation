@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300101">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-85</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/IronMaiden</portrait>
+      <name openLevel="1">
+        Podemos Cambiarlo
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        Ahora, todo estará bien.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Después de la repentina popularidad de "Ayudante Todo-Tarea", "Podemos Cambiarlo" fue publicado como el segundo producto de la rama de robots XX Inc.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Como era de esperar de un producto de XX Inc., éste dispone de varias funciones.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {¿Tienes un hijo maleducado que solo sabe llorar? ¡Podemos Cambiarlo!&#13;&#10;¿No te gusta tu apariencia? ¿Demasiado gordo? ¿O tal vez flaco? ¡Podemos Cambiarlo!&#13;&#10;¿Acaso tu casa pierde constantemente la luz porque no tienes dinero? ¡Podemos Cambiarlo!}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Es muy simple. Abre el robot, pasa adentro, y pulsa el botón. Ahora, todo estará bien.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {La máquina produce energía cuando alguien la usa. Viendo que el que entra no sale, se deberá estar muy cómodo ahí dentro.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Los empleados que entran producirán energía con el tiempo.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando hay un empleado dentro, sufrirá daño ROJO constante, y no será capaz de salir.</specialTip>
+      <specialTip openLevel="2" key="3">La cantidad de energía producida aumentará con el tiempo.</specialTip>
+      <specialTip openLevel="2" key="4">Esta abnormalidad no es afectada por derrames de Qliphoth.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

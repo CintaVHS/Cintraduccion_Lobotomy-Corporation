@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100060">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 siempre está dormido en su celda.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El sueño de $0 es sublime, mostrándolo todo.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 brinda dulces sueños a todos; pero en realidad, esta dulzura es inalcanzable y desgasta la esperanza del soñador.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {“Siempre quise dormir. Solo quería tener un sueño feliz.”}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-02-99 </codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/VoidDream</portrait>
+      <name openLevel="1">
+        Sueño vacío
+      </name>
+      <riskLevel openLevel="1">
+      TETH
+      </riskLevel>
+      <openText>Por favor, cómete mis sueños.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {“Deseé por mi eterno letargo.”&#13;&#10;“Así que no te preocupes en despertarme otra vez.”}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Una abnormalidad cuya apariencia consta del pelaje y cuernos de una cabra.&#13;&#10;No hay rasgos exóticos en su apariencia, a excepción de varios ojos coloridos incrustrados en su cuerpo.&#13;&#10;Se piensa que conseguir información de esta abnormalidad será difícil debido a su sueño incesante.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {+ El siguiente registro de asesoramiento ilustra como la habilidad de $0 para adormecer a cualquier persona psicológicamente afecta a los empleados. Los resultados indican que no podemos utilizar esta habilidad para reducir la corrupción mental de nuestro personal. Por favor consulte este registro para más investigaciones.&#13;&#10;
+      Vincent: Por favor, hazlo rápido... Tengo que dormir...&#13;&#10;
+      Asesor: ¿Es eso a causa de la abnormalidad?&#13;&#10;
+      Vincent: Sí, recuerdo ver algo que parecía una oveja pasar frente a mí, y… Bueno, caí dormido. Desde entonces he estado así.&#13;&#10;
+      Asesor: ¿Recuerdas el sueño que tuviste cuando eso pasó?&#13;&#10;
+      Vincent: Oh, jamás podría olvidar ese sueño…&#13;&#10;
+      Asesor: ¿Podrías por favor contarme tanto como puedas sobre él?&#13;&#10;&#13;&#10;
+      Vincent: Fué un feliz, maravilloso, dulce sueño. Son todas las palabras que necesito para describirlo. Joder, me sentí incluso contento de trabajar para esta compañía. También ví a un tío que ya no está conmigo, estaba al lado mía...&#13;&#10;
+      (Omitido)&#13;&#10;
+      …Y por eso no pude controlarme cuando desperté.&#13;&#10;&#13;&#10;
+      Asesor: Ya veo. He escuchado algo sobre tí de los otros empleados últimamente. Todos dicen que lo único que haces fuera del trabajo es dormir. ¿Podrías decirme por qué?&#13;&#10;
+      Vincent: ¿No entiendes de lo que hablo? Solo quiero tener ese sueño otra vez. El sueño en el que estaba ahí con él. Recordando esos momentos felices... Pero no podía, no importa cuantas veces durmiese. ¡Dormí, y dormí, y dormí, y dormí, y dormí, y aún así...!&#13;&#10;
+      Asesor: ... Ya veo. Te aconsejo que descanses en tu habitación.&#13;&#10;
+      Vincent: ...Dijeron que todo el que se despertó después de escuchar el sonido de esa abnormalidad se volvió loco. La gente piensa que es porque todos tuvieron una pesadilla que no pudieron aguantar, pero en realidad es al revés.&#13;&#10;
+      La realidad a la que se tuvieron que despertar era tan terrible que su alma se rindió en la vida despierta.&#13;&#10;
+      Como sabes, el tiempo fluye de forma distinta en los sueños. Un mero instante de vida despierta constituye una eternidad en el mundo onírico.&#13;&#10;
+      Quizá, si $0 fuese a ponerme a dormir otra vez, pueda tener ese maravilloso sueño de nuevo.&#13;&#10;
+      Asesor: ... Te preescribiré una medicina del sueño. Te aseguro que te ayudará a dormir. Por favor ve a descansar por ahora.&#13;&#10;
+      Finalmente, se te prohibirá de entrar a la celda de la abnormalidad de ahora en adelante.}
+    ]
+  </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Un demonio debe cambiar su forma para engañar a otros.&#13;&#10;Un demonio debe brindar sueños dulces para engañar a otros.&#13;&#10;Una grieta aparece en la mente humana cuando se le muestra el sueño que busca.&#13;&#10;Un demonio nunca desperdiciará esta oportunidad para llevar a uno a su perdición.&#13;&#10;&#13;&#10;&lt;i&gt;No digas cosas tan complicadas, no digas esas palabras tan aterradoras.&#13;&#10;Solo quiero dar a la gente sueños dulces;&#13;&#10;Darles los sueños cautivadores que quieren..&#13;&#10;Aquellos que tuvieron mis sueños están destinados a volver a mí.&#13;&#10;Así que, solo cierra tus ojos...&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {En el sueño, tu sonrisa era radiante, y charlábamos con vivideza.&#13;&#10;Cuando volví a la vida despierta, me dí cuenta que estaba en un mundo en el que ya no existías; sentí un vacío tan grande como la fugaz felicidad que llenó mi corazón en mi sueño.&#13;&#10;Cerré mis ojos y me forcé a dormir, pero la mañana seguía viniendo sin importar el qué.&#13;&#10;Creo que ahí es cuando mi alma empezó a romperse.&#13;&#10;De hecho, ya estaba rota desde el día que partí contigo, pero he estado bien. Mi alma ya estaba rompiéndose en fragmentos después de pasar ese día.&#13;&#10;Cuando te ví de nuevo, mi anhelo por tí empezó a presionarme demasiado, nunca más pude ser mi yo antiguo.&#13;&#10;Asesoramiento... Descanso... Todo fué inútil.&#13;&#10;Pasé los días solo, agonizando, hasta que al fín me dí cuenta.&#13;&#10;Me atrajo con un cebo inolvidable.&#13;&#10;Ese fué el precio por comer mis pesadillas. Y luego me dejó con nada más que vacío, así que no tuve más remedio que volver a él.&#13;&#10;Entonces... Lo había perdido a él. No quiero saber nada más.&#13;&#10;&#13;&#10;Por favor, cómete mis sueños.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Cualquier empleado con temperamento menor que 2 dormirá eternamente después de trabajar con $0.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando se escapó $0, sus estrellas dormirán a cualquier empleado que entre en contacto con ellas. Se despertaron cuando el jefe los sacudió.</specialTip>
+      <specialTip openLevel="2" key="4">$0 volvió por voluntad propia a su celda pasado un tiempo.</specialTip>
+      <specialTip openLevel="2" key="5">&lt;ALERTA&gt; $0 reaccionará violentamente al ser atacado, sufriendo una transformación hostil, denominada $0-1.</specialTip>
+      <specialTip openLevel="3" key="6">Cuando $0-1 cacarea, todo el departamento en el que se encuentra sufrió daño BLANCO. Aquellos que estaban durmiendo despertaron instantáneamente y entraron en pánico.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

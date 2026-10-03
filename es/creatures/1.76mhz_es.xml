@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100007">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 nota la presencia ominosa de la celda.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 nota la tristeza e ira que envuelve la celda.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 huele un olor desagradable.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 cree haber escuchado los llantos de sus compañeros.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">T-06-27</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/1.76Mhz</portrait>
+      <name openLevel="1">
+        1.76 MHz
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Es un recuerdo del día que no debemos olvidar.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Esta abnormalidad es un fenómeno que carece de forma física. Fue descubierto cuando los empleados mostraron síntomas en común al entrar a una parte específica de la compañía. Sufrían halucinaciones similares, y perdieron parte de su sanidad mental.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Esperamos 12 minutos tras poner la frecuencia de una radio a 1.76 MHz. Entonces, se escuchó una voz a través de la estática. Era difícil de entender, pero era una voz nerviosa y aterrorizada pidiendo ayuda.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Al minuto 17, la voz dejó de hablar, y se escucharon 3 explosiones, seguidas de 2 explosiones pequeñas. Se puede deducir que la situación en la que se encontraba la voz era caótica debido a los varios gritos que se escuchaban de fondo.&#13;&#10;&#13;&#10;Al minuto 23, la radio cesó todo el sonido.&#13;&#10;&#13;&#10;Al minuto 25, la radio empezó a expulsar humo. La radio y su interior, sin embargo, seguían intactos.&#13;&#10;&#13;&#10;Al minuto 30, todos los empleados adyacentes entraron en cólera y deseaban golpearse entre ellos violentamente.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Tras este incidente, aquellos que participaron se negaron a recibir ayuda. Se desconoce el motivo de la ira espontánea.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Seguidamente, ruidos y halucinaciones fueron frecuentes alrededor de la celda. Es un recuerdo del día que no debemos olvidar. Nos transporta a un lugar destructivo, olvidado equívocamente por muchos.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">A mayor Fuerza, menor eficiencia de trabajo al trabajar con $0. Puede ser que la violencia afecte al comportamiento de $0.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="3">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="1" key="4">Cuando el empleado #0 entró en pánico mientras trabajaba con $0, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="5">Cuando el trabajo fue bueno, aumentó el contador Qliphoth. Si se generaron todas las cajas-PE, aumentó en 2 el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="6">Cuando el contador Qliphoth llegó a 0, las cámaras de seguridad empezaron a llenarse de estática. Adicionalmente, los empleados que se encuentren en una habitación con estática recibiran daño BLANCO.</specialTip>
+      <specialTip openLevel="1" key="7">El número de cámaras fue aumentando constantemente, y la estática se fue cuando el contador Qliphoth fue restaurado por completo.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

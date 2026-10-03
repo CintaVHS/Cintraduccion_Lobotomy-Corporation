@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100001">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Por favor tengan en cuenta que la Enciclopedia de $0’s está incompleta, así que cualquier cosa no documentada podría ocurrir.},
+      {Los registros de $0 están casi completos. Siempre que procedamos con cautela, el trabajo se completará con éxito.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 se esconde en la esquina tan pronto como #0 entra en la unidad.},
+      {$0 observa como #0 responde, pero retrocede hacia la pared.},
+      {$0 mira como #0 trabaja desde una esquina.},
+      {$0 parece asustada y se mueve hacia uno de los rincones de la unidad.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 se queda completamente quieta, como si las flameantes llamas no le dolieran.},
+      {Solo la cerilla clavada en $0 arde con furia.},
+      {En contraste con su llama viva y temblorosa, $0 permanece inmóvil dentro de la Unidad de Contención.},
+      {La llama sigue consumiéndose con intensidad, pero $0 no se mueve ni un solo centímetro.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 examina con atención la longitud restante de la cerilla.},
+      {Si la cerilla está a punto de consumirse, la situación será extremadamente peligrosa. #0 observa a $0 con tensión.},
+      {Afortunadamente, aún queda suficiente cerilla para que la llama siga ardiendo. Pero cuando su combustible finalmente se agote…},
+      {Las cenizas se dispersan por la Unidad de Contención. Aun así, parece que la mitad de la cerilla permanece intacta.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 completa su trabajo mientras el fuego parpadea suavemente.},
+      {No hay nadie dentro de las llamas; sin embargo, los ojos de $0 brillan como si estuviera mirando a alguien.},
+      {Dentro del fuego no hay nada ni nadie.},
+      {Solo las cenizas de la cerilla consumida caen sobre $0.}
+      ]
+    </narration>
+    <narration action="special_ability_1">
+      [
+      {Ya solo queda una pequeña parte de la cerilla sin quemar.}
+      ]
+    </narration>
+    <narration action="special_ability_2">
+      [
+      {#0 se da cuenta demasiado tarde de que la cerilla está a punto de extinguirse. Intenta reaccionar, pero ya no hay tiempo.}
+      ]
+    </narration>
+    <narration action="special_ability_3">
+      [
+      {Cuando la cerilla se consume por completo, $0 comienza a reír.}
+      ]
+    </narration>
+    <narration action="special_ability_4">
+      [
+      {Tras la explosión, solo quedan pequeñas partes de #0 dentro de la Unidad de Contención.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {Sus llamas titilan, ennegreciendo el suelo y todo lo que la rodea.},
+      {Al menos, el último aliento de #0 fue uno feliz.}
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {La mirada de #0 está perdida. La llama hace tiempo que se extinguió, pero ya no responde a ninguna orden..},
+      {#0 sale de la unidad murmurando incoherencias con el rostro contraído. Nadie en los pasillos se atreve a dirigirle la palabra.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-01-02</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/matchgirl</portrait>
+      <name openLevel="1">
+        Niña chamuscada
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Vengo a por tí, y te reducirás a cenizas conmigo.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Adopta la forma de una niña reducida a cenizas. Aunque ya no queda nada que pueda arder, el fuego nunca se apaga.  }
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Una cerilla atraviesa el cuerpo de la niña como una estaca. Normalmente, la cerilla permanece encendida, mientras la Anomalía no muestra signos de actividad. Por ello, muchos empleados especulan con que la cerilla podría ser el verdadero cuerpo de la Anomalía. Sin embargo, recientemente varios testigos afirman haber visto a la figura carbonizada llorar.  }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Extracto del doctor especialista en anomalías &lt;Registro de investigación de&gt;Redactado&gt;&#13;&#10;
+      “El cuerpo calcinado representa la esperanza hecha pedazos de la niña, mientras que la llama eterna simboliza su obsesión por recibir afecto. Ambas existen en constante conflicto, atrapadas en una contradicción irresoluble.”&#13;&#10;
+      “¿Pagamos una fortuna para que nos digan solo eso?”}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Extracto de una conversación grabada entre el personal&gt;&#13;&#10;
+      “Es como una bomba de relojería. Nadie sabe si hoy está de buen humor o no. Solo esperamos no ser quienes salten por los aires al entrar en su Unidad de Contención. No va a mejorar; lo único que podemos hacer es intentar que no empeore.”}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;Extracto del Registro de Asesoramiento&gt;&#13;&#10;
+      “Nunca pensé que la anomalía pudiera escapar. Quizá nos confiamos demasiado, ya que parecía que lo único que hacía era consumir la cerilla incrustada en su cuerpo. Sí, nuestra respuesta fue un poco lenta. (Omitido) La mayoría de las Anomalías que intentan escapar atacan a los empleados que tienen delante, pero esta no mostró ninguna agresividad hacia el personal cercano. En su lugar, se dirigió a otro departamento: el más concurrido de la empresa. Si no la hubiéramos suprimido en la entrada, la mitad de la gente de aquí no estaría de una pieza.”}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="escape1">Cuando el trabajo fue malo, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="escape2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="3" key="explosionHallway">$0, al escaparse, explotó al estar cerca de su objetivo durante 5 segundos. La explosión causó grandes cantidades de daño ROJO a los empleados cercanos.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>

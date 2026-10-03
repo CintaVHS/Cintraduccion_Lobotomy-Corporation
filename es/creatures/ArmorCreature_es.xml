@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100037">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Los cobardes se sienten amenazados por la presencia de $0.},
+      {#0 siente la mirada fría de $0. Sin embargo, no hay ningún ser vivo en la armadura.},
+      {Hay rumores de que se pueden escuchar gritos de guerra provenientes de esta celda durante la noche.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Aunque está un poco roto, la armadura está muy bien conservada después de tantos siglos.},
+      {Esta armadura perteneció a varios generales. No se sabe si fue la guerra o la armadura quien les arrebató la vida.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {El brazo derecho está roto. Después de una investigación, llegamos a la conclusión de que el daño fue inflijido en el interior.},
+      {$0 fue creado hace muchos siglos. No se conoce al creador, pero se sabe que odiaba a los cobardes.},
+      {La armadura espera a aquellos temerarios y a aquellos que se han rendido.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-05-61</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/SamuraiArmor</portrait>
+      <name openLevel="1">
+        Armadura en ruinas
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <specialName openLevel="2">
+        Sin miedo a morir
+      </specialName>
+      <openText>“La vida solo es dada a quienes no tienen miedo a la muerte.“</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una armadura que parece haber sido utilizada hace cientos de años. Un texto gravado en la parte inferior dice: “La vida solo es dada a quienes no tienen miedo a la muerte.“ Obviamente, ponerse está armadura está prohibidísimo según indican las regulaciones de la empresa.&#13;&#10;&#13;&#10;&lt;i&gt;Nota: Hay rumores sobre algunos empleados que finjen ponerse la armadura por diversión. ¡Echadle un vistazo inmediatamente, por favor!&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Esta armadura pertenecía a un museo. La información que se dice a continuación son fragmentos de su leyenda.&#13;&#10;
+      &lt;i&gt;…Esta armadura le pertenecía al General XXXX, que participó en la guerra del XX en el año XXX. Era una reliquia familiar que ha pasado por varias generaciones. El general siempre usaba esta armadura para mantenerse protegido. Por un golpe de mala suerte, una flecha entró por un hueco de la armadura, asesinándolo al momento. De alguna forma, la armadura permaneció intacta.&#13;&#10;
+      Después de la muerte del General XXXX, la armadura fue presentada al Comandante XXX del Batallón 00. Al comandante siempre se le veía cubierto de acero cada vez que iba a la batalla. Durante una de ellas, se cayó de su caballo mientras huía del enemigo, y sufrió una lesión mortal sobre su cráneo. La armadura, de nuevo, permaneció intacta. Hay muchos otros que tuvieron la armadura en sus manos durante su historia, todos y cada uno de ellos murieron en batalla. Pero, tras la muerte de cada uno de su portador, la armadura seguía en perfecto estado.;
+      Pasados los años, la armadura llegó a las manos de un guerrero llamado XXX. Era conocido por mantener la armadura en el almacén, sin usarla en sus batallas. Eventualmente, XXX murió de vejez después de haber participado en decenas de guerras sin siquiera una lesión. Durante su vida, el brazo derecho de la armadura sufrió daños, pero no había ningún impacto en el exterior. La familia de XXX procedió a donar la armadura a un museo.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Después de hacer pruebas a la armadura, hemos llegando a las siguientes conclusiones: Si esta armadura es usada por un empleado cobarde, la probabilidad de sufrir una lesión mortal incrementa drásticamente. En cambio, si un empleado sin temor la usa, esas probabilidades son reducidas.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Uno de nuestros directores sugirió una prueba donde se les informaba a los entrevistados utilizar la armadura y caminar con ella durante diez minutos. Esta sugerencia fue cancelada inmediatamente.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="NoPeace">Un empleado con Fuerza 1 entró a trabajar con $0. Al terminar, fue degollado.</specialTip>
+      <specialTip openLevel="2" key="GiveYou">Un empleado que trabajó con represión fue otorgado un artefacto ($0-01), proveniente de $0. El empleado afirma "estar protegido por $0".</specialTip>
+      <specialTip openLevel="3" key="Change">Un empleado con $0-01 trabajó continuamente con represión. Por cada trabajo, se hizo un análisis. Los resultados muestran que los efectos de $0-01 varían según la cantidad de trabajos de represión completados.</specialTip>
+      <specialTip openLevel="4" key="KillPeace">&lt;PRECAUCIÓN&gt; Si un empleado con $0-01 trabaja con afinidad, $0-01 desaparecerá y el empleado será instantáneamente decapitado.</specialTip>
+      <specialTip openLevel="4" key="NegativeChange">&lt;PRECAUCIÓN&gt; Si un empleado con $0-01 trabaja constantemente con represión, los efectos del artefacto serán negativos.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

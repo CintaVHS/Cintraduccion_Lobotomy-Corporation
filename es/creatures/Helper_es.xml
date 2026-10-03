@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100011">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 gira alrededor de #0, pero #0 continúa concentrándose en su tarea.},
+      {$0 es experto en todo tipo de limpieza. Fue diseñado para encargarse de un hogar familiar por sí solo.},
+      {Cuando se descubrió que $0 contenía un error crítico, ya había sido enviado a un hogar.},
+      {El suelo está lleno de sangre, los gritos son ensordecedores, la gente está huyendo... y $0 aprende alegremente el concepto de “limpiar”.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Una superficie blanca impecable, elegante, con líneas finas y piernas cortas pero eficientes, $0 fue creado para ayudar a la gente.},
+      {XX se incorporó, el fabricante de $0, era famoso por sus productos robóticos.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 tiene varias funciones instaladas en su cuerpo. Desde alarmas antirrobo y un sistema de monitoreo hasta una cafetera y control de iluminación, Contiene todo lo que necesita un hogar.},
+      {Puede que te sorprenda saber las numerosas funcionalidades que $0 contiene en su cuerpo compacto. Si lo desmontaras, estarías aún más impresonado por la eficiencia con la que empaquetaron todo el equipamiento necesario..}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Si $0 pudiera sentir emociones, seguramente se sentiría muy orgulloso de sí mismo por la ayuda que proporciona a los demás.},
+      {$0 always ponders on how it can do more to help.},
+      {La mayoría de personas no lo saben, pero $0 hace café maravilloso. Pero claro, es poco probable que nadie le pida que haga algo así ahora. }
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 ha decidido no comprar un robot aspirador después de ver a $0.},
+      {#0 solo espera que el modo de “limpieza” de $0 nunca se active.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-05-41</codeNo>
+      <name openLevel="1">Pequeño ayudante</name>
+      <name openLevel="3">Ayudante todo-tarea</name>
+      <portrait openLevel="1">Sprites/Unit/creature/Helper</portrait>
+      <riskLevel openLevel="2">HE</riskLevel>
+      <openText>El suelo está lleno de sangre, los gritos son ensordecedores, la gente está huyendo...</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un robot de limpieza blanco con distintivos ojos rojos que parecen un par de botones. Siempre mantiene sus alrededores limpios y ordenados.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Fue originalmente un robot ayudante producido en masa y destinado a uso doméstico. La escritura en su espalda dice: "Un invento innovador que puede limpiar, cocinar, e incluso servir como seguridad ligera utilizando varias herramientas unidas a sus extremidades. ¡Diseñado para funcionar de manera eficiente y rápida! Manufacturado por XX Inc."}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Reconoce el mal humor como señal de que el entorno está sucio, y entra rápidamente en modo de limpieza. Alertará de su nuevo estado diciendo líneas como: "Contaminación detectada - Comenzando limpieza."&#13;&#10;&#13;&#10;Sin embargo, sus extremidades están equipadas con instrumentos afilados en lugar de suministros de limpieza. Se rumorea que se suponía que se supone que se usaría para cortar carne, pero fue hecho para responder al comando de “limpia” por accidente. No hay manera de confirmar si esto es verdad.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Ha determinado que los gritos que hacen los humanos después de limpiar son una señal de un trabajo bien hecho y un incentivo para continuar con la limpieza.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;Una grabación de audio encontrada dentro del robot&gt;&#13;&#10;
+      ???: Oh~ Es el nuevo robot ayudante.
+      ???: ¡Déjame ver! ¡Quiero ver!
+      ???: ¿Quieres tocarlo, ████? Intenta encenderlo y jugar con él.
+      (Un teléfono suena)
+      ??? : Volveré cuando responda al teléfono, ¿Vale?
+      (Sonidos de botones siendo pulsados)
+      Robot ayudante: ¡Hola! Soy tu amigable robot ayudante. ¿Cómo te puedo ayudar?
+      ??? : ¡Limpiando! ¡Quiero ayudar a mami a limpiar!
+      Robot ayudante: Contaminación del ambiente al 70%, nivel de suciedad leve. Comenzando modo de limpieza.
+      ??? : ¡Guau! ¡Está limpiando! Está limp...
+      Robot ayudante: Rrrrrrrrrrrrrrrrrrr
+      
+     Después de unos segundos de gritos, la luz se fue de repente.}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="Change">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="Change2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

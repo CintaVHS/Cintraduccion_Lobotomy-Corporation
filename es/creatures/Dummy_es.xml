@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100000">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 es un muñeco de entrenamiento que cree sinceramenteque es un empleado de nuestra instalación.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Parece que a $0 le gusta la gente.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 gira y gira sobre #0, pero #0 está completamente absort@ en su trabajo.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 está pensando sobre el centro de la tierra.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 está muy triste de que #0 se tenga que ir tan pronto. Parece que quiere seguirle.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <!--level은 관찰 최대 레벨-->
+    <collection>
+      <codeNo openLevel="0">0-00-00</codeNo>
+      <name openLevel="1">Conejo de Entrenamiento</name>
+      <portrait openLevel="1">Sprites/Unit/creature/DummyPortrait</portrait>
+      <riskLevel openLevel="1">TETH</riskLevel>
+      <openText></openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Una abnormalidad que toma la forma de un muñeco de entrenamiento utilizado para capacitar a jefes prometedores.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Se rumorea que esta abnormalidad fue elegida para ser usada en entrenamientos ya que es la más dócil y domesticada de todas las que hemos extraído. Se llama muñeco de entrenamiento “conejo”, pero parece que no le gustan las zanahorias. Le gustan las personas. Si escapa, es porque está siguiendo a los empleados que salen de su Unidad de Contención.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      <!--특수 상태-->
+    </desc>
+    <desc id="4" openLevel="3">
+      <!--특수 상태-->
+    </desc>
+    <record openLevel="1">
+      <!-- 관찰기록 -->
+    </record>
+    <record openLevel="2">
+      <!-- 관찰기록 -->
+    </record>
+    <record openLevel="3">
+      <!-- 관찰기록 -->
+    </record>
+    <specialTipSize size="1">
+      <specialTip openLevel="1" key="tutorial">Cuando se realizó un trabajo de represión con $0, el contador Qliphoth bajó.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

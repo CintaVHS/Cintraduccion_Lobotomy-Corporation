@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100038">
+    <narration action="move"></narration>
+    <narration action="start">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="death">
+      [
+      {}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">O-02-63</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/BossBird</portrait>
+      <name openLevel="0">
+        Pájaro del apocalipsis
+      </name>
+      <riskLevel openLevel="0">
+        ALEPH
+      </riskLevel>
+      <specialName openLevel="0">
+        El Monstruo del Bosque Sombrío
+      </specialName>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Conocido por aparecer cuando el mundo está empapado en pecado, muchos empleados temen la llegada de esta Abnormalidad.&#13;&#10;&#13;&#10;Para hablar de este pájaro, primero debemos contar la historia del Bosque Sombrío. Debemos recordar el bosque que fue una vez tan bello y pacífico…&#13;&#10;&#13;&#10;Y el apocalipsis vendrá.}
+      ]
+    </desc>
+    <desc id="2" openLevel="0">
+      [
+      {&lt;El Cuento del Bosque Sombrío&gt;&#13;&#10;&#13;&#10;Hace tiempo, tres felices pájaros vivían en un cálido y bello bosque.&#13;&#10;&#13;&#10;Los pájaros no tenían nombres, aunque las criaturas del bosque ocasionalmente los llamaban el Pájaro Jurado, el Pájaro Juez, y el Pájaro Verdugo.&#13;&#10;&#13;&#10;Todos vivieron juntos felices y libres en el pacífico bosque. Los pájaros querían que el bosque estuviese a salvo más que cualquier cosa, así las criaturas de afuera podrían visitarlo y divertirse.&#13;&#10;&#13;&#10;Era una cálida y soleada tarde cuando un extraño visitó el pacífico bosque. Era un viajero, pionero, y profeta, pero al mismo tiempo, no era nadie. Quiso entrar al bosque, pero los pájaros lo encontraron sospechoso, y por ello no le dejaron entrar. El individuo, enfurecido, les dijo a los pájaros mientras se iba:&#13;&#10;&#13;&#10;“Una tragedia caerá sobre el bosque. Cubierta en pecados y maldad, habrá un conflicto constante. Las tragedias sólo pararán cuando una bestia terrible aparezca y devore todo. El sol y la luna no brillarán más sobre el bosque; el bosque nunca volverá a ser lo que era antes.”&#13;&#10;&#13;&#10;Los pájaros se preocuparon sobre la profecía. ¿Qué pasaría si un eterno conflicto se desata, y una bestia aparece para herir al bosque justo como en la profecía del hombre? Fue ahí cuando los pájaros decidieron convertirse en los guardianes del bosque. Ellos lo amaban más que cualquiera, y por ello deseaban proteger a las criaturas que vivían en el bosque y mantenerlas a salvo.&#13;&#10;&#13;&#10;El Pájaro Jurado, con sus numerosos ojos, decidió vigilar el bosque en búsqueda de intrusos. Pues sus ojos podían ver lejos, y ver lo que otros no podían ver. Entonces, alguien dijo: “¿Y si la bestia aparece en la noche, cuando el cielo está oscuro y todos están durmiendo?” Preocupado, el Pájaro Jurado quemó todas sus plumas para crear una lámpara eterna. Ahora las criaturas del bosque estarían eternamente en su vista, día y noche.&#13;&#10;&#13;&#10;Para mantener la paz del bosque, el Pájaro Juez pesó todos los pecados de quienes entraban. Pues su escala era equitativa y justa, y podía pesar cualquier pecado. Entonces, alguien dijo: “¿Pero qué pasaría si la escala no se tilda en una dirección pronto?” Preocupado, el Pájaro Juez hizo una escala que siempre se tildaba hacia un lado. Así todo juicio esclarecería un veredicto claro.&#13;&#10;&#13;&#10;El Pájaro Verdugo decidió castigar las malas acciones de las criaturas con su pico. Entonces alguien dijo: “Pero tu pico es tan pequeño que nadie lo encontraría doloroso.” Preocupado, el Pájaro Verdugo desgarró su boca tanto que podía tragarse a cualquier criatura en un bocado.&#13;&#10;&#13;&#10;Nadie podía visitar más el bosque, y malos rumores comenzaron a circular afuera. “Escuché que le ocurren cosas terribles a cualquier criatura que entra al bosque.”&#13;&#10;
+      “La vigilancia del Pájaro Jurado es constante, no hay libertad alguna.”
+      “La escala del Pájaro Juez no es justa.”
+      “El castigo del Pájaro Jurado da mucho miedo.”&#13;&#10;&#13;&#10;Los pájaros se enfadaron. “Trabajamos tanto para proteger el bosque, ¿Por qué nadie aprecia nuestro esfuerzo?”&#13;&#10;&#13;&#10;Menos y menos visitantes venían al bosque, más y más criaturas se quejaban, peleas ocurrían diariamente, y aún así los pájaros continuaron trabajando incluso más para recobrar la paz en el bosque, pero...&#13;&#10;
+      “No, este bosque es tan grande y vasto que sólo nosotros tres no podemos protegerlo por completo.”
+      “Pero no hay ninguna otra criatura más excepto nosotros para proteger el bosque.”
+      “Si combinamos nuestro poder, podríamos volvernos más fuertes.”&#13;&#10;&#13;&#10;El día en el que los ojos del Pájaro Jurado que podían ver a cientos de kilómetros, el Pájaro Juez quien podía juzgar todo pecado, y la boca del Pájaro Verdugo que podía devorar todo se unieron en uno, la oscuridad cayó sobre el bosque. Las criaturas gritaron de terror y miedo a la vista del pájaro, y el bosque pronto cayó en descontrol.&#13;&#10;&#13;&#10;Entonces, en medio de los chillidos, alguien gritó:&#13;&#10;&#13;&#10;“¡Es la bestia! ¡Una gran, horrible criatura vive en el sombrio, oscuro bosque!”&#13;&#10;&#13;&#10;¿La bestia estaba aquí? Los tres pájaros, ahora en uno, miraron alrededor pero no había nadie. El pájaro se adentró en el bosque, buscando a la bestia. El bosque estaría en problemas si la bestia aparecía.&#13;&#10;&#13;&#10;Pero no había nada. No habían criaturas, no había sol ni luna, y no había ninguna bestia. Todo lo que quedaba era el pájaro y el Bosque Sombrío.&#13;&#10;&#13;&#10;Desde entonces, sólo habían noches oscuras como el abismo.&#13;&#10;&#13;&#10;El rumor dice que hay una terrible bestia en el Bosque Sombrío donde nadie vive.}
+      ]
+    </desc>
+    <desc id="3" openLevel="0">
+      [
+      {&lt;Testimonio del Superviviente&gt;&#13;&#10;
+      Todas las luces comenzaron a ponerse como locas. Siguieron parpadeando y parpadeando. Ni siquiera podía utilizar mi mechero. Entonces, esta luz cálido iluminó todo. No se parecía como un ocaso, o una puesta de sol. Aunque, como sabemos, la luz del sol no puede llegar a las instalaciones. Todos silenciosamente miraron a la luz. Una súbita oscuridad y un extraño rayo de luz fueron suficiente razones para estar asustados. Era más horrible que cualquier cosa sangrienta que habíamos visto aquí. Era un verdadero miedo a lo desconocido en sí…&#13;&#10;
+      (Omitido) …Algo lejano iba hacia nosotros. Luces incandescentes como estrellas marchaban en nuestra dirección. Parecían como los ojos del Pájaro Jurado, pero no era esa Abnormalidad. Podía escuchar esos largos brazos arañar el suelo.&#13;&#10;
+      Alguien rompió el silencio con un susurro: “Ese tipo de ahí no pudo correr a tiempo...”&#13;&#10;
+      Había un empleado de rodillas en el suelo; quizás él no pudo sentir el peligro acercándose detrás de el, y cuando se dio cuenta, ya era demasiado tarde. Ni siquiera pudo gritar. Nadie podría haberlo hecho en ese momento. Él solamente luchó futilmente por mover sus piernas, desesperado por huir de la bestia. No hubo acto heroico de alguien sobreponiéndose al monstruo, ni siquiera un grito para advertirle. Todos le estaban mirando, esperando por la cosa terrible que estaba a punto de pasar.&#13;&#10;
+      Cada paso provocó un temblor en toda la instalación. El monstruo se movía con tan lentos pasos, aunque parecía muy rápido.&#13;&#10;
+      En un parpadeo, devoró al empleado de un mordisco, y justo después todos empezaron a gritar en caos. Había pasado por incontables supresiones, pero ese día, por primera vez, me arrepentí de haberme unido a la compañía. Estaba seguro que no saldría de ahí vivo. Esta impotencia me sobrevino. No podía siquiera pensar en luchar de vuelta, y muchos otros se sentían igual.&#13;&#10;
+      Creo que soy el único quien se mantuvo lo suficientemente sano como para escribir esto a todos los supervivientes. La compañía nunca contará a nuestros novatos sobre la existencia de ese monstruo. Sin embargo, quise dejarles por lo menos una advertencia. Es por ello que escribo esto.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="bigBirdEgg">Los ojos del jurado atrapaban la luz.</specialTip>
+      <specialTip openLevel="0" key="longBirdEgg">Los brazos del juez atrapaban el tiempo.</specialTip>
+      <specialTip openLevel="0" key="littleBirdEgg">Y el pico del verdugo susurraba eternamente.</specialTip>
+      <specialTip openLevel="0" key="eggExist">Mientras que los tres existan, el apocalipsis nunca cesaría.</specialTip>
+    </specialTipSize>
+  </observe>
+  <etc>
+    <param key="Escape" index="0">
+      Érase una vez, tres pajaritos que vivían felices en un bosque profundo y oscuro.
+    </param>
+    <param key="BigBirdArrive" index="1">
+      El jurado, con todos sus ojos, decidió vigilar a los intrusos.&#13;&#10;Porque sus ojos tenían vista de águila, viendo hasta lo invisible.
+    </param>
+    <param key="LongBirdArrive" index="2">
+      El juez, para mantener la paz, pesaba los pecados de aquellos que visitaban el bosque.&#13;&#10;Porque su balanza era justa, capaz de pesar cualquier pecado.
+    </param>
+    <param key="SmallBirdArrive" index="3">
+      El verdugo decidió ejecutar a los pecados de las criaturas con su pico.
+    </param>
+    <param key="BossBirdAppear" index="4">
+      Entonces, entre gritos de desesperación, se escucha una voz:&#13;&#10;"¡Es la bestia! ¡El monstruo que inhabita el Bosque Sombrío!"
+    </param>
+    <param key="BigBirdBreak" index="5">
+      Los ojos del jurado fueron cegados.
+    </param>
+    <param key="LongBirdBreak" index="6">
+      El juez que miraba a las estrellas bajó la mirada. 
+    </param>
+    <param key="SmallBirdBreak" index="7">
+      La boca del verdugo fué sellada.
+    </param>
+    <param key="Suppressed" index="8">
+      Los pájaros merodeaban constantemente por el bosque, pero no encontraron nada.&#13;&#10;Ni criaturas, ni sol, ni luna, ni bestia. Lo único que quedaba era un pájaro y un bosque.
+    </param>
+    <param key="gateway" index="9">
+      Entrada al Bosque Sombrío
+    </param>
+    <param key="bigBirdEgg" index="10">
+      Ojos relucientes
+    </param>
+    <param key="longBirdEgg" index="10">
+      Brazos largos
+    </param>
+    <param key="smallBirdEgg" index="10">
+      Pico pequeño
+    </param>
+  </etc>
+</creature>

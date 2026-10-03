@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300001">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-77</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/DesireHeart</portrait>
+      <name openLevel="1">
+        Corazón de aspiración
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>La aspiración excesiva traerá consigo un frenesí injustificado.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un corazón sin dueño. Aunque no le pertenece a nadie, aún sigue latiendo.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Al tomarlo, su frecuencia de contracciones se duplica, aumentando el vigor y fuerza del portador.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {La aspiración excesiva traerá consigo un frenesí injustificado.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Los empleados que devolvieron el corazón sin atacar a nada ni nadie, o que lo devolvieron antes de pasar 30 segundos de pillarlo se volvieron locos, atacando con violenca a todos y sacando partido de su fuerza aumentada.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Al equiparse a $0, el portador recibirá vida y velocidad de ataque adicionales.</specialTip>
+      <specialTip openLevel="2" key="2">Si el portador devuelve a $0 sin atacar a nadie, perderá la cabeza e intentará atacar a todo ser vivo que se interponga en su ira.</specialTip>
+      <specialTip openLevel="2" key="3">Si se ordena devoler a $0 en los primeros 30 segundos de recogerlo, ocurrió el mismo resultado.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100041">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {$0, que es una chica muy tímida, podría darle a #0 un regalo sorpresa hecho por ella misma, en secreto.},
+      {$0 viene de un lugar muy, muy lejano y disfruta de las risas alegres.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 adora tener amigos.},
+      {Ella de verdad espera que #0 sea feliz con su regalo hecho con todo el corazón.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Al imaginar la gran sorpresa que mostrará la cara de #0 al ver el regalo, $0 le observa feliz.},
+      {Sería maravilloso si la gente aceptara este regalo tan pequeño, pero tan valioso.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {La “amiga” de $0 está dormida dentro del regalo, esperando a su destinatario.},
+      {#0 no tiene ni idea de lo que hay dentro de ese regalo con forma de adorable corazoncito.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-01-67</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/LittleWitch</portrait>
+      <name openLevel="1">
+        Brujita
+      </name>
+      <name openLevel="4">
+        Laetitia
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <specialName openLevel="2">
+        Regalo sorpresa
+      </specialName>
+      <openText>Estaba muy triste por haber dejado a sus amigos atrás, ¡pero tuvo una idea brillante!</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Similar a una niña por su tamaño, y siempre con una sonrisa brillante…&lt;/i&gt;&#13;&#10;Una niña muy, muy adorable.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {¡Me llaman niña adorable porque soy pequeña y encantadora!&#13;&#10;¡La niña viene de un lugar muy, muy lejano!&#13;&#10;Y cuando conoce a alguien que le gusta, le da un regalo hecho por ella misma.&#13;&#10;Pero el contenido del regalo… ¡es un secreto!}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Este también es un secreto muy, muy importante, pero, ¡La niña tiene un montón de talentos!&#13;&#10;Esta niña tiene muchos amigos, pero le dijeron que no podía traerlos aquí.&#13;&#10;Estaba tan triste por dejarlos atrás... ¡Así que se le ocurrió una idea genial!}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Si cubro bien a mis amigos y hago que parezcan un regalo, ¡todos se sorprenderán!&#13;&#10;¡Y se reirán todos juntos por mi broma!&#13;&#10;Ups… ahí va el secreto del regalo.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {¡Espero encontrar muchos amigos aquí también!&#13;&#10;La niña es tímida, así que, ¡entregará su regalo en secreto!&#13;&#10;Las despedidas son tristes, ¡ojalá podamos jugar más! ¡Y la gente aquí no sonríe!&#13;&#10;¡Eso es tan deprimente!&#13;&#10;¡Así que esta pequeña ha tomado una decisión!: ¡quedarse aquí para siempre, hasta que las risas vuelvan a este lugar!&#13;&#10;¡Seré feliz si a todos les gustan mis bromas!}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="give">Cuando el trabajo fue normal, $0 le dió un regalo a #0.</specialTip>
+      <specialTip openLevel="2" key="gift">Cuando #0, que tenía un regalo, trabajó con otra abnormalidad diferente a $0, un ███████ salió de su cuerpo pasado un tiempo.</specialTip>
+      <specialTip openLevel="2" key="cancle">███████ no apareció si el trabajo designado fue cancelado antes de tiempo.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Amiguito de la brujita</name>
+    <codeId>O-01-67-1</codeId>
+  </child>
+</creature>

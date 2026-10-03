@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100036">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Quizá solo seamos capaces de entender los secretos del universo al entrar en el dominio de $0.},
+      {Ver a los empleados enloquecidos cantando junto a $0 da la impresión de que están realizando un ritual para invocar a algo… o a alguien.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Una de las cosas que $0 nos dijo fue: “No existe tal cosa como la coindiciencia en el universo.”},
+      {Muchos de nuestros empleados están, con razón, aterrados cuando $0 intenta imitar la risa.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {El propósito de los tentáculos de $0 no está claro, pero es seguro que pueden causar daño permanente al cerebro humano.},
+      {Los tentáculos de $0 hacen borrosa la línea entre la realidad y lo desconocido.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-03-60</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/GalaxyPiece</portrait>
+      <name openLevel="1">
+        Fragmento del universo
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Ves una canción hermosa acercándose lentamenete.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una abnormalidad que recuerda a los dibujos de un niño pequeño.&#13;&#10;
+      Originalmente, no tenía forma estable, se transformaba continuamente. A dia de hoy sus aspectos aún cambian, aunque a un ritmo mucho más lento. El análisis de componentes ha revelado que la Abnormalidad consiste de materia que no existe en la Tierra. Se puede notar por su apariencia metafísica que uno no puede describir con palabras.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {A menudo muestra una actividad lingüística incomprensible. Un empleado trató de descifrar su habla (Documento #1 &lt;La canción del empleado David&gt;), pero su nivel de contaminación mental pasó del límite en unos días. sufrió de psicósis severa y tuvimos que ponerle en cuarentena.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {Los tentáculos de la Abnormalidad (los cuales son diferentes de lo que consideramos un tentáculo normal; para simplificar, los hemos llamado "tentáculos".) pueden atravesar la barrera de la humanidad. Los empleados impalados por los tentáculos sufrirán daño cerebral semipermanente.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Cuando la Anomalía escapa de su Unidad de Contención, emitirá sonidos en el pasillo. Como los sonidos que hace tienen lo que hemos considerado como una melodía y sílabas, lo consideramos “cantar”. Aún así, ninguno de nuestro personal puede recordarlo, ya que la mayoría del tiempo no pueden describirlo por su grave daño cerebral. Los que estuvieron a 100 metros del “canto” lo llamaron un sonido no escuchado en este mundo. Por esta descripción, lo hemos llamado “Ecos del Universo”. (Documento #2 &lt;Canto&gt;)}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {Experimento_1 &lt;Posibilidad de Comunicación&gt;&#13;&#10;
+      Hemos determinado que la Abnormalidad posee una inteligencia similar (o incluso superior) a la humana, y se le impartió un curso básico de aprendizaje del lenguaje. Como resultado, se logró una forma de comunicación rudimentaria combinando palabras. Lo siguiente es un fragmento del registro de comunicación con la Anomalía.&#13;&#10;
+      Q: ¿Todos los de tu especie tienen un aspecto similar?
+      A: Negativo. Fuera. Niño. Ver. Dibujo. Cara. Feliz. Cambiar. Forma.&#13;&#10;
+      Q: ¿Por qué has venido aquí?
+      A: Conocimiento. Compartir. Humano.&#13;&#10;
+      Q: ¿Por qué quieres compartir tu conocimiento con nosotros?
+      A: Comprensión. Conocimiento. Momento. Saber. Universo. Coindicencia. Negativo; Ninguno.&#13;&#10;&#13;&#10;Esta sección es un intento de descifrar la conversación con la Abnormalidad.&#13;&#10;
+      1. Basó su forma en un dibujo hecho por un niño. Cambió su forma porque la expresión del niño mientras lo dibujaba era feliz.
+      2. Vino aquí para compartir el conocimiento de su especie con nososotros. El momento en el que entendamos ese conocimiento por completo, sabremos su objetivo final.
+      3. No existe tal cosa como la coindiciencia en el universo.}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {Experimento_2 &lt;Un Experimento Sobre la Risa&gt;&#13;&#10;
+      Después de ver un vídeo sobre la risa durante 30 minutos, la Abnormalidad entendió el concepto de “reír”. Desde entonces, cuando los empleados entraban en su Unidad de Contención para trabajar con ella, a veces emitía un ruido extraño mientras parecía dibujar una sonrisa en su “cara”. Parecía que estaba imitando la risa.}
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {Experimento_3 &lt;Comprensión de símbolos&gt;&#13;&#10;
+      Le enseñamos el significado de varios símbolos junto con el lenguaje. Entre ellos estaba la forma de un corazón. Ese símbolo provocó un cambio notable en la Anomalía.&#13;&#10;
+      Q (Enseñándole a la anomalía un dibujo de un corazón): Este símbolo es un “corazón”. Muchas personas creen que las emociones vienen del corazón, y este símbolo es usado para expresas emociones positivaso gusto hacia alguien.
+      (Omitido)&#13;&#10;
+      Después de eso, varios símbolos que recordaban a corazones aparecieron en el cuerpo de la Abnormalidad. Parecía entender que el símbolo podía usarse para expresar amabilidad hacia los humanos.&#13;&#10;
+      Combinando los resultados de los dos experimentos anteriores, podemos confirmar que esta Abnormalidad no es hostil hacia los humanos, y desea ser nuestro amigo. }
+      ]
+    </desc>
+    <desc id="8" openLevel="4">
+      [
+      {Documento #1 &lt;La Canción del Empleado David&gt;&#13;&#10;
+      David era famoso en su departamento por sus intentos de comunicarse con el 'Fragmento del universo'. Era un intelectual que disfrutaba leer libros de filosofía y observar las estrellas. Le interesaba la Abnormalidad, así que consiguió el puesto de trabajo; investigaba su lenguaje y comportamiento únicamente por interés personal.&#13;&#10;
+      Así que, ¿Qué pasó con David? Finalmente, logró entrar en el dominio del Fragmento del Universo. Sin embargo, era evidente que su pequeño cerebro no podía soportarlo. Lo trasladaron al pabellón psiquiátrico, y murió de inanición mientras cantaba una canción irreconocible. Por eso la voz de la Abnormalidad no puede ser revelada al público.&#13;&#10;&#13;&#10;Grabación de audio : Ecos en el universo (Currently Removed)}
+      ]
+    </desc>
+    <desc id="9" openLevel="4">
+      [
+      {Documento #2 &lt;Canto&gt;&#13;&#10;
+     ¿...Por qué no me dijiste antes que la Abnormalidad era la responsable de su estado? No tengo ni idea de si hay algún patrón, pero todos muestran el mismo comportamiento extraño exactamente los mismos días. ¿Te imaginas a un grupo de pacientes mirando al cielo con la mirada perdida, gimiendo ruidos extraños por el pasillo en plena noche mientras todos duermen? Me costó mucho convencer a los otros pacientes de que estaban ensayando para el evento de Halloween de la empresa. El tratamiento psiquiátrico y los medicamentos no sirven de nada. “Viene, viene, sigue viniendo”, repiten una y otra vez, y lo demás que dicen no pertenece a ningún idioma que conozcamos. Creo que mandarle a un hospital general fue una decisión poco acertada. &#13;&#10;
+      - Doctor del hospital (Registro Eliminado) }
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="escape">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="escape2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="1" key="escape3">Cuando el empleado #0 entró en pánico trabajando con $0, bajó el contador Qliphoth.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

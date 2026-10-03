@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100054">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 observa a #0 con su órgano misteriosamente luminoso sobresaliendo del suelo.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Ningún empleado ha visto la forma completa de $0’s.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Si $0 sale completamente de su unidad de contención, nuestra corporación podría colapsar.}
+      ]
+    </narration>
+  </info>
+  <observe level="5">
+    <collection>
+      <codeNo openLevel="0">O-04-84</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Bunny</portrait>
+      <name openLevel="1">
+        Linterna de carne
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>...Eso no es una flor. Ordena a todos los empleados cercanos que evacuen inmediatamente.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Siempre está debajo del suelo de la unidad de contención, solo enseña sus ojos y un misterioso órgano luminoso sobre el suelo. }
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {No hay manera de confirmar cómo se ve en su totalidad. Como se mueve bajo tierra, y no por el pasillo, es imposible predecir su trayectoria al escapar. Por esa misma razón, su escape no puede ser detectado. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Fragmento de grabación de audio&gt;&#13;&#10;
+      Lloyd: Estás cerca del equipo de información, ¿verdad? He escuchado que algunos empleados han desaparecido por esa zona. ¿Te importaría verificar si hay alguna abnormalidad que cause interferencia espacial?&#13;&#10;
+      Paul: ¿Qué? Pero no hay tal abnormalidad por aquí. Tampoco detecto ninguna abnormalidad que haya escapado.&#13;&#10;
+      Lloyd: Busca en todos lados.&#13;&#10;
+      Paul: Bueno, Lloyd, no hay señales de ninguna abnormalidad, pero veo una pequeña flor en el suelo. &#13;&#10;
+      Lloyd: ¿De qué estás hablando? ¿Qué flor?&#13;&#10;
+      Paul: El capullo está brillando, es increíble. Es raro ver algo tan verde aquí, cuando nisiquiera nos dan los rayos del sol... Es tan brillante que otros empleados también han venido a mirar la flor. Tienes que venir y verla... La luz es tan brillante y cálida... Siento que algo bueno va a pasar...&#13;&#10;
+      Lloyd: ...Eso no es una flor. Ordena a todos los empleados cercanos que evacuen inmediatamente. No corráis en grupo; tenéis que escapar uno por uno, con pasos silenciosos...&#13;&#10;
+      Paul: A qué te refieres, Creo que te dije que no hay nada cerca... Espera, creo que acabo de sentir un temblor debajo de mis pies. ¿Hay alguien arreglando las tuberías hoy?&#13;&#10;
+      Lloyd: Ah, a tomar por culo. Disfruta mirar esa flor todo lo que quieras... }
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando el trabajo duró 40 segundos o menos, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Los empleados son incapaces de detectar a $0 cuando se escapa. El jefe deberá indicar a los empleados de la ubicación de $0 para suprimirlo.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

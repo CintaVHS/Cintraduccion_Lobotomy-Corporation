@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100027">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {“Sabes, después de unirme a Lobotomy Corporation realmente siento como que al fin vuelvo a tener mi vida.”},
+      {#0 puede sentir la tristeza de $0.},
+      {Le duele la muñeca a #0 cuando mira a $0.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {“La depresión es una enfermedad mental. Somos los primeros doctores en descubrir como ser felices.”},
+      {#0 mira a la desesperación que flota en el baño.},
+      {#0 siente abrumadora desesperanza y tristeza.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“La medicina para curar al cuerpo se ha desarrollado a un ritmo tremendo, mientras que los tratamientos para la mente se mantienen estancados.”},
+      {#0 puede ver dificultades y fracaso aproximándose.},
+      {#0 puede ver dificultades y muchas pruebas en el futuro. No importa lo que hagan, solo resultará en fracaso.}
+      ]
+    </narration>
+    <narration action="special_ability">
+      [
+      {#0, privado de toda razón y esperanza de vivir, no resiste las manos que se aproximan a él.},
+      {El rechazo de #0 se concentra en un único punto.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-05-51</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/BloodBath</portrait>
+      <name openLevel="1">
+        Cortina de sangre
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Hay muchas manos en la bañera. Son las manos de mis seres queridos.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad que contiene el dolor de todo el que no pudo aguantar su dolor con calma.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Un baño de color sombrío, coronado con sangre. La sangre siempre se mantiene en equilibrio; nunca se sobresale. Solo desesperanza puede ser encontrada en sus profundidades. Una depresión inaguantable abruma todo el que mira al baño.&#13;&#10;&#13;&#10;En un instante, puede arrastrar una persona cercana a él. No tiene una fuerza considerable, pero aquellos que sufren de su depresión aplastante no la resisten. Devora la víctima hasta que nada quede excepto sus muñecas. Todas las manos que flotan en el baño son pálidas, ensangrentadas; se estiran al aire e intentan pedir ayuda.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;i&gt;No es moco de pavo cortar la muñeca de alguien con una mente sana. Una voluntad fuerte es necesaria con la determinación de realizar multiples intentos. Solo cuando es cortada como si estuvieras cortando un simple trozo de carne, es cuando puedes lograrlo. Solo cuando anhelas tanto la muerte, es cuando puedes tener éxito.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;i&gt;Me arrepiento eternamente de no darme cuenta de por qué ella necesitaba ese cuchillo industrial. Me arrepiento eternamente de no darme cuenta que ella ocultaba sus muñecas con mangas largas. Me arrepiento eternamente de no darme cuenta que ella siempre era más cuidadosa de esconderlas cuando hablaba conmigo. Me arrepiento eternamente de no darme cuenta que nunca más escuché su risa risueña, y que ella vagaba por la compañía con ojos sin vida más y más seguido.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;i&gt;No me puedo imaginar lo doloroso que ha de ser cortarte tu propia muñeca. Encontré que la única razón por la que ella podría hacer eso de esa forma fué que ella se cortó la suya directamente.&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {&lt;i&gt;Siempre abríamos una botella de vino cuando teníamos éxito. Se hizo una de nuestras costumbres. Ella nos dijo que solo es necesario un pequeño desliz para caer en un hábito distinto si nos acostumbramos al éxito. Que nosotros deberíamos siempre sonreir, alegrarnos y celebrar cada pequeña cosa en vista del éxito. Y que nunca deberíamos negar el fracaso, porque el éxito puede nacer de una pila de fracasos.&#13;&#10;Cuando ví la celosía de cicatrices en su muñeca, recordé nuestro armario de vinos. Habíamos usado tantas botellas; solo quedaba una.&#13;&#10;
+      Ese día, descorché la última.&lt;/i&gt;}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="noRationalist">Cuando #0, con Fuerza 1, terminó su trabajo, una mano le arrastró hacia la bañera. Los empleados con temperamento 1 también activarán este fenómeno.</specialTip>
+      <specialTip openLevel="1" key="manyHands">Una mano pálida salió a la superficie de $0 después de haner absorbido a un empleado. Cuantas más manos se encontraban en $0, más cajas-PE generaba.</specialTip>
+      <specialTip openLevel="1" key="threeHands">&lt;PRECAUCIÓN&gt; Cuando $0 tiene tres manos, consumirá al siguiente empleado que trabaje con él.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

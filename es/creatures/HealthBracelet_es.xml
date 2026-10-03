@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="300106">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-09-95 </codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/HealthBracelet</portrait>
+      <name openLevel="1">
+        Brazalete luminosa
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>Este brazalete castigará a aquellos que son codiciosos por naturaleza; por ende, solo los necesitados deberán usarlo.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un brazalete que emite una suave luz turquesa. Hemos encontrado más cosas igual de inexplicables en las Afueras.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Al llevarlo puesto, todas las heridas del usuario son curadas, sin rastro de cicatrices.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Sin embargo, ponerse el brazalete sin tener ninguna herida de antemano es considerado un acto codicioso.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+
+      [
+      {Este brazalete castigará a aquellos que son codiciosos por naturaleza; por ende, solo los necesitados deberán usarlo.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">La Fuerza del usuario que lleve a $0 aumentará.</specialTip>
+      <specialTip openLevel="2" key="2">$0 restaura la vida del usuario continuamente.</specialTip>
+      <specialTip openLevel="2" key="3">El usuario morirá si es ordenado a devolver a $0 sin estar curado por completo.</specialTip>
+      <specialTip openLevel="2" key="4">Si la vida del usuario no ha sido reducida en un tiempo, el usuario morirá por regeneración excesiva.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

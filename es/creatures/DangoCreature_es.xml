@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100042">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 busca el olor de un cadáver que lleva la sonrisa de todos.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 espera impaciente el olor a sangre, aguantando la risa incontenible de los no presentes.},
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-75</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/DangoCreature</portrait>
+      <name openLevel="1">
+        Montaña de cadáveres felices
+      </name>
+      <riskLevel openLevel="1">
+        ALEPH
+      </riskLevel>
+      <openText>Sus sonrisas son desconocidas, pero melancólicas.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Estas cosas no es que sean especialmente raras, pero hubo un día en el que perdimos a montones de empleados. La razón era la de siempre: alguien se escapan, lo matan, vuelve a escaparse...&#13;&#10;&#13;&#10;Lo bueno es que ese departamento lo cerraron antes de que fuera a peor, así que se amontonaron en la misma habitación. Literalmente se formó una montaña de cadáveres. Obviamente nadie quería limpiar ese destrozo. Debería haberse limpiado ese mismo día, pero ese accidente fue tan horroroso y tan agotador que la limpieza tuvo que esperar. No me acuerdo de qué departamento era, pero su Sephirah nos dió permiso de no limpiar esa cosa.}
+    ]
+  </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Si lo dejas suelto, el cadáver se pudrirá en unas horas. Si el cuerpo está dañado (que es lo normal en este sitio), se pudre aún más rápido.&#13;&#10;&#13;&#10;Puede que no los hayas visto, pero tenemos habilidades impecables para limpiar cuerpos de los muertos. De tanta muerte vas mejorando sin que te des cuenta, te guste o no. Digamos que tu compañero de trabajo muere trágicamente. Con la experiencia que consigues llega un momento en el que dejas de marearte por ver cosas así.}
+    ]
+  </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Uy, me he dejado llevar. Lo dicho, en circunstancias normales, la pila la habrían quitado al momento, pero no fue así. Y los cadáveres empezaron a pudrirse, descomponerse, derretirse...}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Pues ese es el origen de esta cosa. Tanta muerte dió vida a una criatura. Increíble, ¿verdad? Pues aún queda más. Los cadáveres empezaron a fusionarse, todos con una sonrisa de oreja a oreja. Compartían sus brazos y piernas (los de mejor estado) para ser uno solo. Eso no significa que tengan su conciencia intacta. Esa cosa solo tiene un objetivo: alimentarse de nuestros cuerpos ensangrentados. Cuando alguien muere, lo primero que debes hacer es mirar si esta cosa está en su sitio. Al mínimo olor de sangre, sale disparada. Sus sonrisas son desconocidas, pero melancólicas.&#13;&#10;&#13;&#10;Cuantos más cadáveres vea, más "él" se convierte, y nunca llega a su forma final.&#13;&#10;&#13;&#10;Te digo esto porque ya casi está aquí. Los accidentes son eventos comúnes en este lugar. Algunos de nosotros se paran a guardar un minuto de silencio, pero a la mayoría se la pela, pensando "¿Otra vez?". Al menos se hizo una cosa bien al cerrar el departamento. Soy el único que queda. "¿Y qué moraleja se supone que he aprendido con esta historia?" te estarás preguntando. "No seas un vago de mierda", esa es la moraleja. Cuando deje de hablar, levántate con tus colegas y limpiad la habitación en exactamente 3 minutos.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Seguramente no podré seguir hablando. Estoy a nada de tragarme una bomba. Se acaba el tiempo. Hay sangre por todos los lados. Empiezo a ver sus sonrisas... Algo que no ves a diario.&#13;&#10;&#13;&#10;No te rayes cuando escuches una explosión gigante. Como dije, exactamente 3 minutos. Espero que una bomba como esta pueda tirar abajo a este puto bicho.&#13;&#10;&#13;&#10;El último cuerpo que verá será el mío.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Cuando murió #0 trabajando con $0, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando un empleado dañado entró a su celda, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando 10 empleados murieron en toda la compañia, bajó el contador Qliphoth. Las muertes por balas de ejecución no fueron registradas.</specialTip>
+      <specialTip openLevel="2" key="5">$0 muestra atracción por cadáveres cuando se escapa. Asegúrate de que $0 no se acerque a los muertos.</specialTip>
+      <specialTip openLevel="1" key="6">Evita la muerte de empleados que se encuentren en el mismo departamento que $0.</specialTip>
+      <specialTip openLevel="1" key="7">Despúes de la evolución de $0, matarlo no lo suprimirá, pero destruirá parte de su ser.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

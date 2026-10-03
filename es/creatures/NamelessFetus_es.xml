@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100017">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {$0 es tan prematuro que ni siquiera tiene órganos correctamente formados aún.},
+      {$0 se chupa el pulgar y llora de vez en cuando.},
+      {Hay una larga línea parecida a una cicatriz de un lado al otro del abdomen de $0.},
+      {Si escuchas a un niño llorando, significa que probablemente uno de nosotros vaya a tener que desaparecer para siempre.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {A diferencia de otros bebés, $0 ni gime ni busca a su madre.},
+      {Cubierto de una baba inidentificable, $0 es completamente diferente a los demás bebés, que estan cubiertos de mantas calientes, felizmente gorjeando y soñando.},
+      {Alrededor de $0, están desperdigados objetos irreconocibles parecidos a cordones umbilicales. A pesar de ser una habitación donde reside un "bebé", está misteriosamente silenciosa, ausente de gemidos o lloros.},
+      {#0 acaba de entrar en la celda. Sin embargo, $0 no responde a su entrada como lo harían otros bebés.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Pupilas grandes y negras como el carbón que observan la nada. Ni siquiera pestañean.},
+      {Lo único que hace a $0 parecerse a un bebé normal es que se chupa una parte del cuerpo (la cual asumimos que es el pulgar) como si tuviera hambre, mostrando su  lúgubre deseo.},
+      {De vez en cuando, $0 “balbucea” como cualquier otro bebé. Sin embargo, los empleados reconocen que no es un simple “balbuceo”.},
+      {$0 hace un ruido como el balbuceo de un bebé a menudo. No hay necesidad de preocuparse todavía porque su deseo aún no llega a ser abrumador.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Mientras trabaja, #0 hace un sonido rítmico para $0, como si estuviera cuidando de su propio hijo.},
+      {#0 se toma un momento del trabajo y se acerca a $0, apenas manteniendo una sonrisa como para no alertar al “feto”.},
+      {#0 se gira para vigilar a $0. Afortunadamente, $0 permaneció sin llorar durante el trabajo de #0.},
+      {La preocupación por $0 obliga a #0 a mirarle continuamente durante su tranajo. Aunque todos deberíamos saber de qué se preocupa en realidad.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 abre su boca y se lame los labios. Sus pupilas negras como el carbón delatan sus deseos instintuales.},
+      {$0 cierra sus ojos. Esto no es un acto de cansancio, $0 tan solo desea una cosa.},
+      {De repente, $0 gira su cabeza y ojea a #0, quien está a punto de acabar con su trabajo. Carece de malas intenciones en su mirada, pero ciertamente no es la mirada de una criatura que considera el objeto de su atención como “humano”.},
+      {$0 siente hambre, y de repente, mira fijamente a #0. La pura maldad en la mirada de $0 penetra a través de #0.}
+      ]
+    </narration>
+    <narration action="special_ability1">
+      [
+      {Los lloros incesantes de $0 llenan la fábrica. #0, que está en una celda cercana, comienza a sentirse caer en la locura.}
+      ]
+    </narration>
+  </info>
+  <observe level="5">
+    <collection>
+      <codeNo openLevel="0">O-01-15</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/NamelessFetus</portrait>
+      <name openLevel="1">
+        Feto sin nombre
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>“Algún día entenderás la desesperación en sus caras cuando gira la ruleta.”</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Toma la forma de un feto prenatal. Su piel está cubierta por un líquido mucoso y pegajoso. Se pueden ver pequeñas venas en distintos puntos. Los ojos de la abnormalidad, anormalmente inflados, suelen estar cerrados. Aparenta estar constantement insatisfecho, pero se desconoce qué necesita exactamente. Tiene una gran obsesión con ser "alimentado", y si no es "alimentado" de forma regular, sus niveles de estrés aumentan drásticamente. Una vez alcanca un cierto nivel de estrés, llora fuertemente dañando mentalmente a todos alrededor.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {&lt;Extracto del Registro de Entrevista #2-49&gt;&#13;&#10;
+      Empleado F2706: “Nunca lo he visto sonreír. Siempre aparenta querer algo, pero nunca podemos cumplir sus deseos. Supongo que la razón de sus lloros destructivos es porque sus mecesidades insatisfechas son demasiado fuertes. Cuando era un novato aquí, ninguno de mis compañeros me quería decir exactamente qué le dabamos de comer. Pensaba que sería alguna leche rara o algo como lo que otros bebés normales se tomarían. Es un bebé después de todo, bajo todas esas capas asquerosas. Pero ese no era el caso. Solo come marne humana. ¿Te lo puedes crees? Para evitar que llore, tenemos que hacer un sorteo cada poco tiempo. ¿Sabes a qué me refiero?”}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Extracto de un Registro de Observación Finalizado&gt;&#13;&#10;
+      Cuando escuché por primera vez que el ‘Feto sin nombre’ tenía que ser alimentado, creía que le tendríamos que dar comida con como, una cuchara o algo. Se le veía demasiado debil como para hacer nada, y su boca tampoco estaba completamente desarrollada. Luego, cuando me enteré de que comía carne, pensaba que trendría que ser masticada por alguien para que fuera lo suficientemente blanda para que la consumiera. Cuando le pregunté a mi compañero de trabajo, se rió y dijo:“Nah, eso es ridículo. Solo tenemos que dejar la comida en su celda e irnos.” Aún así tenía curiosided en saber cómo ese feto podía comer las cosas. Me preguntaba si le servían algún filete suculento que ni siquiera estaba disponible para nosotros en la cafetería. Por curiosidad, decidí echar un vistazo al proceso de alimentación del ‘Feto sin nombre’. Tan solo empleados de nivel 3 o superior podían ser asignados al proceso, pero pude atender inventandome una excusa de que estaba cubriendo el puesto de alguien. Mientrar observaba nerviosamente, preguntándome si mi mentira valió la pena, algunas personas vinieron con grandes bolsas de plástico. ¿Tanto comía? Y cuando abrieron las bolsas, me quedé bopuiabierto del horror. Eran cadáveres humanos. Y el bebé se los comió. ¿Cómo? No quiero ni imaginarlo. Tenía una gran cicatriz a lo largo de su vientre; de verdad pensaba que era algún tipo de cicatriz. Como una enorme flor, su estómago se abrió, goteando con un líquido baboso. Era la criatura más ávida del mundo. Desde ese dia entonces, soy vegetariano.}
+      ]
+    </desc>
+    <desc id="4" openLevel="4">
+      [
+      {&lt;Extracto del Diario de una Empleada&gt;&#13;&#10;
+      Soy Pauly. Llevo trabajando para Lobotomy desde hace aproximadamente un mes. Mis padres estan muy orgullosos de mi por haber entrado en un Ala como esta, y todos mis amigos me envidian. Aún cometo muchos errores, pero, algún día, seré tan capaz como mis compañeros.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {      Hay un evento especial en nuestra compañía, limitado solamente para empleados. Nadie sabe cuándo ni por qué existe el evento. Ni siquiera mi compañero, que lleva trabajando aquí 5 años, tiene idea alguna. Cuando comienza el evento, una ruleta gigante empieza a girar. Todo el mundo para lo que están haciendo y miran la ruleta con expresión desesperada para ver quién es el afortunado. Los nombres de todos los empleados están escritos en la ruleta. Quien sale seleccionado es extremadamente afortunado. El ganador recibe una promoción y es transferido a otro departamento de la compañía, la "Sede". Adicionalmente, su familia recibe un regalo de una fortuna inimaginable. En la sede, no te tienes que preocupar por ataques de abnormalidades, o despedirte de compañeros muertos. Mi sénior, (Redactado), espera con ansia que le toque eventualmente. Su padre tuvo un accidente, y requiere de mucho dinero para mantenerle con vida y bien alimentado. Espero que la ruleta elija a (Redactado) algún dia.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {      Cuando la ruleta se detuvo en el nombre de mi sénior, le felicité de todo corazón. Sin embargo, por alguna razón no parecía estar muy contento. Los otros le dieron abrazos uno a uno, todos llorando por alguna razón. Se despidió de mí mientras derramaba lágrimas y forzaba una sonrisa. No le he visto desde entonces. Estoy segura de que está trabajando en condiciones mucho mejores, y un salario impresionante! Sin embargo, cuando intento hacer conversación sobre el tema, los demñas me dejan de hablar, como si hubiera roto algún tabú. Aún recuerdo lo último que me dijo antes de que se fuera.
+
+      “Algún dia entenderás la desesperación en sus caras cuando gira la ruleta.”}
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {El jefe posee el derecho específico a iniciar un evento especial para todos los empleados de la fábrica sin causa especial. Cuando el evento comienza, una ruleta gigante girará y seleccionará a un empleado afortunado. El empleado recibirá una promoción y será transferido a otro departamento, y su familia recibirá una pensión anual. Ningún personal tiene permitido invadir el derecho del jefe a iniciar este evento. Está prohibido mostrar las siguientes líneas al ojo público:&#13;&#10;&#13;&#10;&lt;Condiciones requeridas para iniciar el evento&gt;&#13;&#10;
+      - Acceso Restringido
+      - Acceso Restringido
+      - Los lloros del ‘Feto sin nombre’ han llegado a su máximo.&#13;&#10;&#13;&#10;&lt;La ruleta seleccionará a un empleado que satisfaga las siguientes condiciones&gt;&#13;&#10;
+      1. Cuestiona el verdadero propósito de la compañía.
+      2. Realiza o planea experimentos no autorizados^ con las abnormalidades.
+      3. Mantiene una curiosidad excesiva por las abnormalidades, y realiza o planea observación no autorizada^ sobre ellas.
+      4. Es incapaz de trabajar por trauma físico o psicológico.
+      
+      ^ “No autorizado” significa “No autorizado por la compañía o por Ángela”.&#13;&#10;&#13;&#10;&lt;Las siguientes acciones serán tomadas con el empleado seleccionado por la ruleta&gt;&#13;&#10;
+      1. Eliminar todos los archivos en la compañía sobre el empleado.
+      2. Sacrificar el empleado a la abnormalidad.
+      3. Informar a la familia del empleado de que ha sido transferido a otro departamento.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="teeth">Cuando el trabajo fue normal, bajó el contador Qliphoth con una baja posibilidad.</specialTip>
+      <specialTip openLevel="2" key="cry">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="2" key="cryEffect">Cuando el contador Qliphoth llegó a 0, $0 comenzó a llorar. Aquellos que escucharon sus llantos sufrieron daño BLANCO. Además, el contador Qliphoth de las abnormalidades cercanas fue bajando con el tiempo.</specialTip>
+      <specialTip openLevel="3" key="sacrifice">Mientras $0 estaba llorando, solo se podía hacer trabajo de &lt;Redactado&gt;.</specialTip>
+      <specialTip openLevel="3" key="sacrifice">#0 fue seleccionado por la ruleta tras completar el trabajo de &lt;Redactado&gt;. #0 caminó hacia la celda de $0. Entonces, cesaron los lloros.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

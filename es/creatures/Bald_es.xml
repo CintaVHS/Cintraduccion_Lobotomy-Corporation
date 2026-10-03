@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100034">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 empieza a sentir que su pelo es una molestia.},
+      {#0 empieza a pensar que un tatuaje en la cabeza quedaría guapísimo.},
+      {#0 se quita la peluca porque "ser calvo es un orgullo."}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Si eres calvo, ¡podrías ser igualito a Bruce Willis!},
+      {Los calvos siempre, siempre se ven como personas profesionales.},
+      {Si eres calvo, no tendrás que preocuparte de que se atasque el desagÜe.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {¿Aún tienes tu pelo brillante?}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">¡Cal-vi-cie!</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Bald</portrait>
+      <name openLevel="1">
+        Calvo... 
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>Enciendes la maquinilla...</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Alerta: Has sido atacado por la calvicie psicológica. Si quien lee esto no es calvo, será otorgado el privilegio de serlo de forma instantánea. Si uno desea no serlo, deberá trabajar con esta abnormalidad. Adicionalmente, si uno se encuentra con 10 pelos en la almohada tras despertarse, es recomendable examinar este artículo de la enciclopedia un mínimo de 3 veces.}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {Bill: ¡Menudo sueño he tenido esta noche!&#13;&#10;Brian: Qué, ¿ganaste la lotería?&#13;&#10;Bill: Cuando fui a trabajar, ¡todo el mundo estaba calvo! ¡Y tú también! ¡Incluso la gente que no trabaja aquí!&#13;&#10;Brian: Eh... te veo muy estresado últimamente. ¿Por qué no te pasas a que te hagan un chequeo?&#13;&#10;&#13;&#10;El Empleado Bill sufrió un trágico accidente con Máquina Cantarina más adelante. Inmediatamente después, la abnormalidad ¡Cal-vi-cie! apareció dentro de la compañía. Todos echamos de menos a Calv-Bill.}
+      ]
+    </desc>
+    <desc id="3" openLevel="3">
+      [
+      {Si alguien entra en contacto con esta abnormalidad, durante la próxima hora, empezarán a hablar y escribir sobre los beneficios de ser calvo. Al finalizar esa hora, ellos mismos se cortarán todo el pelo.&#13;&#10;&lt;i&gt;Si eres calvo, te ahorrarás mucho dinero y tiempo porque nunca tendrás que comprar ni usar champú, indirectamente consiguiendo más dinero que los demás.&lt;/i&gt;&#13;&#10;No ocurrirá nada si el empleado que trabaja con esta abnormalidad ya es calvo de por sí.&#13;&#10;&lt;i&gt;Los calvos no se tienen que preocupar por las canas.&lt;/i&gt;&#13;&#10;Si un empleado con pelo trabaja con esta abnormalidad, se cortará el pelo.&#13;&#10;&lt;i&gt;¡Los calvos pueden reflejar la luz de su cabeza y cegar a sus enemigos como si fuera un rayo solar!&lt;/i&gt;&#13;&#10;La misión de esta abnormalidad es hacer que todos los humanos sean calvos.&#13;&#10;&lt;i&gt;No necesitaremos usar bombillas porque nuestras cabezas reflejarán toda la luz. Solo piensa en la cantidad de dinero que ahorraremos.&lt;/i&gt;&#13;&#10;Si un empleado con pelo trabaja con esta abnormalidad, producirá menos energía.&#13;&#10;&lt;i&gt;¿Sabías que toda la nobleza de la Europa Antigua era calvo? ¡Cada día tenían una peluca nueva!&lt;/i&gt;}
+      ]
+    </desc>
+    <desc id="4" openLevel="4">
+      [
+      {&lt;i&gt;Hemos añadido nuevas reglas de nuestro código de conducta:&lt;/i&gt;&#13;&#10;
+      + Si se encuentra a XXX haciendo chistes sobre su empleado con alopecia, serán catalogado como un hirsuto, y será denegado el acceso al comedor durante un periodo indefinido de tiempo. Será también prohibida la entrada al grupo de debate de la compañía "Interrogadores de las Barbies Calvas", el grupo gourmé "Pulpo sobre Calamar", y el grupo activista del medio ambiente "Salvando a las Águilas Americanas" (las regulaciones serán removidas cuando la cantidad de tiras de pelo del usuario bajen de 1).&#13;&#10;&#13;&#10;&lt;i&gt;Por último, querría dedicar este artículo al empleado T.H. el cual está tomando medicina para la calvicie a mi lado en este mismo instante.&lt;/i&gt;}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="memeriBeam">Aún tienes tu peinado suave... Acabas de ser atacado por el calvoláser.</specialTip>
+      <specialTip openLevel="2" key="memeriOnly">Si no trabajas, todos tus amigos y tú os quedaréis calvos en cuestión de un mes.</specialTip>
+      <specialTip openLevel="3" key="memeriHurryUp">Nunca es demasiado tarde. 30... 29... 28...</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

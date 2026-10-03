@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100031">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Esa noche, cuando calleron estrellas del sitio, uniño caminaba.},
+      {$0 sabe todo lo que se puede saber sobre #0.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El deseo se hace lágrima, y desciende como estrella fugaz en la noche silente.},
+      {Las cenizas del anhelo florecen suavemente en el corazón que aún llora.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 makes #0 pinky swear and promise to come back again tomorrow.},
+      {$0 starts sobbing, he can’t handle the fact that #0 needs to leave now.},
+      {#0 can’t take another step after seeing how tearful $0’s face is.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">O-01-55</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/GalaxyBoy</portrait>
+      <name openLevel="1">
+        Hijo de la galaxia
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <specialName openLevel="2">
+        Tu universo
+      </specialName>
+      <openText>
+        El niño dejó caer una lágrima, y ocurrió una lluvia de estrellas. El mundo le canta una nana antes de dormir.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Era una noche envuelta en una suave niebla.&#13;&#10;Un niño descalzo me miraba.&#13;&#10;Estaba llorando, sus ojos de ensueño llenos de dolor. &#13;&#10;La tristeza que se reflejaba en su rostro me detuvo en seco.&#13;&#10;Me dijo que perdió algo precioso, y cuando me ofrecí a ayudar,&#13;&#10;Me sonrió ampliamente.&#13;&#10;Una lágrima cayó de los ojos llorosos del niño, mientras caían estrellas del cielo.&#13;&#10;El mundo cae en un letargo, atrapados en una nana extática.&#13;&#10;Esa noche la galaxia descendió con los pies descalzos.&#13;&#10;
+      -	Extracto del diario del Empleado (Redactado), quien se suicidó.}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {Toma la forma de un chico joven con grandes ojos que recuerda al cielo por la noche. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {El niño muestra un gran disfrute al hablar y jugar con los demás. Siente un fuerte apego hacia el acto de establecer contacto con otro. }
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {Si el niño y un empleado alcanzan cierto nivel de intimidad, le entregará una pequeña piedra al empleado que ahora considera su amigo. Mientras tenga la piedra en su poder, el empleado sentirá felicidad y vitalidad. Sin embargo, esa piedra hará más que solo el bien si el empleado entra en cualquier Unidad de Contención que no sea la suya. }
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {Si el empleado que posee una de las piedras del niño (El símbolo de su fuerte amistad) muere, mostrará un profundo dolor y pena por su pérdida.}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {&lt;Extracto del diario del empleado (Redactado)&gt;&#13;&#10;
+      X/X/XX
+      Miré a los ojos del niño durante un buen rato. Puede que me quedara en las nubes un momento, porque sus ojos eran como un sueño. Quise acariciarlo, pero recordé lo que me dijeron mis compañeros: no debemos encariñarnos con las Anomalías.
+      
+      X/X/XX
+      Le dije mi nombre. Lo repitió con los ojos muy abiertos como si se hubiera enterado de un secreto enorme. Cada vez que decía mi nombre, Sentí que se convirtió en algo más que algo familiar con lo que había estado viviendo.
+      
+      X/X/XX
+      Cuando otro empleado entró a la unidad de contención del niño, él no siguió a ese empleado y me buscó a mí. Me sentí profundamente triunfante después de oír eso. El niño me sigue a &lt;i&gt;mí&lt;/i&gt;, no a &lt;i&gt;ti&lt;/i&gt;.
+      
+      X/X/XX
+      En el momento en el que entré a la habitación del niño, saltó a mis brazos llorando. Cuando finalmente lo dejé en el suelo, derramó una lágrima que se convirtió en una pequeña piedra blanca que cayó en mi mano. "Por favor, no la pierdas, y no se la des a nadie más." murmuró el niño.
+      
+      X/X/XX
+      "¿Te gusta? ¿Más de lo que te gusto yo?" Me preguntó el niño en voz baja cuándo llegué después de terminar de trabajar con otra Abnormalidad. Le pregunté como sabía lo que estaba haciendo, y él respondió a la ligera: "¿No es obvio? Lo sé todo. Hagas lo que hagas, vayas donde vayas." Su mirada se posó en la piedra y luego sonrió. Sus ojos me pusieron la piel de gallina.
+      
+      X/X/XX
+      Traté de deshacreme de la piedra, pero me di cuenta de que estaba fuera de mi control. No entiendo de qué estoy hablando ahora mismo, pero... "¿Aún la guardas, verdad?" El niño me sonríe. Me sonríe. Me sonríe. Me sonríe. Me sonríe...
+      
+      X/X/XX
+      No puedo quitarme esta piedra de encima. Mi única esperanza es esperar a que ese niño se canse de mí. Estoy esperando ese día... ¿Pero va a llegar? (La gente me dice que soy un empleado excelente. Idiotas, no saben nada. Callaos.)
+      
+      X/X/XX
+      Ya no lo aguanto más. No puedo escapar de él. Creí que yo tenía el control, pero solo era una piedra en sus manos todo este tiempo. Haga lo que haga, vaya donde vaya, oigo sus susurros. (Tengo que ponerle fin, pero nisiquiera estoy seguro de poder hacerlo.)
+      "...Vengo de muy lejos. Me alegra tanto haberte encontrado. Conviértete en una piedrecita, y recorramos juntos la galaxia..." Escucho susurros y su aliento. Una oscuridad negra como el abismo lo envuelve todo... justo como la noche en que lo conocí.}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Al completar un trabajo con $0, el empleado será otorgado con una "piedra de la amistad", que restaurará la vida y salud del usuario constantemente. La cantidad de vida y sanidad recibida varía según el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando #0, que tenía una piedra, terminó su trabajo, subió el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando un empleado con una piedra trabajó con otra abnormalidad, el empleado recibió daño proporcional al contador Qliphoth de $0. Después, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando un empleado con una piedra murió, redució el contador Qliphoth en 4.</specialTip>
+      <specialTip openLevel="2" key="5">Cuando el contador Qliphoth llegó a 0, todos los empleados con piedras murieron.</specialTip>
+      <!--<specialTip openLevel="2" key="6">클리포트 카운터가 0이 된 상태에서는 모든 작업에서 완전히 PE-Box를 모을 수 없다.</specialTip>-->
+    </specialTipSize>
+  </observe>
+  <!-- 대사는 AgentLyrics_kr.xml 에 있음 -->
+</creature>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100051">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {No hay necesidad de que #0 tenga miedo de $0 siempre que sea una persona fría.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 colecciona corazones. Pensó que si su corazón comenzaba a latir, sería capaz de amar.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Cosas que quizás alguna vez fueron corazones ahora son empujadas indiscriminadamente dentro de $0.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-05-32</codeNo>
+      <name openLevel="1">Leñador de gran corazón</name>
+      <portrait openLevel="1">Sprites/Unit/creature/Lumberjack</portrait>
+      <riskLevel openLevel="2">HE</riskLevel>
+      <openText>Es un bosque lleno de corazones. Da igual cuántos tale, el bosque seguirá igual de denso.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad metálica cuyo cuerpo humanoide está compuesto enteramente de acero galvanizado. Sostiene un hacha gigante con ambas manos, pero no muestra actividad, como si no pudiera moverse.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Los amigos eran imperfectos de una u otra manera, así que se ayudaron entre sí para llenar lo que les faltaba y emprendieron un viaje para hacer sus deseos realidad. El Espantapájaros quería un cerebro, el Hombre de Hojalata quería un corazón, el León Cobarde quería coraje, y Dorothy quería volver a casa.&#13;&#10;
+      Aquél a quien creyeron el gran mago, en cambio, le dio al Hombre de Hojalata un corazón de plomo. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {“Pero eres una máquina, eso significa que fuiste construido para servir a los humanos. ¿No lo entiendes? Las máquinas no necesitan un corazón. Buen trabajo por haber llegado hasta aquí, toma esto como compensación. Asegúrate de decirle a todos los que te esperan que tu deseo definitivamente se cumplió.”&#13;&#10;&#13;&#10;Algunos se marcharon satisfechos. Los amigos partieron y nunca más volvieron a ser vistos. El plomo duro y frío era deprimente.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {El Hombre de Hojalata no podía aceptar esto. Con furia, blandió su hacha atravesando el corazón del mago. El cálido corazón latía con fuerza. Empujó el plomo dentro del ahora vacío pecho del mago. Por primera vez en su vida, el Hombre de Hojalata empezó a reír al ver aquello y sintió un placer que nunca había sentido antes.&#13;&#10;&#13;&#10;Agarrando un puñado de corazones blandos, los introduce en su "pecho". Nunca habrá suficientes corazones. Alguna vez fue un leñador, ahora tala personas en lugar de árboles. Este es un bosque lleno de corazones. No importa cuántos tale, el bosque sigue igual de denso. Una persona bondadosa llevaría un corazón más cálido. }
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Cuando el corazón se pierde, el Hombre de Hojalata caerá de rodillas con dolor, aferrándose a su pecho vacío. Como si suplicara que no le quitaran lo único que le queda. }
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando un empleado con Temperamento 3 o más terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando un empleado trabaja con $0 cuando su contador Qliphoth está a 0, el empleado morirá instantáneamente y $0 se escapará.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

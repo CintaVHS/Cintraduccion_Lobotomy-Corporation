@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100049">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {La advertencia de no mirar a $0 ha causado que varios empleados cayeran en la curiosidad, terminando en un terrible incidente.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Cuando sientes una persistente mirada sobre ti incluso cuando estás solo, ya es demasiado tarde.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-05-76</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/LookAtMe</portrait>
+      <name openLevel="1">
+        Schadenfreude
+      </name>
+      <riskLevel openLevel="1">
+        HE
+      </riskLevel>
+      <openText>La mirada fija de alguien puede sentirse a través del ojo de la cerradura de la máquina.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad mecánica capaz de caminar por sí misma.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La mirada fija de alguien puede sentirse a través del ojo de la cerradura de la máquina. Parpadea, pero nunca se cierra. El propósito del ojo o a qué está observando es desconocido.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Tras varios experimentos, se ha descubierto que cuando uno o más empleados miran a la Abnormalidad, las condiciones se vuelven mucho peores.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Experimento D-002&gt;&#13;&#10;
+      Un empleado fue mandado tras cubrir sus ojos con una tela gorda. La tela debe estar hecha de un buen material opaco. Varias pruebas deben ser realizadas para asegurarse que la tela bloquea su visión. Tras entrar en la Unidad de Contención, ellos miraron en dirección a la Abnormalidad por 10 segundos. Ninguna reacción.&#13;&#10;&#13;&#10;&lt;Experimento D-003&gt;&#13;&#10;
+      Similar al Experimento D-002, un empleado fue mandado con sus ojos cubiertos. La tela era idéntica a la usada en D-002, pero permitió al empleado discernir algunas formas. Tras entrar en la Unidad de Contención, miraron hacia la Abnormalidad por unos 10 segundos. Después de 5 segundos, se acercó agresivamente al empleado. El experimento se detuvo.&#13;&#10;&#13;&#10;&lt;Experimento D-004&gt;&#13;&#10;
+      Esta vez, un empleado ciego fue mandado sin ninguna tela. El empleado miró a la Abnormalidad por más de 30 segundos. No hubo ninguna reacción.&#13;&#10;
+      &lt;i&gt;^ Por favor desháganse del sujeto utilizado en D-004 inmediatamente.&lt;/i&gt;}
+      ]
+  </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Memo:
+      Cuando se entrenan a empleados que nunca han trabajado con esta Abnormalidad antes, ni hace falta decirlo, pero por favor aseguraros de decirles que no miren directamente a la Abnormalidad. Si alguien presenta dudas sobre esto, cuéntele lo que le pasó a la empleada Yumi, quien no siguió las instrucciones y miró directamente a la Abnormalidad.&#13;&#10;&#13;&#10;Memo 2:
+      La empleada Yumi no puede volver a estar a cargo de esta Abnormalidad. Ella dice que está siendo constantemente vigilada, pero esta es una acusación absurda y creemos que sufre de un severo desorden ilusorio. Gran parte de las cosas que dice no tienen sentido, y básicamente, clama que alguien sigue mirándola, ya sea que esté comiendo o yendo al baño. También, cuando ella ve algo parecido al ojo de una cerradura o una grieta entre una puerta, se pondrá histérica e intentará cerrar cualquier agujero que vea. Sin embargo lo que es más preocupante es sus niveles de corrupción mental se ven normales, lo cual hace que sea más difícil para nosotros para deshacerse de ella por medio del sistema. Por favor reemplazadla pronto… &#13;&#10;&#13;&#10;Memo 3:
+      Oh, la petición que hemos hecho ha sido resuelta. La empleada Yumi fue encontrada en su habitación. Había cubierto todos los agujeros de su cuarto con cinta, incluida la ventilación. Ella incluso se clavó un boli en sus ojos. El síndrome ilusivo parece que se ha resuelto también; ya no está murmurando más sandeces... Sin embargo, me pregunto por qué querrían enviar a una empleada ciega a la Unidad de Contención otra vez. No sé de qué se trata el Experimento D-004, pero no creo que traerá algún bien...}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Los trabajos con $0 deben llevarse a cabo mientras que el jefe no está mirando su celda.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando la celda de $0 fue vista por el jefe durante un trabajo por 5 segundos o más, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Al escaparse, $0 se quedó totalmente inmóbil mientras el jefe no lo miraba.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

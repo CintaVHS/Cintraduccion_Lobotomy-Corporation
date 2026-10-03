@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100056">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {#0 está (CENSURADO) a (CENSURADO).}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 siente (CENSURADO) de (CENSURADO).}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {(CENSURADO) está haciendo (CENSURADO) y... Dios santo.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <!--level은 관찰 최대 레벨-->
+    <collection>
+      <codeNo openLevel="0">O-03-89</codeNo>
+      <name openLevel="1">CENSURADO</name>
+      <portrait openLevel="1">Sprites/Unit/creature/Censored</portrait>
+      <riskLevel openLevel="1">ALEPH</riskLevel>
+      <openText>Si un fallo en el sistema desactiva los censores que la ocultan, tendremos que plantearnos seriamente cómo deshacernos del jefe.</openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {Cualquier intento de describir a (CENSURADO) le causará severa corrupción mental tanto al emisor como al receptor. Por lo tanto, no se permite grabar cualquier representación de la apariencia de (CENSURADO). Todas las grabaciones de audio y escritos deberían ser inspecionados para asegurar tales representaciones se eliminne de ellos. Todo el trabajo relacionado con esta eliminación debe ser asignado a empleados de nivel 5 o mayor. }
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {&lt;Fragmento de audio&gt;&#13;&#10;
+      Randy: Es una lástima mandar a un empleado tan capacitado a trabajar con él. ¿Tus últimas palabras? Cuando digo últimas palabras, lo digo por precaución, claro está.&#13;&#10;
+      (CENSURADO): No hay más remedio. Soy el empleado con más resistencia hacia un colapso cognitivo. He sido apatético a todo desde que era un niño. La gente dice que no tenía empatía y que no era normal. Pero cuando empezé a trabajar aquí, mi extraña habilidad se convirtió en la clave para salvar a todos. This is something that can never be experienced anywhere else. &#13;&#10;
+      Randy: Déjame repetírtelo. Aunque sí es verdad que tienes la mayor resistencia entre los empleados, eso solo se basa en estándares humanos. Si empiezas a sentir una oleada de pensamientos intrusivos, o decides contar hacia atrás desde diez pero nisiquiera te acuerdas de qué es diez, o sientes o regurcitación incontrolable de vómitos o saliva, o si este sitio empieza a sentirse como otro que no es la compañía, o si de repente te sientes insegnificante y piensas que asfixiarte es tu única esperanza… necesitas salir de la Unidad de Contención inmediatamente.&#13;&#10;
+      (CENSURADO): Si me lo dices una vez más, ya serán trece las veces que me lo has dicho. &#13;&#10;
+      Randy: No podemos moritorearte. Todas las cámaras están apagadas, y tus grabaciones de audio solo se actualizarán después de que termines el trabajo. No hace falta decir que estoy preocupado por tí. ¿Por qué no repites las instrucciones que te he dado hace un momento?&#13;&#10;
+      (CENSURADO): Entrar, no hacer el trabajo yo, acompañar al empleado (CENSURADO) y observar como va el progreso de trabajo. Y grabar todo lo que pase; incluso si (CENSURADO) está en peligro, no intentar rescatarlo a menos que se ordene lo contrario. ¿Verdad?&#13;&#10;
+      Randy: Exacto. Ahora, nuestra comunicación se cortará en diez segundos. Buena suerte, y que tu informe quede para la historia.&#13;&#10;
+      (CENSURADO): No me arrepiento de nada. Diría que tengo bastante suerte comparado con los demás; al menos puedo dejar mi último registro de voz. Bueno, digo “último” solo por precaución, pero…&#13;&#10;
+      Randy: Exacto, tu informe quedará archivado para siempre y todos nuestros compañeros lo recordarán. 3... 2... 1... Fin de recepción de audio.&#13;&#10;
+      (CENSURADO): Randy... Eso parece... Parece nuestro (CENSURADO) de hace mucho tiempo, ¿verdad? ...Oh, olvidé por un momento que solo yo puedo ver esto. El empleado (CENSURADO) que estaba conmigo se convirtió en (CENSURADO)... Parece... Parece que puede reproducirse... El empleado (CENSURADO) que estaba conmigo se convirtió en (CENSURADO)... Esto es como el proceso de (CENSURADO)... Me siento un poco mal, pero estoy bien... Un pequeño (CENSURADO) salió del (CENSURADO) de (CENSURADO)... No me lo puedo creer... Ahora está (CENSURADO) al empleado (CENSURADO)... El emleado (CENSURADO) está gritando como (CENSURADO)... Los gritos... ¿Puedes escucharlos? Me recuerdan a (CENSURADO)... &#13;&#10;
+      Sound: (CENSURADO)——————————————————&#13;&#10;
+      Ahora lo veo claro... Este es nuestro (CENSURADO)... Esta es la razón por la cual (CENSURADO) existe... &#13;&#10;
+      Esto es lo peor que he visto en toda mi vida. Ni siquiera me puedo mover. Parece que (CENSURADO) quiere que yo sea su siguiente víctima. Pronto... Yo también (CENSURADO)... Se acerca. Pondré la grabadora en mi (CENSURADO)... Espero que esta grabación ayude a todos…&#13;&#10;&#13;&#10;&lt;El audio se corta.&gt;}
+      ]
+    </desc>
+    <desc id="3" openLevel="3">
+      [
+      {Incluso después de que adoptamos el filtro cognitivo, muchos de nuestros empleados han perdido la cabeza. La mitad de ellos se han ido por culpa de (CENSURADO). Aunque subamos el filtro de cognición al máximo —a costa de que nuestros empleados y otras Anomalías sean percibidos como objetos extremadamente simples, los gerentes siguen volviéndose locos en cuanto ven a esta Abnormalidad. No podemos dejar ciego al jefe solo por una Anomalía. Estamos atrapados en un dilema. La única solución que se nos ocurrió fue gracias a la sugerencia de uno de nuestros empleados: cubrir a la Abnormalidad con un enorme sistema de censura y desenfoque. Si un fallo en el sistema desactiva los censores que la ocultan, tendremos que plantearnos seriamente cómo deshacernos del jefe.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">El contador Qliphoth de $0 puede ser aumentado mediante un trabajo especial. Dicho trabajo requiere de un sacrificio humano al azar para satisfacer a $0.</specialTip>
+      <specialTip openLevel="1" key="2">Los empleados de nivel 4 o menos entraron en pánico instantáneamente al ver a $0. Ocurrió lo mismo cuando se escapó.</specialTip>
+      <specialTip openLevel="3" key="3">Cuando un empleado entró en pánico mientras trabajaba con $0, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>CENSURADO</name>
+    <codeId>O-03-89-1</codeId>
+  </child>
+</creature>

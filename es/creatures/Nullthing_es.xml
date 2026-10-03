@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100005">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {La apariencia de $0 es justo como la de un ser humano. Sin embargo, los empleados con una buena vista se percatarán de un aura de incompatibilidad.},
+      {$0 es diferente a las Abnormalidades corrientes. La mayor diferencia entre ellas es que esta nunca ha revelado su verdadera naturaleza.},
+      {¿Sabes la diferencia entre los términos “cáscara” y “piel”?}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 aprieta los dientes sin propósito mientras mira a  #0.},
+      {El hueso, que parece ser una costilla de $0, hace ruido al crujir.},
+      {$0 mira a #0, el cuello retorcido de su cáscara cruje y se mueve de manera antinatural.},
+      {El órgano de $0 que es una cosa parecida a una boca a veces deja caer intestinos que puede que hayan pertenecido a un humano en el pasado.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 hace todo lo posible para evitar pisar las secreciones desconocidas de $0.},
+      {A pesar de que $0 no realiza ninguna acción que pueda dañar a #0, su cuerpo entero tiembla debido al miedo.},
+      {#0 sabe que la Abnormalidad no le va a atacar inmediatamente pero eso no significa que no sienta terror al estar en su contención.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Mientras #0 trabaja, se da cuenta de que $0 le resulta algo familiar de una manera extraña.},
+      {#0 se percata de algo acerca de $0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {“Ella” era la superior de #0. Nunca habían tenido una conversación, pero es posible que hubieran sido buenos compañeros de trabajo.},
+      {#0 había visto “su” perfil de empleada. La razón por la que #0 podía acordarse de "ella" es que tenía un lunar característico en su rostro.}
+      ]
+    </narration>
+    <narration action="special_ability1">
+      [
+      {$0 se ha puesto la piel de #0.}
+      ]
+    </narration>
+    <narration action="special_ability2">
+      [
+      {Durante el proceso de ponerse a #0 de cáscara, sus huesos se desperdigaron por el suelo}
+      ]
+    </narration>
+    <narration action="special_ability3">
+      [
+      {$0, que ahora ha tomado la forma de #0, produce crujidos debido a sus huesos aún fuera de lugar con cada paso.}
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {#0 siente un disgusto impotente y pavor irradiando $0. Este odio innato que emana de $0 hace que a #0 se le hiele la sangre.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {Ahora #0 se ha convertido en la nueva cáscara de $0. Puede que alguna vez llegue el día en el que pueda tener un entierro de verdad, al igual que la "cáscara" que $0 acaba de mudar.},
+      {#0 se ha convertido en la nueva cáscara de $0. Todos los empleados en las instalaciones le recordarán; sin importar si quieren hacerlo o no, tendrán que hacerlo.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-06-20</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/NotThing</portrait>
+      <name openLevel="1">
+        Nada por aquí
+      </name>
+      <riskLevel openLevel="1">
+        ALEPH
+      </riskLevel>
+      <openText>Y todas las cáscaras decían una sola palabra, "Jefe".</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad cuya apariencia se parece a la de humano, pero no puede y no debería ser humana. De vez en cuando devora a los empleados y se pone su cáscara. El esqueleto y los órganos quedan mal colocados en el proceso, por lo que toma una forma bizarra.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La Abnormalidad sí que tiene una lengua, sin embargo, no tiene conocimientos acerca del lenguaje y por tanto no puede hablar; únicamente es capaz de producir sonidos sin sentido. No se puede saber lo que hay dentro de su cáscara, pero su piel se desgasta continuamente, por lo que existe una necesidad de cambiar y hacer mantener la capa externa. Es insensible al dolor; es posible que rompa sus propios huesos o se autolesione para escapar por una grieta pequeña.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Poco a poco, hemos descubierto que es posible que esta Abnormalidad esté evolucionando. Exhibe comportamiento similar al de la persona que solía ser su cáscara. Incluso intenta encajar con los seres humanos.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Cuando escapa, se pone la piel de la persona a la que ha matado y la imita. Después, sin previo aviso, revela su verdadera/segunda forma. En su verdadera/segunda forma, su similitud es mucha más parecida a la de un ser humano. Se ha confirmado que la segunda forma posee bipedismo, órganos alineados de manera correcta y el añadido de una mayor fuerza física. Todos los empleados tienen miedo de esta forma. }
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {&lt;Advertencia sobre Algo&gt;&#13;&#10;
+      Si se ha confirmado que ha escapado y está andando a dos patas, solo hay una cosa que puedes hacer. Endereza tu postura, junta tus manos de manera ordenada, reza a aquello en lo que creas y observa el desarrollo de la situación.}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {&lt;Extracto del Registro de Orientación&gt;&#13;&#10;
+      “Al igual que los empleados observamos a las Abnormalidades, ‘Nada por aquí’ también nos observa. Después se pone la cáscara de un empleado y cree ser el empleado que acaba de morir.&#13;&#10;
+      No hay palabras para describir lo aterrador que es ver a esa cosa comerse a uno de nosotros, es posible que tan solo pensar en ello haga que me vuelva loco. Además, ir a su contención para monitorizar el estado de su cáscara puede dañar tu mente. Imagina que un compañero de trabajo con el que hablaste apenas hace unos días ahora está sentado en esa habitación, con el cuello torcido, las entrañas fuera, caminando a cuatro patas, babeando como una bestia.(Omitido)&#13;&#10;
+      Eso no es todo. Cuando yo todavía era un nuevo empleado, nadie más estaba dispuesto a entrar en su Unidad de Contención, por lo que no tenía más opción que ir y trabajar con ella. Su aspecto era incluso peor que el que tiene actualmente. Tenía la forma de un humano horriblemente deformado. Por si fuera poco, trataba de imitar a los humanos. Hacía cosas como mirarse en el espejo, susurrarse cosas a sí misma o tratar de arreglar su estructura ósea, como si estuviera tratando de imitarnos. Quién sabe, quizás mejorará lo suficiente para andar entre nosotros como si nada.”}
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {&lt;Advertencia&gt; Solo los empleados de Nivel 3 o más tienen permiso para leer este documento.&#13;&#10;(Esta grabación es una llamada proveniente del teléfono de emergencia de la Unidad de Contención. Hay sistemas telefónicos instalados en todas las habitaciones de Abnormalidades con un Nivel de Riego HE o mayor para permitir acción rápida ante amenazas.)&#13;&#10;
+      Empleado 1: Porfavor contestad, porfavor contestad. Les llamo desde la Unidad de Contención de ‘Nada por aquí.’
+      El Equipo de Respuesta Ante Emergencias (ERAE): Hola, está usted hablando con el Equipo de Respuesta Ante Emergencias. ¿Cuál es el problema?
+      Empleado 1: ¡Necesito una pistola eléctrica ya! ¡Hay una emergencia en curso ahora mismo!
+      ERAE: ¿Puede especificar la razón, por favor?
+      Empleado 1: La Abnormalidad... (se puede escuchar el sonido de algo rompiéndose) Está mutilando al empleado.
+      ERAE: ¿Disculpe?
+      Empleado 1: ¡Está matando a mi compañero!
+      ERAE: Responderemos inmediatamente. Por favor, identifique al empleado que está siendo atacado.
+      Empleado 1: Es...uh...dame un segundo. Su nombre es &lt;CENSURADO&gt;. Equipo de control. Soy, &lt;CENSURADO&gt;. También del equipo de control.
+      ERAE: Confirmado. ¿Qué le está ocurriendo a su compañero ahora mismo?
+      Empleado 1: Sí sí, dense prisa por favor. Necesitamos un arma para controlar a la Abnormalidad.
+      (Se puede escuchar un ruido ensordecedor, probablemente el grito del compañero de trabajo)
+      ¡Dios mío, esto es...!
+      ERAE: ¿Qué está ocurriendo?
+      Empleado 1: La Abnormalidad está atacando a mi compañero. Lo está destrozando, literalmente. No puedo hacer nada. Repito, necesitamos un arma para controlar a la Abnormalidad.
+      ERAE: El Equipo de Respuesta Ante Emergencias está de camino. Llegará pronto.
+      (Omitido)
+      ERAE: &lt;¿CENSURADO&gt;? ¿Qué está ocurriendo ahora mismo? ¿Sigue atacando a tu compañero?
+      Empleado 1: Ah, oh, no. Creo que ya ha acabado.
+      ERAE: ¿Ha dejado de atacar?
+      Empleado 1: No, es decir. Mi compañero...está muerto. Vaya si está muerto.
+      ERAE: ¿Cómo puede estar tan seguro?
+      Empleado 1: Bueno, porque se ve...está...
+      ERAE: ¿Ha sido mutilado de alguna manera? ¿Qué partes del cuerpo están dañadas?
+      Empleado 1: Todas.}
+      ]
+    </desc>
+    <desc id="8" openLevel="4">
+      [
+      {&lt;Extracto de un Registro de Asesoramiento&gt;&#13;&#10;
+      “Al igual que los empleados observamos a las Abnormalidades, ‘Nada por aquí’ nos observa a nosotros.
+      Luego se pone la cáscara de un trabajador y se cree que es el empleado que acaba de morir.
+      Imita el comportamiento usual del trabajador, la manera en la que habla, sus gustos y cualquier otro rasgo visible.
+      Únicamente podemos especular acerca de cómo de atentamente y cúanto tiempo lleva observando a los empleados para imitarlos.
+      Lo que quiero decir es, no podemos tratarla como un 'monstruo tonto que da miedo' cualquiera.
+      En este mismo instante, podría estar paseando por ahí llevando la cáscara de alguien que conocemos.
+      Esta Abnormalidad se está convirtiendo en algo cada vez más parecido a un ser humano.
+      Además, su transformación es cada vez más rápida. Me dan escalofríos solo de pensar en ello.
+      Si llega el día en el que fallemos a la hora de reconocerla, ese será el día en el que la compañía desaparezca.
+      Debemos mantenernos más alerta que nunca al tratar con esta Abnormalidad.”}
+      ]
+
+    </desc>
+    <desc id="9" openLevel="4">
+      [
+      {Lo que va a ver es una grabación del comportamiento inusual que un empleado tenía en sus últimos momentos de vida después de convertirse en una cáscara de 'Nada por aquí'.&#13;&#10;
+      Employee 1: Jefe, jefe!
+      Employee 2: Tío, llevas buscando al jefe un buen rato ya. Has estado actuando muy raro hoy, ¿sabes? Con esa sonrisa rara y tal.
+      Employee 1: ...
+      Empleado 2: Bueno, espero que nos den pasta en la cafetería para cenar hoy. Me encantaría comer algo de eso con bacon regordete.
+      Employee 1: ...
+      Empleado 2: Oh, nos acaba de llegar un aviso urgente. Dice que el último empleado que haya trabajado con "Nada por aquí" debe ir a la oficina del asesor inmediatamente.
+      Employee 1: ...
+      Empleado 2: Espera...ese no eras...¿tú?
+      Empleado 1: ...
+      Empleado 2: Oye, di algo—
+      Empleado 1: Jefe, jefe! Jefe!}
+      ]
+    </desc>
+    <desc id="10" openLevel="4">
+      [
+      {El segundo empleado procedió a actuar de manera inmediata al oír aquello. Sin embargo, 'Nada por aquí' salió de la cáscara del primer empleado, revelando su forma inicial. La grabación contiene únicamente archivos de audio, por lo que lo que ocurrió exactamente o el tipo de comportamiento que tuvo el empleado sigue siendo un misterio.&#13;&#10;&#13;&#10;La cáscara con 'Nada por aquí' en su interior hace todo lo posible para imitar el comportamiento del empleado al que ha intentado matar hace unos instantes. Las acciones del último empleado al que ha ojeado, sus últimas palabras, ese tipo de cosas. &#13;&#10;&#13;&#10;Y la multitud de cáscaras gritó una sola palabra, “Jefe”.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="needKill">Cuanto más baja sea la Fuerza del empleado, más inestable es el trabajo.</specialTip>
+      <specialTip openLevel="2" key="justice">Cuando un empleado con Justicia menor de 4 terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="killUp">#0, que estaba trabajando con $0, fue asesinado. Entonces, $0 se transformó en #0. Ocurrió lo mismo cuando un empleado entró en pánico.</specialTip>
+      <specialTip openLevel="2" key="panicUp">Cuando el trabajo fue malo, #0 fue atacado y transformado en la cáscara de $0.</specialTip>
+      <specialTip openLevel="3" key="makePanic">Los empleados con Fuerza 3 o menos entraron instantáneamente en pánico al entrar a la celda de $0.</specialTip>
+      <specialTip openLevel="3" key="backMonster">Cuando #0, que vio la cáscara humana de $0, entró en pánico, se transformó en la nueva cáscara. Bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="4" key="needGun">Cuando el contador Qliphoth llegó a 0, $0, con la apariencia del difunto #0, desapareció de su celda. El jefe deberá disparar y matar rápidamente al falso empleado.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

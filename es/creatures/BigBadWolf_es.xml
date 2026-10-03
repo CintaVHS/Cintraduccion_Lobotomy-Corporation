@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100033">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Oye #0, #0. ¿Por casualidad no habrá algún cerdito rechoncho por aquí cerca? ¿Que por qué pregunto? Porque es mi amigo, y me interesa saber cómo le va en la vida.},
+      {#0, ¿puedes abrirme la puerta, porfa? ¡Te prometo que no le haré daño a nadie! Solo estoy... Un poco hambriento.},
+      {#0, si me dejas salir, ¡te daré un regalo!},
+      {Soy un lobo grande y feroz. ¡Te comeré y me escaparé de este sitio!},
+      {Voy a darte un consejo, #0. Si algún día decides construir una casa, hazla de ladrillos.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 recuerda con total claridad el día que le abrieron la barriga y le extriparon.},
+      {$0 prefiere la carne ante todas las cosas. Solía tener hambre constante, pero ahora siempre quiere estar lleno.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 sufre de una indigestión crónica. Este problema surgió hace mucho, mucho tiempo...},
+      {Según dicen los testimonios de empleados anteriormente engullidos por $0, su estómago es un lugar oscuro, vacío y solitario.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {“¿Todos mis dientes? Son para comerte mejor.”},
+      {“¡Soplaré, y soplaré, y la celda entera derribaré!”},
+      {“Abre la puerta, querida, te traigo una cesta llena de regalos del bosque.”}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-02-58</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/BigBadWolf</portrait>
+      <name openLevel="1">
+        El Gran Lobo Casi-Feroz
+      </name>
+      <name openLevel="3">
+        El Gran Lobo Feroz
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Pero no le importaba; siempre estaría destinado a ser un lobo grande y feroz.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una abnormalidad con forma de lobo. Su pelo está ligeramente dañado. Es bípedo, y, en cierta parte, tiene la capacidad de comunicarse. Al escaparse, siempre intentará comerse a los empleados. Este comportamiento es fácilmente prevenible, ya que muestra cambios notorios en su personalidad justo antes de escapar, haciendo que esta abnormalidad sea relativamente fácil de controlar.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {El incidente del día de &lt;Redactado&gt; fue algo que aterrorizó a muchos empleados. Cuando Caperucita Roja se encontró con el Lobo, la situación se descarriló rápidamente. Desde entonces, futuros reencuentros entre ellos deberán ser evitados a toda costa. Considerando la destrucción que puede causar un evento similar, es recomendable sacrificar a unos pocos empleados para que sus caminos no vuelvan a cruzarse.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Hoy pudo comer carne por primera vez en mucho tiempo, y sabía taaan bien... Entonces, por el rabillo del ojo, pudo alcanzar ver en el armario un trozo de tela roja que le resultaba muy familiar. Puede que lo hubiera visto, o puede que no, pero no le prestó mucha atención. Desde entonces, le resulta mucho más difícil contener sus instintos. Pero no le importaba; siempre estaría destinado a ser un lobo grande y feroz.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Hay muchas historias, pero ninguna es tan repugnante como la del rol del lobo. Nacer siendo el lobo es un pecado, una maldición. Nadie conocía su nombre, a nadie le interesaba. Solo se le conocía como "El Gran Lobo Feroz". Los lobos crecen para convertirse en monstruos gigantes, feroces y peludos. Los lobos no pueden comer otros animales, da igual qué tan hambrientos estén. Los lobos no pueden cruzar esa línea. Los lobos deberán ser castigados. Los lobos siempre pertenecerán a una moraleja. Los lobos nunca serán amigos de nadie... (Omitido)}
+      ]
+    </desc>
+    <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">Cuando #0, que había trabajado con F-01-57, terminó su trabajo, bajó el contador Qliphoth, y #0 fue devorado.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando el trabajo fue malo, bajó el contador Qliphoth, y #0 fue devorado.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando se realizó un trabajo de instinto después de que $0 haya devorado a un empleado, todos los empleados devorados fueron escupidos.</specialTip>
+      <specialTip openLevel="3" key="4">Cuando un empleado que estaba herido de los ataques de F-01-57 entró al pasillo de $0, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="3" key="5">Cuando F-01-57 entró al pasillo de $0, el contador Qliphoth se redujo a 0.</specialTip>
+      <specialTip openLevel="4" key="6">Algunos empleados dicen de escuchar voces provenientes de la barriga de $0. Los empleados podrán ser rescatados durante su supresión. Adicionalmente, F-01-57 podría ser de ayuda.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>
+

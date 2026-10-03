@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100048">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 ocasionalmente llora impotentes lágrimas mientras el trabajo prosigue, sin decirle nada a #0.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 todavía vive en sus pasadas glorias, al igual que sus hermanas.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-01-73</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/KnightOfDespair</portrait>
+      <name openLevel="1">
+        Chica mágica
+      </name>
+      <name openLevel="3">
+        Caballera de la Desesperanza
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Todo lo que queda es el vacío orgullo de una caballera desgastada.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Una Abnormalidad de desesperanza que ha pasado por un repetido ciclo de fe y traición, dejando sólo la emoción que es expresada a través de lágrimas negras.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Una heroína del pasado que fue alguna vez guardiana de la justicia. Dedicó toda su vida a proteger al rey, al estado, a la ciudad, y a los débiles.&#13;&#10;&#13;&#10;La caballera tuvo que defender las leyes de Dios y la búsqueda de valor, honor, y justicia. Sin embargo, tras una larga historia cubierta de dificultades y conflictos, la caballera se dio cuenta que en retrospectiva no había nada que verdaderamente pudo proteger. La verdad cambió a mucha gente.&#13;&#10;&#13;&#10;Una que luchó por el bien se convirtió en villana tras darse cuenta que no quedaba más maldad en el mundo. Una que soñó un mundo donde todos podían ser felices fue teñida en avaricia y comenzó a devorar todo. Como ellas, tantas cosas que fueron alguna vez creídas constantes, cambiaron y perecieron.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {¿Quién dijo que un caballero nunca llora? ¿Nunca has visto lágrimas de desesperación, y no tristeza? La interminable corriente del dolor ha convertido las cuencas de los ojos en huecos vacíos. Adentro, diamantes negros algunas veces caen como cenizas.&#13;&#10;&#13;&#10;La voluntad de proteger parece mantenerse incambiable después de tanto tiempo; incluso en contención, todavía está obsesionada con el acto de proteger. Todo lo que queda es el orgullo vacío de una caballera desgastada. La tenacidad de la heroína quien no puede dejar el pasado atrás es una vista entristecedora.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Cuando la Justicia da la espalda una vez más, varias docenas de espadas vagan sin propósito. En la mayor deshonra de haber fallado en proteger otra vez, y en una furia contra el mundo, las espadas eventualmente apuntarán a aquellos quienes ella no pudo proteger.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {La caballera quien quería redimirse por medio de salvar a otros fue deshonrosamente llamada la Caballera de la Desesperanza; olvidada de la memoria de las gentes, al igual que las otras.}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">El primer empleado que realice un buen trabajo recibirá la bendición de $0, designado "El elegido".</specialTip>
+      <specialTip openLevel="2" key="2">El bendecido no podía trabajar con abnormalidades, pero recibió una defensa contra el daño ROJO, BLANCO y NEGRO. El daño PÁLIDO recibido fue duplicado.</specialTip>
+      <specialTip openLevel="2" key="3">La bendición desapareció cuando el bendecido murió o perdió la cordura. La bendición podía ser recibida de nuevo.</specialTip>
+      <specialTip openLevel="1" key="4">Cuando el bendecido entró en pánico o murió, $0 se escapó de su celda.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

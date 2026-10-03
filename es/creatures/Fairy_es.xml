@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100053">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Si #0 puede enseñar que es competente, entonces podría llamar la atención de $0’s.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {La mayoría de empleados no saben el significado de “El Cuidado de las Hadas”.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-04-83</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Fairy</portrait>
+      <name openLevel="1">
+        Festival de las hadas
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        Todo estará bien bajo el cuidado de las hadas.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {La abnormalidad es similar a un hada, tiene dos pares de alas y un cuerpo pequeño. Actúan como un grupo. }
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Usan un lenguaje que no podemos entender para comunicarse las unas con las otras. Siguen a algunos empleados después de entrar a la Unidad de Contención, usando sus habilidades especiales para curar heridas. Los empleados llaman a este acto "El cuidado de las hadas".}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Las hadas protegen a nuestros empleados. Si a menudo actúas desde la bondad de tu corazón, y eres un amante de la naturaleza, entonces las hadas estarán encantadas de cuidar de tí. Todo estará tranquilo mientras estés bajo el cuidado de las hadas. (También puedes disfrutar de las miradas envidiosas de los otros empleados. No es que sea importante, pero...). ¿Y si las hadas no se te acercan? Entonces deberías reflexionar sobre tu vida. Cuando Emil y yo nos turnamos para entrar en la Unidad de Contención de las hadas, las hadas no dudaron en acercarse a mí. Solo a mí, nunca a Emil. (Todos conocéis a Emil y sabéis cómo es). Justo ayer se negó a compartir sus snacks conmigo y se comportaba de forma engreída.)&#13;&#10;&#13;&#10;El ser protegido por hadas es un acto sagrado en cualquier mundo. Sin embargo, No entres a su unidad de contención solo para divertirte un poco; Si has leído un par de libros de ellas, sabrás que a las hadas no les gustan aquellos que se aprovechan de su bondad. }
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {&lt;El documento correspondiente solo es accesible para empleados de nivel 4 y superior.&gt;&#13;&#10;
+      Cuando Walter, quien estaba bajo el cuidado de las hadas, murió en la habitación de otra abnormalidad, notamos algunas anomalías. Su estómago y su cara estaban arrancados, y sus globos oculares y órganos estaban dañados como si hubieran sido comidos por algo. Además, la Unidad de Contención donde se encontró a Walter era de una abnormalidad que utiliza ataques psicológicos. Las hadas tenían la sangre y la carne de alguien untada por toda su boca. No nos molestamos en examinarlas para averiguar de quién era esa carne y sangre.&#13;&#10;
+      En nuestro mundo, hay pocos resultados que se derivan de la bondad perfecta. Que las hadas de un bosque te visiten solo porque les caes bien o porque has hecho muchas buenas obras es algo que solo pasa en los cuentos de hadas. Aunque conocemos esta verdad, a veces nos engañamos. Pensamos que el "Cuidado de Las Hadas" se debe a todas las buenas obras que hemos hecho, o que las hadas nos "favorecen" porque hay algo que nos hace más especiales que los demás empleados.}
+      ]
+    </desc>
+    <desc id="5" openLevel="2">
+      [
+      {     Las hadas no son más que monstruos carnívoros, y su "protección" es su método para mantener la carne fresca. Cuando un empleado entra a otra Unidad de Contención, Lo devoran por el miedo a perder su comida.&#13;&#10;
+     Sin embargo, los empleados quedaron muy satisfechos con el cuidado de las hadas y vimos una disminución drástica en la tasa de accidentes. así que vimos innecesario decirle la verdad a los empleados.}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Cuando el trabajo fue normal o bueno, aparecieron hadas alrededor del empleado.</specialTip>
+      <specialTip openLevel="2" key="2">Las hadas restauraron la vida del empleado durante un periodo de tiempo.</specialTip>
+      <specialTip openLevel="2" key="3">Si un empleado con hadas es asignado a trabajar con una abnormalidad diferente a $0, las hadas empezarán a consumir al empleado, matándolo.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

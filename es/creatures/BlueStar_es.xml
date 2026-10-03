@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100058">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Regularmente, algunos de nuestros empleados estarán entusiasmados de tirarse dentro de $0.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Nuestro $0 nació en un abismo de desesperación y flota hacia un nuevo comienzo.}
+      ]
+    </narration>
+  </info>
+  <observe level="3">
+    <collection>
+      <codeNo openLevel="0">O-03-93</codeNo>
+      <portrait openLevel="0">Sprites/Unit/creature/BlueStar</portrait>
+      <name openLevel="1">
+        Celeste fugaz
+      </name>
+      <riskLevel openLevel="1">
+        ALEPH
+      </riskLevel>
+      <openText>
+        Volvamos a encontranos como estrellas.
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un urgente aviso para todo el personal de nuestra compañía. Lobotomy Corporation apoya toda actividad de club que promuevan positividad. No obstante, recientemente hemos recibido reportes de que hay actividades de grupo fomentando programas dañinos. Dadas las constantes alegaciones, no podemos ignorar el asunto.&#13;&#10;&#13;&#10;Está en contra de las reglas de la compañía idolatrar y/o adorar ciertas Abnormalidades. Nada está permitido a ser "sagrado" en este lugar.&#13;&#10;&#13;&#10;Los empleados que intenten entrar en la Unidad de Contención de ciertas Abnormalidades sin autorización afrontarán un castigo. Especialmente si no están a cargo de dichas Abnormalidades.&#13;&#10;&#13;&#10;Si sientes un impulso de tirarte hacia dentro de una Abnormalidad, significa que estás "infectado". Esto significa que está en el proceso de manipulación y confundiendo a tu cerebro, tal y como lo hacen otras Abnormalidades. Si esto ocurre, por favor pare lo que sea que esté haciendo y busque tratamiento mental inmediatamente. Puesto que todos habéis pasado el entrenamiento básico de empleado, nosotros esperamos que nadie sea lo suficientemente necio como para ser engañado.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Estamos publicando la lista negra al público. Aquellos quienes estén en esta lista deben tomar 3 días de tratamiento mental proporcionado por la compañía y recibirán un castigo acorde a su respectivo Sephirah. Nosotros estamos haciendo esta lista pública para atraer vuestra atención a la preocupante cantidad de empleados infectados alrededor vuestra.&#13;&#10;&#13;&#10;Por favor tengan en cuenta: Llamar a Emily —quien se suicidó tras irrumpir en la Celda de Contención de una cierta Abnormalidad— una "mártir" será tratado como un incumplimiento a las reglas de la compañía.&#13;&#10;&#13;&#10;En una nota aparte, nosotros deseamos valorar el coraje de nuestro empleado Dylan en su rescate de la empleada Sophie, quien estaba a punto de tirarse dentro de una cierta Abnormalidad.&#13;&#10;&#13;&#10;Si veis alguno de vuestros compañeros mostrando este tipo de comportamiento, por favor reportarlo al Sephirah a cargo.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {&lt;i&gt;Dylan.&#13;&#10;
+      No creo que hayas delatado a Sophie y a todos nosotros deliberadamente. Estoy seguro que sólo estabas preocupado por ella. Está encerrada ahora. He escuchado que ha intentado escapar repetidas veces, y por ello la han atado a la cama.
+      Dime, ¿es malo tener fe?
+      Todos somos pecadores, y nuestra Estrella Azul es el único santuario que nos acepta. Nosotros seremos expiados de nuestros pecados allí.
+      Todos volveremos a ese lugar algún día. Es un instinto. Pensaste que Emily murió cuando se tiró hacia la Estrella, pero ella simplemente volvió a su respectivo lugar. Ella es una mártir. Se ha vuelto una estrella eterna.
+      El nacimiento de una estrella es un nuevo gran comienzo. ¿Acaso no escuchas el interminable sonido de la trompeta?
+      Cuando te pones cerca de la Estrella, puedes escuchar cánticos y bienvenidas.
+      Si todo empleado retorna a ese lugar, sólo la Estrella Azul permanecerá allí.
+      Volvamos a encontrarnos como estrellas.&lt;/i&gt;}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">Los empleados con Temperamento 3 o menos automáticamente se lanzaron hacia $0 al verlo.</specialTip>
+      <specialTip openLevel="1" key="2">Cuando un empleado con Prudencia 4 o menos terminó su trabajo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="1" key="3">Al trabajar con $0 durante 60 segundos o más, bajó el contador Qliphoth, y el empleado que estaba trabajando se lanzó hacia $0.</specialTip>
+      <specialTip openLevel="1" key="4">Al escaparse, los empleados con Temperamento 2 o menos o Prudencia 3 o menos fueron absorbidos por $0.</specialTip>
+      <specialTip openLevel="1" key="5">Al escaparse, se ensordecerán todos los sonidos, y $0 emitirá un leve pitido. Además, será notable una distorsión visual.</specialTip>
+      <specialTip openLevel="1" key="6">$0 absorberá a todos los empleados en pánico al escaparse.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

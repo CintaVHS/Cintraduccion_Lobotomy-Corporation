@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100035">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Hay un viejo dicho: "Nunca olvides al pájaro del juicio; no importa cuanto tiempo tarde, eventualmente te encontrará."}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 nunca tiene prisa.},
+      {Quizás ya está en tu casa.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Nosotros quienes vivimos en un mundo carente de perdón, ofrecemos nuestras almas como un tributo para la redención.},
+      {Las personas son incautas e incapaces de salvar sus propias almas. Es por ello que $0 vino hacia nosotros.},
+      {Pocos se percatan de su propio pecado. La escala de $0 los guía a percatarse de ello.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 fue una vez un guardián del bosque. No obstante, olvidó una de las cosas más importantes, pues era de mente decidida al proteger las criaturas.},
+      {Ahora, sólo la oscuridad reina sobre el bosque.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-02-62</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/LongBird</portrait>
+      <name openLevel="1">
+        Pájaro Largo
+      </name>
+      <name openLevel="2">
+        Pájaro Juez
+      </name>
+      <riskLevel openLevel="1">
+       WAW
+      </riskLevel>
+      <openText>Su escala nunca negaría el peso de hasta incluso el más ligero pecado.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Un pájaro que solía juzgar a las vidas en el bosque sombrío, llevando una escala carente de balance.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {La escala siempre se inclina hacia la misma dirección, mas el pájaro no lo sabe, pues sus ojos están cubiertos. O quizás se ciega voluntariamente a esta verdad. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {De hecho, el pájaro fue alguna vez un justo juez. Su escala nunca negaría el peso de hasta incluso el más ligero pecado.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {El pájaro juez hizo una escala que era capaz de pesar cualquier pecado para mantener la paz del bosque.}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {En un punto, los ojos del pájaro podían ver a través de cualquier cosa. Los ojos siempre brillaban fulguralmente, cual ardientes estrellas en el cielo nocturno. Pero le dio sus ojos al Pájaro Jurado en orden para proteger el bosque. Ahora, sólo el vacío llena sus cuencas.}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {La venda está hecha trizas, como si se pudiera desprender en cualquier momento. La cara del pájaro estuvo alguna vez cubierta en un brillante plumaje, mas se cayeron pues pasó mucho tiempo sin la luz del sol. }
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {Todo lo que queda es la injusta escala. El pájaro juez aún continúa así, impartiendo juicio.}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="MoodZero">Cuando el trabajo fue normal, bajó el contador Qliphoth con una mediana posibilidad.</specialTip>
+      <specialTip openLevel="1" key="MoodZero2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

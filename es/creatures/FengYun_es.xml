@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100105">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 contempla a $0, quien se sienta meditando pacíficamente.},
+      {$0 nunca para de practicar la autodisciplina, buscando la serenidad y anhelando volver al camino de la rectitud que perdió en sus años de vida.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {La infinidad de angustias de $0’s, las cuales trágicamente una vez falló en controlar, llenan la Unidad de Contención.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 está sujetando desesperadamentelos trozos rotos de una japamala en sus manos.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {¿Qué es esto? Lo que no puedo ganar dejando, lo dejo al ganar.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">D-01-110</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/FengYun</portrait>
+      <name openLevel="1">
+        Monje honorífico
+      </name>
+      <name openLevel="3">
+        Monje encubierto
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Sin embargo, si tus familiares encuentran suficiente sarira para dejarlos boquiabiertos, tu nombre será recordado durante generaciones.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {&lt;i&gt;Esta abnormalidad fue creada con las ideas proporcionadas por el Patrocinador de Tumblbug 나준 (NaJun).&lt;/i&gt;&#13;&#10;&#13;&#10;En el siglo (Redactado), un monje llamado (Redactado) de la provincia (Redactado) recorrió el camino del budismo, buscando la liberación y la verdadera iluminación. Estaba de camino a su país de origen para difundir su filosofía, cuando escuchó que un viejo monje estaba siendo cremado en un pueblo cercano. Sintió que debía ir a presenciarlo, pero un hombre le paró.&#13;&#10;&#13;&#10;“Perdone, señor. Hay un rumor que dice un espíritu maligno ronda en la ciudad a la que te diriges.”&#13;&#10;&#13;&#10;El monje respondió, “Los espíritus malignos nacen naturalmente del corazón de uno. Como podría perderme la cremación de un gran monje solo porque se ha esparcido un rumor?”&#13;&#10;&#13;&#10;Entonces él continúo caminando a la ciudad de (Redactado).}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Cuando el monje llegó, Personas de todo el pueblo estaban reunidos en una ceremonia. Estaban  observando el cadáver del viejo monje, cantando el nombre de Guanshiyin.&#13;&#10;&#13;&#10;“¡Guanyin!”&#13;&#10;“¡Guanyin!”&#13;&#10;“¡Guanyin!”&#13;&#10;&#13;&#10;El canto era más de desesperación por algo que anhelaban, en vez de de conmemoración.&#13;&#10;La pira funeraria comenzó a crepitar mientras la alimentaban con leña. El sonido de la percusión de madera resonó, y los cánticos se hacían cada vez más fuertes.&#13;&#10;Pronto, La multitud comenzó a temblar de nerviosismo.&#13;&#10;&#13;&#10;“...Algo anda mal.”&#13;&#10;&#13;&#10;La gente estaba muy decepcionada por la cantidad de sarira que apareció.&#13;&#10;No había nada más que dos cucharadas. Escandalizados,  la gente pasó a ser una multitud enfadada.&#13;&#10;&#13;&#10;“¡No tiene sentido que un monje tan bueno tenga tan poca sarira!”&#13;&#10;“¡Está claro que le faltaba práctica del ascetismo!”&#13;&#10;“Seguro que no ha hecho muchas buenas acciones.”&#13;&#10;&#13;&#10;El monje visitante estaba muy sorprendido. No le era familiar tal obsesión por la sarira en una cremación, e incluso él estaba esperando la cantidad correcta de sarira que un gran monje merecería.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {El monje le habló a un hombre detrás de él en la multitud.&#13;&#10;&#13;&#10;“¿Cómo pueden estar tan enfadados en una ceremonia tan sagrada?”&#13;&#10;&#13;&#10;A poca distancia, un hombre muy viejo le respondió.&#13;&#10;&#13;&#10;“Los pobres y hambrientos anhelan milagros que los salven. Por como vas vestido, supongo que también eres budista. Este evento debe haberte preocupado.”&#13;&#10;&#13;&#10;El monje respondió en un tono ligeramente perturbado.&#13;&#10;&#13;&#10;“La Sarira se forma cuando un monje ha mejorado su cuerpo y su espíritu, y finalmente llega al nirvana. Es un proceso natural y no debería ser deseado artificialmente.¿Cómo podéis llamarlo un milagro?”&#13;&#10;&#13;&#10;Entonces el hombre viejo estalló en carcajadas.&#13;&#10;&#13;&#10;“Este monje era conocido aquí por sus buenas deudas. Compartía su comida con los hambrientos, y sus ropas con aquellos que tenían frío. Pero, como suelen decir, parece que no pudo alcanzar el verdadero nirvana, ya que solo dos cucharadas de sarira fueron encontradas. Acabó siendo un viejo monje miserable que no pudo alcanzar el nirvana aunque fuera un hombre respetado, and known as a benevolent living saint. ¿Crees que será diferente para tí?”&#13;&#10;“Yo... Yo he practicado con orgullo...—”&#13;&#10;“Dicen que un monje del temblo de (Redactado) tuvo más de trescientas cucharadas de sarira. Luces de colores brillaban en el cielo mientras la multitud rezaba devotamente en su cremación, y sus sarira eran tan redondas como las perlas. El emperador ordenó que se construyeran cuatro templos en su nombre.”&#13;&#10;&#13;&#10;El monje no pudo responder.&#13;&#10;&#13;&#10;“...Pero, la creación de sarira en un proceso natural por el que todos pasamos—”&#13;&#10;“Se sabe muy bien que las sarira de Buddha fueron suficientes para llenar un gran palacio cuando fue cremado. Un día, tu cuerpo fallará y te llevará al cielo eterno. Algún día, la gente estara ahí para tu cremación, como nosotros ahora.”&#13;&#10;&#13;&#10;El monje no habló.&#13;&#10;&#13;&#10;“Si no se encuentra nada en tus cenizas, serás un pecador del trailokya, y tu camino no llevará a ninguna parte. tu nombre será recordado por generaciones. El emperador quedará impresionado y construirá un templo enorme en tu nombre, y la gente coreará mientras admiran la pagoda de ese templo.”&#13;&#10;“...”&#13;&#10;“Este hombre viejo te está diciendo todo esto porque puedo verte siendo uno de los más grandes monjes. Escucha, a unas pocas horas de aquí, hay un montículo al que llamamos (Redactado). Sube ahí, y encontrarás varias pagodas viejas. dentro de ellas están las cajas de sarira de monjes ya olvidados. De hecho, seguramente volverán a la tierra si nada les pasa. Pero si los consumes, quizás, podrías tener más sarira que el mismo Buddha...&#13;&#10;&#13;&#10;El monje entonces se dio cuenta de que el hombre viejo era sospechoso, y no sonaba como un hombre viejo sonaría. Pero el hombre viejo desapareció en un segundo antes de que pudiera echar un vistazo a su cara. El monje concluyó que debió haber sido un truco del diablo, e intentó olvidarse de lo que el hombre viejo le dijo. Pero la voz del hombre viejo resonaba en sus oídos incluso cuando intentaba dormir. }
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {El monje daba vueltas en la cama y no podía conciliar el sueño.&#13;&#10;Decidió dar un paseo para refrescar la mente. Mientras caminaba, por alguna razón ahora se encontraba alrededor de las pagodas que el viejo hombre mencionó. Se supone que solo estaban a un par de horas de donde se estaba asentando.&#13;&#10;Por un largo tiempo, solo se oyó un canto diciendo “Om ami dewa hrih” que hizo eco alrededor de las pagodas.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {&lt;Extracto de un cuento popular de la provincia de (Redactado)&gt;&#13;&#10;
+      Dicen que por la noche un extraño sonido puede ser escuchado alrededor de las pagodas y estatuas en el área de (Redactado). Se dice que la fuente de este sonido es un preta: una criatura demoníaca con largos brazos, garras, y una boca inhumanamente enorme. Algunos dicen que esta criatura lleva consigo un japamala roto, pero los detalles exactos no están confirmados. Después de que esta criatura aparezca, la gente se da cuenta de que las cajas de sarira son abiertas a la fuerza, y no tienen su contenido dentro.&#13;&#10;
+      Entonces, los monjes que se queden en esta provincia no deben dormir solos. También deben visitar un templo cercano para recibir un talismán que aleje a los espíritus malvados y asegurarse que lo lleven con ellos siempre.&#13;&#10;&#13;&#10;&#13;&#10;Esta historia se ha extendido por toda la región, y ha dado lugar a la tradición de cantar ciertas líneas en las pagodas donde se guarda la sarira cuando la cremación toma lugar:&#13;&#10;
+      亦僧子乎 (Yì sēng zi hū)
+      亦僧子乎 (Yì sēng zi hū)
+      今汝不必僧 (Jīn rǔ bùbì sēng)
+      魔羅汝不極樂往生 (Móluó rǔ bù jílè wǎngshēng)&#13;&#10;&#13;&#10;Este canto se traduce en:&#13;&#10;
+      “¿Eres un monje?”
+      “¿Eres un monje?”
+      “Ya no eres un monje.”
+      “Un demonio nunca podrá ir al cielo.”&#13;&#10;
+      Este canto se le ora a los monjes que no se han dado cuenta de que se han convertido en demonios.}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">La sanidad de un empleado fue restaurada al trabajar con intuición.</specialTip>
+      <specialTip openLevel="2" key="2">Al morir 10 personas en toda la fábrica, bajó el contador Qliphoth. Las muertes causadas por balas de ejecución no fueron registradas.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el trabajo fue normal, bajó el contador con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando el trabajo fue malo, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="5">El contador Qliphoth bajó a 0 cuando O-05-102 pasó por la celda de $0.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100061">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="mid1">
+      [
+      {Una leyenda sobre $0 cuenta que, hace mucho tiempo, quienes se encontraban con una de sus plumas recibían tanto una bendición como una prueba.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {A veces, $0 cura las heridas de los empleados.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Puede que $0 se ponga feliz si los empleados actúan como si lo estuvieran intentando cazar.}
+      ]
+    </narration>
+  </info>
+  <observe level="2">
+    <collection>
+      <codeNo openLevel="0">O-02-101</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/FireBird</portrait>
+      <name openLevel="1">
+        Pájaro de fuego
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>Aquellos que tienen éxito en la caza son recompensados con una de sus invaluables plumas.</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Hace mucho, mucho tiempo, en un bosque lejano, vivía un pájaro magnífico. Sus plumas eran maravillosamente incandescentes, como lenguas de fuego, y se decía que podía devorar la más negra de las oscuridades.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Muchos cazadores intentaron obtener alguna de sus plumas, ya que eso les traería honor y orgullo. Había muchas historias sobre el ave. Algunso decían que los que atraparan al pájaro verían a sus familias prosperar por muchos años. Algunos decían que no eras un verdadero cazador hasta que te hacías con una de esas plumas llameantes. Otros decían que tan solo una pluma era tan fuerte que podía llevar al dueño a donde deseara. Sea lo que fuere, el pájaro era un símbolo de la aventura para mucha gente.&#13;&#10;&#13;&#10;El bosque lejano se llenó de gente buscando a ese pájaro. No solo de cazadores, también de aventureros y viajeros...&#13;&#10;&#13;&#10;El bosque que una vez fue silencioso se convirtió en un lugar lleno de gente. }
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {La gente se aburrió pronto de los rumores; Ya no les interesaba la caza. Cada vez menos personas visitaban el lejano bosque. Cuando el pájaro finalmente se convirtió en nada más que una leyenda, sintió un gran dolor que le cegó. Ahora todo lo que quedaba de esa leyenda era un pájaro ciego con plumas brillantes, solo, en un bosque abandonado.&#13;&#10;&#13;&#10;Después de un largo tiempo, el pájaro encontró un nuevo bosque. Mucha gente vivía en aquel bosque, y el pájaro solo deseaba que el anhelo por perseguirla volviera a encenderse como los tonos ardientes de sus llamativas plumas.&#13;&#10;&#13;&#10;Quienes lograban cazarla recibían como recompensa una de esas plumas que tantos cazadores habían deseado alguna vez.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {+ Se recomienda precaución cuando empieza la temporada de caza del Pájaro de Fuego. Tomar decisiones impulsivas, como intentar suprimirlo, no es recomendable.&#13;&#10;+ Tampoco se aconseja cazar al pájaro solo para demostrar valentía. Por favor, recordad a todos los cazadores que tuvieron que regresar con las manos vacías.&#13;&#10;+ “Puedo atraparlo, solo un poco más y lo tengo…”, todo empleado termina pensando algo así. Sin embargo, se necesita verdadera valentía para saber cuándo rendirse.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">Cuando otra abnormalidad que reside en el departamento de $0 se escapó, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="2">Cuando el trabajo fue bueno, bajó el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="3">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad. El daño inflijido por $0 aumentó cuando el contador Qliphoth reduce de valor.</specialTip>
+      <specialTip openLevel="2" key="4">Cuando el trabajo fue malo, subió el contador Qliphoth.</specialTip>
+      <specialTip openLevel="2" key="5">$0 le otorgó luz a #0, que trabajó con su contador Qliphoth en 1. La vida y sanidad de #0 fueron restauradas instantáneamente y durante un periodo de tiempo.</specialTip>
+      <specialTip openLevel="2" key="6">Cuando un empleado tenía menos del 20% de su vida máxima al terminar su trabajo, $0 le otorgó luz.</specialTip>
+      <specialTip openLevel="2" key="7">$0 volvió por voluntad propia a su celda pasado un tiempo. $0 solo atacó al ser provocado, y aquellos cuya sanidad o vida llegara a 0 debido a un ataque de $0 murieron. Al ser atacado, los ojos de cualquiera que le hubiera herido fueron cegados. Los empleados ciegos trabajaban a la mitad de velocidad. Al terminar su trabajo, $0 curó a #0 de su ceguera.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <info id="100039">
+    <narration action="move">
+      #0 está de camino a la celda de $0 para comenzar su trabajo.
+    </narration>
+    <narration action="start">
+      [
+      {Cuando $0 toma la forma de un huevo, puedes notar la presencia de una niña dentro de éste.},
+      {Algunos de nuestros empleados piensan que $0 está atrapada dentro de este "huevo". La realidad es que ella decidió quedarse atrapada dentro del huevo.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {El patrón ámbar glamuroso de $0 fascina a los empleados.},
+      {El color de $0 es un oro radiante.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {El mundo que una vez $0 amaba ahora está siendo devorado por ella misma.},
+      {$0 llegó a tener ojos tan rojos como el atardecer. Pero la codicia los consumió, dejando nada atrás.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 se rindió ante el hambre, y comenzó a comerse a sí misma.},
+      {El día en el que el hambre de $0’ cese, será el fin del mundo.}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-01-64</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/MagicalGirl_2</portrait>
+      <name openLevel="1">
+        Chica mágica
+      </name>
+      <name openLevel="3">
+        Rey de la codicia
+      </name>
+      <riskLevel openLevel="2">
+        WAW
+      </riskLevel>
+      <openText>
+        "La tristeza dice: '¡Largo, muere!' Pero la codicia busca la eternidad—la profunda eternidad."
+      </openText>
+    </collection>
+    <desc id="1" openLevel="1">
+      [
+      {"El primer sentimiento de deseo de la humanidad comenzó con una manzana.&#13;&#10;Nos expulsaron del Edén por aquel pecado.&#13;&#10;Y ahora estamos en una gran huerta.&#13;&#10;Mi cesta es tan grande que ni con todas las frutas del mundo pueden llenarla.&#13;&#10;Pero... ¿Tan malo es desear por miel si hay flores delante?&#13;&#10;Al fin y al cabo, nacimos para perseguir la felicidad."}
+      ]
+    </desc>
+    <desc id="2" openLevel="2">
+      [
+      {La felicidad se convirtió en obsesión, la obsesión en codicia, y la codicia se solidificó en forma de ámbar dorado. La felicidad aún persiste, mantiendo la sonrisa de aquel entonces.&#13;&#10;&#13;&#10;La primera semilla del deseo originó del mismo deseo por la felicidad. Esa semilla fue creciendo, deseando por más, más, y más. Con el tiempo, la semilla se transformó en una gema brillante. Intrigado por su resplandor, un pez hambriento se la comió. Pero la semilla no sació su hambre; la hizo más fuerte.&#13;&#10;&#13;&#10;Los deseos de las personas a menudo nunca se cumplen. Muchos son abandonados, pero ninguno es completamente olvidado. Se esconden en el subconsciente, permaneciendo inertes en lo más bajo del lago, esperando al momento oportuno para resurgir.&#13;&#10;&#13;&#10;Sin embargo, el deseo de la felicidad tiende a asomar su cabeza por encima del agua, como si de una serpiente buscando a su presa se tratase.&#13;&#10;&#13;&#10;El momento en el que el más diminuto cebo caiga al lago, el pez hambriento vendrá y se lo comerá instantáneamente. Los humanos nos engañamos diciendo que somos seres altamente racionales, estando en total control sobre estas cosas, pero es un pensamiento prepóstero, digno de burla. No tenemos tanto control como el que pensamos.&#13;&#10;&#13;&#10;La chica mágica, que ya no era mágica, comía de todo.&#13;&#10;&#13;&#10;Autoridad, fama, dinero, y muchas otras formas de placer. Tenía tanta hambre que se comía todo lo que vieran sus ojos. Y ahora, solo queda una codicia visceral.}
+      ]
+    </desc>
+    <desc id="3" openLevel="3">
+      [
+      {&lt;Diario de Alguien&gt;&#13;&#10;
+      Muchos sueñan con los héroes.&#13;&#10;
+      Dicen que, en el pasado, existía la "terapia del alma". ¿Qué se siente tener un alma enferma, cuando todos estamos sanos? A lo mejor es una ilusión trágica.&#13;&#10;
+      Los había aquellos que querían cambiar al mundo. Todos nos acordamos de quiénes eran. Nos acordamos de cómo cayeron al vacío. Deseos. Yo conozco deseos que todo lo arruinan.&#13;&#10;
+      Ya no creemos en algo, ni nos molestamos en rezar por milagros.&#13;&#10;
+      No pensamos en por qué cambiaron. Y no les culpamos. Nosotros comprendimos que un deseo infinito trae consigo la desesperación infinita.&#13;&#10;
+      A veces me siento como un terrible abatimiento, pero yo nunca supe de dónde proviene ese dolor.&#13;&#10;
+      ...Muchos sueñan con los héroes.}
+    ]
+  </desc>
+    <desc id="4" openLevel="4">
+      [
+      {"Profundo es el dolor de este mundo. La codicia—aún más profunda que la agonía... La tristeza dice: '¡Largo, muere!' Pero la codicia busca la eternidad—la profunda eternidad."}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="monster">Cuando el trabajo fue normal, bajó el contador Qliphoth con una moderada posibilidad.</specialTip>
+      <specialTip openLevel="1" key="monster2">Cuando el trabajo fue malo, bajó el contador Qliphoth con una alta posibilidad.</specialTip>
+      <specialTip openLevel="2" key="swallow">Al escaparse, $0 viajará de pasillo en pasillo, devorando cualquier cosa que se encuentre en su camino. Asegúrate de suprimirlo por la espalda.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>
